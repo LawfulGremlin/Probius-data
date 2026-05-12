@@ -84,6 +84,13 @@
         "cooldown": 20,
         "icon": "storm_ui_icon_hogger_trait.png",
         "type": "trait"
+      },
+      {
+        "name": "Rage",
+        "description": "Rage is gained by taking damage or dealing Basic Attack damage. Hogger's Basic Ability cooldowns refresh 1% faster for every 2 points of Rage. After 3 seconds of not gaining Rage, it begins to quickly decay. ***Hogger gains 5 Rage when landing a Basic Attack and 1 Rage each time he takes damage.***",
+        "hotkey": "D",
+        "icon": "storm_ui_icon_hogger_rage.png",
+        "type": "trait"
       }
     ]
   },
