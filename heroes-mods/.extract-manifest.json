@@ -1,8 +1,8 @@
 {
-  "product": "hero",
+  "product": "herot",
   "region": "us",
-  "version": "2.55.16.97039",
-  "generatedAt": "2026-05-16T09:39:46.857Z",
+  "version": "2.55.16.96790",
+  "generatedAt": "2026-05-16T09:40:42.581Z",
   "extraction": {
     "manifestVersion": 1,
     "filePattern": "^mods.*\\.(xml|txt|galaxy|stormlayout|stormhotkeys|stormstyle|stormcutscene|stormcomponents|stormlocale)$",
