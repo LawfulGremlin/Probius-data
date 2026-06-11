@@ -1,0 +1,3147 @@
+{
+  "publishedAt": "2026-06-11T16:28:14.099Z",
+  "renderCommit": "3db598ffb1dab21c3ca9df5e889c7460d9a00b86",
+  "count": 448,
+  "missing": [
+    "diablo/prime-evil-diablo",
+    "stitches/diablo"
+  ],
+  "stills": [
+    {
+      "hero": "abathur",
+      "skin": "evolution-master",
+      "name": "Evolution Master",
+      "key": "base",
+      "path": "abathur/evolution-master.png"
+    },
+    {
+      "hero": "abathur",
+      "skin": "xenotech-abathur",
+      "name": "Xenotech Abathur",
+      "key": "mecha",
+      "path": "abathur/xenotech-abathur.png"
+    },
+    {
+      "hero": "abathur",
+      "skin": "pajamathur-abathur",
+      "name": "Pajamathur Abathur",
+      "key": "pajamathur",
+      "path": "abathur/pajamathur-abathur.png"
+    },
+    {
+      "hero": "abathur",
+      "skin": "skelethur-abathur",
+      "name": "Skelethur Abathur",
+      "key": "skelethur",
+      "path": "abathur/skelethur-abathur.png"
+    },
+    {
+      "hero": "abathur",
+      "skin": "swarm-abathur",
+      "name": "Swarm Abathur",
+      "key": "ultimate",
+      "path": "abathur/swarm-abathur.png"
+    },
+    {
+      "hero": "alarak",
+      "skin": "highlord-of-the-taldarim",
+      "name": "Highlord of the Tal'darim",
+      "key": "base",
+      "path": "alarak/highlord-of-the-taldarim.png"
+    },
+    {
+      "hero": "alarak",
+      "skin": "dark-nexus-alarak",
+      "name": "Dark Nexus Alarak",
+      "key": "dark18",
+      "path": "alarak/dark-nexus-alarak.png"
+    },
+    {
+      "hero": "alarak",
+      "skin": "herald-of-nzoth-alarak",
+      "name": "Herald of N'Zoth Alarak",
+      "key": "hunter",
+      "path": "alarak/herald-of-nzoth-alarak.png"
+    },
+    {
+      "hero": "alarak",
+      "skin": "highlord-alarak",
+      "name": "Highlord Alarak",
+      "key": "ultimate",
+      "path": "alarak/highlord-alarak.png"
+    },
+    {
+      "hero": "alexstrasza",
+      "skin": "the-life-binder",
+      "name": "The Life-Binder",
+      "key": "base",
+      "path": "alexstrasza/the-life-binder.png"
+    },
+    {
+      "hero": "alexstrasza",
+      "skin": "dragon-aspect-alexstrasza",
+      "name": "Dragon Aspect Alexstrasza",
+      "key": "cowl",
+      "path": "alexstrasza/dragon-aspect-alexstrasza.png"
+    },
+    {
+      "hero": "alexstrasza",
+      "skin": "dark-queen-alexstrasza",
+      "name": "Dark Queen Alexstrasza",
+      "key": "dark",
+      "path": "alexstrasza/dark-queen-alexstrasza.png"
+    },
+    {
+      "hero": "alexstrasza",
+      "skin": "spectral-wyrm-alexstrasza",
+      "name": "Spectral Wyrm Alexstrasza",
+      "key": "spooky18",
+      "path": "alexstrasza/spectral-wyrm-alexstrasza.png"
+    },
+    {
+      "hero": "ana",
+      "skin": "veteran-sniper",
+      "name": "Veteran Sniper",
+      "key": "base",
+      "path": "ana/veteran-sniper.png"
+    },
+    {
+      "hero": "ana",
+      "skin": "sidewinder-ana",
+      "name": "Sidewinder Ana",
+      "key": "army18",
+      "path": "ana/sidewinder-ana.png"
+    },
+    {
+      "hero": "ana",
+      "skin": "shrike",
+      "name": "Shrike",
+      "key": "shrike",
+      "path": "ana/shrike.png"
+    },
+    {
+      "hero": "anduin",
+      "skin": "king-of-stormwind",
+      "name": "King of Stormwind",
+      "key": "base",
+      "path": "anduin/king-of-stormwind.png"
+    },
+    {
+      "hero": "anduin",
+      "skin": "emperor-of-the-dominion-anduin",
+      "name": "Emperor of the Dominion Anduin",
+      "key": "craft20",
+      "path": "anduin/emperor-of-the-dominion-anduin.png"
+    },
+    {
+      "hero": "anduin",
+      "skin": "neo-president-anduin",
+      "name": "Neo-President Anduin",
+      "key": "scifi19",
+      "path": "anduin/neo-president-anduin.png"
+    },
+    {
+      "hero": "anubarak",
+      "skin": "traitor-king",
+      "name": "Traitor King",
+      "key": "base",
+      "path": "anubarak/traitor-king.png"
+    },
+    {
+      "hero": "anubarak",
+      "skin": "cyber",
+      "name": null,
+      "key": "cyber",
+      "path": "anubarak/cyber.png"
+    },
+    {
+      "hero": "anubarak",
+      "skin": "cyberneon",
+      "name": null,
+      "key": "cyberneon",
+      "path": "anubarak/cyberneon.png"
+    },
+    {
+      "hero": "anubarak",
+      "skin": "love-bug-anubarak",
+      "name": "Love Bug Anub'arak",
+      "key": "lovebug",
+      "path": "anubarak/love-bug-anubarak.png"
+    },
+    {
+      "hero": "anubarak",
+      "skin": "underking-anubarak",
+      "name": "Underking Anub'arak",
+      "key": "ultimate",
+      "path": "anubarak/underking-anubarak.png"
+    },
+    {
+      "hero": "anubarak",
+      "skin": "anubalisk",
+      "name": "Anub'alisk",
+      "key": "zerg",
+      "path": "anubarak/anubalisk.png"
+    },
+    {
+      "hero": "artanis",
+      "skin": "hierarch-of-the-daelaam",
+      "name": "Hierarch of the Daelaam",
+      "key": "base",
+      "path": "artanis/hierarch-of-the-daelaam.png"
+    },
+    {
+      "hero": "artanis",
+      "skin": "draenei-executor-artanis",
+      "name": "Draenei Executor Artanis",
+      "key": "craft20",
+      "path": "artanis/draenei-executor-artanis.png"
+    },
+    {
+      "hero": "artanis",
+      "skin": "purifier-artanis",
+      "name": "Purifier Artanis",
+      "key": "purifier",
+      "path": "artanis/purifier-artanis.png"
+    },
+    {
+      "hero": "artanis",
+      "skin": "ronin",
+      "name": null,
+      "key": "ronin",
+      "path": "artanis/ronin.png"
+    },
+    {
+      "hero": "artanis",
+      "skin": "hierarch-artanis",
+      "name": "Hierarch Artanis",
+      "key": "ultimate",
+      "path": "artanis/hierarch-artanis.png"
+    },
+    {
+      "hero": "artanis",
+      "skin": "daelaam-artanis",
+      "name": "Daelaam Artanis",
+      "key": "zerablade",
+      "path": "artanis/daelaam-artanis.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "the-lich-king",
+      "name": "The Lich King",
+      "key": "base",
+      "path": "arthas/the-lich-king.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "king-of-blades-arthas",
+      "name": "King of Blades Arthas",
+      "key": "craft20",
+      "path": "arthas/king-of-blades-arthas.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "crimson-count-arthas",
+      "name": "Crimson Count Arthas",
+      "key": "crimsoncount",
+      "path": "arthas/crimson-count-arthas.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "frost-wyrm-arthas",
+      "name": "Frost Wyrm Arthas",
+      "key": "frostwyrm",
+      "path": "arthas/frost-wyrm-arthas.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "mystic-kingdoms-arthas",
+      "name": "Mystic Kingdoms Arthas",
+      "key": "guanyu",
+      "path": "arthas/mystic-kingdoms-arthas.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "crown-prince-arthas",
+      "name": "Crown Prince Arthas",
+      "key": "lichprince",
+      "path": "arthas/crown-prince-arthas.png"
+    },
+    {
+      "hero": "arthas",
+      "skin": "death-god-arthas",
+      "name": "Death God Arthas",
+      "key": "ultimate",
+      "path": "arthas/death-god-arthas.png"
+    },
+    {
+      "hero": "auriel",
+      "skin": "archangel-of-hope",
+      "name": "Archangel of Hope",
+      "key": "base",
+      "path": "auriel/archangel-of-hope.png"
+    },
+    {
+      "hero": "auriel",
+      "skin": "hopeful-spirit-healer-auriel",
+      "name": "Hopeful Spirit Healer Auriel",
+      "key": "charity20",
+      "path": "auriel/hopeful-spirit-healer-auriel.png"
+    },
+    {
+      "hero": "auriel",
+      "skin": "demonic-auriel",
+      "name": "Demonic Auriel",
+      "key": "demonic",
+      "path": "auriel/demonic-auriel.png"
+    },
+    {
+      "hero": "auriel",
+      "skin": "sakura-auriel",
+      "name": "Sakura Auriel",
+      "key": "hanamura",
+      "path": "auriel/sakura-auriel.png"
+    },
+    {
+      "hero": "auriel",
+      "skin": "archangel-auriel",
+      "name": "Archangel Auriel",
+      "key": "ultimate",
+      "path": "auriel/archangel-auriel.png"
+    },
+    {
+      "hero": "auriel",
+      "skin": "spirit-healer-auriel",
+      "name": "Spirit Healer Auriel",
+      "key": "wcav",
+      "path": "auriel/spirit-healer-auriel.png"
+    },
+    {
+      "hero": "azmodan",
+      "skin": "lord-of-sin",
+      "name": "Lord of Sin",
+      "key": "base",
+      "path": "azmodan/lord-of-sin.png"
+    },
+    {
+      "hero": "azmodan",
+      "skin": "azguldan",
+      "name": "AzGul'dan",
+      "key": "azguldan",
+      "path": "azmodan/azguldan.png"
+    },
+    {
+      "hero": "azmodan",
+      "skin": "azmodunk",
+      "name": null,
+      "key": "azmodunk",
+      "path": "azmodan/azmodunk.png"
+    },
+    {
+      "hero": "azmodan",
+      "skin": "dominus-vile-azmodan",
+      "name": "Dominus Vile Azmodan",
+      "key": "madaxe18",
+      "path": "azmodan/dominus-vile-azmodan.png"
+    },
+    {
+      "hero": "azmodan",
+      "skin": "sinlord-azmodan",
+      "name": "Sinlord Azmodan",
+      "key": "ultimate",
+      "path": "azmodan/sinlord-azmodan.png"
+    },
+    {
+      "hero": "blaze",
+      "skin": "veteran-firebat",
+      "name": "Veteran Firebat",
+      "key": "base",
+      "path": "blaze/veteran-firebat.png"
+    },
+    {
+      "hero": "blaze",
+      "skin": "firestorm-blaze",
+      "name": "Firestorm Blaze",
+      "key": "army19",
+      "path": "blaze/firestorm-blaze.png"
+    },
+    {
+      "hero": "blaze",
+      "skin": "fel-reaver-blaze",
+      "name": "Fel Reaver Blaze",
+      "key": "felreaver",
+      "path": "blaze/fel-reaver-blaze.png"
+    },
+    {
+      "hero": "brightwing",
+      "skin": "faerie-dragon",
+      "name": "Faerie Dragon",
+      "key": "base",
+      "path": "brightwing/faerie-dragon.png"
+    },
+    {
+      "hero": "brightwing",
+      "skin": "destroyer-brightwing",
+      "name": "Destroyer Brightwing",
+      "key": "bright19",
+      "path": "brightwing/destroyer-brightwing.png"
+    },
+    {
+      "hero": "brightwing",
+      "skin": "monarch-brightwing",
+      "name": "Monarch Brightwing",
+      "key": "monarch",
+      "path": "brightwing/monarch-brightwing.png"
+    },
+    {
+      "hero": "brightwing",
+      "skin": "monkey",
+      "name": null,
+      "key": "monkey",
+      "path": "brightwing/monkey.png"
+    },
+    {
+      "hero": "brightwing",
+      "skin": "fey-dragon-brightwing",
+      "name": "Fey Dragon Brightwing",
+      "key": "ultimate",
+      "path": "brightwing/fey-dragon-brightwing.png"
+    },
+    {
+      "hero": "brightwing",
+      "skin": "bewitching-brightwing",
+      "name": "Bewitching Brightwing",
+      "key": "witchhat",
+      "path": "brightwing/bewitching-brightwing.png"
+    },
+    {
+      "hero": "cassia",
+      "skin": "amazon-warmatron",
+      "name": "Amazon Warmatron",
+      "key": "base",
+      "path": "cassia/amazon-warmatron.png"
+    },
+    {
+      "hero": "cassia",
+      "skin": "lunar-cassia",
+      "name": "Lunar Cassia",
+      "key": "lunar",
+      "path": "cassia/lunar-cassia.png"
+    },
+    {
+      "hero": "cassia",
+      "skin": "thunder-goddess-cassia",
+      "name": "Thunder Goddess Cassia",
+      "key": "myth20",
+      "path": "cassia/thunder-goddess-cassia.png"
+    },
+    {
+      "hero": "cassia",
+      "skin": "pirate-queen-cassia",
+      "name": "Pirate Queen Cassia",
+      "key": "pirate",
+      "path": "cassia/pirate-queen-cassia.png"
+    },
+    {
+      "hero": "cassia",
+      "skin": "warmatron-cassia",
+      "name": "Warmatron Cassia",
+      "key": "ultimate",
+      "path": "cassia/warmatron-cassia.png"
+    },
+    {
+      "hero": "chen",
+      "skin": "legendary-brewmaster",
+      "name": "Legendary Brewmaster",
+      "key": "base",
+      "path": "chen/legendary-brewmaster.png"
+    },
+    {
+      "hero": "chen",
+      "skin": "brewmaster-chen",
+      "name": "Brewmaster Chen",
+      "key": "hat",
+      "path": "chen/brewmaster-chen.png"
+    },
+    {
+      "hero": "chen",
+      "skin": "lunar-chen",
+      "name": "Lunar Chen",
+      "key": "lunar",
+      "path": "chen/lunar-chen.png"
+    },
+    {
+      "hero": "chen",
+      "skin": "wanderer-chen",
+      "name": "Wanderer Chen",
+      "key": "ultimate",
+      "path": "chen/wanderer-chen.png"
+    },
+    {
+      "hero": "chen",
+      "skin": "warmaster-chen",
+      "name": "Warmaster Chen",
+      "key": "warmaster",
+      "path": "chen/warmaster-chen.png"
+    },
+    {
+      "hero": "chogall",
+      "skin": "twilights-hammer-chieftain",
+      "name": "Twilight's Hammer Chieftain",
+      "key": "base",
+      "path": "chogall/twilights-hammer-chieftain.png"
+    },
+    {
+      "hero": "chogall",
+      "skin": "greed-chogall",
+      "name": "Greed Cho'gall",
+      "key": "altered20",
+      "path": "chogall/greed-chogall.png"
+    },
+    {
+      "hero": "chogall",
+      "skin": "corruptor-chogall",
+      "name": "Corruptor Cho'gall",
+      "key": "corruptor",
+      "path": "chogall/corruptor-chogall.png"
+    },
+    {
+      "hero": "chogall",
+      "skin": "pumpkin-chogall",
+      "name": "Pump'kin Cho'gall",
+      "key": "pumpkin",
+      "path": "chogall/pumpkin-chogall.png"
+    },
+    {
+      "hero": "chogall",
+      "skin": "warlord-chogall",
+      "name": "Warlord Cho'gall",
+      "key": "ultimate",
+      "path": "chogall/warlord-chogall.png"
+    },
+    {
+      "hero": "chromie",
+      "skin": "keeper-of-time",
+      "name": "Keeper of Time",
+      "key": "base",
+      "path": "chromie/keeper-of-time.png"
+    },
+    {
+      "hero": "chromie",
+      "skin": "creepie-chromie",
+      "name": "Creepie Chromie",
+      "key": "cuteskull",
+      "path": "chromie/creepie-chromie.png"
+    },
+    {
+      "hero": "chromie",
+      "skin": "fel-queen-chromie",
+      "name": "Fel Queen Chromie",
+      "key": "fel",
+      "path": "chromie/fel-queen-chromie.png"
+    },
+    {
+      "hero": "chromie",
+      "skin": "dream-genie-chromie",
+      "name": "Dream Genie Chromie",
+      "key": "genie",
+      "path": "chromie/dream-genie-chromie.png"
+    },
+    {
+      "hero": "chromie",
+      "skin": "techno-vandal-chromie",
+      "name": "Techno Vandal Chromie",
+      "key": "spring19",
+      "path": "chromie/techno-vandal-chromie.png"
+    },
+    {
+      "hero": "chromie",
+      "skin": "timewalker-chromie",
+      "name": "Timewalker Chromie",
+      "key": "ultimate",
+      "path": "chromie/timewalker-chromie.png"
+    },
+    {
+      "hero": "deathwing",
+      "skin": "the-destroyer",
+      "name": "The Destroyer",
+      "key": "base",
+      "path": "deathwing/the-destroyer.png"
+    },
+    {
+      "hero": "deathwing",
+      "skin": "dark-nexus-deathwing",
+      "name": "Dark Nexus Deathwing",
+      "key": "dark20",
+      "path": "deathwing/dark-nexus-deathwing.png"
+    },
+    {
+      "hero": "deckard",
+      "skin": "the-last-horadrim",
+      "name": "The Last Horadrim",
+      "key": "base",
+      "path": "deckard/the-last-horadrim.png"
+    },
+    {
+      "hero": "deckard",
+      "skin": "deckard-pain",
+      "name": "Deckard Pain",
+      "key": "army19",
+      "path": "deckard/deckard-pain.png"
+    },
+    {
+      "hero": "deckard",
+      "skin": "wastewalker-deckard",
+      "name": "Wastewalker Deckard",
+      "key": "road",
+      "path": "deckard/wastewalker-deckard.png"
+    },
+    {
+      "hero": "deckard",
+      "skin": "green-army-deckard-pain",
+      "name": "Green Army Deckard Pain",
+      "key": "toys19",
+      "path": "deckard/green-army-deckard-pain.png"
+    },
+    {
+      "hero": "dehaka",
+      "skin": "primal-pack-leader",
+      "name": "Primal Pack Leader",
+      "key": "base",
+      "path": "dehaka/primal-pack-leader.png"
+    },
+    {
+      "hero": "dehaka",
+      "skin": "pack-leader-dehaka",
+      "name": "Pack Leader Dehaka",
+      "key": "master",
+      "path": "dehaka/pack-leader-dehaka.png"
+    },
+    {
+      "hero": "dehaka",
+      "skin": "mecha-dehaka",
+      "name": "Mecha Dehaka",
+      "key": "mecha",
+      "path": "dehaka/mecha-dehaka.png"
+    },
+    {
+      "hero": "dehaka",
+      "skin": "dehakasaurus-rex",
+      "name": "Dehakasaurus Rex",
+      "key": "toys18",
+      "path": "dehaka/dehakasaurus-rex.png"
+    },
+    {
+      "hero": "dehaka",
+      "skin": "vhaka",
+      "name": "V.Haka",
+      "key": "vhaka",
+      "path": "dehaka/vhaka.png"
+    },
+    {
+      "hero": "diablo",
+      "skin": "lord-of-terror",
+      "name": "Lord of Terror",
+      "key": "base",
+      "path": "diablo/lord-of-terror.png"
+    },
+    {
+      "hero": "diablo",
+      "skin": "archangel-diablo",
+      "name": "Archangel Diablo",
+      "key": "angelic",
+      "path": "diablo/archangel-diablo.png"
+    },
+    {
+      "hero": "diablo",
+      "skin": "kaijo-diablo",
+      "name": "Kaijo Diablo",
+      "key": "kaijoe",
+      "path": "diablo/kaijo-diablo.png"
+    },
+    {
+      "hero": "diablo",
+      "skin": "lurkablo",
+      "name": "Lurkablo",
+      "key": "murkablo",
+      "path": "diablo/lurkablo.png"
+    },
+    {
+      "hero": "diablo",
+      "skin": "el-chamuco-diablo",
+      "name": "El Chamuco Diablo",
+      "key": "summer18",
+      "path": "diablo/el-chamuco-diablo.png"
+    },
+    {
+      "hero": "diablo",
+      "skin": "hell-iron-diablo",
+      "name": "Hell Iron Diablo",
+      "key": "ultimate",
+      "path": "diablo/hell-iron-diablo.png"
+    },
+    {
+      "hero": "dva",
+      "skin": "meka-pilot",
+      "name": "MEKA Pilot",
+      "key": "base",
+      "path": "dva/meka-pilot.png"
+    },
+    {
+      "hero": "dva",
+      "skin": "dva-the-destroyer",
+      "name": "D.Va the Destroyer",
+      "key": "deathwing",
+      "path": "dva/dva-the-destroyer.png"
+    },
+    {
+      "hero": "dva",
+      "skin": "goliath-dva",
+      "name": "Goliath D.Va",
+      "key": "terran",
+      "path": "dva/goliath-dva.png"
+    },
+    {
+      "hero": "dva",
+      "skin": "pro-dva",
+      "name": "Pro D.Va",
+      "key": "ultimate",
+      "path": "dva/pro-dva.png"
+    },
+    {
+      "hero": "etc",
+      "skin": "rock-god",
+      "name": "Rock God",
+      "key": "base",
+      "path": "etc/rock-god.png"
+    },
+    {
+      "hero": "etc",
+      "skin": "glam-metal-etc",
+      "name": "Glam Metal E.T.C.",
+      "key": "glam",
+      "path": "etc/glam-metal-etc.png"
+    },
+    {
+      "hero": "etc",
+      "skin": "l800-etc",
+      "name": "L800 E.T.C.",
+      "key": "marine",
+      "path": "etc/l800-etc.png"
+    },
+    {
+      "hero": "etc",
+      "skin": "pure-country-etc",
+      "name": "Pure Country E.T.C.",
+      "key": "purecountry",
+      "path": "etc/pure-country-etc.png"
+    },
+    {
+      "hero": "etc",
+      "skin": "el-mariachi-etc",
+      "name": "El Mariachi E.T.C.",
+      "key": "summer18",
+      "path": "etc/el-mariachi-etc.png"
+    },
+    {
+      "hero": "etc",
+      "skin": "black-metal-etc",
+      "name": "Black Metal E.T.C.",
+      "key": "ultimate",
+      "path": "etc/black-metal-etc.png"
+    },
+    {
+      "hero": "falstad",
+      "skin": "wildhammer-thane",
+      "name": "Wildhammer Thane",
+      "key": "base",
+      "path": "falstad/wildhammer-thane.png"
+    },
+    {
+      "hero": "falstad",
+      "skin": "buccaneer-falstad",
+      "name": "Buccaneer Falstad",
+      "key": "pirate",
+      "path": "falstad/buccaneer-falstad.png"
+    },
+    {
+      "hero": "falstad",
+      "skin": "storm-lord-falstad",
+      "name": "Storm Lord Falstad",
+      "key": "stormlord",
+      "path": "falstad/storm-lord-falstad.png"
+    },
+    {
+      "hero": "falstad",
+      "skin": "gryphon-master-falstad",
+      "name": "Gryphon Master Falstad",
+      "key": "ultimate",
+      "path": "falstad/gryphon-master-falstad.png"
+    },
+    {
+      "hero": "fenix",
+      "skin": "steward-of-the-templar",
+      "name": "Steward of the Templar",
+      "key": "base",
+      "path": "fenix/steward-of-the-templar.png"
+    },
+    {
+      "hero": "fenix",
+      "skin": "dark-nexus-fenix",
+      "name": "Dark Nexus Fenix",
+      "key": "dark20",
+      "path": "fenix/dark-nexus-fenix.png"
+    },
+    {
+      "hero": "fenix",
+      "skin": "ruinwalker-fenix",
+      "name": "Ruinwalker Fenix",
+      "key": "guardian",
+      "path": "fenix/ruinwalker-fenix.png"
+    },
+    {
+      "hero": "garrosh",
+      "skin": "son-of-hellscream",
+      "name": "Son of Hellscream",
+      "key": "base",
+      "path": "garrosh/son-of-hellscream.png"
+    },
+    {
+      "hero": "garrosh",
+      "skin": "mad-axe-garrosh",
+      "name": "Mad Axe Garrosh",
+      "key": "road",
+      "path": "garrosh/mad-axe-garrosh.png"
+    },
+    {
+      "hero": "garrosh",
+      "skin": "el-jefe-garrosh",
+      "name": "El Jefe Garrosh",
+      "key": "summer18",
+      "path": "garrosh/el-jefe-garrosh.png"
+    },
+    {
+      "hero": "garrosh",
+      "skin": "high-warlord-garrosh",
+      "name": "High Warlord Garrosh",
+      "key": "wcav",
+      "path": "garrosh/high-warlord-garrosh.png"
+    },
+    {
+      "hero": "gazlowe",
+      "skin": "boss-of-ratchet",
+      "name": "Boss of Ratchet",
+      "key": "base",
+      "path": "gazlowe/boss-of-ratchet.png"
+    },
+    {
+      "hero": "gazlowe",
+      "skin": "paper-bag-gazlowe",
+      "name": "Paper Bag Gazlowe",
+      "key": "bag",
+      "path": "gazlowe/paper-bag-gazlowe.png"
+    },
+    {
+      "hero": "gazlowe",
+      "skin": "big-top-gazlowe",
+      "name": "Big Top Gazlowe",
+      "key": "bigtop",
+      "path": "gazlowe/big-top-gazlowe.png"
+    },
+    {
+      "hero": "gazlowe",
+      "skin": "mineral-harvester-gazlowe",
+      "name": "Mineral Harvester Gazlowe",
+      "key": "craft20",
+      "path": "gazlowe/mineral-harvester-gazlowe.png"
+    },
+    {
+      "hero": "gazlowe",
+      "skin": "mad-martian-gazlowe",
+      "name": "Mad Martian Gazlowe",
+      "key": "scifi",
+      "path": "gazlowe/mad-martian-gazlowe.png"
+    },
+    {
+      "hero": "gazlowe",
+      "skin": "chief-engineer-gazlowe",
+      "name": "Chief Engineer Gazlowe",
+      "key": "ultimate",
+      "path": "gazlowe/chief-engineer-gazlowe.png"
+    },
+    {
+      "hero": "genji",
+      "skin": "cybernetic-ninja",
+      "name": "Cybernetic Ninja",
+      "key": "base",
+      "path": "genji/cybernetic-ninja.png"
+    },
+    {
+      "hero": "genji",
+      "skin": "deathfang-genji",
+      "name": "Deathfang Genji",
+      "key": "army18",
+      "path": "genji/deathfang-genji.png"
+    },
+    {
+      "hero": "genji",
+      "skin": "oni-genji",
+      "name": "Oni Genji",
+      "key": "oni",
+      "path": "genji/oni-genji.png"
+    },
+    {
+      "hero": "genji",
+      "skin": "steel-dragon-genji",
+      "name": "Steel Dragon Genji",
+      "key": "ultimate",
+      "path": "genji/steel-dragon-genji.png"
+    },
+    {
+      "hero": "greymane",
+      "skin": "lord-of-the-worgen",
+      "name": "Lord of the Worgen",
+      "key": "base",
+      "path": "greymane/lord-of-the-worgen.png"
+    },
+    {
+      "hero": "greymane",
+      "skin": "ringmaster-greymane",
+      "name": "Ringmaster Greymane",
+      "key": "circus",
+      "path": "greymane/ringmaster-greymane.png"
+    },
+    {
+      "hero": "greymane",
+      "skin": "doctor-wolf-stein",
+      "name": "Doctor Wolf & Stein",
+      "key": "doctor",
+      "path": "greymane/doctor-wolf-stein.png"
+    },
+    {
+      "hero": "greymane",
+      "skin": "watchdog-greymane",
+      "name": "Watchdog Greymane",
+      "key": "enforcer",
+      "path": "greymane/watchdog-greymane.png"
+    },
+    {
+      "hero": "greymane",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "greymane/ultimate.png"
+    },
+    {
+      "hero": "guldan",
+      "skin": "darkness-incarnate",
+      "name": "Darkness Incarnate",
+      "key": "base",
+      "path": "guldan/darkness-incarnate.png"
+    },
+    {
+      "hero": "guldan",
+      "skin": "dark-nexus-guldan",
+      "name": "Dark Nexus Gul'dan",
+      "key": "dark18",
+      "path": "guldan/dark-nexus-guldan.png"
+    },
+    {
+      "hero": "guldan",
+      "skin": "balespider-guldan",
+      "name": "Balespider Gul'dan",
+      "key": "spider",
+      "path": "guldan/balespider-guldan.png"
+    },
+    {
+      "hero": "guldan",
+      "skin": "toondan-guldan",
+      "name": "Toon'Dan Gul'Dan",
+      "key": "toon20",
+      "path": "guldan/toondan-guldan.png"
+    },
+    {
+      "hero": "guldan",
+      "skin": "shadow-council-guldan",
+      "name": "Shadow Council Gul'dan",
+      "key": "ultimate",
+      "path": "guldan/shadow-council-guldan.png"
+    },
+    {
+      "hero": "hanzo",
+      "skin": "master-assassin",
+      "name": "Master Assassin",
+      "key": "base",
+      "path": "hanzo/master-assassin.png"
+    },
+    {
+      "hero": "hanzo",
+      "skin": "delta-hanzo",
+      "name": "Delta Hanzo",
+      "key": "army19",
+      "path": "hanzo/delta-hanzo.png"
+    },
+    {
+      "hero": "hanzo",
+      "skin": "farstrider-hanzo",
+      "name": "Farstrider Hanzo",
+      "key": "bloodelf",
+      "path": "hanzo/farstrider-hanzo.png"
+    },
+    {
+      "hero": "hogger",
+      "skin": "scourge-of-elwynn",
+      "name": "Scourge of Elwynn",
+      "key": "base",
+      "path": "hogger/scourge-of-elwynn.png"
+    },
+    {
+      "hero": "hogger",
+      "skin": "shipwrecker-hogger",
+      "name": "Shipwrecker Hogger",
+      "key": "capn",
+      "path": "hogger/shipwrecker-hogger.png"
+    },
+    {
+      "hero": "illidan",
+      "skin": "the-betrayer",
+      "name": "The Betrayer",
+      "key": "base",
+      "path": "illidan/the-betrayer.png"
+    },
+    {
+      "hero": "illidan",
+      "skin": "lunar-illidan",
+      "name": "Lunar Illidan",
+      "key": "lunar",
+      "path": "illidan/lunar-illidan.png"
+    },
+    {
+      "hero": "illidan",
+      "skin": "shando-illidan",
+      "name": "Shan'do Illidan",
+      "key": "shando",
+      "path": "illidan/shando-illidan.png"
+    },
+    {
+      "hero": "illidan",
+      "skin": "spectre-illidan",
+      "name": "Spectre Illidan",
+      "key": "spectre",
+      "path": "illidan/spectre-illidan.png"
+    },
+    {
+      "hero": "illidan",
+      "skin": "eredar-armor-illidan",
+      "name": "Eredar Armor Illidan",
+      "key": "ultimate",
+      "path": "illidan/eredar-armor-illidan.png"
+    },
+    {
+      "hero": "illidan",
+      "skin": "betrayer-illidan",
+      "name": "Betrayer Illidan",
+      "key": "war3",
+      "path": "illidan/betrayer-illidan.png"
+    },
+    {
+      "hero": "imperius",
+      "skin": "archangel-of-valor",
+      "name": "Archangel of Valor",
+      "key": "base",
+      "path": "imperius/archangel-of-valor.png"
+    },
+    {
+      "hero": "imperius",
+      "skin": "demonic-imperius",
+      "name": "Demonic Imperius",
+      "key": "demonic19",
+      "path": "imperius/demonic-imperius.png"
+    },
+    {
+      "hero": "imperius",
+      "skin": "el-bandido-imperius",
+      "name": "El Bandido Imperius",
+      "key": "summer20",
+      "path": "imperius/el-bandido-imperius.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "archmage",
+      "name": "Archmage",
+      "key": "base",
+      "path": "jaina/archmage.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "winter-veil-jaina",
+      "name": "Winter Veil Jaina",
+      "key": "claus",
+      "path": "jaina/winter-veil-jaina.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "dreadlord-jaina",
+      "name": "Dreadlord Jaina",
+      "key": "dreadlord",
+      "path": "jaina/dreadlord-jaina.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "lunar",
+      "name": null,
+      "key": "lunar",
+      "path": "jaina/lunar.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "theramore-jaina",
+      "name": "Theramore Jaina",
+      "key": "modern",
+      "path": "jaina/theramore-jaina.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "tempest-regalia-jaina",
+      "name": "Tempest Regalia Jaina",
+      "key": "tempest",
+      "path": "jaina/tempest-regalia-jaina.png"
+    },
+    {
+      "hero": "jaina",
+      "skin": "arcanist-jaina",
+      "name": "Arcanist Jaina",
+      "key": "ultimate",
+      "path": "jaina/arcanist-jaina.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "crusader-of-zakarum",
+      "name": "Crusader of Zakarum",
+      "key": "base",
+      "path": "johanna/crusader-of-zakarum.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "centurion-johanna",
+      "name": "Centurion Johanna",
+      "key": "centurion",
+      "path": "johanna/centurion-johanna.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "enforcer-johanna",
+      "name": "Enforcer Johanna",
+      "key": "enforcer",
+      "path": "johanna/enforcer-johanna.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "peacekeeper-johanna",
+      "name": "Peacekeeper Johanna",
+      "key": "owc20",
+      "path": "johanna/peacekeeper-johanna.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "spellbreaker-johanna",
+      "name": "Spellbreaker Johanna",
+      "key": "spell",
+      "path": "johanna/spellbreaker-johanna.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "johanna/ultimate.png"
+    },
+    {
+      "hero": "johanna",
+      "skin": "warsong-johanna",
+      "name": "Warsong Johanna",
+      "key": "wcav",
+      "path": "johanna/warsong-johanna.png"
+    },
+    {
+      "hero": "junkrat",
+      "skin": "junker-demolitionist",
+      "name": "Junker Demolitionist",
+      "key": "base",
+      "path": "junkrat/junker-demolitionist.png"
+    },
+    {
+      "hero": "junkrat",
+      "skin": "fallen-junkrat",
+      "name": "Fallen Junkrat",
+      "key": "fallen",
+      "path": "junkrat/fallen-junkrat.png"
+    },
+    {
+      "hero": "junkrat",
+      "skin": "wiseguy-junkrat",
+      "name": "Wiseguy Junkrat",
+      "key": "mobster19",
+      "path": "junkrat/wiseguy-junkrat.png"
+    },
+    {
+      "hero": "junkrat",
+      "skin": "sapper-junkrat",
+      "name": "Sapper Junkrat",
+      "key": "wcav",
+      "path": "junkrat/sapper-junkrat.png"
+    },
+    {
+      "hero": "kaelthas",
+      "skin": "the-sun-king",
+      "name": "The Sun King",
+      "key": "base",
+      "path": "kaelthas/the-sun-king.png"
+    },
+    {
+      "hero": "kaelthas",
+      "skin": "lunar-kaelthas",
+      "name": "Lunar Kael'thas",
+      "key": "lunar",
+      "path": "kaelthas/lunar-kaelthas.png"
+    },
+    {
+      "hero": "kaelthas",
+      "skin": "stormbot-kaelthas",
+      "name": "Stormbot Kael'thas",
+      "key": "robot",
+      "path": "kaelthas/stormbot-kaelthas.png"
+    },
+    {
+      "hero": "kaelthas",
+      "skin": "stormpunk",
+      "name": null,
+      "key": "stormpunk",
+      "path": "kaelthas/stormpunk.png"
+    },
+    {
+      "hero": "kaelthas",
+      "skin": "cyberhawk-kaelthas",
+      "name": "Cyberhawk Kael'thas",
+      "key": "super",
+      "path": "kaelthas/cyberhawk-kaelthas.png"
+    },
+    {
+      "hero": "kaelthas",
+      "skin": "sovereign-kaelthas",
+      "name": "Sovereign Kael'thas",
+      "key": "ultimate",
+      "path": "kaelthas/sovereign-kaelthas.png"
+    },
+    {
+      "hero": "kelthuzad",
+      "skin": "archlich-of-naxxramas",
+      "name": "Archlich of Naxxramas",
+      "key": "base",
+      "path": "kelthuzad/archlich-of-naxxramas.png"
+    },
+    {
+      "hero": "kelthuzad",
+      "skin": "star-lich-kelthuzad",
+      "name": "Star Lich Kel'Thuzad",
+      "key": "starlich",
+      "path": "kelthuzad/star-lich-kelthuzad.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "queen-of-blades",
+      "name": "Queen of Blades",
+      "key": "base",
+      "path": "kerrigan/queen-of-blades.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "cheerleader-kerrigan",
+      "name": "Cheerleader Kerrigan",
+      "key": "cheer",
+      "path": "kerrigan/cheerleader-kerrigan.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "brood-war-kerrigan",
+      "name": "Brood War Kerrigan",
+      "key": "classic21",
+      "path": "kerrigan/brood-war-kerrigan.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "countess-kerrigan",
+      "name": "Countess Kerrigan",
+      "key": "countess",
+      "path": "kerrigan/countess-kerrigan.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "queen-of-ghosts-kerrigan",
+      "name": "Queen of Ghosts Kerrigan",
+      "key": "ghost",
+      "path": "kerrigan/queen-of-ghosts-kerrigan.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "legion-mistress-kerrigan",
+      "name": "Legion Mistress Kerrigan",
+      "key": "legion",
+      "path": "kerrigan/legion-mistress-kerrigan.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "succubus-kerrigan",
+      "name": "Succubus Kerrigan",
+      "key": "succubus",
+      "path": "kerrigan/succubus-kerrigan.png"
+    },
+    {
+      "hero": "kerrigan",
+      "skin": "primal-queen-kerrigan",
+      "name": "Primal Queen Kerrigan",
+      "key": "ultimate",
+      "path": "kerrigan/primal-queen-kerrigan.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "veradani-monk",
+      "name": "Veradani Monk",
+      "key": "base",
+      "path": "kharazim/veradani-monk.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "berserker-kharazim",
+      "name": "Berserker Kharazim",
+      "key": "claws",
+      "path": "kharazim/berserker-kharazim.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "jade-dragon-kharazim",
+      "name": "Jade Dragon Kharazim",
+      "key": "jade",
+      "path": "kharazim/jade-dragon-kharazim.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "street-cyborg-kharazim",
+      "name": "Street Cyborg Kharazim",
+      "key": "spring19",
+      "path": "kharazim/street-cyborg-kharazim.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "dropkick-kharazim",
+      "name": "Dropkick Kharazim",
+      "key": "summer18",
+      "path": "kharazim/dropkick-kharazim.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "bronze-tiger-kharazim",
+      "name": "Bronze Tiger Kharazim",
+      "key": "tiger",
+      "path": "kharazim/bronze-tiger-kharazim.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "kharazim/ultimate.png"
+    },
+    {
+      "hero": "kharazim",
+      "skin": "winter-veil-kharazim",
+      "name": "Winter Veil Kharazim",
+      "key": "winter17",
+      "path": "kharazim/winter-veil-kharazim.png"
+    },
+    {
+      "hero": "leoric",
+      "skin": "the-skeleton-king",
+      "name": "The Skeleton King",
+      "key": "base",
+      "path": "leoric/the-skeleton-king.png"
+    },
+    {
+      "hero": "leoric",
+      "skin": "janitor-leoric",
+      "name": "Janitor Leoric",
+      "key": "janitor18",
+      "path": "leoric/janitor-leoric.png"
+    },
+    {
+      "hero": "leoric",
+      "skin": "god-king-leoric",
+      "name": "God-King Leoric",
+      "key": "kingvrykul",
+      "path": "leoric/god-king-leoric.png"
+    },
+    {
+      "hero": "leoric",
+      "skin": "space-lord-leoric",
+      "name": "Space Lord Leoric",
+      "key": "space",
+      "path": "leoric/space-lord-leoric.png"
+    },
+    {
+      "hero": "leoric",
+      "skin": "zakarum-leoric",
+      "name": "Zakarum Leoric",
+      "key": "ultimate",
+      "path": "leoric/zakarum-leoric.png"
+    },
+    {
+      "hero": "leoric",
+      "skin": "vrykul-leoric",
+      "name": "Vrykul Leoric",
+      "key": "vrykul",
+      "path": "leoric/vrykul-leoric.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "world-wanderer",
+      "name": "World Wanderer",
+      "key": "base",
+      "path": "lili/world-wanderer.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "explorer-li-li",
+      "name": "Explorer Li Li",
+      "key": "explorer",
+      "path": "lili/explorer-li-li.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "lunar",
+      "name": null,
+      "key": "lunar",
+      "path": "lili/lunar.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "shadowblade-li-li",
+      "name": "Shadowblade Li Li",
+      "key": "shadowblade",
+      "path": "lili/shadowblade-li-li.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "shadowpaw-li-li",
+      "name": "Shadowpaw Li Li",
+      "key": "shadowpaw",
+      "path": "lili/shadowpaw-li-li.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "gata-de-batalla-li-li",
+      "name": "Gata de Batalla Li Li",
+      "key": "summer20",
+      "path": "lili/gata-de-batalla-li-li.png"
+    },
+    {
+      "hero": "lili",
+      "skin": "adventurer-li-li",
+      "name": "Adventurer Li Li",
+      "key": "ultimate",
+      "path": "lili/adventurer-li-li.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "rebellious-wizard",
+      "name": "Rebellious Wizard",
+      "key": "base",
+      "path": "liming/rebellious-wizard.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "zann-esu-li-ming",
+      "name": "Zann Esu Li-Ming",
+      "key": "classic21",
+      "path": "liming/zann-esu-li-ming.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "lunar",
+      "name": null,
+      "key": "lunar",
+      "path": "liming/lunar.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "mask",
+      "name": null,
+      "key": "mask",
+      "path": "liming/mask.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "starprincess",
+      "name": null,
+      "key": "starprincess",
+      "path": "liming/starprincess.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "starqueen",
+      "name": null,
+      "key": "starqueen",
+      "path": "liming/starqueen.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "templar",
+      "name": null,
+      "key": "templar",
+      "path": "liming/templar.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "liming/ultimate.png"
+    },
+    {
+      "hero": "liming",
+      "skin": "volley",
+      "name": null,
+      "key": "volley",
+      "path": "liming/volley.png"
+    },
+    {
+      "hero": "ltmorales",
+      "skin": "combat-medic",
+      "name": "Combat Medic",
+      "key": "base",
+      "path": "ltmorales/combat-medic.png"
+    },
+    {
+      "hero": "ltmorales",
+      "skin": "apoth",
+      "name": null,
+      "key": "apoth",
+      "path": "ltmorales/apoth.png"
+    },
+    {
+      "hero": "ltmorales",
+      "skin": "paramedic-morales",
+      "name": "Paramedic Morales",
+      "key": "enforcer",
+      "path": "ltmorales/paramedic-morales.png"
+    },
+    {
+      "hero": "ltmorales",
+      "skin": "love",
+      "name": null,
+      "key": "love",
+      "path": "ltmorales/love.png"
+    },
+    {
+      "hero": "ltmorales",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "ltmorales/ultimate.png"
+    },
+    {
+      "hero": "lucio",
+      "skin": "freedom-fighting-dj",
+      "name": "Freedom Fighting DJ",
+      "key": "base",
+      "path": "lucio/freedom-fighting-dj.png"
+    },
+    {
+      "hero": "lucio",
+      "skin": "ribbit-lucio",
+      "name": "Ribbit Lúcio",
+      "key": "frog",
+      "path": "lucio/ribbit-lucio.png"
+    },
+    {
+      "hero": "lucio",
+      "skin": "speed-demon-lucio",
+      "name": "Speed Demon Lucio",
+      "key": "spring19",
+      "path": "lucio/speed-demon-lucio.png"
+    },
+    {
+      "hero": "lucio",
+      "skin": "soundblast-lucio",
+      "name": "Soundblast Lúcio",
+      "key": "ultimate",
+      "path": "lucio/soundblast-lucio.png"
+    },
+    {
+      "hero": "lunara",
+      "skin": "first-daughter-of-cenarius",
+      "name": "First Daughter of Cenarius",
+      "key": "base",
+      "path": "lunara/first-daughter-of-cenarius.png"
+    },
+    {
+      "hero": "lunara",
+      "skin": "sentinel",
+      "name": null,
+      "key": "sentinel",
+      "path": "lunara/sentinel.png"
+    },
+    {
+      "hero": "lunara",
+      "skin": "la-parca-lunara",
+      "name": "La Parca Lunara",
+      "key": "summer18",
+      "path": "lunara/la-parca-lunara.png"
+    },
+    {
+      "hero": "lunara",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "lunara/ultimate.png"
+    },
+    {
+      "hero": "lunara",
+      "skin": "warden-lunara",
+      "name": "Warden Lunara",
+      "key": "warden",
+      "path": "lunara/warden-lunara.png"
+    },
+    {
+      "hero": "lunara",
+      "skin": "winter-veil-lunara",
+      "name": "Winter Veil Lunara",
+      "key": "winter",
+      "path": "lunara/winter-veil-lunara.png"
+    },
+    {
+      "hero": "maiev",
+      "skin": "the-warden",
+      "name": "The Warden",
+      "key": "base",
+      "path": "maiev/the-warden.png"
+    },
+    {
+      "hero": "maiev",
+      "skin": "high-priestess-maiev",
+      "name": "High Priestess Maiev",
+      "key": "altered20",
+      "path": "maiev/high-priestess-maiev.png"
+    },
+    {
+      "hero": "maiev",
+      "skin": "hellwarden-maiev",
+      "name": "Hellwarden Maiev",
+      "key": "hellwarden",
+      "path": "maiev/hellwarden-maiev.png"
+    },
+    {
+      "hero": "maiev",
+      "skin": "spider-warden-maiev",
+      "name": "Spider Warden Maiev",
+      "key": "spooky18",
+      "path": "maiev/spider-warden-maiev.png"
+    },
+    {
+      "hero": "malfurion",
+      "skin": "archdruid",
+      "name": "Archdruid",
+      "key": "base",
+      "path": "malfurion/archdruid.png"
+    },
+    {
+      "hero": "malfurion",
+      "skin": "betrayer-malfurion",
+      "name": "Betrayer Malfurion",
+      "key": "betrayer",
+      "path": "malfurion/betrayer-malfurion.png"
+    },
+    {
+      "hero": "malfurion",
+      "skin": "druid-of-the-flame-malfurion",
+      "name": "Druid of the Flame Malfurion",
+      "key": "flame",
+      "path": "malfurion/druid-of-the-flame-malfurion.png"
+    },
+    {
+      "hero": "malfurion",
+      "skin": "stormrage",
+      "name": null,
+      "key": "stormrage",
+      "path": "malfurion/stormrage.png"
+    },
+    {
+      "hero": "malfurion",
+      "skin": "waywatcher-malfurion",
+      "name": "Waywatcher Malfurion",
+      "key": "ultimate",
+      "path": "malfurion/waywatcher-malfurion.png"
+    },
+    {
+      "hero": "malfurion",
+      "skin": "greatfather-winter-malfurion",
+      "name": "Greatfather Winter Malfurion",
+      "key": "winter",
+      "path": "malfurion/greatfather-winter-malfurion.png"
+    },
+    {
+      "hero": "malganis",
+      "skin": "nathrezim-lord",
+      "name": "Nathrezim Lord",
+      "key": "base",
+      "path": "malganis/nathrezim-lord.png"
+    },
+    {
+      "hero": "malganis",
+      "skin": "dreadmachine-malganis",
+      "name": "Dreadmachine Mal'Ganis",
+      "key": "pilothawk",
+      "path": "malganis/dreadmachine-malganis.png"
+    },
+    {
+      "hero": "malganis",
+      "skin": "malgaucho-malganis",
+      "name": "Mal'gaucho Mal'ganis",
+      "key": "summer20",
+      "path": "malganis/malgaucho-malganis.png"
+    },
+    {
+      "hero": "malthael",
+      "skin": "aspect-of-death",
+      "name": "Aspect of Death",
+      "key": "base",
+      "path": "malthael/aspect-of-death.png"
+    },
+    {
+      "hero": "malthael",
+      "skin": "grave-warden-malthael",
+      "name": "Grave Warden Malthael",
+      "key": "grave",
+      "path": "malthael/grave-warden-malthael.png"
+    },
+    {
+      "hero": "malthael",
+      "skin": "xenotech-malthael",
+      "name": "Xenotech Malthael",
+      "key": "mecha19",
+      "path": "malthael/xenotech-malthael.png"
+    },
+    {
+      "hero": "malthael",
+      "skin": "seasons-reapings-malthael",
+      "name": "Season's Reapings Malthael",
+      "key": "winter17",
+      "path": "malthael/seasons-reapings-malthael.png"
+    },
+    {
+      "hero": "medivh",
+      "skin": "the-last-guardian",
+      "name": "The Last Guardian",
+      "key": "base",
+      "path": "medivh/the-last-guardian.png"
+    },
+    {
+      "hero": "medivh",
+      "skin": "knight-owl-medivh",
+      "name": "Knight Owl Medivh",
+      "key": "knightowl",
+      "path": "medivh/knight-owl-medivh.png"
+    },
+    {
+      "hero": "medivh",
+      "skin": "magus-medivh",
+      "name": "Magus Medivh",
+      "key": "ultimate",
+      "path": "medivh/magus-medivh.png"
+    },
+    {
+      "hero": "mei",
+      "skin": "adventuring-climatologist",
+      "name": "Adventuring Climatologist",
+      "key": "base",
+      "path": "mei/adventuring-climatologist.png"
+    },
+    {
+      "hero": "mei",
+      "skin": "necrotopologist-mei",
+      "name": "Necrotopologist Mei",
+      "key": "deathknight19",
+      "path": "mei/necrotopologist-mei.png"
+    },
+    {
+      "hero": "mei",
+      "skin": "pajama-party-mei",
+      "name": "Pajama Party Mei",
+      "key": "pajama",
+      "path": "mei/pajama-party-mei.png"
+    },
+    {
+      "hero": "mephisto",
+      "skin": "lord-of-hatred",
+      "name": "Lord of Hatred",
+      "key": "base",
+      "path": "mephisto/lord-of-hatred.png"
+    },
+    {
+      "hero": "mephisto",
+      "skin": "star-wraith-mephisto",
+      "name": "Star Wraith Mephisto",
+      "key": "starwraith",
+      "path": "mephisto/star-wraith-mephisto.png"
+    },
+    {
+      "hero": "mephisto",
+      "skin": "tickle-mephisto",
+      "name": "Tickle Mephisto",
+      "key": "toys19",
+      "path": "mephisto/tickle-mephisto.png"
+    },
+    {
+      "hero": "muradin",
+      "skin": "mountain-king",
+      "name": "Mountain King",
+      "key": "base",
+      "path": "muradin/mountain-king.png"
+    },
+    {
+      "hero": "muradin",
+      "skin": "kandy-king-muradin",
+      "name": "Kandy King Muradin",
+      "key": "kandyking",
+      "path": "muradin/kandy-king-muradin.png"
+    },
+    {
+      "hero": "muradin",
+      "skin": "magni-muradin",
+      "name": "Magni Muradin",
+      "key": "magni",
+      "path": "muradin/magni-muradin.png"
+    },
+    {
+      "hero": "muradin",
+      "skin": "maraudin-muradin",
+      "name": "Maraudin' Muradin",
+      "key": "marauder",
+      "path": "muradin/maraudin-muradin.png"
+    },
+    {
+      "hero": "muradin",
+      "skin": "ymirjar-lord-muradin",
+      "name": "Ymirjar Lord Muradin",
+      "key": "ultimate",
+      "path": "muradin/ymirjar-lord-muradin.png"
+    },
+    {
+      "hero": "muradin",
+      "skin": "vanndar-muradin",
+      "name": "Vanndar Muradin",
+      "key": "wcav",
+      "path": "muradin/vanndar-muradin.png"
+    },
+    {
+      "hero": "murky",
+      "skin": "baby-murloc",
+      "name": "Baby Murloc",
+      "key": "base",
+      "path": "murky/baby-murloc.png"
+    },
+    {
+      "hero": "murky",
+      "skin": "sir-murkalot",
+      "name": "Sir Murkalot",
+      "key": "crusader",
+      "path": "murky/sir-murkalot.png"
+    },
+    {
+      "hero": "murky",
+      "skin": "garden-shambler-murky",
+      "name": "Garden Shambler Murky",
+      "key": "eyemask",
+      "path": "murky/garden-shambler-murky.png"
+    },
+    {
+      "hero": "murky",
+      "skin": "funny-bunny-murky",
+      "name": "Funny Bunny Murky",
+      "key": "funnybunny",
+      "path": "murky/funny-bunny-murky.png"
+    },
+    {
+      "hero": "murky",
+      "skin": "grunty-murky",
+      "name": "Grunty Murky",
+      "key": "grunty",
+      "path": "murky/grunty-murky.png"
+    },
+    {
+      "hero": "murky",
+      "skin": "landwalker-murky",
+      "name": "Landwalker Murky",
+      "key": "ultimate",
+      "path": "murky/landwalker-murky.png"
+    },
+    {
+      "hero": "nazeebo",
+      "skin": "heretic-witch-doctor",
+      "name": "Heretic Witch Doctor",
+      "key": "base",
+      "path": "nazeebo/heretic-witch-doctor.png"
+    },
+    {
+      "hero": "nazeebo",
+      "skin": "grimskull-nazeebo",
+      "name": "Grimskull Nazeebo",
+      "key": "grimskull",
+      "path": "nazeebo/grimskull-nazeebo.png"
+    },
+    {
+      "hero": "nazeebo",
+      "skin": "harlequin-nazeebo",
+      "name": "Harlequin Nazeebo",
+      "key": "harlequin",
+      "path": "nazeebo/harlequin-nazeebo.png"
+    },
+    {
+      "hero": "nazeebo",
+      "skin": "diesel-speaker-nazeebo",
+      "name": "Diesel Speaker Nazeebo",
+      "key": "madaxe18",
+      "path": "nazeebo/diesel-speaker-nazeebo.png"
+    },
+    {
+      "hero": "nazeebo",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "nazeebo/ultimate.png"
+    },
+    {
+      "hero": "nazeebo",
+      "skin": "gingerdread-nazeebo",
+      "name": "Gingerdread Nazeebo",
+      "key": "winter",
+      "path": "nazeebo/gingerdread-nazeebo.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "dominion-ghost",
+      "name": "Dominion Ghost",
+      "key": "base",
+      "path": "nova/dominion-ghost.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "deathranger-nova",
+      "name": "Deathranger Nova",
+      "key": "madaxe18",
+      "path": "nova/deathranger-nova.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "roller-derby-nova",
+      "name": "Roller Derby Nova",
+      "key": "rollerderby",
+      "path": "nova/roller-derby-nova.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "spectre-nova",
+      "name": "Spectre Nova",
+      "key": "spectre",
+      "path": "nova/spectre-nova.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "dominion-elite-agent-nova",
+      "name": "Dominion Elite Agent Nova",
+      "key": "ultimate",
+      "path": "nova/dominion-elite-agent-nova.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "widowmaker-nova",
+      "name": "Widowmaker Nova",
+      "key": "widow",
+      "path": "nova/widowmaker-nova.png"
+    },
+    {
+      "hero": "nova",
+      "skin": "novazon",
+      "name": "Novazon",
+      "key": "zon",
+      "path": "nova/novazon.png"
+    },
+    {
+      "hero": "orphea",
+      "skin": "heir-of-raven-court",
+      "name": "Heir of Raven Court",
+      "key": "base",
+      "path": "orphea/heir-of-raven-court.png"
+    },
+    {
+      "hero": "orphea",
+      "skin": "baby-face-orphea",
+      "name": "Baby-Face Orphea",
+      "key": "mobster19",
+      "path": "orphea/baby-face-orphea.png"
+    },
+    {
+      "hero": "orphea",
+      "skin": "slacker-orphea",
+      "name": "Slacker Orphea",
+      "key": "school18",
+      "path": "orphea/slacker-orphea.png"
+    },
+    {
+      "hero": "probius",
+      "skin": "curious-probe",
+      "name": "Curious Probe",
+      "key": "base",
+      "path": "probius/curious-probe.png"
+    },
+    {
+      "hero": "probius",
+      "skin": "terran-probius",
+      "name": "Terran Probius",
+      "key": "terran",
+      "path": "probius/terran-probius.png"
+    },
+    {
+      "hero": "probius",
+      "skin": "probius-prime",
+      "name": "Probius Prime",
+      "key": "ultimate",
+      "path": "probius/probius-prime.png"
+    },
+    {
+      "hero": "qhira",
+      "skin": "realmless-bounty-hunter",
+      "name": "Realmless Bounty Hunter",
+      "key": "base",
+      "path": "qhira/realmless-bounty-hunter.png"
+    },
+    {
+      "hero": "qhira",
+      "skin": "scrapper-queen-qhira",
+      "name": "Scrapper Queen Qhira",
+      "key": "madaxe19",
+      "path": "qhira/scrapper-queen-qhira.png"
+    },
+    {
+      "hero": "qhira",
+      "skin": "cosmonaut-qhira",
+      "name": "Cosmonaut Qhira",
+      "key": "toys19",
+      "path": "qhira/cosmonaut-qhira.png"
+    },
+    {
+      "hero": "ragnaros",
+      "skin": "the-firelord",
+      "name": "The Firelord",
+      "key": "base",
+      "path": "ragnaros/the-firelord.png"
+    },
+    {
+      "hero": "ragnaros",
+      "skin": "lil-ragnaros",
+      "name": "Lil' Ragnaros",
+      "key": "lil",
+      "path": "ragnaros/lil-ragnaros.png"
+    },
+    {
+      "hero": "ragnaros",
+      "skin": "sulfuron-ragnaros",
+      "name": "Sulfuron Ragnaros",
+      "key": "ultimate",
+      "path": "ragnaros/sulfuron-ragnaros.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "renegade-commander",
+      "name": "Renegade Commander",
+      "key": "base",
+      "path": "raynor/renegade-commander.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "classic-raynor",
+      "name": "Classic Raynor",
+      "key": "classic21",
+      "path": "raynor/classic-raynor.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "commander-raynor",
+      "name": "Commander Raynor",
+      "key": "commander",
+      "path": "raynor/commander-raynor.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "roadraider-raynor",
+      "name": "Roadraider Raynor",
+      "key": "madaxe18",
+      "path": "raynor/roadraider-raynor.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "marshall",
+      "name": null,
+      "key": "marshall",
+      "path": "raynor/marshall.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "raynor-76",
+      "name": "Raynor 76",
+      "key": "owc20",
+      "path": "raynor/raynor-76.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "stars-and-stripes-raynor",
+      "name": "Stars and Stripes Raynor",
+      "key": "patriot",
+      "path": "raynor/stars-and-stripes-raynor.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "green-army-raynor",
+      "name": "Green Army Raynor",
+      "key": "toys19",
+      "path": "raynor/green-army-raynor.png"
+    },
+    {
+      "hero": "raynor",
+      "skin": "special-ordnance-raynor",
+      "name": "Special Ordnance Raynor",
+      "key": "ultimate",
+      "path": "raynor/special-ordnance-raynor.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "shaman-of-the-earthen-ring",
+      "name": "Shaman of the Earthen Ring",
+      "key": "base",
+      "path": "rehgar/shaman-of-the-earthen-ring.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "shaman-adept-rehgar",
+      "name": "Shaman Adept Rehgar",
+      "key": "classic21",
+      "path": "rehgar/shaman-adept-rehgar.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "great-father-winter-rehgar",
+      "name": "Great-father Winter Rehgar",
+      "key": "gfwinter",
+      "path": "rehgar/great-father-winter-rehgar.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "ironclaw-rehgar",
+      "name": "Ironclaw Rehgar",
+      "key": "ironclaw",
+      "path": "rehgar/ironclaw-rehgar.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "mecha-rehgar",
+      "name": "Mecha Rehgar",
+      "key": "mecha",
+      "path": "rehgar/mecha-rehgar.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "storm-wolf-rehgar",
+      "name": "Storm Wolf Rehgar",
+      "key": "ultimate",
+      "path": "rehgar/storm-wolf-rehgar.png"
+    },
+    {
+      "hero": "rehgar",
+      "skin": "drekthar-rehgar",
+      "name": "Drek'Thar Rehgar",
+      "key": "wcav",
+      "path": "rehgar/drekthar-rehgar.png"
+    },
+    {
+      "hero": "rexxar",
+      "skin": "champion-of-the-horde",
+      "name": "Champion of the Horde",
+      "key": "base",
+      "path": "rexxar/champion-of-the-horde.png"
+    },
+    {
+      "hero": "rexxar",
+      "skin": "frost",
+      "name": null,
+      "key": "frost",
+      "path": "rexxar/frost.png"
+    },
+    {
+      "hero": "rexxar",
+      "skin": "raider-rexxar",
+      "name": "Raider Rexxar",
+      "key": "marine",
+      "path": "rexxar/raider-rexxar.png"
+    },
+    {
+      "hero": "rexxar",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "rexxar/ultimate.png"
+    },
+    {
+      "hero": "samuro",
+      "skin": "the-blademaster",
+      "name": "The Blademaster",
+      "key": "base",
+      "path": "samuro/the-blademaster.png"
+    },
+    {
+      "hero": "samuro",
+      "skin": "hellblade-samuro",
+      "name": "Hellblade Samuro",
+      "key": "fel",
+      "path": "samuro/hellblade-samuro.png"
+    },
+    {
+      "hero": "samuro",
+      "skin": "monkey-king-samuro",
+      "name": "Monkey King Samuro",
+      "key": "monkey",
+      "path": "samuro/monkey-king-samuro.png"
+    },
+    {
+      "hero": "samuro",
+      "skin": "burning-blade-samuro",
+      "name": "Burning Blade Samuro",
+      "key": "ultimate",
+      "path": "samuro/burning-blade-samuro.png"
+    },
+    {
+      "hero": "sgthammer",
+      "skin": "siege-tank-operator",
+      "name": "Siege Tank Operator",
+      "key": "base",
+      "path": "sgthammer/siege-tank-operator.png"
+    },
+    {
+      "hero": "sgthammer",
+      "skin": "sgt-doomhammer",
+      "name": "Sgt. Doomhammer",
+      "key": "doom",
+      "path": "sgthammer/sgt-doomhammer.png"
+    },
+    {
+      "hero": "sgthammer",
+      "skin": "big-shot-sgt-hammer",
+      "name": "Big Shot Sgt. Hammer",
+      "key": "mobster19",
+      "path": "sgthammer/big-shot-sgt-hammer.png"
+    },
+    {
+      "hero": "sgthammer",
+      "skin": "master-sgt-hammer",
+      "name": "Master Sgt. Hammer",
+      "key": "ultimate",
+      "path": "sgthammer/master-sgt-hammer.png"
+    },
+    {
+      "hero": "sgthammer",
+      "skin": "war-world-sgt-hammer",
+      "name": "War World Sgt. Hammer",
+      "key": "ww2",
+      "path": "sgthammer/war-world-sgt-hammer.png"
+    },
+    {
+      "hero": "sgthammer",
+      "skin": "neon-war-world-sgt-hammer",
+      "name": "Neon War World Sgt. Hammer",
+      "key": "ww2neon",
+      "path": "sgthammer/neon-war-world-sgt-hammer.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "wandering-barbarian",
+      "name": "Wandering Barbarian",
+      "key": "base",
+      "path": "sonya/wandering-barbarian.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "deathknight",
+      "name": null,
+      "key": "deathknight",
+      "path": "sonya/deathknight.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "legion",
+      "name": null,
+      "key": "legion",
+      "path": "sonya/legion.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "la-pantera-sonya",
+      "name": "La Pantera Sonya",
+      "key": "summer18",
+      "path": "sonya/la-pantera-sonya.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "super",
+      "name": null,
+      "key": "super",
+      "path": "sonya/super.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "valorous-sonya",
+      "name": "Valorous Sonya",
+      "key": "ultimate",
+      "path": "sonya/valorous-sonya.png"
+    },
+    {
+      "hero": "sonya",
+      "skin": "wrath",
+      "name": null,
+      "key": "wrath",
+      "path": "sonya/wrath.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "terror-of-darkshire",
+      "name": "Terror of Darkshire",
+      "key": "base",
+      "path": "stitches/terror-of-darkshire.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "bikini-stitches",
+      "name": "Bikini Stitches",
+      "key": "beachparty",
+      "path": "stitches/bikini-stitches.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "chef-stitches",
+      "name": "Chef Stitches",
+      "key": "chef",
+      "path": "stitches/chef-stitches.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "hogmeat-stitches",
+      "name": "Hogmeat Stitches",
+      "key": "owc20",
+      "path": "stitches/hogmeat-stitches.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "psycho-stitches",
+      "name": "Psycho Stitches",
+      "key": "psycho",
+      "path": "stitches/psycho-stitches.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "cuddle-bear-stitches",
+      "name": "Cuddle Bear Stitches",
+      "key": "toys18",
+      "path": "stitches/cuddle-bear-stitches.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "king-stitches",
+      "name": "King Stitches",
+      "key": "ultimate",
+      "path": "stitches/king-stitches.png"
+    },
+    {
+      "hero": "stitches",
+      "skin": "greatfather-winter-stitches",
+      "name": "Greatfather Winter Stitches",
+      "key": "winter",
+      "path": "stitches/greatfather-winter-stitches.png"
+    },
+    {
+      "hero": "stukov",
+      "skin": "infested-admiral",
+      "name": "Infested Admiral",
+      "key": "base",
+      "path": "stukov/infested-admiral.png"
+    },
+    {
+      "hero": "stukov",
+      "skin": "imperator-stukov",
+      "name": "Imperator Stukov",
+      "key": "army18",
+      "path": "stukov/imperator-stukov.png"
+    },
+    {
+      "hero": "stukov",
+      "skin": "admiral-krakenov",
+      "name": "Admiral Krakenov",
+      "key": "pirate",
+      "path": "stukov/admiral-krakenov.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "the-banshee-queen",
+      "name": "The Banshee Queen",
+      "key": "base",
+      "path": "sylvanas/the-banshee-queen.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "blood-raven-sylvanas",
+      "name": "Blood Raven Sylvanas",
+      "key": "bloodraven",
+      "path": "sylvanas/blood-raven-sylvanas.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "sugar-plum-sylvanas",
+      "name": "Sugar Plum Sylvanas",
+      "key": "fairy",
+      "path": "sylvanas/sugar-plum-sylvanas.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "warchief-sylvanas",
+      "name": "Warchief Sylvanas",
+      "key": "legion",
+      "path": "sylvanas/warchief-sylvanas.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "lunar-sylvanas",
+      "name": "Lunar Sylvanas",
+      "key": "lunar",
+      "path": "sylvanas/lunar-sylvanas.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "ranger",
+      "name": null,
+      "key": "ranger",
+      "path": "sylvanas/ranger.png"
+    },
+    {
+      "hero": "sylvanas",
+      "skin": "dark-lady-sylvanas",
+      "name": "Dark Lady Sylvanas",
+      "key": "ultimate",
+      "path": "sylvanas/dark-lady-sylvanas.png"
+    },
+    {
+      "hero": "tassadar",
+      "skin": "savior-of-the-templar",
+      "name": "Savior of the Templar",
+      "key": "base",
+      "path": "tassadar/savior-of-the-templar.png"
+    },
+    {
+      "hero": "tassadar",
+      "skin": "dark-nexus-tassadar",
+      "name": "Dark Nexus Tassadar",
+      "key": "dark20",
+      "path": "tassadar/dark-nexus-tassadar.png"
+    },
+    {
+      "hero": "tassadar",
+      "skin": "mecha-tassadar",
+      "name": "Mecha Tassadar",
+      "key": "mecha",
+      "path": "tassadar/mecha-tassadar.png"
+    },
+    {
+      "hero": "tassadar",
+      "skin": "crypt-king-tassadar",
+      "name": "Crypt King Tassadar",
+      "key": "pharaoh",
+      "path": "tassadar/crypt-king-tassadar.png"
+    },
+    {
+      "hero": "tassadar",
+      "skin": "executor-tassadar",
+      "name": "Executor Tassadar",
+      "key": "ultimate",
+      "path": "tassadar/executor-tassadar.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "flesh-carver",
+      "name": "Flesh Carver",
+      "key": "base",
+      "path": "thebutcher/flesh-carver.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "the-butcherlisk",
+      "name": "The Butcherlisk",
+      "key": "butcherlisk",
+      "path": "thebutcher/the-butcherlisk.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "tristram-butcher",
+      "name": "Tristram Butcher",
+      "key": "classic21",
+      "path": "thebutcher/tristram-butcher.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "iron-butcher",
+      "name": "Iron Butcher",
+      "key": "iron",
+      "path": "thebutcher/iron-butcher.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "cyber-oni-butcher",
+      "name": "Cyber Oni Butcher",
+      "key": "spring19",
+      "path": "thebutcher/cyber-oni-butcher.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "bonny-butcher",
+      "name": "Bonny Butcher",
+      "key": "toys21",
+      "path": "thebutcher/bonny-butcher.png"
+    },
+    {
+      "hero": "thebutcher",
+      "skin": "executioner-butcher",
+      "name": "Executioner Butcher",
+      "key": "ultimate",
+      "path": "thebutcher/executioner-butcher.png"
+    },
+    {
+      "hero": "thrall",
+      "skin": "warchief-of-the-horde",
+      "name": "Warchief of the Horde",
+      "key": "base",
+      "path": "thrall/warchief-of-the-horde.png"
+    },
+    {
+      "hero": "thrall",
+      "skin": "earthbreaker-thrall",
+      "name": "Earthbreaker Thrall",
+      "key": "earthbreaker",
+      "path": "thrall/earthbreaker-thrall.png"
+    },
+    {
+      "hero": "thrall",
+      "skin": "hellhammer-thrall",
+      "name": "Hellhammer Thrall",
+      "key": "hellhammer",
+      "path": "thrall/hellhammer-thrall.png"
+    },
+    {
+      "hero": "thrall",
+      "skin": "gear-head-thrall",
+      "name": "Gear Head Thrall",
+      "key": "toon20",
+      "path": "thrall/gear-head-thrall.png"
+    },
+    {
+      "hero": "thrall",
+      "skin": "world-shaman-thrall",
+      "name": "World-Shaman Thrall",
+      "key": "ultimate",
+      "path": "thrall/world-shaman-thrall.png"
+    },
+    {
+      "hero": "tracer",
+      "skin": "agent-of-overwatch",
+      "name": "Agent of Overwatch",
+      "key": "base",
+      "path": "tracer/agent-of-overwatch.png"
+    },
+    {
+      "hero": "tracer",
+      "skin": "ghost-tracer",
+      "name": "Ghost Tracer",
+      "key": "ghost",
+      "path": "tracer/ghost-tracer.png"
+    },
+    {
+      "hero": "tracer",
+      "skin": "divine-herald-tracer",
+      "name": "Divine Herald Tracer",
+      "key": "myth20",
+      "path": "tracer/divine-herald-tracer.png"
+    },
+    {
+      "hero": "tracer",
+      "skin": "spectre-tracer",
+      "name": "Spectre Tracer",
+      "key": "spectre",
+      "path": "tracer/spectre-tracer.png"
+    },
+    {
+      "hero": "tracer",
+      "skin": "turbo-tracer",
+      "name": "Turbo Tracer",
+      "key": "ultimate",
+      "path": "tracer/turbo-tracer.png"
+    },
+    {
+      "hero": "tracer",
+      "skin": "slip-n-stream-tracer",
+      "name": "Slip 'N Stream Tracer",
+      "key": "watergun",
+      "path": "tracer/slip-n-stream-tracer.png"
+    },
+    {
+      "hero": "tychus",
+      "skin": "notorious-outlaw",
+      "name": "Notorious Outlaw",
+      "key": "base",
+      "path": "tychus/notorious-outlaw.png"
+    },
+    {
+      "hero": "tychus",
+      "skin": "infested",
+      "name": null,
+      "key": "infested",
+      "path": "tychus/infested.png"
+    },
+    {
+      "hero": "tychus",
+      "skin": "prisoner",
+      "name": null,
+      "key": "prisoner",
+      "path": "tychus/prisoner.png"
+    },
+    {
+      "hero": "tychus",
+      "skin": "ultimate",
+      "name": null,
+      "key": "ultimate",
+      "path": "tychus/ultimate.png"
+    },
+    {
+      "hero": "tychus",
+      "skin": "watergun",
+      "name": null,
+      "key": "watergun",
+      "path": "tychus/watergun.png"
+    },
+    {
+      "hero": "tyrael",
+      "skin": "archangel-of-justice",
+      "name": "Archangel of Justice",
+      "key": "base",
+      "path": "tyrael/archangel-of-justice.png"
+    },
+    {
+      "hero": "tyrael",
+      "skin": "demonic-tyrael",
+      "name": "Demonic Tyrael",
+      "key": "demonic",
+      "path": "tyrael/demonic-tyrael.png"
+    },
+    {
+      "hero": "tyrael",
+      "skin": "mecha-tyrael",
+      "name": "Mecha Tyrael",
+      "key": "mecha",
+      "path": "tyrael/mecha-tyrael.png"
+    },
+    {
+      "hero": "tyrael",
+      "skin": "seraphim-tyrael",
+      "name": "Seraphim Tyrael",
+      "key": "seraphim",
+      "path": "tyrael/seraphim-tyrael.png"
+    },
+    {
+      "hero": "tyrael",
+      "skin": "archangel-tyrael",
+      "name": "Archangel Tyrael",
+      "key": "ultimate",
+      "path": "tyrael/archangel-tyrael.png"
+    },
+    {
+      "hero": "tyrande",
+      "skin": "high-priestess-of-elune",
+      "name": "High Priestess of Elune",
+      "key": "base",
+      "path": "tyrande/high-priestess-of-elune.png"
+    },
+    {
+      "hero": "tyrande",
+      "skin": "bloodelf",
+      "name": null,
+      "key": "bloodelf",
+      "path": "tyrande/bloodelf.png"
+    },
+    {
+      "hero": "tyrande",
+      "skin": "love-goddess-tyrande",
+      "name": "Love Goddess Tyrande",
+      "key": "love",
+      "path": "tyrande/love-goddess-tyrande.png"
+    },
+    {
+      "hero": "tyrande",
+      "skin": "eagle-eye-tyrande",
+      "name": "Eagle Eye Tyrande",
+      "key": "super",
+      "path": "tyrande/eagle-eye-tyrande.png"
+    },
+    {
+      "hero": "tyrande",
+      "skin": "high-priestess-tyrande",
+      "name": "High Priestess Tyrande",
+      "key": "ultimate",
+      "path": "tyrande/high-priestess-tyrande.png"
+    },
+    {
+      "hero": "tyrande",
+      "skin": "warden-tyrande",
+      "name": "Warden Tyrande",
+      "key": "warden",
+      "path": "tyrande/warden-tyrande.png"
+    },
+    {
+      "hero": "uther",
+      "skin": "the-lightbringer",
+      "name": "The Lightbringer",
+      "key": "base",
+      "path": "uther/the-lightbringer.png"
+    },
+    {
+      "hero": "uther",
+      "skin": "judgment-uther",
+      "name": "Judgment Uther",
+      "key": "judgement",
+      "path": "uther/judgment-uther.png"
+    },
+    {
+      "hero": "uther",
+      "skin": "lumberjack-uther",
+      "name": "Lumberjack Uther",
+      "key": "lumberjack",
+      "path": "uther/lumberjack-uther.png"
+    },
+    {
+      "hero": "uther",
+      "skin": "medic-uther",
+      "name": "Medic Uther",
+      "key": "medic",
+      "path": "uther/medic-uther.png"
+    },
+    {
+      "hero": "uther",
+      "skin": "sulfuron-uther",
+      "name": "Sulfuron Uther",
+      "key": "sulfuron",
+      "path": "uther/sulfuron-uther.png"
+    },
+    {
+      "hero": "uther",
+      "skin": "grand-marshal-uther",
+      "name": "Grand Marshal Uther",
+      "key": "ultimate",
+      "path": "uther/grand-marshal-uther.png"
+    },
+    {
+      "hero": "valeera",
+      "skin": "shadow-of-the-uncrowned",
+      "name": "Shadow of the Uncrowned",
+      "key": "base",
+      "path": "valeera/shadow-of-the-uncrowned.png"
+    },
+    {
+      "hero": "valeera",
+      "skin": "demon-hunter-valeera",
+      "name": "Demon Hunter Valeera",
+      "key": "hunter",
+      "path": "valeera/demon-hunter-valeera.png"
+    },
+    {
+      "hero": "valeera",
+      "skin": "cosmic-force-valeera",
+      "name": "Cosmic Force Valeera",
+      "key": "toys18",
+      "path": "valeera/cosmic-force-valeera.png"
+    },
+    {
+      "hero": "valeera",
+      "skin": "bloodfang-valeera",
+      "name": "Bloodfang Valeera",
+      "key": "ultimate",
+      "path": "valeera/bloodfang-valeera.png"
+    },
+    {
+      "hero": "valeera",
+      "skin": "vampire-slayer-v",
+      "name": "Vampire Slayer V",
+      "key": "vampire",
+      "path": "valeera/vampire-slayer-v.png"
+    },
+    {
+      "hero": "valeera",
+      "skin": "nightslayer-valeera",
+      "name": "Nightslayer Valeera",
+      "key": "wcav",
+      "path": "valeera/nightslayer-valeera.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "demon-hunter",
+      "name": "Demon Hunter",
+      "key": "base",
+      "path": "valla/demon-hunter.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "angelic-valla",
+      "name": "Angelic Valla",
+      "key": "angel",
+      "path": "valla/angelic-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "deputy-valla",
+      "name": "Deputy Valla",
+      "key": "cowgirl",
+      "path": "valla/deputy-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "ordermaster-valla",
+      "name": "Ordermaster Valla",
+      "key": "horns",
+      "path": "valla/ordermaster-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "mecha-valla",
+      "name": "Mecha Valla",
+      "key": "mecha19",
+      "path": "valla/mecha-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "shadow-stalker-valla",
+      "name": "Shadow Stalker Valla",
+      "key": "owc20",
+      "path": "valla/shadow-stalker-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "vengeance-valla",
+      "name": "Vengeance Valla",
+      "key": "ultimate",
+      "path": "valla/vengeance-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "vampire-slayer-valla",
+      "name": "Vampire Slayer Valla",
+      "key": "vampirehunter",
+      "path": "valla/vampire-slayer-valla.png"
+    },
+    {
+      "hero": "valla",
+      "skin": "winters-helper-valla",
+      "name": "Winter's Helper Valla",
+      "key": "winter",
+      "path": "valla/winters-helper-valla.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "high-king-of-the-alliance",
+      "name": "High King of the Alliance",
+      "key": "base",
+      "path": "varian/high-king-of-the-alliance.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "commandant-varian",
+      "name": "Commandant Varian",
+      "key": "commandant",
+      "path": "varian/commandant-varian.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "logosh-varian",
+      "name": "Lo'Gosh Varian",
+      "key": "logosh",
+      "path": "varian/logosh-varian.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "green-army-commandant-varian",
+      "name": "Green Army Commandant Varian",
+      "key": "toys19",
+      "path": "varian/green-army-commandant-varian.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "lionheart-varian",
+      "name": "Lionheart Varian",
+      "key": "ultimate",
+      "path": "varian/lionheart-varian.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "stormwind-footman-varian",
+      "name": "Stormwind Footman Varian",
+      "key": "wcavfoot",
+      "path": "varian/stormwind-footman-varian.png"
+    },
+    {
+      "hero": "varian",
+      "skin": "grand-marshal-varian",
+      "name": "Grand Marshal Varian",
+      "key": "wcavgrand",
+      "path": "varian/grand-marshal-varian.png"
+    },
+    {
+      "hero": "whitemane",
+      "skin": "high-inquisitor",
+      "name": "High Inquisitor",
+      "key": "base",
+      "path": "whitemane/high-inquisitor.png"
+    },
+    {
+      "hero": "whitemane",
+      "skin": "celestial-empress-whitemane",
+      "name": "Celestial Empress Whitemane",
+      "key": "celestial",
+      "path": "whitemane/celestial-empress-whitemane.png"
+    },
+    {
+      "hero": "whitemane",
+      "skin": "showstopper-whitemane",
+      "name": "Showstopper Whitemane",
+      "key": "mobster19",
+      "path": "whitemane/showstopper-whitemane.png"
+    },
+    {
+      "hero": "whitemane",
+      "skin": "cursed-witch-whitemane",
+      "name": "Cursed Witch Whitemane",
+      "key": "spooky18",
+      "path": "whitemane/cursed-witch-whitemane.png"
+    },
+    {
+      "hero": "xul",
+      "skin": "cryptic-necromancer",
+      "name": "Cryptic Necromancer",
+      "key": "base",
+      "path": "xul/cryptic-necromancer.png"
+    },
+    {
+      "hero": "xul",
+      "skin": "bone-visage-xul",
+      "name": "Bone Visage Xul",
+      "key": "classic",
+      "path": "xul/bone-visage-xul.png"
+    },
+    {
+      "hero": "xul",
+      "skin": "scarecrow-xul",
+      "name": "Scarecrow Xul",
+      "key": "scare",
+      "path": "xul/scarecrow-xul.png"
+    },
+    {
+      "hero": "xul",
+      "skin": "serpent-king-xul",
+      "name": "Serpent King Xul",
+      "key": "snake",
+      "path": "xul/serpent-king-xul.png"
+    },
+    {
+      "hero": "xul",
+      "skin": "necromaster-xul",
+      "name": "Necromaster Xul",
+      "key": "ultimate",
+      "path": "xul/necromaster-xul.png"
+    },
+    {
+      "hero": "yrel",
+      "skin": "light-of-hope",
+      "name": "Light of Hope",
+      "key": "base",
+      "path": "yrel/light-of-hope.png"
+    },
+    {
+      "hero": "yrel",
+      "skin": "mad-jester-yrel",
+      "name": "Mad Jester Yrel",
+      "key": "jester",
+      "path": "yrel/mad-jester-yrel.png"
+    },
+    {
+      "hero": "yrel",
+      "skin": "mecha-yrel",
+      "name": "Mecha Yrel",
+      "key": "mecha19",
+      "path": "yrel/mecha-yrel.png"
+    },
+    {
+      "hero": "zagara",
+      "skin": "broodmother-of-the-swarm",
+      "name": "Broodmother of the Swarm",
+      "key": "base",
+      "path": "zagara/broodmother-of-the-swarm.png"
+    },
+    {
+      "hero": "zagara",
+      "skin": "crypt-queen-zagara",
+      "name": "Crypt Queen Zagara",
+      "key": "cryptqueen",
+      "path": "zagara/crypt-queen-zagara.png"
+    },
+    {
+      "hero": "zagara",
+      "skin": "insectoid-zagara",
+      "name": "Insectoid Zagara",
+      "key": "insectoid",
+      "path": "zagara/insectoid-zagara.png"
+    },
+    {
+      "hero": "zagara",
+      "skin": "desert-queen-zagara",
+      "name": "Desert Queen Zagara",
+      "key": "luxoriaqueen",
+      "path": "zagara/desert-queen-zagara.png"
+    },
+    {
+      "hero": "zagara",
+      "skin": "overqueen-zagara",
+      "name": "Overqueen Zagara",
+      "key": "ultimate",
+      "path": "zagara/overqueen-zagara.png"
+    },
+    {
+      "hero": "zarya",
+      "skin": "defender-of-russia",
+      "name": "Defender of Russia",
+      "key": "base",
+      "path": "zarya/defender-of-russia.png"
+    },
+    {
+      "hero": "zarya",
+      "skin": "cyberdemon-zarya",
+      "name": "Cyberdemon Zarya",
+      "key": "hanamura",
+      "path": "zarya/cyberdemon-zarya.png"
+    },
+    {
+      "hero": "zarya",
+      "skin": "phantom-knight-zarya",
+      "name": "Phantom Knight Zarya",
+      "key": "spooky18",
+      "path": "zarya/phantom-knight-zarya.png"
+    },
+    {
+      "hero": "zarya",
+      "skin": "thunder-guard-zarya",
+      "name": "Thunder Guard Zarya",
+      "key": "thunder",
+      "path": "zarya/thunder-guard-zarya.png"
+    },
+    {
+      "hero": "zarya",
+      "skin": "high-gravity-zarya",
+      "name": "High Gravity Zarya",
+      "key": "ultimate",
+      "path": "zarya/high-gravity-zarya.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "dark-prelate",
+      "name": "Dark Prelate",
+      "key": "base",
+      "path": "zeratul/dark-prelate.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "executor-zeratul",
+      "name": "Executor Zeratul",
+      "key": "gem",
+      "path": "zeratul/executor-zeratul.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "high-templar-zeratul",
+      "name": "High Templar Zeratul",
+      "key": "hightemplar",
+      "path": "zeratul/high-templar-zeratul.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "unraveler-zeratul",
+      "name": "Unraveler Zeratul",
+      "key": "mummy",
+      "path": "zeratul/unraveler-zeratul.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "ronin-zeratul",
+      "name": "Ronin Zeratul",
+      "key": "ronin",
+      "path": "zeratul/ronin-zeratul.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "dark-prelate-zeratul",
+      "name": "Dark Prelate Zeratul",
+      "key": "ultimate",
+      "path": "zeratul/dark-prelate-zeratul.png"
+    },
+    {
+      "hero": "zeratul",
+      "skin": "zerg-hunter-zeratul",
+      "name": "Zerg Hunter Zeratul",
+      "key": "zerghunter",
+      "path": "zeratul/zerg-hunter-zeratul.png"
+    },
+    {
+      "hero": "zuljin",
+      "skin": "warlord-of-the-amani",
+      "name": "Warlord of the Amani",
+      "key": "base",
+      "path": "zuljin/warlord-of-the-amani.png"
+    },
+    {
+      "hero": "zuljin",
+      "skin": "emberlord-zuljin",
+      "name": "Emberlord Zul'jin",
+      "key": "fire",
+      "path": "zuljin/emberlord-zuljin.png"
+    },
+    {
+      "hero": "zuljin",
+      "skin": "lunar-zuljin",
+      "name": "Lunar Zul'jin",
+      "key": "lunar",
+      "path": "zuljin/lunar-zuljin.png"
+    },
+    {
+      "hero": "zuljin",
+      "skin": "warbringer-zuljin",
+      "name": "Warbringer Zul'jin",
+      "key": "ultimate",
+      "path": "zuljin/warbringer-zuljin.png"
+    }
+  ]
+}
