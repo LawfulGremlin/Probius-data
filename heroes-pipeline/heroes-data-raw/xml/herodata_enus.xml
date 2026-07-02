@@ -206,7 +206,7 @@
         <AbathurSlapathur buttonId="AbathurSlapathur" name="Slapathur" abilityType="E" sort="4">
           <Icon>storm_ui_icon_abathur_volatilemutation.png</Icon>
           <ShortTooltip>Basic attacks Stun, deal bonus damage</ShortTooltip>
-          <FullTooltip>Abathur's Basic Attacks now Stun non-Heroic enemies and deal &lt;c val="bfd4fd"&gt;500%&lt;/c&gt; damage.</FullTooltip>
+          <FullTooltip>Abathur’s Basic Attacks deal &lt;c val="bfd4fd"&gt;500%&lt;/c&gt; additional damage and Stun non-Elite enemies and disable Structures for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;This effect has an &lt;c val="bfd4fd"&gt;8&lt;/c&gt; second cooldown against Heroes and Structures.</FullTooltip>
         </AbathurSlapathur>
       </Level4>
       <Level7>
@@ -988,7 +988,7 @@
         <AlexstraszaFlamesOfFuryFlameBuffet buttonId="AlexstraszaFlamesOfFuryFlameBuffet" name="Flames of Fury" abilityType="E" isQuest="true" sort="3">
           <Icon>storm_ui_icon_alexstrasza_flame_buffet.png</Icon>
           <ShortTooltip>&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Lower Dragonqueen cooldown, last forever</ShortTooltip>
-          <FullTooltip>Reduce the Mana cost of Flame Buffet from &lt;c val="bfd4fd"&gt;50&lt;/c&gt; to &lt;c val="bfd4fd"&gt;50&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit Burning enemy Heroes with Flame Buffet. &lt;c val="bfd4fd"&gt;20&lt;/c&gt; hits unlocks a Mythic Quest.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by &lt;c val="bfd4fd"&gt;5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Quest:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;40&lt;/c&gt; more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.</FullTooltip>
+          <FullTooltip>Reduce the Mana cost of Flame Buffet from &lt;c val="bfd4fd"&gt;50&lt;/c&gt; to &lt;c val="bfd4fd"&gt;50&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit Burning enemy Heroes with Flame Buffet. &lt;c val="bfd4fd"&gt;20&lt;/c&gt; hits unlocks a Mythic Quest.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Quest:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;40&lt;/c&gt; more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>AlexstraszaFlameBuffet</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -5712,7 +5712,7 @@
         <ChoCallousedHide buttonId="ChoCallousedHide" name="Calloused Hide" abilityType="Trait" sort="2">
           <Icon>storm_ui_icon_cho_ogrehide.png</Icon>
           <ShortTooltip>Low health increases healing, Move Speed</ShortTooltip>
-          <FullTooltip>While under &lt;c val="bfd4fd"&gt;40%&lt;/c&gt; maximum Health, Cho gains &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; increased Movement Speed and healing received.</FullTooltip>
+          <FullTooltip>While under &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; maximum Health, Cho gains &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; increased Movement Speed and healing received.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>ChoOgreHidePassive</AbilityTalentLinkId>
             <AbilityTalentLinkId>ChoOgreHide</AbilityTalentLinkId>
@@ -13332,7 +13332,7 @@
           <Charges consume="1" initial="1" isHidden="true" recastCooldown="1">1</Charges>
           <CooldownTooltip>Cooldown: 8 seconds</CooldownTooltip>
           <ShortTooltip>Dash and damage enemies while gaining Basic Attack damage</ShortTooltip>
-          <FullTooltip>Dash towards target point, dealing &lt;c val="bfd4fd"&gt;119~~0.04~~&lt;/c&gt; damage to enemies along the way. Hitting an enemy increases Illidan's Basic Attack damage by &lt;c val="bfd4fd"&gt;0%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Dash towards target point, dealing &lt;c val="bfd4fd"&gt;119~~0.04~~&lt;/c&gt; damage to enemies along the way. Hitting an enemy increases Illidan's Basic Attack damage by &lt;c val="bfd4fd"&gt;35%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
         </IllidanSweepingStrike>
         <IllidanEvasion buttonId="IllidanEvasion" name="Evasion" abilityType="E">
           <Icon>storm_ui_icon_illidan_evasion.png</Icon>
@@ -13414,7 +13414,7 @@
         <IllidanMasteryBatteredAssaultSweepingStrike buttonId="IllidanSweepingStrikeBatteredAssaultTalent" name="Battered Assault" abilityType="W" sort="2">
           <Icon>storm_ui_icon_illidan_sweepingstrike_a.png</Icon>
           <ShortTooltip>Increases Sweeping Strike damage bonus</ShortTooltip>
-          <FullTooltip>Increase Sweeping Strike's Basic Attack damage bonus duration from &lt;c val="bfd4fd"&gt;3&lt;/c&gt; to &lt;c val="bfd4fd"&gt;5&lt;/c&gt; seconds. If Sweeping Strike hits &lt;c val="bfd4fd"&gt;2&lt;/c&gt; Heroes its damage bonus is increased from &lt;c val="bfd4fd"&gt;0%&lt;/c&gt; to &lt;c val="bfd4fd"&gt;65%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Increase Sweeping Strike's Basic Attack damage bonus duration from &lt;c val="bfd4fd"&gt;3&lt;/c&gt; to &lt;c val="bfd4fd"&gt;5&lt;/c&gt; seconds. If Sweeping Strike hits &lt;c val="bfd4fd"&gt;2&lt;/c&gt; Heroes its damage bonus is increased from &lt;c val="bfd4fd"&gt;35%&lt;/c&gt; to &lt;c val="bfd4fd"&gt;125%&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>IllidanSweepingStrike</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -32061,21 +32061,21 @@
       <Basic>
         <YrelVindication buttonId="YrelVindication" name="Vindication" abilityType="Q">
           <Icon>storm_ui_icon_yrel_vindication.png</Icon>
-          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
           <ShortTooltip>Restore Health, damage enemies</ShortTooltip>
           <FullTooltip>Unleash holy energy around Yrel, dealing &lt;c val="bfd4fd"&gt;48~~0.04~~&lt;/c&gt; damage to nearby enemies and healing her for &lt;c val="bfd4fd"&gt;111~~0.04~~&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its damage up to &lt;c val="bfd4fd"&gt;160~~0.04~~&lt;/c&gt;, and healing up to &lt;c val="bfd4fd"&gt;370~~0.04~~&lt;/c&gt;.</FullTooltip>
         </YrelVindication>
         <YrelRighteousHammerChannel buttonId="YrelRighteousHammer" name="Righteous Hammer" abilityType="W">
           <Icon>storm_ui_icon_yrel_righteous_hammer.png</Icon>
-          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
           <ShortTooltip>Knockback and Stun enemies</ShortTooltip>
           <FullTooltip>Swing Yrel's hammer, dealing &lt;c val="bfd4fd"&gt;42~~0.04~~&lt;/c&gt; damage to enemies in front of her and knocking them away.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its knockback distance, and damage up to &lt;c val="bfd4fd"&gt;140~~0.04~~&lt;/c&gt;. Enemies hit at maximum charge are Stunned for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; seconds.</FullTooltip>
         </YrelRighteousHammerChannel>
         <YrelAvengingWrath buttonId="YrelAvengingWrath" name="Avenging Wrath" abilityType="E">
           <Icon>storm_ui_icon_yrel_avenging_wrath.png</Icon>
-          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
           <ShortTooltip>Leap to an area to damage, Slow enemies</ShortTooltip>
           <FullTooltip>Leap to a location, dealing &lt;c val="bfd4fd"&gt;260~~0.04~~&lt;/c&gt; damage to enemies in an area and Slowing them by &lt;c val="bfd4fd"&gt;60%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; second.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its range.</FullTooltip>
@@ -32099,7 +32099,7 @@
       <Trait>
         <YrelDivinePurpose buttonId="YrelDivinePurpose" name="Divine Purpose" abilityType="Trait">
           <Icon>storm_ui_icon_yrel_divine_purpose.png</Icon>
-          <CooldownTooltip>Cooldown: 16 seconds</CooldownTooltip>
+          <CooldownTooltip>Cooldown: 12 seconds</CooldownTooltip>
           <ShortTooltip>Make next Basic Ability cast instantly</ShortTooltip>
           <FullTooltip>Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by &lt;c val="bfd4fd"&gt;8&lt;/c&gt; seconds if Stunned or Silenced while charging her skills.&lt;n/&gt;&lt;n/&gt;&lt;c val="00ff90"&gt;Passive:&lt;/c&gt; Yrel's Basic Abilities charge up over &lt;c val="bfd4fd"&gt;1.5&lt;/c&gt; seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by &lt;c val="bfd4fd"&gt;25%&lt;/c&gt;.</FullTooltip>
         </YrelDivinePurpose>
@@ -32137,7 +32137,7 @@
         <Basic>
           <YrelVindicationCast buttonId="YrelVindication" name="Vindication" abilityType="Q">
             <Icon>storm_ui_icon_yrel_vindication.png</Icon>
-            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
             <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
             <ShortTooltip>Restore Health, damage enemies</ShortTooltip>
             <FullTooltip>Unleash holy energy around Yrel, dealing &lt;c val="bfd4fd"&gt;48~~0.04~~&lt;/c&gt; damage to nearby enemies and healing her for &lt;c val="bfd4fd"&gt;111~~0.04~~&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its damage up to &lt;c val="bfd4fd"&gt;160~~0.04~~&lt;/c&gt;, and healing up to &lt;c val="bfd4fd"&gt;370~~0.04~~&lt;/c&gt;.</FullTooltip>
@@ -32148,14 +32148,14 @@
         <Basic>
           <YrelRighteousHammerDivinePurpose buttonId="YrelRighteousHammer" name="Righteous Hammer" abilityType="W">
             <Icon>storm_ui_icon_yrel_righteous_hammer.png</Icon>
-            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
             <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
             <ShortTooltip>Knockback and Stun enemies</ShortTooltip>
             <FullTooltip>Swing Yrel's hammer, dealing &lt;c val="bfd4fd"&gt;42~~0.04~~&lt;/c&gt; damage to enemies in front of her and knocking them away.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its knockback distance, and damage up to &lt;c val="bfd4fd"&gt;140~~0.04~~&lt;/c&gt;. Enemies hit at maximum charge are Stunned for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; seconds.</FullTooltip>
           </YrelRighteousHammerDivinePurpose>
           <YrelAvengingWrathDivinePurpose buttonId="YrelAvengingWrath" name="Avenging Wrath" abilityType="E">
             <Icon>storm_ui_icon_yrel_avenging_wrath.png</Icon>
-            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
             <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
             <ShortTooltip>Leap to an area to damage, Slow enemies</ShortTooltip>
             <FullTooltip>Leap to a location, dealing &lt;c val="bfd4fd"&gt;260~~0.04~~&lt;/c&gt; damage to enemies in an area and Slowing them by &lt;c val="bfd4fd"&gt;60%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; second.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its range.</FullTooltip>
@@ -32174,7 +32174,7 @@
         <Basic>
           <YrelRighteousHammer buttonId="YrelRighteousHammer" name="Righteous Hammer" abilityType="W">
             <Icon>storm_ui_icon_yrel_righteous_hammer.png</Icon>
-            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
             <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
             <ShortTooltip>Knockback and Stun enemies</ShortTooltip>
             <FullTooltip>Swing Yrel's hammer, dealing &lt;c val="bfd4fd"&gt;42~~0.04~~&lt;/c&gt; damage to enemies in front of her and knocking them away.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its knockback distance, and damage up to &lt;c val="bfd4fd"&gt;140~~0.04~~&lt;/c&gt;. Enemies hit at maximum charge are Stunned for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; seconds.</FullTooltip>
@@ -32185,7 +32185,7 @@
         <Basic>
           <YrelAvengingWrathChannel buttonId="YrelAvengingWrath" name="Avenging Wrath" abilityType="E">
             <Icon>storm_ui_icon_yrel_avenging_wrath.png</Icon>
-            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 65&lt;/s&gt;</EnergyTooltip>
+            <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
             <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
             <ShortTooltip>Leap to an area to damage, Slow enemies</ShortTooltip>
             <FullTooltip>Leap to a location, dealing &lt;c val="bfd4fd"&gt;260~~0.04~~&lt;/c&gt; damage to enemies in an area and Slowing them by &lt;c val="bfd4fd"&gt;60%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; second.&lt;n/&gt;&lt;n/&gt;Charging up this Ability increases its range.</FullTooltip>
@@ -32216,7 +32216,7 @@
         <YrelVindicationLightOfKarabor buttonId="YrelVindicationLightOfKarabor" name="Light of Karabor" abilityType="Q" sort="1">
           <Icon>storm_ui_icon_yrel_vindication.png</Icon>
           <ShortTooltip>Increase Vindication radius, healing</ShortTooltip>
-          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Collect Regeneration Globes.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon collecting 10 Globes, increase Vindication's radius by &lt;c val="bfd4fd"&gt;15%&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon collecting 20 Globes, hitting an enemy Hero increases Vindication's healing by &lt;c val="bfd4fd"&gt;45%&lt;/c&gt;. If more than one Hero is hit, the bonus is increased to &lt;c val="bfd4fd"&gt;90%&lt;/c&gt;.&lt;n/&gt;</FullTooltip>
+          <FullTooltip>Increase Vindication's radius by &lt;c val="bfd4fd"&gt;15%&lt;/c&gt;. Hitting an enemy Hero increases Vindication's healing by &lt;c val="bfd4fd"&gt;45%&lt;/c&gt;. If more than one Hero is hit, the bonus is increased to &lt;c val="bfd4fd"&gt;90%&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>YrelVindicationCast</AbilityTalentLinkId>
             <AbilityTalentLinkId>YrelVindication</AbilityTalentLinkId>
@@ -32263,7 +32263,7 @@
         <YrelRighteousHammerRighteousMomentum buttonId="YrelRighteousHammerRighteousMomentum" name="Righteous Momentum" abilityType="W" sort="1">
           <Icon>storm_ui_icon_yrel_righteous_hammer.png</Icon>
           <ShortTooltip>Righteous Hammer increases Movement Speed</ShortTooltip>
-          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit enemy Heroes with a fully charged Righteous Hammer.  This quest cannot be started until all previously selected quests are complete.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon hitting 10 Heroes, gain &lt;c val="bfd4fd"&gt;5%&lt;/c&gt; Movement Speed. Yrel is no longer Slowed while Channeling Righteous Hammer, and instead this bonus is quadrupled.</FullTooltip>
+          <FullTooltip>Gain &lt;c val="bfd4fd"&gt;5%&lt;/c&gt; Movement Speed. Yrel is no longer Slowed while Channeling Righteous Hammer, and instead this bonus is quadrupled.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>YrelRighteousHammerDivinePurpose</AbilityTalentLinkId>
             <AbilityTalentLinkId>YrelRighteousHammer</AbilityTalentLinkId>
@@ -32314,7 +32314,7 @@
         <YrelVindicationAldorPeacekeeper buttonId="YrelVindicationAldorPeacekeeper" name="Aldor Peacekeeper" abilityType="Q" sort="1">
           <Icon>storm_ui_icon_yrel_vindication.png</Icon>
           <ShortTooltip>Vindication can reduce enemy damage</ShortTooltip>
-          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit at least 2 Heroes with a maximum charge Light of Karabor, one of which must be an enemy.  This quest cannot be started until all previously selected quests are complete.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting multiple Heroes 10 times, Enemy Heroes hit by Vindication at maximum charge deal &lt;c val="bfd4fd"&gt;40%&lt;/c&gt; less damage for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Reward:&lt;/c&gt; If Yrel completes all 3 of her Quests, reduce the charge time of all of her Basic Abilities by 50%.</FullTooltip>
+          <FullTooltip>Enemy Heroes hit by Vindication at maximum charge deal &lt;c val="bfd4fd"&gt;40%&lt;/c&gt; less damage for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>YrelVindicationCast</AbilityTalentLinkId>
             <AbilityTalentLinkId>YrelVindication</AbilityTalentLinkId>
