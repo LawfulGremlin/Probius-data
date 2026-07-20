@@ -12,7 +12,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.8398,
+    "speed": 4.75,
     "type": "Melee",
     "rarity": "Legendary",
     "scalingLinkId": "HeroDummyVeterancy",
@@ -150,7 +150,7 @@
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "cooldownTooltip": "Cooldown: 15 seconds",
           "shortTooltip": "Spawn locusts that attack down the nearest lane",
-          "fullTooltip": "Spawns a Locust to attack down the nearest lane every <c val=\"bfd4fd\">15</c> seconds.  Locusts heal for <c val=\"bfd4fd\">20%</c> of the damage they deal, and regain <c val=\"bfd4fd\">20%</c> of their Maximum health when a nearby minion dies.<n/><n/>Locusts lose health over <c val=\"bfd4fd\">17</c> seconds, have <c val=\"bfd4fd\">225~~0.04~~</c> health and deal <c val=\"bfd4fd\">58~~0.04~~</c> damage with each Basic Attack, dealing <c val=\"bfd4fd\">25%</c> bonus damage to enemy Structures.",
+          "fullTooltip": "Spawns a Locust to attack down the nearest lane every <c val=\"bfd4fd\">15</c> seconds.  Locusts heal for <c val=\"bfd4fd\">20%</c> of the damage they deal, and regain <c val=\"bfd4fd\">20%</c> of their Maximum health when a nearby minion dies.<n/><n/>Locusts lose health over <c val=\"bfd4fd\">17</c> seconds, have <c val=\"bfd4fd\">225~~0.04~~</c> health and deal <c val=\"bfd4fd\">36~~0.04~~</c> damage with each Basic Attack, dealing <c val=\"bfd4fd\">100%</c> bonus damage to enemy non-Heroes.",
           "abilityType": "Trait",
           "isActive": false
         }
@@ -320,7 +320,7 @@
           "name": "Slapathur",
           "icon": "storm_ui_icon_abathur_volatilemutation.png",
           "shortTooltip": "Basic attacks Stun, deal bonus damage",
-          "fullTooltip": "Abathur’s Basic Attacks deal <c val=\"bfd4fd\">500%</c> additional damage and Stun non-Elite enemies and disable Structures for <c val=\"bfd4fd\">3</c> seconds.<n/><n/>This effect has an <c val=\"bfd4fd\">8</c> second cooldown against Heroes and Structures.",
+          "fullTooltip": "Abathur’s Basic Attacks deal <c val=\"bfd4fd\">500%</c> additional damage and Stun non-Elite enemies and disable Structures for <c val=\"bfd4fd\">1.5</c> seconds.<n/><n/>The same Hero or Structure can only be Stunned or disabled once every <c val=\"bfd4fd\">6</c> seconds.",
           "abilityType": "E",
           "sort": 4
         }
@@ -491,7 +491,7 @@
           "name": "Survival Instincts",
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "shortTooltip": "Increases Locust Health and damage",
-          "fullTooltip": "Increases Locust's Health by <c val=\"bfd4fd\">200%</c> and damage by <c val=\"bfd4fd\">60%</c>.",
+          "fullTooltip": "Increases Locust's Health by <c val=\"bfd4fd\">100%</c> and damage by <c val=\"bfd4fd\">60%</c>.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -1515,7 +1515,7 @@
           "name": "Flames of Fury",
           "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
           "shortTooltip": "<c val=\"e4b800\">Quest:</c> Lower Dragonqueen cooldown, last forever",
-          "fullTooltip": "Reduce the Mana cost of Flame Buffet from <c val=\"bfd4fd\">50</c> to <c val=\"bfd4fd\">50</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val=\"bfd4fd\">20</c> hits unlocks a Mythic Quest.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After hitting <c val=\"bfd4fd\">20</c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val=\"bfd4fd\">6</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Quest:</c> After hitting <c val=\"bfd4fd\">40</c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
+          "fullTooltip": "Reduce the Mana cost of Flame Buffet from <c val=\"bfd4fd\">50</c> to <c val=\"bfd4fd\">40</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val=\"bfd4fd\">20</c> hits unlocks a Mythic Quest.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After hitting <c val=\"bfd4fd\">20</c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val=\"bfd4fd\">6</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Quest:</c> After hitting <c val=\"bfd4fd\">40</c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -1761,7 +1761,7 @@
           "name": "Ancient Flame",
           "icon": "storm_ui_icon_alexstrasza_dragon_queen_a.png",
           "shortTooltip": "Dragonqueen Attacks apply Flame Buffet",
-          "fullTooltip": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant quest stacks.",
+          "fullTooltip": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant Quest stacks.<n/><n/><c val=\"00ff90\">Passive:</c> Dragonqueen grants <c val=\"bfd4fd\">25%</c> more maxium Health.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -8851,7 +8851,7 @@
           "name": "Consuming Fire",
           "icon": "storm_ui_icon_cho_consumingflame.png",
           "shortTooltip": "Increased healing against Heroes",
-          "fullTooltip": "Consuming Blaze heals for <c val=\"bfd4fd\">150%</c> more when a Hero is Ignited.",
+          "fullTooltip": "Consuming Blaze restores <c val=\"bfd4fd\">75~~0.04~~</c> more Health when a Hero is Ignited.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -9460,7 +9460,7 @@
           "name": "Chronic Conditions",
           "icon": "storm_ui_icon_chromie_timetrap.png",
           "shortTooltip": "Time Trap auto-triggers, affects enemy/allied Move Speed",
-          "fullTooltip": "Time Trap will activate on enemy Heroes automatically.<n/>20% for <c val=\"bfd4fd\">3</c> seconds and allies gain <c val=\"bfd4fd\">20%</c> Movement Speed for <c val=\"bfd4fd\">3</c> seconds.",
+          "fullTooltip": "Time Trap will activate on enemy Heroes automatically.<n/><n/>After its Time Stop ends, enemies affected by Time Trap are Slowed by <c val=\"bfd4fd\">20%</c> for <c val=\"bfd4fd\">3</c> seconds and allies gain <c val=\"bfd4fd\">20%</c> Movement Speed for <c val=\"bfd4fd\">3</c> seconds.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -20376,7 +20376,7 @@
           "icon": "storm_ui_icon_hogger_rage.png",
           "cooldownTooltip": "Cooldown: 45 seconds",
           "shortTooltip": "Periodically heal, activate to gain Rage",
-          "fullTooltip": "Activate to gain <c val=\"bfd4fd\">30</c> Rage over <c val=\"bfd4fd\">8</c> seconds.<n/><n/><c val=\"00ff90\">Passive:</c> You heal for <c val=\"bfd4fd\">7~~0.04~~</c> Health every second, increased by <c val=\"bfd4fd\">2%</c> per point of Rage. ",
+          "fullTooltip": "Activate to gain <c val=\"bfd4fd\">25</c> Rage over <c val=\"bfd4fd\">8</c> seconds.<n/><n/><c val=\"00ff90\">Passive:</c> You heal for <c val=\"bfd4fd\">7~~0.04~~</c> Health every second, increased by <c val=\"bfd4fd\">2%</c> per point of Rage. ",
           "abilityType": "Active",
           "isActive": true,
           "sort": 3
@@ -20416,7 +20416,7 @@
           "name": "Hogger's Joggers",
           "icon": "storm_ui_icon_hogger_rage.png",
           "shortTooltip": "Rage increases Move Speed, healing received",
-          "fullTooltip": "While above <c val=\"bfd4fd\">30 </c>Rage, gain <c val=\"bfd4fd\">10%</c> increased Movement Speed and healing received. <n/><n/>When at or above <c val=\"bfd4fd\">50 </c>Rage, increase these bonuses to <c val=\"bfd4fd\">15%</c>.",
+          "fullTooltip": "While above <c val=\"bfd4fd\">35</c>Rage, gain <c val=\"bfd4fd\">10%</c> increased Movement Speed and healing received. <n/><n/>When at or above <c val=\"bfd4fd\">50 </c>Rage, increase these bonuses to <c val=\"bfd4fd\">15%</c>.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -27541,7 +27541,8 @@
     "skins": [
       "LucioUltimate",
       "LucioFrog",
-      "LucioSpring19"
+      "LucioSpring19",
+      "LucioToon20"
     ],
     "variationSkins": [
       "LucioBaseVar1",
@@ -37560,7 +37561,7 @@
           "name": "Lava Surge",
           "icon": "storm_ui_icon_ragnaros_lavawave.png",
           "shortTooltip": "Lava Wave has two charges, speeds up waves",
-          "fullTooltip": "Lava Wave gains an additional charge and causes allied Minions and Mercenaries to be carried with it.",
+          "fullTooltip": "Lava Wave gains an additional charge and causes allied Minions and non-Boss Mercenaries to be carried with it.",
           "abilityType": "Heroic",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -40136,7 +40137,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 100</s>",
           "cooldownTooltip": "Cooldown: 70 seconds",
           "shortTooltip": "Fire a large bullet across the map",
-          "fullTooltip": "Fire a missile across the battlefield, dealing <c val=\"bfd4fd\">500~~0.03~~ </c>damage to non-Structure enemies in its path.",
+          "fullTooltip": "Fire a missile across the battlefield, dealing <c val=\"bfd4fd\">500~~0.03~~ </c>damage to enemies in its path.  Deals <c val=\"bfd4fd\">50%</c> damage to Structures.",
           "abilityType": "Heroic"
         }
       ],
@@ -40394,7 +40395,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 100</s>",
           "cooldownTooltip": "Cooldown: 70 seconds",
           "shortTooltip": "Fire a large bullet across the map",
-          "fullTooltip": "Fire a missile across the battlefield, dealing <c val=\"bfd4fd\">500~~0.03~~ </c>damage to non-Structure enemies in its path.",
+          "fullTooltip": "Fire a missile across the battlefield, dealing <c val=\"bfd4fd\">500~~0.03~~ </c>damage to enemies in its path.  Deals <c val=\"bfd4fd\">50%</c> damage to Structures.",
           "abilityType": "Heroic",
           "isActive": true,
           "sort": 1,
@@ -48388,8 +48389,8 @@
           "buttonId": "WhitemaneInquisitor'sPrayer",
           "name": "Inquisitor's Prayer",
           "icon": "storm_ui_icon_whitemane_lash_alt_1.png",
-          "shortTooltip": "Searing Lash restores mana, bonus Zeal duration",
-          "fullTooltip": "Hitting a hero with Searing Lash restores <c val=\"bfd4fd\">25 mana</c>.  In addition, the duration of <c val=\"FFF5C2\">Zeal</c> is increased by <c val=\"bfd4fd\">2</c> seconds.",
+          "shortTooltip": "Searing Lash restores Mana, bonus <c val=\"FFF5C2\">Zeal</c> duration",
+          "fullTooltip": "Searing Lash restores <c val=\"bfd4fd\">25</c> Mana for each Hero it hits, and <c val=\"FFF5C2\">Zeal</c> lasts <c val=\"bfd4fd\">2</c> additional seconds.",
           "abilityType": "E",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -50007,7 +50008,7 @@
           "icon": "storm_ui_icon_yrel_divine_purpose.png",
           "cooldownTooltip": "Cooldown: 12 seconds",
           "shortTooltip": "Make next Basic Ability cast instantly",
-          "fullTooltip": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by <c val=\"bfd4fd\">8</c> seconds if Stunned or Silenced while charging her skills.<n/><n/><c val=\"00ff90\">Passive:</c> Yrel's Basic Abilities charge up over <c val=\"bfd4fd\">1.5</c> seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by <c val=\"bfd4fd\">25%</c>.",
+          "fullTooltip": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by <c val=\"bfd4fd\">3</c> seconds if Stunned or Silenced while charging her skills.<n/><n/><c val=\"00ff90\">Passive:</c> Yrel's Basic Abilities charge up over <c val=\"bfd4fd\">1.5</c> seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by <c val=\"bfd4fd\">25%</c>.",
           "abilityType": "Trait"
         }
       ],
@@ -50105,7 +50106,7 @@
               "icon": "storm_ui_icon_yrel_divine_purpose_active.png",
               "cooldownTooltip": "Cooldown: 16 seconds",
               "shortTooltip": "Make next Basic Ability cast instantly",
-              "fullTooltip": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by <c val=\"bfd4fd\">8</c> seconds if Stunned or Silenced while charging her skills.<n/><n/><c val=\"00ff90\">Passive:</c> Yrel's Basic Abilities charge up over <c val=\"bfd4fd\">1.5</c> seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by <c val=\"bfd4fd\">25%</c>.",
+              "fullTooltip": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by <c val=\"bfd4fd\">3</c> seconds if Stunned or Silenced while charging her skills.<n/><n/><c val=\"00ff90\">Passive:</c> Yrel's Basic Abilities charge up over <c val=\"bfd4fd\">1.5</c> seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by <c val=\"bfd4fd\">25%</c>.",
               "abilityType": "Trait",
               "isActive": false,
               "isPassive": true

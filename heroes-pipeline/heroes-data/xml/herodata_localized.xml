@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Heroes>
-  <Abathur unitId="HeroAbathur" hyperlinkId="Abathur" attributeId="Abat" franchise="Starcraft" gender="Neutral" innerRadius="0.75" radius="0.75" releaseDate="2014-03-13" sight="12" speed="4.8398" rarity="Legendary" scalingLinkId="HeroDummyVeterancy">
+  <Abathur unitId="HeroAbathur" hyperlinkId="Abathur" attributeId="Abat" franchise="Starcraft" gender="Neutral" innerRadius="0.75" radius="0.75" releaseDate="2014-03-13" sight="12" speed="4.75" rarity="Legendary" scalingLinkId="HeroDummyVeterancy">
     <Descriptors>
       <Descriptor>Ganker</Descriptor>
       <Descriptor>Helper</Descriptor>
@@ -13416,6 +13416,7 @@
       <Skin>LucioUltimate</Skin>
       <Skin>LucioFrog</Skin>
       <Skin>LucioSpring19</Skin>
+      <Skin>LucioToon20</Skin>
     </Skins>
     <VariationSkins>
       <VariationSkin>LucioBaseVar1</VariationSkin>

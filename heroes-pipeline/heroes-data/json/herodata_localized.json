@@ -9,7 +9,7 @@
     "radius": 0.75,
     "releaseDate": "2014-03-13",
     "sight": 12.0,
-    "speed": 4.8398,
+    "speed": 4.75,
     "rarity": "Legendary",
     "scalingLinkId": "HeroDummyVeterancy",
     "descriptors": [
@@ -21322,7 +21322,8 @@
     "skins": [
       "LucioUltimate",
       "LucioFrog",
-      "LucioSpring19"
+      "LucioSpring19",
+      "LucioToon20"
     ],
     "variationSkins": [
       "LucioBaseVar1",

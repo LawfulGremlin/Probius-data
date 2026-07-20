@@ -75,10 +75,10 @@
     </Life>
     <Weapons>
       <AbathurLocustBombardWeapon range="7" period="1">
-        <Damage scale="0.04">58</Damage>
+        <Damage scale="0.04">36</Damage>
       </AbathurLocustBombardWeapon>
       <AbathurLocustBombardWeaponCloseRange range="3" period="1">
-        <Damage scale="0.04">46</Damage>
+        <Damage scale="0.04">36</Damage>
       </AbathurLocustBombardWeaponCloseRange>
     </Weapons>
   </AbathurLocustBombardStrain>
@@ -107,7 +107,7 @@
           <Icon>storm_ui_icon_abathur_spawnlocust.png</Icon>
           <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
           <ShortTooltip>Spawn locusts that attack down the nearest lane</ShortTooltip>
-          <FullTooltip>Spawns a Locust to attack down the nearest lane every &lt;c val="bfd4fd"&gt;15&lt;/c&gt; seconds.  Locusts heal for &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of the damage they deal, and regain &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of their Maximum health when a nearby minion dies.&lt;n/&gt;&lt;n/&gt;Locusts lose health over &lt;c val="bfd4fd"&gt;17&lt;/c&gt; seconds, have &lt;c val="bfd4fd"&gt;225~~0.04~~&lt;/c&gt; health and deal &lt;c val="bfd4fd"&gt;58~~0.04~~&lt;/c&gt; damage with each Basic Attack, dealing &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; bonus damage to enemy Structures.</FullTooltip>
+          <FullTooltip>Spawns a Locust to attack down the nearest lane every &lt;c val="bfd4fd"&gt;15&lt;/c&gt; seconds.  Locusts heal for &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of the damage they deal, and regain &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of their Maximum health when a nearby minion dies.&lt;n/&gt;&lt;n/&gt;Locusts lose health over &lt;c val="bfd4fd"&gt;17&lt;/c&gt; seconds, have &lt;c val="bfd4fd"&gt;225~~0.04~~&lt;/c&gt; health and deal &lt;c val="bfd4fd"&gt;36~~0.04~~&lt;/c&gt; damage with each Basic Attack, dealing &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; bonus damage to enemy non-Heroes.</FullTooltip>
         </AbathurSpawnLocusts>
       </Basic>
     </Abilities>
@@ -134,7 +134,7 @@
           <Icon>storm_ui_icon_abathur_spawnlocust.png</Icon>
           <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
           <ShortTooltip>Spawn locusts that attack down the nearest lane</ShortTooltip>
-          <FullTooltip>Spawns a Locust to attack down the nearest lane every &lt;c val="bfd4fd"&gt;15&lt;/c&gt; seconds.  Locusts heal for &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of the damage they deal, and regain &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of their Maximum health when a nearby minion dies.&lt;n/&gt;&lt;n/&gt;Locusts lose health over &lt;c val="bfd4fd"&gt;17&lt;/c&gt; seconds, have &lt;c val="bfd4fd"&gt;225~~0.04~~&lt;/c&gt; health and deal &lt;c val="bfd4fd"&gt;58~~0.04~~&lt;/c&gt; damage with each Basic Attack, dealing &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; bonus damage to enemy Structures.</FullTooltip>
+          <FullTooltip>Spawns a Locust to attack down the nearest lane every &lt;c val="bfd4fd"&gt;15&lt;/c&gt; seconds.  Locusts heal for &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of the damage they deal, and regain &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; of their Maximum health when a nearby minion dies.&lt;n/&gt;&lt;n/&gt;Locusts lose health over &lt;c val="bfd4fd"&gt;17&lt;/c&gt; seconds, have &lt;c val="bfd4fd"&gt;225~~0.04~~&lt;/c&gt; health and deal &lt;c val="bfd4fd"&gt;36~~0.04~~&lt;/c&gt; damage with each Basic Attack, dealing &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; bonus damage to enemy non-Heroes.</FullTooltip>
         </AbathurSpawnLocusts>
       </Basic>
     </Abilities>
@@ -152,7 +152,7 @@
     </Life>
     <Weapons>
       <AbathurLocustWeapon range="1.5" period="1">
-        <Damage scale="0.04">58</Damage>
+        <Damage scale="0.04">36</Damage>
       </AbathurLocustWeapon>
     </Weapons>
   </AbathurLocustNormal>
@@ -10595,7 +10595,7 @@
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 100&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 70 seconds</CooldownTooltip>
           <ShortTooltip>Fire a large bullet across the map</ShortTooltip>
-          <FullTooltip>Fire a missile across the battlefield, dealing &lt;c val="bfd4fd"&gt;500~~0.03~~ &lt;/c&gt;damage to non-Structure enemies in its path.</FullTooltip>
+          <FullTooltip>Fire a missile across the battlefield, dealing &lt;c val="bfd4fd"&gt;500~~0.03~~ &lt;/c&gt;damage to enemies in its path.  Deals &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; damage to Structures.</FullTooltip>
         </SgtHammerBluntForceGun>
       </Basic>
     </Abilities>
