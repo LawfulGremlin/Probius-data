@@ -18,7 +18,7 @@
   <const id="$AzmodanDemonLieutenantLifeDecayRate" value="/($AzmodanDemonLieutenantHealth $AzmodanDemonLieutenantDecayDuration)" evaluateAsExpression="1" />
   <const id="$AzmodanHellforgedDemonLieutenantLifeDecayModifier" value="*($AzmodanDemonLieutenantLifeDecayRate $AzmodanHellforgedDecayRateMultiplier)" evaluateAsExpression="1" />
   <const id="$AzmodanDemonicInvasionGruntHealth" value="750" />
-  <const id="$AzmodanDemonicInvasionGruntDecayDuration" value="10" />
+  <const id="$AzmodanDemonicInvasionGruntDecayDuration" value="20" />
   <const id="$AzmodanDemonicInvasionGruntLifeDecayRate" value="/($AzmodanDemonicInvasionGruntHealth $AzmodanDemonicInvasionGruntDecayDuration)" evaluateAsExpression="1" />
   <const id="$AzmodanGreedBonusNonHeroDamageModifier" value="0.15" />
   <const id="$AzmodanPrideAnnihilationStacksRequired" value="450" />
@@ -2864,7 +2864,7 @@
   <CEffectDamage id="AzmodanDemonicInvasionDemonGruntWeaponDamage" parent="StormSummonedUnitWeapon">
     <MultiplicativeModifierArray index="Siegebreaker" Validator="AzmodanSiegebreakerTalentCombine" Modifier="0.4" />
     <MultiplicativeModifierArray index="CoC" Validator="AzmodanHasChainOfCommandAuraBuff" Modifier="0.25" />
-    <Amount value="39" />
+    <Amount value="30" />
     <SourceButtonFace value="AzmodanDemonicInvasion" />
   </CEffectDamage>
   <CEffectCreatePersistent id="AzmodanDemonLieutenantInitialPersistent">
@@ -3660,7 +3660,7 @@
   <CTalent id="AzmodanWrath">
     <Face value="AzmodanWrath" />
     <Abil value="AzmodanGlobeOfAnnihilation" />
-    <QuestData StackBehavior="AzmodanGlobeOfAnnihilationWrathTalentTokenCounter" TargetCount="200" IgnoreTargetCount="0" />
+    <QuestData StackBehavior="AzmodanGlobeOfAnnihilationWrathTalentTokenCounter" TargetCount="225" IgnoreTargetCount="0" />
     <RankArray>
       <BehaviorArray value="AzmodanGlobeOfAnnihilationWrathTalentTokenCounter" />
     </RankArray>
@@ -3749,7 +3749,7 @@
     <RankArray>
       <BehaviorArray value="AzmodanGlobeOfAnnihilationGreedTalentTokenCounter" />
     </RankArray>
-    <QuestData StackBehavior="AzmodanGlobeOfAnnihilationGreedTalentTokenCounter" TargetCount="200" IgnoreTargetCount="0" />
+    <QuestData StackBehavior="AzmodanGlobeOfAnnihilationGreedTalentTokenCounter" TargetCount="225" IgnoreTargetCount="0" />
     <AbilityModificationArray>
       <Modifications Type="FlatModification" Entry="AzmodanAllShallBurn" Field="Range" />
       <Modifications>
@@ -3769,7 +3769,7 @@
   <CTalent id="AzmodanGluttony">
     <Face value="AzmodanGluttony" />
     <Abil value="AzmodanGlobeOfAnnihilation" />
-    <QuestData StackBehavior="AzmodanGlobeOfAnnihilationGluttonyTalentTokenCounter" TargetCount="200" IgnoreTargetCount="0" />
+    <QuestData StackBehavior="AzmodanGlobeOfAnnihilationGluttonyTalentTokenCounter" TargetCount="225" IgnoreTargetCount="0" />
     <RankArray>
       <BehaviorArray value="AzmodanGlobeOfAnnihilationGluttonyTalentTokenCounter" />
     </RankArray>
@@ -4006,8 +4006,7 @@
       <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Slot="Cancel" />
       <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Slot="Hearth" />
     </CardLayouts>
-    <Radius value="0.6875" />
-    <InnerRadius value="0.6875" />
+    <InnerRadius value="0.5" />
     <DeathTime value="0.25" />
     <Speed value="4.875" />
   </CUnit>
@@ -4509,7 +4508,7 @@
     <TargetFilters value="Visible;Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable" />
     <AcquireFilters value="-;NoMinionAggro,Missile,Dead,Benign" />
     <MinScanRange value="3" />
-    <Range value="1" />
+    <Range value="2" />
     <Period value="1" />
     <DamagePoint value="0.3125" />
     <Backswing value="0.0625" />
@@ -4523,7 +4522,7 @@
     <TargetFilters value="Visible;Player,Ally,Neutral,Missile,Item,Stasis,Dead,Hidden,Invulnerable" />
     <AcquireFilters value="-;NoMinionAggro,Missile,Dead,Passive" />
     <MinScanRange value="20" />
-    <Range value="1" />
+    <Range value="0.8" />
     <Period value="1" />
     <DamagePoint value="0.125" />
     <Backswing value="0" />
