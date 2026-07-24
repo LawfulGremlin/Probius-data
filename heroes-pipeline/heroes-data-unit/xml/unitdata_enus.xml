@@ -191,6 +191,7 @@
         <AbathurSymbioteCarapace buttonId="AbathurSymbioteCarapace" name="Carapace" abilityType="E">
           <Icon>storm_ui_icon_abathur_carapace.png</Icon>
           <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
+          <ShortTooltip>Gain a Shield</ShortTooltip>
           <FullTooltip>Shields the assisted ally for &lt;c val="bfd4fd"&gt;150~~0.04~~&lt;/c&gt;. Allied Heroes are healed for &lt;c val="bfd4fd"&gt;22~~0.04~~&lt;/c&gt; Health per second while the Shield is active. Lasts for &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.</FullTooltip>
         </AbathurSymbioteCarapace>
       </Basic>

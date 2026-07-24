@@ -320,7 +320,7 @@
           "name": "Slapathur",
           "icon": "storm_ui_icon_abathur_volatilemutation.png",
           "shortTooltip": "Basic attacks Stun, deal bonus damage",
-          "fullTooltip": "Abathur’s Basic Attacks deal <c val=\"bfd4fd\">500%</c> additional damage and Stun non-Elite enemies and disable Structures for <c val=\"bfd4fd\">1.5</c> seconds.<n/><n/>The same Hero or Structure can only be Stunned or disabled once every <c val=\"bfd4fd\">6</c> seconds.",
+          "fullTooltip": "Abathur’s Basic Attacks deal <c val=\"bfd4fd\">350%</c> additional damage and Stun non-Elite enemies and disable Structures for <c val=\"bfd4fd\">1.5</c> seconds.<n/><n/>The same Hero or Structure can only be Stunned or disabled once every <c val=\"bfd4fd\">6</c> seconds.",
           "abilityType": "E",
           "sort": 4
         }
@@ -611,6 +611,7 @@
                 "name": "Carapace",
                 "icon": "storm_ui_icon_abathur_carapace.png",
                 "cooldownTooltip": "Cooldown: 6 seconds",
+                "shortTooltip": "Gain a Shield",
                 "fullTooltip": "Shields the assisted ally for <c val=\"bfd4fd\">150~~0.04~~</c>. Allied Heroes are healed for <c val=\"bfd4fd\">22~~0.04~~</c> Health per second while the Shield is active. Lasts for <c val=\"bfd4fd\">6</c> seconds.",
                 "abilityType": "E"
               }
@@ -8149,7 +8150,7 @@
           "name": "A Touch of Honey",
           "icon": "storm_ui_icon_chen_kegsmash.png",
           "shortTooltip": "Increase Keg Smash Slow amount, duration",
-          "fullTooltip": "Increase the Slows from Keg Smash by <c val=\"bfd4fd\">30%</c> and its duration by <c val=\"bfd4fd\">0.5</c> seconds.",
+          "fullTooltip": "Increase the Slows from Keg Smash by <c val=\"bfd4fd\">20%</c> and its duration by <c val=\"bfd4fd\">0.5</c> seconds.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -9460,7 +9461,7 @@
           "name": "Chronic Conditions",
           "icon": "storm_ui_icon_chromie_timetrap.png",
           "shortTooltip": "Time Trap auto-triggers, affects enemy/allied Move Speed",
-          "fullTooltip": "Time Trap will activate on enemy Heroes automatically.<n/><n/>After its Time Stop ends, enemies affected by Time Trap are Slowed by <c val=\"bfd4fd\">20%</c> for <c val=\"bfd4fd\">3</c> seconds and allies gain <c val=\"bfd4fd\">20%</c> Movement Speed for <c val=\"bfd4fd\">3</c> seconds.",
+          "fullTooltip": "Time Trap will activate on enemy Heroes automatically.<n/><n/>After its Time Stop ends, enemies affected by Time Trap are Slowed by <c val=\"bfd4fd\">25%</c> for <c val=\"bfd4fd\">3</c> seconds and allies gain <c val=\"bfd4fd\">25%</c> Movement Speed for <c val=\"bfd4fd\">3</c> seconds.",
           "abilityType": "E",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17002,7 +17003,7 @@
           "name": "Double Trouble",
           "icon": "storm_ui_icon_gall_shadowflame_var1.png",
           "shortTooltip": "<c val=\"e4b800\">Quest: </c>Lower Shadowflame's cooldown",
-          "fullTooltip": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by <c val=\"bfd4fd\">0.5</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After hitting <c val=\"bfd4fd\">20</c> Heroes, Shadowflame's cooldown is instead permanently reduced by <c val=\"bfd4fd\">0.5</c> seconds.",
+          "fullTooltip": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by <c val=\"bfd4fd\">0.5</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After hitting <c val=\"bfd4fd\">20</c> Heroes, Shadowflame's cooldown is instead permanently reduced by <c val=\"bfd4fd\">1</c> second.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 2,
@@ -18172,7 +18173,7 @@
           "name": "Perfect Defense",
           "icon": "storm_ui_icon_genji_deflect_a.png",
           "shortTooltip": "Reduce Deflect cooldown",
-          "fullTooltip": "Deflected damage reduces the cooldown of Deflect by <c val=\"bfd4fd\">2</c> seconds, up to a maximum of <c val=\"bfd4fd\">12</c> seconds.",
+          "fullTooltip": "Deflected damage reduces the cooldown of Deflect by <c val=\"bfd4fd\">2.5</c> seconds, up to a maximum of <c val=\"bfd4fd\">12.5</c> seconds.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -37577,7 +37578,7 @@
           "name": "Heroic Difficulty",
           "icon": "storm_ui_icon_ragnaros_moltencore.png",
           "shortTooltip": "Enhances Molten Core range, cooldown",
-          "fullTooltip": "Molten Core's range is increased by <c val=\"bfd4fd\">100%</c> at the start of its duration.  In addition, the cooldown of Molten Core is reduced by <c val=\"bfd4fd\">110</c> seconds when used on a destroyed Fort or Keep.",
+          "fullTooltip": "Molten Core's range is increased by <c val=\"bfd4fd\">100%</c> at the start of its duration.  In addition, the cooldown of Molten Core is reduced by <c val=\"bfd4fd\">90</c> seconds when used on a destroyed Fort or Keep.",
           "abilityType": "Trait",
           "sort": 3,
           "abilityTalentLinkIds": [
@@ -50179,7 +50180,7 @@
           "name": "Light of Karabor",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Increase Vindication radius, healing",
-          "fullTooltip": "Increase Vindication's radius by <c val=\"bfd4fd\">15%</c>. Hitting an enemy Hero increases Vindication's healing by <c val=\"bfd4fd\">45%</c>. If more than one Hero is hit, the bonus is increased to <c val=\"bfd4fd\">90%</c>.",
+          "fullTooltip": "Increase Vindication's radius by <c val=\"bfd4fd\">15%</c>. Hitting an enemy Hero increases Vindication's healing by <c val=\"bfd4fd\">40%</c>. If more than one Hero is hit, the bonus is increased to <c val=\"bfd4fd\">80%</c>.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [

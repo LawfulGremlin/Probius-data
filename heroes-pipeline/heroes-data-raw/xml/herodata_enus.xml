@@ -206,7 +206,7 @@
         <AbathurSlapathur buttonId="AbathurSlapathur" name="Slapathur" abilityType="E" sort="4">
           <Icon>storm_ui_icon_abathur_volatilemutation.png</Icon>
           <ShortTooltip>Basic attacks Stun, deal bonus damage</ShortTooltip>
-          <FullTooltip>Abathur’s Basic Attacks deal &lt;c val="bfd4fd"&gt;500%&lt;/c&gt; additional damage and Stun non-Elite enemies and disable Structures for &lt;c val="bfd4fd"&gt;1.5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;The same Hero or Structure can only be Stunned or disabled once every &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Abathur’s Basic Attacks deal &lt;c val="bfd4fd"&gt;350%&lt;/c&gt; additional damage and Stun non-Elite enemies and disable Structures for &lt;c val="bfd4fd"&gt;1.5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;The same Hero or Structure can only be Stunned or disabled once every &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.</FullTooltip>
         </AbathurSlapathur>
       </Level4>
       <Level7>
@@ -395,6 +395,7 @@
               <AbathurSymbioteCarapace buttonId="AbathurSymbioteCarapace" name="Carapace" abilityType="E">
                 <Icon>storm_ui_icon_abathur_carapace.png</Icon>
                 <CooldownTooltip>Cooldown: 6 seconds</CooldownTooltip>
+                <ShortTooltip>Gain a Shield</ShortTooltip>
                 <FullTooltip>Shields the assisted ally for &lt;c val="bfd4fd"&gt;150~~0.04~~&lt;/c&gt;. Allied Heroes are healed for &lt;c val="bfd4fd"&gt;22~~0.04~~&lt;/c&gt; Health per second while the Shield is active. Lasts for &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.</FullTooltip>
               </AbathurSymbioteCarapace>
             </Basic>
@@ -5240,7 +5241,7 @@
         <ChenMasteryKegSmashATouchOfHoney buttonId="ChenKegSmashATouchOfHoneyTalent" name="A Touch of Honey" abilityType="W" sort="2">
           <Icon>storm_ui_icon_chen_kegsmash.png</Icon>
           <ShortTooltip>Increase Keg Smash Slow amount, duration</ShortTooltip>
-          <FullTooltip>Increase the Slows from Keg Smash by &lt;c val="bfd4fd"&gt;30%&lt;/c&gt; and its duration by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Increase the Slows from Keg Smash by &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; and its duration by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>ChenBreathOfFire</AbilityTalentLinkId>
             <AbilityTalentLinkId>ChenKegSmash</AbilityTalentLinkId>
@@ -6093,7 +6094,7 @@
         <ChromieTimeTrapChronicConditions buttonId="ChromieTimeTrapChronicConditions" name="Chronic Conditions" abilityType="E" sort="1">
           <Icon>storm_ui_icon_chromie_timetrap.png</Icon>
           <ShortTooltip>Time Trap auto-triggers, affects enemy/allied Move Speed</ShortTooltip>
-          <FullTooltip>Time Trap will activate on enemy Heroes automatically.&lt;n/&gt;&lt;n/&gt;After its Time Stop ends, enemies affected by Time Trap are Slowed by &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds and allies gain &lt;c val="bfd4fd"&gt;20%&lt;/c&gt; Movement Speed for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Time Trap will activate on enemy Heroes automatically.&lt;n/&gt;&lt;n/&gt;After its Time Stop ends, enemies affected by Time Trap are Slowed by &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds and allies gain &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; Movement Speed for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>ChromieTimeTrap</AbilityTalentLinkId>
             <AbilityTalentLinkId>ChromieTimeTrapDetonate</AbilityTalentLinkId>
@@ -10914,7 +10915,7 @@
         <GallDoubleTrouble buttonId="GallDoubleTroubleTalent" name="Double Trouble" abilityType="Q" isQuest="true" sort="2">
           <Icon>storm_ui_icon_gall_shadowflame_var1.png</Icon>
           <ShortTooltip>&lt;c val="e4b800"&gt;Quest: &lt;/c&gt;Lower Shadowflame's cooldown</ShortTooltip>
-          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes, Shadowflame's cooldown is instead permanently reduced by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; If Shadowflame hits an enemy Hero that is afflicted by Cho's Consuming Blaze, its cooldown is reduced by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes, Shadowflame's cooldown is instead permanently reduced by &lt;c val="bfd4fd"&gt;1&lt;/c&gt; second.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GallShadowflame</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -11658,7 +11659,7 @@
         <GenjiDeflectPerfectDefense buttonId="GenjiDeflectPerfectDefense" name="Perfect Defense" abilityType="W" sort="2">
           <Icon>storm_ui_icon_genji_deflect_a.png</Icon>
           <ShortTooltip>Reduce Deflect cooldown</ShortTooltip>
-          <FullTooltip>Deflected damage reduces the cooldown of Deflect by &lt;c val="bfd4fd"&gt;2&lt;/c&gt; seconds, up to a maximum of &lt;c val="bfd4fd"&gt;12&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Deflected damage reduces the cooldown of Deflect by &lt;c val="bfd4fd"&gt;2.5&lt;/c&gt; seconds, up to a maximum of &lt;c val="bfd4fd"&gt;12.5&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GenjiDeflectInstant</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -24101,7 +24102,7 @@
         <RagnarosMoltenCoreHeroicDifficulty buttonId="RagnarosMoltenCoreHeroicDifficulty" name="Heroic Difficulty" abilityType="Trait" sort="3">
           <Icon>storm_ui_icon_ragnaros_moltencore.png</Icon>
           <ShortTooltip>Enhances Molten Core range, cooldown</ShortTooltip>
-          <FullTooltip>Molten Core's range is increased by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; at the start of its duration.  In addition, the cooldown of Molten Core is reduced by &lt;c val="bfd4fd"&gt;110&lt;/c&gt; seconds when used on a destroyed Fort or Keep.</FullTooltip>
+          <FullTooltip>Molten Core's range is increased by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; at the start of its duration.  In addition, the cooldown of Molten Core is reduced by &lt;c val="bfd4fd"&gt;90&lt;/c&gt; seconds when used on a destroyed Fort or Keep.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>RagnarosMoltenCore</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -32217,7 +32218,7 @@
         <YrelVindicationLightOfKarabor buttonId="YrelVindicationLightOfKarabor" name="Light of Karabor" abilityType="Q" sort="1">
           <Icon>storm_ui_icon_yrel_vindication.png</Icon>
           <ShortTooltip>Increase Vindication radius, healing</ShortTooltip>
-          <FullTooltip>Increase Vindication's radius by &lt;c val="bfd4fd"&gt;15%&lt;/c&gt;. Hitting an enemy Hero increases Vindication's healing by &lt;c val="bfd4fd"&gt;45%&lt;/c&gt;. If more than one Hero is hit, the bonus is increased to &lt;c val="bfd4fd"&gt;90%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Increase Vindication's radius by &lt;c val="bfd4fd"&gt;15%&lt;/c&gt;. Hitting an enemy Hero increases Vindication's healing by &lt;c val="bfd4fd"&gt;40%&lt;/c&gt;. If more than one Hero is hit, the bonus is increased to &lt;c val="bfd4fd"&gt;80%&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>YrelVindicationCast</AbilityTalentLinkId>
             <AbilityTalentLinkId>YrelVindication</AbilityTalentLinkId>
