@@ -6067,7 +6067,7 @@
         <ChromieSandBlastOnceAgainTheFirstTime buttonId="ChromieSandBlastOnceAgaintheFirstTime" name="Once Again the First Time" abilityType="Q" isQuest="true" sort="1">
           <Icon>storm_ui_icon_chromie_aethercannon.png</Icon>
           <ShortTooltip>&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Sand Blast gains another Echo</ShortTooltip>
-          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes with Sand Blast from Chromie or her Echoes without dying.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Increase the maximum number of active Echoes to &lt;c val="bfd4fd"&gt;2&lt;/c&gt;, and increase Echo damage to &lt;c val="bfd4fd"&gt;45%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes with Sand Blast from Chromie or her Echoes without dying.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Increase the maximum number of active Echoes to &lt;c val="bfd4fd"&gt;2&lt;/c&gt;, and increase Echo damage to &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>ChromieSandBlast</AbilityTalentLinkId>
           </AbilityTalentLinkIds>

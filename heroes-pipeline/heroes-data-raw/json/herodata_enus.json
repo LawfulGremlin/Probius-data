@@ -9416,7 +9416,7 @@
           "name": "Once Again the First Time",
           "icon": "storm_ui_icon_chromie_aethercannon.png",
           "shortTooltip": "<c val=\"e4b800\">Quest:</c> Sand Blast gains another Echo",
-          "fullTooltip": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit <c val=\"bfd4fd\">20</c> Heroes with Sand Blast from Chromie or her Echoes without dying.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Increase the maximum number of active Echoes to <c val=\"bfd4fd\">2</c>, and increase Echo damage to <c val=\"bfd4fd\">45%</c>.",
+          "fullTooltip": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit <c val=\"bfd4fd\">20</c> Heroes with Sand Blast from Chromie or her Echoes without dying.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Increase the maximum number of active Echoes to <c val=\"bfd4fd\">2</c>, and increase Echo damage to <c val=\"bfd4fd\">50%</c>.",
           "abilityType": "Q",
           "isQuest": true,
           "sort": 1,
