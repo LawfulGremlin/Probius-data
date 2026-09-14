@@ -1888,7 +1888,7 @@ Button/Name/AbathurLocustSwarm=Стая саранчидов
 Button/Name/AbathurMonstrosityDeepTunnel=Глубинный тоннель
 Button/Name/AbathurMonstrosityEvolutionCompleteTalent=Предел эволюции
 Button/Name/AbathurReinforcedCarapaceTalent=Усиленный панцирь
-Button/Name/AbathurSlapathur=
+Button/Name/AbathurSlapathur=Шмякотур
 Button/Name/AbathurSymbiote=Симбионт
 Button/Name/AbathurSymbioteAdrenalOverloadTalent=Избыток адреналина
 Button/Name/AbathurSymbioteAdrenalineBoostTalent=Всплеск адреналина
@@ -3741,7 +3741,7 @@ Button/SimpleDisplayText/AbathurLocustSwarm=Призывает группу са
 Button/SimpleDisplayText/AbathurMonstrosityDeepTunnel=Перемещается в указанное место.
 Button/SimpleDisplayText/AbathurMonstrosityEvolutionCompleteTalent=Увеличивает урон от автоатак монстра.
 Button/SimpleDisplayText/AbathurReinforcedCarapaceTalent=Усиливает щит от «Панциря».
-Button/SimpleDisplayText/AbathurSlapathur=
+Button/SimpleDisplayText/AbathurSlapathur=Автоатаки оглушают цель и наносят больше урона
 Button/SimpleDisplayText/AbathurSymbiote=Помогает союзнику и получает новые способности.
 Button/SimpleDisplayText/AbathurSymbioteAdrenalOverloadTalent=Повышает скорость атаки хозяина симбионта.
 Button/SimpleDisplayText/AbathurSymbioteAdrenalineBoostTalent=«Панцирь» ускоряет передвижение.
@@ -5196,7 +5196,7 @@ Button/SimpleDisplayText/WitchDoctorThingOfTheDeepToken=<img path="@UI/StormTale
 Button/SimpleDisplayText/WitchDoctorToadAffinityTalent=Ускоряет восстановление при нанесении урона героям.
 Button/SimpleDisplayText/WitchDoctorVileInfection=<c val="#TooltipQuest">Задача:</c> усильте «Ритуал вуду».
 Button/SimpleDisplayText/WitchDoctorVoodooRitualBloodRitualTalent=«Ритуал вуду» восполняет здоровье и ману.
-Button/SimpleDisplayText/WitchDoctorVoodooRitualToken=Автоатаки и способности Назибо отравляют всех противников, кроме героев, и дополнительно наносят им <c val="#TooltipNumbers"><d ref="(Behavior,WitchDoctorVoodooRitualDoT,Duration-0.0625)*Effect,WitchDoctorVoodooRitualDamage,Amount"/></c> ед. урона в течение <c val="#TooltipNumbers"><d ref="Behavior,WitchDoctorVoodooRitualDoT,Duration" player="0"/></c> сек.<n/><n/><c val="#TooltipQuest">Задача:</c> если отравленный «Ритуалом вуду» воин умирает, максимальный запас здоровья Назибо до конца матча увеличивается на <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualHealthAccumulator,Scale"/></c> ед., а максимальный запас маны – на <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualEnergyAccumulator,Scale"/></c> ед.
+Button/SimpleDisplayText/WitchDoctorVoodooRitualToken=Автоатаки и способности Назибо отравляют всех противников, кроме героев, и дополнительно наносят им <c val="#TooltipNumbers"><d ref="(Behavior,WitchDoctorVoodooRitualDoT,Duration)*Effect,WitchDoctorVoodooRitualDamage,Amount"/></c> ед. урона в течение <c val="#TooltipNumbers"><d ref="Behavior,WitchDoctorVoodooRitualDoT,Duration" player="0"/></c> сек.<n/><n/><c val="#TooltipQuest">Задача:</c> если отравленный «Ритуалом вуду» воин умирает, максимальный запас здоровья Назибо до конца матча увеличивается на <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualHealthAccumulator,Scale"/></c> ед., а максимальный запас маны — на <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualEnergyAccumulator,Scale"/></c> ед.
 Button/SimpleDisplayText/WitchDoctorVoodooRitualTrait=Атаки наносят периодический урон. Убийства воинов дают здоровье и ману.
 Button/SimpleDisplayText/WitchDoctorWidowmakers=<c val="#TooltipQuest">Задача:</c> усильте «Трупных пауков».
 Button/SimpleDisplayText/WitchDoctorWidowmakersToken=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/>Поражайте героев способностью «Трупные пауки», чтобы усилить ее.
@@ -5265,7 +5265,7 @@ Button/SimpleDisplayText/ZagaraHunterKillerBroodExpansionTalent=Ускоряет
 Button/SimpleDisplayText/ZagaraHunterKillerGroovedSpinesTalent=Увеличивает дальность автоатаки и наносимый урон.
 Button/SimpleDisplayText/ZagaraHunterKillerMutaliskTalent=«Охотник-убийца» порождает муталиска.
 Button/SimpleDisplayText/ZagaraHydraliskTransfusionTalent=Атаки «Охотника-убийцы» исцеляют Загару.
-Button/SimpleDisplayText/ZagaraInfest=Находящиеся поблизости союзные воины дальнего боя наносят больше урона.
+Button/SimpleDisplayText/ZagaraInfest=<c val="#TooltipQuest">Задача:</c> увеличьте урон находящихся рядом воинов дальнего боя.
 Button/SimpleDisplayText/ZagaraInfestItem=Находящиеся поблизости союзные воины дальнего боя наносят больше урона.
 Button/SimpleDisplayText/ZagaraInfestedDrop=Призывает десантную капсулу, из которой появляются труплинги.
 Button/SimpleDisplayText/ZagaraInfestedDropBileDropTalent=<c val="#TooltipQuest">Задача:</c> увеличьте максимальное количество труплингов.
@@ -5312,14 +5312,14 @@ Button/SimpleDisplayText/ZeratulVorpalBladeHotbar=Телепортирует к 
 Button/SimpleDisplayText/ZeratulWarpSkirmisher=«Карающий клинок» получает дополнительный заряд.
 Button/SimpleDisplayText/ZeratulWormholeTalent=Позволяет вернуться на исходную позицию.
 Button/Tooltip/AbathurDeepTunnel=Быстро переносится под землей в видимое место.
-Button/Tooltip/AbathurEvolveMonstrosityHotbar=Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в <c val="#TooltipNumbers"><d ref="100*Behavior,AbathurEvolveMonstrosityHealthStack,Modification.VitalMaxArray[Life]/Unit,AbathurEvolvedMonstrosity,LifeStart"/>%</c> к запасу здоровья и <c val="#TooltipNumbers"><d ref="Accumulator,AbathurEvolveMonstrosityMinionAbsorbedAccumulator,Scale*100"/>%</c> к урону от автоатак. Бонус суммируется до <c val="#TooltipNumbers"><d ref="Behavior,AbathurEvolveMonstrosityAbathurStack,MaxStackCount"/></c> раз. Монстр может получать исцеление от «Панциря» симбионта и перемещаться под землей в видимую точку раз в <c val="#TooltipNumbers"><d ref="Abil,AbathurMonstrosityDeepTunnel,Cost.Cooldown.TimeUse"/></c> сек.<n/><n/>Используя на монстре «Симбионта», Абатур может им управлять, а также использовать способности симбионта. При повторном использовании автоматически помещает на монстра симбионта.
+Button/Tooltip/AbathurEvolveMonstrosityHotbar=Превращает союзного воина или саранчида в монстра. Когда рядом с монстром погибает воин противника, он получает бонус в <c val="#TooltipNumbers"><d ref="100*Accumulator,AbathurEvolveMonstrosityStackHealthAccumulator,Scale/Unit,AbathurEvolvedMonstrosity,LifeStart" player="0"/>%</c> к запасу здоровья и <c val="#TooltipNumbers"><d ref="Accumulator,AbathurEvolveMonstrosityStackDamageAccumulator,Scale*100" player="0"/>%</c> к урону от автоатак. Бонус суммируется до <c val="#TooltipNumbers"><d ref="Behavior,AbathurEvolveMonstrosityQuestStack,Max"/></c> раз. Монстр может получать исцеление от «Панциря» симбионта и перемещаться под землей в видимую точку раз в <c val="#TooltipNumbers"><d ref="Abil,AbathurMonstrosityDeepTunnel,Cost.Cooldown.TimeUse"/></c> сек.<n/><n/>Используя на монстре «Симбионта», Абатур может им управлять, а также использовать способности симбионта. При повторном использовании автоматически помещает на монстра симбионта.
 Button/Tooltip/AbathurEvolvedMonstrosity=<s val="StandardTooltipDetails">Героическая способность</s><n/><s val="StandardTooltipDetails">Время восстановления: <d ref="Abil,WitchDoctorGargantuan,Cost[0].Cooldown.TimeUse" precision="1"/> сек.<n/><n/><s val="StandardTooltip">Призывает громадня, который наносит <s val="StandardTooltipDetails"><d ref="Effect,WitchDoctorGargantuanInitialImpactDamage,Amount"/></s> ед. урона в момент появления. Громадень может хватать вражеских воинов и растаптывать находящихся рядом противников, снижая их скорость передвижения на <s val="StandardTooltipDetails"><d ref="-Behavior,WitchDoctorGargantuanSlow,Modification.UnifiedMoveSpeedFactor*100"/>%</s>. Время существования – <s val="StandardTooltipDetails">20</s> сек.
 Button/Tooltip/AbathurLocustMasterHotbar=При использовании создает гнездо, из которого периодически появляются саранчиды. Одновременно может использоваться только одно гнездо.
 Button/Tooltip/AbathurLocustNest=<s val="StandardTooltipDetails">Время восстановления заряда: <d ref="Abil,AbathurToxicNest,Cost[0].Charge.TimeUse" precision="1"/> сек.<n/><n/><s val="StandardTooltip">Размещает в указанном месте гнездо-мину, которое становится активным спустя некоторое время. Гнездо наносит <s val="StandardTooltipDetails"><d ref="Effect,ToxicNestDamage,Amount"/></s> ед. урона касающимся его противникам и открывает их местоположение на <s val="StandardTooltipDetails"><d ref="Behavior,ToxicNestReveal,Duration" player="0"/></s> сек. Время действия – <s val="StandardTooltipDetails"><d ref="Behavior,ToxicNestSearchBehaviorTimedLife,Duration" player="0"/></s> сек.</s>
 Button/Tooltip/AbathurLocustNestItem=<s val="StandardTooltipHeader">Стая саранчидов</s><n/><s val="StandardTooltipDetails">Время восстановления: <d ref="Abil,AbathurLocustSwarm,Cost[0].Cooldown.TimeUse" precision="1"/> сек.<n/><s val="StandardTooltip"><n/><s val="StandardTooltip">При использовании размещает в указанной области гнездо, порождающее <s val="StandardTooltipDetails">3</s> саранчидов.
-Button/Tooltip/AbathurLocustStrain=Раз в <c val="#TooltipNumbers"><d ref="Abil,AbathurSpawnLocusts,Cost[0].Cooldown.TimeUse" player="0" precision="1"/></c> сек. порождает саранчида с <c val="#TooltipNumbers"><d ref="Unit,AbathurLocustNormal,LifeMax"/></c> ед. здоровья, атакующего ближайшую линию. Саранчид существует <c val="#TooltipNumbers"><d ref="Behavior,LocustTimedLife,Duration" player="0"/></c> сек. и наносит <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustWeaponDamage,Amount"/></c> ед. урона с каждой автоатакой, при этом нанося на <c val="#TooltipNumbers"><d ref="100*Effect,AbathurLocustWeaponDamage,MultiplicativeModifierArray[StructureDamage].Modifier"/>%</c> больше урона строениям.
+Button/Tooltip/AbathurLocustStrain=Раз в <c val="#TooltipNumbers"><d ref="Abil,AbathurSpawnLocusts,Cost[0].Cooldown.TimeUse" player="0" precision="1"/></c> сек. порождает саранчида, атакующего ближайшую линию. Саранчиды восполняют здоровье в объеме <c val="#TooltipNumbers">20%</c> от наносимого ими урона, а также восполняют <c val="#TooltipNumbers">20%</c> максимального запаса здоровья, когда рядом с ними погибает воин.</n></n>Саранчиды постепенно теряют здоровье в течение <c val="#TooltipNumbers"><d ref="-Unit,AbathurLocust,LifeMax/Unit,AbathurLocust,LifeRegenRate"/></c> сек., их запас здоровья равен <c val="#TooltipNumbers"><d ref="Unit,AbathurLocustNormal,LifeMax"/></c> ед., и они наносят <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustWeaponDamage,Amount"/></c> ед. урона с каждой автоатакой, при этом нанося на <c val="#TooltipNumbers"><d ref="100*Effect,AbathurLocustWeaponDamage,MultiplicativeModifierArray[StructureDamage].Modifier"/>%</c> больше урона всем, кроме героев.
 Button/Tooltip/AbathurLocustStrainAssaultStrainTalent=Атаки саранчидов наносят <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustAssaultWeaponCleaveDamage,Amount/Effect,AbathurLocustAssaultWeaponDamage,Amount*100"/>%</c> урона всем противникам рядом с основной целью. Кроме того, саранчиды взрываются в момент гибели, нанося <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustAssaultExplodeDamage,Amount"/></c> ед. урона.
-Button/Tooltip/AbathurLocustStrainBombardStrainTalent=Саранчиды атакуют с большого расстояния и существуют на <c val="#TooltipNumbers"><d ref="100*Talent,AbathurCombatStyleBombardStrain,AbilityModificationArray[0].Modifications[0].Value/Behavior,LocustTimedLife,Duration"Player="0"/>%</c> дольше.
+Button/Tooltip/AbathurLocustStrainBombardStrainTalent=Саранчиды атакуют с большого расстояния и теряют здоровье на <c val="#TooltipNumbers">50%</c> медленнее.
 Button/Tooltip/AbathurLocustStrainCombatAdaptationTalent=<s val="StandardTooltipHeader">Боевая адаптация</s><s val="StandardTooltipDetails"><n/><n/><s val="StandardTooltip">Скорость атаки саранчидов повышается на <s val="StandardTooltipDetails"><d ref="100*Behavior,CombatAdaptation,Modification.AdditiveAttackSpeedFactor"/>%</s>.
 Button/Tooltip/AbathurLocustStrainCombatAdaptationTalentSimple=<s val="TalentChoiceNameLabel">Боевая адаптация</s><n/><s val="TalentChoiceDescriptionLabel">Скорость атаки саранчидов повышается.
 Button/Tooltip/AbathurLocustStrainSurvivalInstinctsTalent=Увеличивает запас здоровья саранчидов на <c val="#TooltipNumbers"><d ref="100*Behavior,AbathurSurvivalInstinctsBuff,Modification.VitalMaxAdditiveMultiplierArray[Life]" player="0"/>%</c>, а их урон – на <c val="#TooltipNumbers"><d ref="100*Effect,AbathurLocustWeaponDamage,MultiplicativeModifierArray[SurvivalInstincts].Modifier"/>%</c>.
@@ -5327,7 +5327,7 @@ Button/Tooltip/AbathurLocustSwarm=При использовании призыв
 Button/Tooltip/AbathurMonstrosityDeepTunnel=Приказывает монстру перенестись под землей в видимое место.
 Button/Tooltip/AbathurMonstrosityEvolutionCompleteTalent=Увеличивает урон от автоатак монстра на <c val="#TooltipNumbers"><d ref="100*Effect,AbathurEvolveMonstrosityWeaponDamage,MultiplicativeModifierArray[EvolutionCompleteDamage].Modifier"/>%</c>.
 Button/Tooltip/AbathurReinforcedCarapaceTalent=Увеличивает прочность щита от «Панциря» на <c val="#TooltipNumbers"><d ref="100*(Talent,AbathurReinforcedCarapace,AbilityModificationArray[0].Modifications[0].Value)-100"Precision="2"/>%</c>.
-Button/Tooltip/AbathurSlapathur=
+Button/Tooltip/AbathurSlapathur=Автоатаки Абатура наносят на <c val="#TooltipNumbers">500%</c> больше урона, оглушают неэлитных врагов и обезвреживают постройки на <c val="#TooltipNumbers"><d ref="Behavior,AbathurSlapathurStun,Duration" precision="1"/></c> сек.</n></n>Одну и ту же цель можно оглушить или обезвредить не чаще раза в <c val="#TooltipNumbers"><d ref="Behavior,SlapathurInternalCooldown,Duration"/></c> сек.
 Button/Tooltip/AbathurSymbiote=Помещает симбионта на выбранного союзника или строение. Пока способность активна, Абатур управляет симбионтом, получая доступ к новым способностям. Симбионт получает опыт, если поблизости умирает противник.
 Button/Tooltip/AbathurSymbioteAdrenalOverloadTalent=Повышает скорость атаки хозяина симбионта на <c val="#TooltipNumbers"><d ref="Behavior,AbathurAdrenalOverload,Modification.AdditiveAttackSpeedFactor*100" player="0" precision="2"/>%</c>, если это герой.
 Button/Tooltip/AbathurSymbioteAdrenalineBoostTalent=«Панцирь» симбионта повышает скорость передвижения цели на <c val="#TooltipNumbers"><d ref="100*Behavior,AdrenalineBoost,Modification.UnifiedMoveSpeedFactor"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,AdrenalineBoost,Duration" precision="1" player="0"/></c> сек.
@@ -5379,7 +5379,7 @@ Button/Tooltip/AnubarakHardenCarapaceShedExoskeletonTalent=«Укрепленн�
 Button/Tooltip/AnubarakHardenCarapaceUrtricatingSpinesTalent=Наносит <c val="#TooltipNumbers"><d ref="Effect,AnubarakUrticatingSpinesDamage,Amount"/></c> ед. урона находящимся рядом противникам при использовании «Укрепленного панциря». Герои получают двойной урон.
 Button/Tooltip/AnubarakImpale=Наносит <c val="#TooltipNumbers"><d ref="Effect,AnubarakImpaleDamage,Amount"/></c> ед. урона. Оглушает на <c val="#TooltipNumbers"><d ref="Behavior,AnubarakImpaleStun,Duration" player="0" precision="2"/></c> сек.
 Button/Tooltip/AnubarakImpaleBedOfBarbsTalent=Рассыпает шипы в области действия «Пронзания». Скорость передвижения противников в этой области снижается на <c val="#TooltipNumbers"><d ref="-100*Behavior,AnubarakImpaleBedOfBarbsSlow,Modification.UnifiedMoveSpeedFactor" precision="2"/>%</c>, и они получают <c val="#TooltipNumbers"><d ref="Effect,AnubarakImpaleBedOfBarbsPeriodicDamage,Amount"/></c> ед. урона в секунду. Шипы существуют <c val="#TooltipNumbers"><d ref="Effect,AnubarakImpaleBedOfBarbsCreatePersistent,PeriodCount*Effect,AnubarakImpaleBedOfBarbsCreatePersistent,PeriodicPeriodArray[0]" player="0" precision="1"/></c> сек.
-Button/Tooltip/AnubarakLeechingMandiblesTalent=Жуки наносят на <c val="#TooltipNumbers"><d ref="Effect,AnubarakBeetleSpitBeetleDamage,MultiplicativeModifierArray[AnubarakLeechingScarabsDamage].Modifier*100"/>%</c> больше урона и восполняют Ануб'араку здоровье в объеме <c val="#TooltipNumbers">50%</c> наносимого ими урона, если находятся рядом.
+Button/Tooltip/AnubarakLeechingMandiblesTalent=Атаки жуков наносят на <c val="#TooltipNumbers"><d ref="Effect,AnubarakBeetleSpitBeetleDamage,MultiplicativeModifierArray[AnubarakLeechingScarabsDamage].Modifier*100"/>%</c> больше урона. Если Ануб'арак находится рядом, его здоровье восполняется в объеме <c val="#TooltipNumbers"><d ref="Effect,AnubarakBeetleSpitBeetleDamage,LeechFraction[Life]*100"/>%</c> от нанесенного урона.
 Button/Tooltip/AnubarakLegionOfBeetlesTalent=Жуки получают <c val="#TooltipNumbers"><d ref="Behavior,AnubarakLegionOfBeetlesBeetleArmorBuffBehavior,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Ability]"/></c> ед. энергетической брони. Раз в <c val="#TooltipNumbers"><d ref="Abil,AnubarakLegionOfBeetles,Cost[0].Cooldown.TimeUse" player="0"/></c> сек. автоматически призывает жука. Можно отключить.
 Button/Tooltip/AnubarakLegionOfBeetlesToggle=<s val="StandardTooltipHeader">Легион жуков</s><n/><s val="StandardTooltipDetails">Время восстановления: <d ref="Abil,AnubarakLegionofBeetlesTalentAbility,Cost[0].Cooldown.TimeUse"/> seconds</n></n><s val="StandardTooltip">Ануб'арак периодически призывает жуков.
 Button/Tooltip/AnubarakLocustSwarm=Наносит находящимся рядом противникам <c val="#TooltipNumbers"><d ref="Effect,AnubarakLocustSwarmDamage,Amount"/></c> ед. урона в секунду и восполняет <c val="#TooltipNumbers"><d ref="Effect,AnubarakLocustSwarmHeal,RechargeVitalRate"/></c> ед. здоровья за каждого пораженного противника. Время действия – <c val="#TooltipNumbers"><d ref="[d ref='Effect,AnubarakLocustSwarmCreatePersistent,PeriodCount' player='0'/] * Effect,AnubarakLocustSwarmCreatePersistent,PeriodicPeriodArray[0]"/></c> сек.
@@ -5431,7 +5431,7 @@ Button/Tooltip/ArtanisTwinBladesTripleStrikeTalent=Увеличивает кол
 Button/Tooltip/ArtanisTwinBladesZealotChargeTalent=Увеличивает дальность рывка с «Парными клинками» на <c val="#TooltipNumbers">75%</c>.
 Button/Tooltip/ArthasAbsoluteZeroSummonSindragosaTalent=Удваивает дальность полета Синдрагосы. Синдрагоса обездвиживает героев на <c val="#TooltipNumbers"><d ref="Behavior,ArthasSummonSindragosaHeroRoot,Duration" player="0"Precision="2"/></c> сек., после чего замедляет их на <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasSummonSindragosaAbsoluteZeroSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasSummonSindragosaAbsoluteZeroSlow,Duration" player="0" precision="1"/></c> сек.
 Button/Tooltip/ArthasAntiMagicShellTalent=При использовании дает невосприимчивость к урону от способностей на <c val="#TooltipNumbers"><d ref="Behavior,ArthasAntiMagicShellCaster,Duration"/></c> сек. и восполняет здоровье в объеме <c val="#TooltipNumbers">25%</c> предотвращенного таким образом урона.
-Button/Tooltip/ArthasArmyOfTheDead=Призывает вурдалаков в количестве, равном накопленным зарядам способности. Вурдалаки постепенно теряют здоровье в течение <c val="#TooltipNumbers"><d ref="-Unit,ArthasArmyOfTheDeadGhoul,LifeMax/Unit,ArthasArmyOfTheDeadGhoul,LifeRegenRate" player="0"/></c> сек. и атакуют врагов поблизости, нанося <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadGhoulWeaponDamage,Amount"/></c> ед. урона. При повторном использовании Артас принесет в жертву одного вурдалака и восстановит себе <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHeal,RechargeVitalRate"/></c> ед. здоровья. Максимум зарядов — <c val="#TooltipNumbers"><d ref="Abil,ArthasArmyOfTheDead,Cost.Charge.CountMax"/></c>.<n/><n/>Каждый раз, когда поблизости погибает вражеский воин, время восстановления заряда способности сокращается на <c val="#TooltipNumbers"><d ref="-Effect,ArthasArmyoftheDeadNPCDeathModifyChargeCooldown,Cost[0].ChargeTimeUse"precision="1"/></c> сек. Когда Артас убивает героя, время восстановления заряда также сокращается на <c val="#TooltipNumbers"><d ref="-Effect,ArthasArmyoftheDeadTakedownModifyChargeCooldown,Cost[0].ChargeTimeUse"precision="1"/></c> сек.
+Button/Tooltip/ArthasArmyOfTheDead=Призывает <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadSpawnPersistent,PeriodCount" player="0"/></c> <lang rule="plural" val="">вурдалака,вурдалаков,вурдалаков</lang> с запасом здоровья <c val="#TooltipNumbers"><d ref="Unit,ArthasArmyOfTheDeadGhoul,LifeMax"/></c> ед., который постепенно сходит на нет в течение <c val="#TooltipNumbers"><d const="$ArthasArmyOfTheDeadGhoulDecayDuration" /></c> сек. Вурдалаки следуют за Артасом и атакуют врагов поблизости, нанося <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadGhoulWeaponDamage,Amount"/></c> ед. урона.<n/><n/>При повторном использовании Артас принесет <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHealSearch,AreaArray[0].MaxCount"/></c><lang rule="plural" val="">вурдалака,вурдалаков,вурдалаков</lang> в жертву и восполнит <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHeal,RechargeVitalRate"/></c> ед. здоровья. Интервал между применениями — <c val="#TooltipNumbers"><d ref="Abil,ArthasArmyOfTheDeadSacrifice,Cost.Cooldown.TimeUse"/></c> сек.
 Button/Tooltip/ArthasArmyOfTheDeadSacrifice=Приносит в жертву вурдалака, чтобы восполнить Артасу <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHeal,RechargeVitalRate"/></c> ед. здоровья.
 Button/Tooltip/ArthasArmyOfTheDeadSacrificeUpgrade=<s val="StandardTooltipDetails">Время восстановления: <d ref="Abil,ArthasArmyOfTheDeadSacrifice,Cost[0].Cooldown.TimeUse"/> сек.<n/><n/><s val="StandardTooltip">Приносит в жертву вурдалака, чтобы восполнить <s val="StandardTooltipDetails"><d ref="Effect,ArmyOfTheDeadLegionofNorthrendHeal,RechargeVitalRate"/></s> ед. здоровья.
 Button/Tooltip/ArthasBitingColdFrozenTempestTalent=Пока «Ледяная буря» наносит противнику урон, он с каждой секундой увеличивается на <c val="#TooltipNumbers"><d ref="100*Accumulator,ArthasFrozenTempestBitingColdTalentAccumulator,Scale*2"Precision="2"/>%</c>, вплоть до <c val="#TooltipNumbers"><d ref="100*Accumulator,ArthasFrozenTempestBitingColdTalentAccumulator,MaxAccumulation"/>%</c>.
@@ -5449,11 +5449,11 @@ Button/Tooltip/ArthasFrostPresenceHowlingBlastTalent=Увеличивает пл
 Button/Tooltip/ArthasFrostPresenceToken=<c val="#TooltipQuest">Попаданий по героям: <c val="#TooltipNumbers" validator="True"><d ref="$BehaviorStackCount:ArthasFrostPresenceTokenCounter$"/>/<d ref="Behavior,ArthasFrostPresenceTokenCounter,Max"/></c>
 Button/Tooltip/ArthasFrostStrikeFrostmourneHungersTalent=«Жажда Ледяной Скорби» дополнительно наносит <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersFrostStrikeTalentDamage,Amount"/></c> ед. урона от способностей и замедляет пораженных вражеских героев на <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasFrostmourneHungersFrostStrikeSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrostmourneHungersFrostStrikeSlow,Duration"/></c> сек.
 Button/Tooltip/ArthasFrostmourneFeedsFrostmourneHungersTalents=Время восстановления «Жажды Ледяной Скорби» сокращается на <c val="#TooltipNumbers"><d ref="-Talent,ArthasMasteryFrostmourneFeedsFrostmourneHungers,AbilityModificationArray[0].Modifications[0].Value"/></c> сек. Артас получает исцеление в размере <c val="#TooltipNumbers"><d ref="100*Effect,ArthasFrostmourneHungersDamage,LeechFraction[Life]"/>%</c> урона от автоатак, наносимого «Жаждой Ледяной Скорби».
-Button/Tooltip/ArthasFrostmourneHungers=При активации следующая автоатака Артаса станет мгновенной, дополнительно нанесет <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c> ед. урона и восполнит ему <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c> ед. маны при попадании.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Задача:</c> убийства воинов или попадания по героям «Жаждой Ледяной Скорби» до конца матча увеличивают дополнительный урон от способности, а также урон от автоатак Артаса на <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед.
+Button/Tooltip/ArthasFrostmourneHungers=При активации следующая автоатака Артаса станет мгновенной, дополнительно нанесет <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c> ед. урона и восполнит ему <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c> ед. маны при попадании.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Задача:</c> убийства воинов или попадания по героям «Жаждой Ледяной Скорби» до конца матча увеличивают дополнительный урон от способности на <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед., а урон от автоатак Артаса — на <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersBasicAttackDamageAccumulator,Scale" precision="2"/></c> ед.
 Button/Tooltip/ArthasFrostmourneHungersActive=<s val="StandardTooltipDetails">Умение<n/><s val="StandardTooltipDetails">Время восстановления: <d ref="Abil,FrostmourneHungers,Cost[0].Cooldown.TimeUse" precision="1"/> сек.</s><n/><n/><s val="StandardTooltip">Следующая автоатака Артаса нанесет на <s val="StandardTooltipDetails"><d ref="100*Effect,FrostmourneHungersDamage,AttributeFactor[Heroic]"/>%</s> больше урона и восполнит ему <s val="StandardTooltipDetails"><d ref="Effect,FrostmourneHungersManaRestoreModifyUnit,VitalArray[2].Change"/></s> ед. маны.</s>
 Button/Tooltip/ArthasFrostmourneHungersHeroSelectButton=<s val="StandardTooltip">Усиливает следующую автоатаку и восполняет ману при попадании.
 Button/Tooltip/ArthasFrostmourneHungersPrimed=Следующая автоатака Артаса дополнительно нанесет <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c> ед. урона и восполнит ему <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c> ед. маны при попадании.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Задача:</c> убийства воинов или попадания по героям «Жаждой Ледяной Скорби» до конца матча увеличивают дополнительный урон этой способности, а также урон от автоатак Артаса на <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед.
-Button/Tooltip/ArthasFrostmourneHungersToken=<c val="#TooltipQuest">Бонус к урону от автоатак: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед.</c><n/><c val="#TooltipQuest">Бонус к урону от «Жажды Ледяной Скорби»: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед.
+Button/Tooltip/ArthasFrostmourneHungersToken=<c val="#TooltipQuest">Бонус к урону от автоатак: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersBasicAttackDamageAccumulator,Scale"/></c></c> ед.<n/><c val="#TooltipQuest">Бонус к урону от «Жажды Ледяной Скорби»: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед.
 Button/Tooltip/ArthasFrostmourneHungersTokenSimple=При активации следующая автоатака Артаса станет мгновенной, дополнительно нанесет <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c> ед. урона и восполнит ему <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c> ед. маны при попадании.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Задача:</c> убийства воинов или попадания по героям «Жаждой Ледяной Скорби» увеличивают урон от автоатак Артаса на <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> ед. до конца матча.
 Button/Tooltip/ArthasFrozenTempest=Наносит находящимся рядом противникам <c val="#TooltipNumbers"><d ref="Effect,ArthasFrozenTempestDamage,Amount*2"/></c> ед. урона в секунду и замедляет их на <c val="#TooltipNumbers"><d ref="-1*Behavior,ArthasFrozenTempestSlow,Modification.UnifiedMoveSpeedFactor*100*2" player="0"/>%</c> каждую секунду, вплоть до <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasFrozenTempestSlow,MaxStackCount*Behavior,ArthasFrozenTempestSlow,Modification.UnifiedMoveSpeedFactor" player="0"/>%</c>. Также снижает скорость атаки пораженных героев на <c val="#TooltipNumbers"><d ref="-Behavior,ArthasFrozenTempestAttackSpeedSlow,Modification.AdditiveAttackSpeedFactor * 100 * 2" player="0"/>%</c> каждую секунду, вплоть до <c val="#TooltipNumbers"><d ref="-Behavior,ArthasFrozenTempestAttackSpeedSlow,Modification.AdditiveAttackSpeedFactor * 100 * Behavior,ArthasFrozenTempestAttackSpeedSlow,MaxStackCount" player="0"/>%</c>. Время действия — <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestSlow,Duration" precision="1" player="0"/></c> сек.
 Button/Tooltip/ArthasFrozenTempestDeactive=Прекращает действие способности «Ледяная буря».
@@ -5461,11 +5461,11 @@ Button/Tooltip/ArthasFrozenWastesFrozenTempestTalent=Снижает стоимо
 Button/Tooltip/ArthasFrozenWastesQuestTokenFrozenTempestTalent=<c val="#TooltipQuest">Попаданий по героям: <c val="#TooltipNumbers" validator="ArthasDoesNotHaveMaxFrozenWastesStacks"><d ref="Accumulator,ArthasFrozenWastesTokenAccumulator,Scale*$BehaviorStackCount:ArthasFrozenWastesQuestToken$"/>/<d ref="Accumulator,ArthasFrozenWastesTokenAccumulator,MaxAccumulation"/></c></c>
 Button/Tooltip/ArthasGorefiendsGrasp=Герои, пораженные «Ликом смерти», притягиваются к Артасу.<n/><n/><c val="#AbilityPassive">Пассивный эффект:</c> дальность «Лика смерти» увеличивается на <c val="#TooltipNumbers"><d ref="-100+(100*Talent,ArthasGorefiendsGrasp,AbilityModificationArray[0].Modifications[0].Value)"/>%</c>.
 Button/Tooltip/ArthasHowlingBlast=Обездвиживает противников в указанной области на <c val="#TooltipNumbers"><d ref="Behavior,ArthasHowlingBlastRoot,Duration" player="0" precision="2"/></c> сек. и наносит <c val="#TooltipNumbers"><d ref="Effect,ArthasHowlingBlastDamage,Amount"/></c> ед. урона.
-Button/Tooltip/ArthasIceboundFortitudeTalent=При использовании дает <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,ArmorModification.AllArmorBonus"/></c> ед. брони и сокращает длительность эффектов оглушения, замедления и обездвиживания на <c val="#TooltipNumbers">75%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,Duration" precision="1"/></c> сек.<n/><n/>Время восстановления «Воющего ветра» сокращается на <c val="#TooltipNumbers"><d ref="-Effect,ArthasIceboundFortitudeModifyCooldown,Cost[0].CooldownTimeUse"/></c> сек. за каждого обездвиженного этой способностью героя.
+Button/Tooltip/ArthasIceboundFortitudeTalent=При использовании мгновенно снимает эффекты обездвиживания и замедления. Дает <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,ArmorModification.AllArmorBonus"/></c> ед. брони и сокращает длительность эффектов оглушения, замедления и обездвиживания на <c val="#TooltipNumbers">75%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,Duration" precision="1"/></c> сек.<n/><n/>Время восстановления «Воющего ветра» сокращается на <c val="#TooltipNumbers"><d ref="-Effect,ArthasIceboundFortitudeModifyCooldown,Cost[0].CooldownTimeUse"/></c> сек. за каждого обездвиженного этой способностью героя.
 Button/Tooltip/ArthasIcyTalons=Каждый раз, когда «Ледяная буря» наносит урон герою, повышает скорость атаки на <c val="#TooltipNumbers"><d ref="100*Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,Modification.AdditiveAttackSpeedFactor"precision="2"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,Duration" precision="3"/></c> сек., вплоть до <c val="#TooltipNumbers"><d ref="100*Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,Modification.AdditiveAttackSpeedFactor*Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,MaxStackCount" precision="3"/>%</c>.
 Button/Tooltip/ArthasImmortalCoilDeathCoilTalent=«Лик смерти» лечит Артаса, даже если целью выбран противник. Если применить «Лик смерти» к Артасу, он восполняет на <c val="#TooltipNumbers"><d ref="Effect,ArthasDeathCoilSelfCastCreateHealer,MultiplicativeModifierArray[0].Modifier*100"Precision="2"/>%</c> больше здоровья, а время его восстановления сокращается на <c val="#TooltipNumbers"><d ref="-Effect,ArthasDeathCoilImmortalCoilTalentModifyUnit,Cost[0].CooldownTimeUse"/></c> сек.
 Button/Tooltip/ArthasLegionOfNorthrendArmyOfTheDeadTalent=Сокращает время восстановления зарядов «Войска мертвых» на <c val="#TooltipNumbers"><d ref="-Talent,ArthasMasteryLegionOfNorthrendArmyoftheDead,AbilityModificationArray[0].Modifications[0].Value"/></c> сек.<n/><n/>При каждом использовании заряда призывается еще один вурдалак. Призванных таким образом вурдалаков нельзя принести в жертву.
-Button/Tooltip/ArthasPathofFrost=Позволяет мгновенно призвать транспорт, скорость которого увеличивается на <c val="#TooltipNumbers"><d ref="100*(Behavior,ArthasPathofFrostTimedBehavior,Modification.UnifiedMoveSpeedFactor-Behavior,Mounted,Modification.UnifiedMoveSpeedFactor)"/>%</c>. При получении урона действие транспорта не отменяется. Максимальная длительность — <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostTimedBehavior,Duration"/></c> сек.<n/><n/>Когда Артас спешивается, все враги поблизости замедляются на <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasPathofFrostSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostSlow,Duration"/></c> сек. и получают <c val="#TooltipNumbers"><d ref="Effect,ArthasPathofFrostDamage,Amount"/></c> ед. урона.
+Button/Tooltip/ArthasPathofFrost=Позволяет мгновенно призвать транспорт, минимальная скорость которого — <c val="#TooltipNumbers">140%</c>. При получении урона действие транспорта не отменяется. Максимальная длительность — <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostTimedBehavior,Duration"/></c> сек.<n/><n/>Когда Артас спешивается, все враги поблизости замедляются на <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasPathofFrostSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostSlow,Duration"/></c> сек. и получают <c val="#TooltipNumbers"><d ref="Effect,ArthasPathofFrostDamage,Amount"/></c> ед. урона.
 Button/Tooltip/ArthasRemorselessWinterFrozenTempestTalent=Если герой находится под действием «Ледяной бури» <c val="#TooltipNumbers">2,5</c> сек., он обездвиживается на <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestRemorselessWinterRoot,Duration"Precision="2"/></c> сек., а Артас восстанавливает <c val="#TooltipNumbers"><d ref="100*Effect,ArthasFrozenTempestRemorselessWinterTalentHealer,RechargeVitalFraction"/>%</c> своего максимального запаса здоровья. Каждая пораженная цель может быть обездвижена не чаще одного раза в <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestRemorselessWinterImmunity,Duration"/></c> сек.
 Button/Tooltip/ArthasRime=Раз в <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeCharged,DamageResponse.Cost.Charge.TimeUse"/></c> сек. Артас получает <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeChargedArmorBehavior,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Basic]"/></c> ед. кинетической брони. Эта броня уменьшает урон от следующей автоатаки вражеского героя на <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeChargedArmorBehavior,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Basic]"/>%</c>. Максимум зарядов — <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeCharged,DamageResponse.Cost.Charge.CountMax"/></c>.<n/><n/><c val="#AbilityPassive">Пассивный эффект:</c> Артас восстанавливает <c val="#TooltipNumbers"><d ref="Effect,ArthasRimeHeal,RechargeVitalRate*(1/Behavior,ArthasRimeHealCarry,Period)"/></c> ед. здоровья в секунду при замедлении, обездвиживании или оглушении.
 Button/Tooltip/ArthasRuneTap=<s val="StandardTooltipHeader">Руна алой ярости</s><s val="StandardTooltipDetails"><n/><n/>+25% к урону по области<n/>+10% к вытягиванию жизни
@@ -5690,7 +5690,7 @@ Button/Tooltip/CancelBanelingBarrage=<s val="StandardTooltip"><n/>Отменит
 Button/Tooltip/CancelTrebuchetTransform=<s val="StandardTooltip"><n/>Отменить смену форм.
 Button/Tooltip/CatapultMinion=<s val="StandardTooltipDetails">Наносит урон по области с большого расстояния. Может атаковать строения с безопасного расстояния.</s>
 Button/Tooltip/CentrifugalHooksTalent2=<s val="StandardTooltipHeader">Круговые зацепы</s><n/><s val="StandardTooltip"><n/>Гиблинги преодолевают двойное расстояние перед тем, как взорваться.
-Button/Tooltip/ChenAccumulatingFlame=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Награда:</c> наносите урон героям «Пламенным дыханием», чтобы до конца матча увеличить периодический урон на <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestToken,Value" precision="2"/></c> ед. При убийстве урон увеличивается на <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestTokenHeroDeath,Value"/></c> ед.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Награда:</c> после увеличения урона на <c val="#TooltipNumbers">20</c> ед. дальность «Удара бочонком» увеличится.<n/></n><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Эпохальная награда:</c> после увеличения урона на <c val="#TooltipNumbers">75</c> ед. «Пламенное дыхание» будет ослаблять броню врагов на <c val="#TooltipNumbers">20</c> ед., а его длительность будет увеличиваться на <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireAccumulatingFlameIncreaseIgniteDuration,Value" precision="2"/></c> сек. за каждую атаку Чэня по герою.
+Button/Tooltip/ChenAccumulatingFlame=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Награда:</c> наносите урон вражеским героям «Пламенным дыханием», чтобы до конца матча увеличить периодический урон на <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestToken,Value" precision="2"/></c> ед. При убийстве урон увеличивается на <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestTokenHeroDeath,Value"/></c> ед.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Награда:</c> после увеличения урона на <c val="#TooltipNumbers">25</c> ед. дальность «Удара бочонком» увеличится.<n/></n><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Эпохальная награда:</c> после увеличения урона на <c val="#TooltipNumbers">80</c> ед. «Пламенное дыхание» будет ослаблять броню врагов на <c val="#TooltipNumbers">20</c> ед., а его длительность будет увеличиваться на <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireAccumulatingFlameIncreaseIgniteDuration,Value" precision="2"/></c> сек. за каждую атаку Чэня по герою.
 Button/Tooltip/ChenAnotherRound=Увеличивает радиус действия «Удара бочонком» на <c val="#TooltipNumbers"><d ref="Talent,ChenAnotherRound,AbilityModificationArray[0].Modifications[0].Value/Effect,ChenKegSmashSearch,AreaArray[0].Radius*100"/>%</c>. Когда «Удар бочонком» поражает героя, время восстановления следующей базовой способности сокращается на <c val="#TooltipNumbers"><d ref="Effect,ChenFlyingKickAnotherRoundTalentModifyCooldown,Cost[0].CooldownTimeUse*(-1)"/></c> сек.
 Button/Tooltip/ChenBreathOfFire=Выдыхает струю пламени, наносящую <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireDamage,Amount"/></c> ед. урона. Противники, облитые отваром, загораются и дополнительно получают <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireDoTDamage,Amount*Behavior,ChenBreathofFireDoT,Duration"/></c> ед. урона в течение <c val="#TooltipNumbers"><d ref="Behavior,ChenBreathofFireDoT,Duration"/></c> сек., при этом время действия эффекта замедления от «Удара бочонком» увеличивается на <c val="#TooltipNumbers"><d ref="Effect,ChenBreathofFireBoggedDownModifySlowBehaviorBuffDuration,Value"Precision="2"/></c> сек. <n/><n/>После использования «Пламенного дыхания» или через <c val="#TooltipNumbers"><d ref="Behavior,ChenBreathOfFireKegSmashAbilityChangeTimerBehavior,Duration"/></c> сек. «Пламенное дыхание» превращается в «Удар бочонком».<n/><n/><c val="#ColorYellow">Удар бочонком</c><n/>Замедляет противников и наносит им урон.
 Button/Tooltip/ChenBreathOfFireRingOfFireTalent=После поджога противника Чэня окружает огненная аура, которая ежесекундно наносит находящимся рядом противникам <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireRingOfFireTalentDamage,Amount"/></c> ед. урона в течение <c val="#TooltipNumbers"><d ref="Behavior,ChenBreathofFireRingOfFire,Duration"/></c> сек.
@@ -6486,7 +6486,7 @@ Button/Tooltip/MurkyMarchOfTheMurlocsNeverEndingMurlocsTalent=Позволяет
 Button/Tooltip/MurkyOctoGrab=Мурчаль становится неудержимым и оглушает выбранного героя на <c val="#TooltipNumbers"><d ref="Behavior,OctoGrabStun,Duration" player="0"/></c> сек., нанося ему при этом <c val="#TooltipNumbers"><d ref="Effect,OctoGrabPokeDamage,Amount"/></c> ед. урона в секунду.
 Button/Tooltip/MurkyOctoGrabAndASharkTooTalent=Увеличивает урон «Осьмихвата» на <c val="#TooltipNumbers"><d ref="Effect,OctoGrabPokeMasteryDamage,Amount * 100"/>%</c>.
 Button/Tooltip/MurkyPufferfish=Мурчаль выплевывает иглобрюха c запасом здоровья в <c val="#TooltipNumbers"><d ref="Unit,MurkyPufferfish,LifeMax"/></c> ед. в указанную точку. После паузы в <c val="#TooltipNumbers"><d ref="Behavior,MurkyPufferfishTimedLife,Duration" player="0" precision="2"/></c> сек. рыба взрывается, нанося <c val="#TooltipNumbers"><d ref="Effect,MurkyPufferfishDamage,Amount"/></c> ед. урона. Строения получают на <c val="#TooltipNumbers"><d ref="-100*Effect,MurkyPufferfishDamage,MultiplicativeModifierArray[2].Modifier"/>%</c> меньше урона.</n></n><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Задача:</c> убивайте покрытых слизью противников или попадайте в них «Иглобрюхом». Попадания по героям и строениям дают 4 дополнительных эффекта.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Награда:</c> при накоплении <c val="#TooltipNumbers">200</c> эффектов базовые способности Мурчаля будут наносить полный урон строениям.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Эпохальная награда:</c> при накоплении <c val="#TooltipNumbers">400</c> эффектов запас здоровья Мурчаля увеличится на <c val="#TooltipNumbers">50%</c>.
-Button/Tooltip/MurkyPufferfishPuffedUpToken=<c val="#TooltipQuest">Попадания «Иглобрюхом» по противникам, покрытым слизью: </c><d ref="$BehaviorStackCount:MurkyPuffedUpTokenCounter$"/>/<d ref="Behavior,MurkyPuffedUpTokenCounter,Max"/>
+Button/Tooltip/MurkyPufferfishPuffedUpToken=<c val="#TooltipQuest">Попадания «Иглобрюхом» по противникам, покрытым слизью: </c><d ref="$BehaviorStackCount:PuffedUpTokenCounter$"/>/<d ref="Behavior,PuffedUpTokenCounter,Max"/>
 Button/Tooltip/MurkyPufferfishTufferfishTalent=«Иглобрюх» наносит на <c val="#TooltipNumbers"><d ref="100*Effect,MurkyPufferfishDamage,MultiplicativeModifierArray[0].Modifier"/>%</c> больше урона целям, покрытым слизью, и получает <c val="#TooltipNumbers"><d ref="Behavior,MurkyPufferfishTufferfishTalentCarry,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Ability]"/></c> ед. энергетической брони.
 Button/Tooltip/MurkyPufferfishWrathOfCodTalent=Герои, пораженные «Иглобрюхом», получают дополнительный урон в объеме <c val="#TooltipNumbers"><d ref="(100*Effect,MurkyPufferfishWrathOfCodTalentDamage,VitalFractionMax[Life])*Behavior,MurkyPufferfishWrathofCodTalentDoT,Duration"/>%</c> своего максимального запаса здоровья в течение <c val="#TooltipNumbers"><d ref="Behavior,MurkyPufferfishWrathofCodTalentDoT,Duration"/></c> сек.
 Button/Tooltip/MurkyRejuvenatingBubbleTalent=«Защитный пузырь» восполняет <c val="#TooltipNumbers"><d ref="Effect,MurkySafetyBubbleCreateRejuvenatingBubbleMasteryHealer,RechargeVitalFraction*[d ref='Behavior,MurkySafetyBubble,PeriodCount' player='0'/]*100" precision="2"/>%</c> максимального запаса здоровья Мурчаля.
@@ -6682,7 +6682,7 @@ Button/Tooltip/RexxarUnleashTheBoars=Выпускает стадо вепрей,
 Button/Tooltip/RexxarUnleashTheBoarsKillCommandTalent=Увеличивает урон от способности «Спустить вепрей» на <c val="#TooltipNumbers"><d ref="Effect,RexxarUnleashTheBoarsDamage,MultiplicativeModifierArray[KillCommand].Modifier*100"/>%</c>. Вепри также обездвиживают пораженных противников на <c val="#TooltipNumbers"><d ref="Behavior,RexxarUnleashTheBoarsKillCommandRoot,Duration" player="0" precision="2"/></c> сек.
 Button/Tooltip/RuthlessOnslaughtCharge=Рывок к цели.
 Button/Tooltip/SeasonedMarksmanActivatable=Повышает скорость атаки на <c val="#TooltipNumbers"><d ref="Behavior,SeasonedMarksmanAttackSpeedBuff,Modification.AdditiveAttackSpeedFactor*100"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,SeasonedMarksmanAttackSpeedBuff,Duration"/></c> сек.
-Button/Tooltip/SgtHammerBluntForceGun=Выпускает снаряд, который летит через все поле боя и наносит противникам, оказавшимся на пути, за исключением строений, <c val="#TooltipNumbers"><d ref="Effect,BluntForceGunDamage,Amount"/> </c>ед. урона.
+Button/Tooltip/SgtHammerBluntForceGun=Выпускает снаряд, который летит через все поле боя и наносит противникам, оказавшимся на пути, <c val="#TooltipNumbers"><d ref="Effect,BluntForceGunDamage,Amount"/></c> ед. урона. Наносит <c val="#TooltipNumbers">50%</c> урона строениям.
 Button/Tooltip/SgtHammerBluntForceGunOrbitalBFGTalent=Выпущенный БФГ снаряд раз в <c val="#TooltipNumbers">5</c> сек. облетает планету, при этом на орбите всегда находится только последний выпущенный снаряд.
 Button/Tooltip/SgtHammerConcussiveBlast=Наносит <c val="#TooltipNumbers"><d ref="Effect,ConcussiveBlastDamage,Amount"/></c> ед. урона противникам перед сержантом Кувалдой и отбрасывает их.<n/><n/><c val="ffff8a">В осадном режиме:</c> дальность увеличивается на <c val="#TooltipNumbers"><d ref="((Effect,SgtHammerConcussiveBlastEnterSiegeModeModifyPlayer,EffectArray[0].Value-Effect,SgtHammerConcussiveBlastExitSiegeModeModifyPlayer,EffectArray[0].Value)/Effect,SgtHammerConcussiveBlastExitSiegeModeModifyPlayer,EffectArray[0].Value)*100" player="0"/>%</c>.
 Button/Tooltip/SgtHammerConcussiveBlastBarricadeCancel=Разрушает стену из обломков.
@@ -6925,7 +6925,7 @@ Button/Tooltip/TychusCommandeerOdin=Вызывает пилотируемый «
 Button/Tooltip/TychusCommandeerOdinAnnihilate=Выстреливает из пушек «Одина» по прямой, нанося <c val="#TooltipNumbers"><d ref="Effect,TychusOdinAnnihilateDamage,Amount"/></c> ед. урона всему, что находится на линии огня.
 Button/Tooltip/TychusCommandeerOdinBigRedButtonTalent=Увеличивает время существования «Одина» на <c val="#TooltipNumbers"><d ref="(Talent,TychusMasteryOdinBigRedButton,AbilityModificationArray[0].Modifications[0].Value* 100)-100"/>%</c>. При использовании ракет «Рагнарок» спустя <c val="#TooltipNumbers"><d ref="Effect,TychusOdinRagnarokMissilesNuclearBlastCreatePersistent,PeriodicPeriodArray[0]" precision="1"/></c> сек. также осуществляется детонация ядерной ракеты, которая наносит <c val="#TooltipNumbers"><d ref="Effect,TychusOdinNuclearBlastDamage,Amount"/></c> ед. урона.
 Button/Tooltip/TychusCommandeerOdinRagnarokMissilesTargeted=Делает ракетный залп по указанной области. Ракеты наносят <c val="#TooltipNumbers"><d ref="Effect,TychusOdinRagnarokMissilesTargetedDamage,Amount"/></c> ед. урона и снижают скорость передвижения противника на <c val="#TooltipNumbers"><d ref="Behavior,TychusOdinRagnarokMissilesTargetedSlow,Modification.UnifiedMoveSpeedFactor*(-100)"/>%</c> на <c val="#TooltipNumbers"><d ref="Behavior,TychusOdinRagnarokMissilesTargetedSlow,Duration" player="0"/></c> сек.
-Button/Tooltip/TychusDrakkenLaserDrill=Вызывает лазерную установку, атакующую находящихся рядом противников и наносящую <c val="#TooltipNumbers"><d ref="Effect,LaserDrillWeaponDamage,Amount/Effect,LaserDrillWeaponCreatePersistent,ExpireDelay"/></c> ед. урона в секунду. При повторном использовании позволяет выбрать новую цель. Время действия – <c val="#TooltipNumbers"><d ref="Behavior,LaserDrillTimedLife,Duration" player="0"/></c> сек.
+Button/Tooltip/TychusDrakkenLaserDrill=Вызывает лазерную установку, атакующую находящихся рядом противников и наносящую <c val="#TooltipNumbers"><d ref="Effect,LaserDrillWeaponDamage,Amount/Effect,LaserDrillWeaponCreatePersistent,ExpireDelay"/></c> ед. урона в секунду. При повторном использовании позволяет выбрать новую цель. Установка постепенно теряет здоровье в течение <c val="#TooltipNumbers"><d const="$TychusLaserDrillDecayDuration" player="0"/></c> сек.
 Button/Tooltip/TychusDrakkenLaserDrillIssueOrder=Приказывает лазерному буру атаковать новую цель.
 Button/Tooltip/TychusDrakkenLaserFocusingDiodesTalent=Увеличивает дальность действия «Драккенского лазерного бура» на <c val="#TooltipNumbers"><d ref="(Talent,TychusMasteryDrakkenLaserFocusingDiodes,AbilityModificationArray[0].Modifications[0].Value / Weapon,TychusLaserDrillWeapon,Range)*100" player="0"/>%</c>. Увеличивает наносимый цели урон в зависимости от того, как долго бур фокусируется на ней. Максимальная прибавка к урону – <c val="#TooltipNumbers"><d ref="Accumulator,TychusLaserDrillFocusingDiodesAccumulator,MaxAccumulation*100" player="0"/>%</c>.
 Button/Tooltip/TychusFragGrenade=Бросает гранату, которая при взрыве наносит <c val="#TooltipNumbers"><d ref="Effect,TychusGrenadeDamage,Amount"/> </c>ед. урона и отбрасывает противников от центра взрыва.
@@ -7165,11 +7165,11 @@ Button/Tooltip/ZagaraFuzzyExitNydusWorm=<s val="StandardTooltip">Выход на
 Button/Tooltip/ZagaraHunterKiller=Призывает гидралиска, который атакует цель и наносит ей <c val="#TooltipNumbers"><d ref="Effect,ZagaraHydraliskRangedDamage,Amount"/></c> ед. урона в секунду. Гидралиск теряет здоровье в течение <c val="#TooltipNumbers"><d ref="-Unit,ZagaraHydralisk,LifeMax/Unit,ZagaraHydralisk,LifeRegenRate" player="0"/></c> сек. Запас здоровья — <c val="#TooltipNumbers"><d ref="Unit,ZagaraHydralisk,LifeMax"/></c> ед.
 Button/Tooltip/ZagaraHunterKillerBroodExpansionTalent=«Охотник-убийца» восстанавливается на <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryBroodExpansion,AbilityModificationArray[0].Modifications[0].Value"/></c> сек. быстрее и расходует на <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryBroodExpansion,AbilityModificationArray[0].Modifications[1].Value"/></c> меньше маны.
 Button/Tooltip/ZagaraHunterKillerGroovedSpinesTalent=Увеличивает дальность автоатаки охотника-убийцы на <c val="#TooltipNumbers">35%</c>, а наносимый им урон — на <c val="#TooltipNumbers">20%</c>.
-Button/Tooltip/ZagaraHunterKillerMutaliskTalent=Уменьшает время восстановления «Охотника-убийцы» на <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryMutalisk,AbilityModificationArray[0].Modifications[1].Value"/></c> сек. Вместо гидралиска призывает муталиска, атаки которого рикошетят. Муталиск теряет здоровье в течение <c val="#TooltipNumbers"><c val="#TooltipNumbers"><d ref="-Unit,ZagaraMutalisk,LifeMax/Unit,ZagaraMutalisk,LifeRegenRate" player="0"/></c></c> сек. Запас здоровья — <c val="#TooltipNumbers"><d ref="Unit,ZagaraMutalisk,LifeMax"/></c> ед.
+Button/Tooltip/ZagaraHunterKillerMutaliskTalent=Уменьшает время восстановления «Охотника-убийцы» на <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryMutalisk,AbilityModificationArray[0].Modifications[0].Value"/></c> сек. Вместо гидралиска призывает муталиска, атаки которого рикошетят. Муталиск постепенно теряет здоровье в течение <c val="#TooltipNumbers"><c val="#TooltipNumbers"><d ref="-Unit,ZagaraMutalisk,LifeMax/Unit,ZagaraMutalisk,LifeRegenRate" player="0"/></c></c> сек. Запас здоровья — <c val="#TooltipNumbers"><d ref="Unit,ZagaraMutalisk,LifeMax"/></c> ед.
 Button/Tooltip/ZagaraHydraliskTransfusionTalent=Восполняет Загаре здоровье в объеме <c val="#TooltipNumbers"><d ref="100*Effect,ZagaraHunterKillerHydraliskTransfusionCreateHealer,RechargeVitalRate/Effect,ZagaraHydraliskRangedDamage,Amount"player="0"/>%</c> урона, наносимого героям атаками призванных «Охотником-убийцей» существ.
-Button/Tooltip/ZagaraInfest=Увеличивает урон находящихся поблизости воинов дальнего боя на <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> и дополнительно на<c val="#TooltipNumbers"> 1%</c> за каждые <c val="#TooltipNumbers">1000</c> ед. нанесенного Загарой осадного урона. Эту способность можно активировать по желанию.
-Button/Tooltip/ZagaraInfestItem=Увеличивает урон находящихся рядом воинов дальнего боя на <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> и еще на <c val="#TooltipNumbers">1%</c> за каждые <c val="#TooltipNumbers">1000</c> ед. нанесенного Загарой осадного урона. Можно активировать по желанию.<n/><n/><c val="#TooltipQuest">Текущий бонус от осадного урона:</c> <c val="#TooltipNumbers"><d ref="(100*Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic])-125"precision="0"/>%</c>.
-Button/Tooltip/ZagaraInfestToggleOff=Увеличивает урон находящихся рядом воинов дальнего боя на <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> и еще на <c val="#TooltipNumbers">1%</c> за каждые <c val="#TooltipNumbers">1000</c> ед. нанесенного Загарой осадного урона. Можно активировать по желанию.<n/><n/><c val="#TooltipQuest">Текущий бонус от осадного урона:</c> <c val="#TooltipNumbers"><d ref="(100*Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic])-125"precision="0"/>%</c>.
+Button/Tooltip/ZagaraInfest=Увеличивает урон находящихся рядом воинов дальнего боя на <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c>. Можно активировать по желанию.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Постоянная задача:</c> каждые <c val="#TooltipNumbers">1000</c> ед. осадного урона увеличивают этот бонус еще на <c val="#TooltipNumbers">1%</c>.
+Button/Tooltip/ZagaraInfestItem=Увеличивает урон находящихся рядом воинов дальнего боя на <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c>. Можно активировать по желанию.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Постоянная задача:</c> каждые <c val="#TooltipNumbers">1000</c> ед. осадного урона увеличивают этот бонус еще на <c val="#TooltipNumbers">1%</c>.<n/><n/><c val="#TooltipQuest">Текущий бонус от осадного урона:</c> <c val="#TooltipNumbers"><d ref="$AccumulatedValue:Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]$*100" precision="1"/>%</c>
+Button/Tooltip/ZagaraInfestToggleOff=Увеличивает урон находящихся рядом воинов дальнего боя на <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c>. Можно активировать по желанию.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Постоянная задача:</c> каждые <c val="#TooltipNumbers">1000</c> ед. осадного урона увеличивают этот бонус еще на <c val="#TooltipNumbers">1%</c>.<n/><n/><c val="#TooltipQuest">Текущий бонус от осадного урона:</c> <c val="#TooltipNumbers"><d ref="$AccumulatedValue:Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]$*100" precision="1"/>%</c>
 Button/Tooltip/ZagaraInfestedDrop=Обрушивает на указанную область десантную капсулу зергов, наносящую <c val="#TooltipNumbers"><d ref="Effect,ZagaraInfestedDropDamage,Amount"/></c> ед. урона. <n/><n/>Из капсулы появляются <c val="#TooltipNumbers"><d ref="Effect,InfestedDropCreateSpawnPersistent,PeriodCount" player="0"/></c> <lang rule="plural" val="">труплинг,труплинга,труплингов</lang>, которые наносят <c val="#TooltipNumbers"><d ref="Effect,ZagaraRoachAttackDamage,Amount"/></c> ед. урона в секунду и теряют здоровье в течение <c val="#TooltipNumbers"><d ref="-Unit,ZagaraRoach,LifeMax/Unit,ZagaraRoach,LifeRegenRate" player="0"/></c> сек.
 Button/Tooltip/ZagaraInfestedDropBileDropTalent=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Задача:</c> увеличивает радиус действия «Зараженного десанта» на <c val="#TooltipNumbers">20%</c>.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">Награда:</c> после <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestedDropBileDropQuestToken,Max"/></c> попаданий «Зараженного десанта» по героям при использовании этой способности появляется дополнительный труплинг.
 Button/Tooltip/ZagaraInfestedDropBileDropTalentToken=<c val="#TooltipQuest">Попаданий по героям: </c><c val="#TooltipNumbers" validator="True"><d ref="$BehaviorStackCount:ZagaraInfestedDropBileDropQuestToken$"/>/<d ref="Behavior,ZagaraInfestedDropBileDropQuestToken,Max"/><c val="#TooltipQuest"></c>
@@ -7226,7 +7226,7 @@ Button/TooltipAppender/AzmodanGlobeOfAnnihilationTasteForBlood=<n/><c val="#Tool
 Button/TooltipAppender/ButcherFreshMeatAbattoirTalentAppender=<n/><n/><c val="#TooltipQuest">Собрано кусков мяса: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ButcherFreshMeatAbattoirTalentTokenCounter$"/><n/><c val="#TooltipQuest">Бонус к урону от автоатак: </c><d ref="$BehaviorStackCount:ButcherFreshMeatAbattoirTalentTokenCounter$*Accumulator,ButcherFreshMeatAbattoirTalentAccumulator,Scale"precision="1"/></c> ед.</c>
 Button/TooltipAppender/ButcherFreshMeatAppender=<n/><n/><c val="#TooltipQuest">Собрано кусков мяса: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$"/><n/><c val="#TooltipQuest">Бонус к урону от автоатак: </c><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$*Accumulator,ButcherFreshMeatAccumulator,Scale"precision="1"/></c> ед.</c>
 Button/TooltipAppender/ButcherFreshMeatAppenderComplete=<n/><n/><c val="#TooltipQuest">Задача выполнена!<n/>Собрано кусков мяса: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$"/><n/><c val="#TooltipQuest">Бонус к урону от автоатак: </c><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$*Accumulator,ButcherFreshMeatAccumulator,Scale+Behavior,ButcherFreshMeatQuestCompletionCarry,Modification.DamageDealtScaled[Basic]"precision="1"/></c> ед.</c>
-Button/TooltipAppender/ChenBreathofFireAccumulatingFlame=<n/><c val="#TooltipQuest">Подожженных героев: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$"/>/<d ref="Behavior,ChenBreathOfFireAccumulatingFlameTokenCounter,Max"/><n/><c val="#TooltipQuest">Бонус к урону:</c> <d ref="100*($BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$)*Accumulator,BreathofFireQuestDamage,Scale"/>%
+Button/TooltipAppender/ChenBreathofFireAccumulatingFlame=<n/><c val="#TooltipQuest">Прогресс: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$"/>/<d ref="Behavior,ChenBreathOfFireAccumulatingFlameTokenCounter,Max"/><n/><c val="#TooltipQuest">Бонус к урону:</c> <d ref="100*($BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$)*Accumulator,ChenAccumulatingFlameAccumulator,Scale"/>%
 Button/TooltipAppender/ChenBreathofFireAccumulatingFlameComplete=<n/><c val="#TooltipQuest">Задача выполнена!<n/><c val="#TooltipQuest">Бонус к урону:</c> <c val="#TooltipNumbers"><d ref="100*($BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$)*Accumulator,ChenAccumulatingFlameAccumulator,Scale"/>%</c>
 Button/TooltipAppender/ChenFortifyingBrewFreshestIngredients=<n/><c val="#TooltipQuest">Подобрано сфер: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ChenFreshestIngredientsTokenCounter$"/>/<d ref="Behavior,ChenFreshestIngredientsTokenCounter,Max"/></c><n/>Бонус к восстановлению здоровья: <c val="#TooltipNumbers"><d ref="Accumulator,ChenFreshestIngredientsTalentAccumulator,Scale*($BehaviorStackCount:ChenFreshestIngredientsTokenCounter$)"/></c> ед. в секунду</c>
 Button/TooltipAppender/ChenFortifyingBrewFreshestIngredientsComplete=<n/><c val="#TooltipQuest">Задача выполнена!<n/>Бонус к востановлению здоровья: <c val="#TooltipNumbers"><d ref="Accumulator,ChenFreshestIngredientsTalentAccumulator,Scale*($BehaviorStackCount:ChenFreshestIngredientsTokenCounter$)"/></c></c> ед. в секунду
@@ -7465,7 +7465,7 @@ DragonStatueDefendDefendDragonStatue=DefendDragonStatue
 Effect/Name/AllShallBurnCasterRevealerCreatePersistent=All Shall Burn Caster Revealer (Create Persistent)
 Effect/Name/AllShallBurnCasterRevealerDestroyPersistent=All Shall Burn Caster Revealer (Destroy Persistent)
 Effect/Name/Azmodan200IQCastSet=
-Effect/Name/Azmodan200IQPlayDummySet= 
+Effect/Name/Azmodan200IQPlayDummySet=
 Effect/Name/AzmodanAllShallBurnManaDrain=Azmodan All Shall Burn Mana Drain
 Effect/Name/AzmodanAllShallBurnMarchOfSinCreatePersistent=All Shall Burn (March Of Sin Create Persistent)
 Effect/Name/AzmodanAllShallBurnMarchOfSinCreatePersistentStructure=Azmodan All Shall Burn March of Sin Create Persistent Structure
@@ -14438,6 +14438,7 @@ Hero/Info/Wizard=«Чародеями» пренебрежительно наз�
 Hero/Info/Zagara=Если Керриган — королева зергов, то Загара — мать стаи. Она хитра и коварна; ее бесчисленные порождения участвуют во множестве кровавых битв. Вступая в бой с ними, помните: мать отомстит за каждого из детей.
 Hero/Info/Zeratul=Загадочный темный тамплиер Зератул служит зел-нага. Мудрость и владение энергией Пустоты помогли ему завоевать уважение лидеров сектора Копрулу, даже несмотря на склонность к драматическим появлениям.
 Hero/Name/Abathur=Абатур
+Hero/Name/AbathurSymbiote=Симбионт
 Hero/Name/Anubarak=Ануб'арак
 Hero/Name/Artanis=Артанис
 Hero/Name/Arthas=Артас
@@ -14971,6 +14972,7 @@ Mount/AdditionalSearchText/MountDeer_Rank16_01Var2=Зеленый Олень Р�
 Mount/AdditionalSearchText/MountDemonicHorse=Красный Серый Конь Лошадь Скакун
 Mount/AdditionalSearchText/MountDemonicHorseVar1=Скакун Конь Лошадь Зеленый
 Mount/AdditionalSearchText/MountDemonicHorseVar2=Скакун Лошадь Желтый Оранжевый
+Mount/AdditionalSearchText/MountDirewolfThreeTails=Лютый волк Нексуса в честь BlizzCon
 Mount/AdditionalSearchText/MountDirewolf_Esport17Epic=Синий голубой волк хаоса
 Mount/AdditionalSearchText/MountDirewolf_Esport17EpicVar1=Красный коричневый волк хаоса
 Mount/AdditionalSearchText/MountDirewolf_Esport17EpicVar2=Красный коричневый волк хаоса
@@ -15401,6 +15403,7 @@ Mount/Info/MountCrabRank18Base=Ползучие твари из Мутной Б�
 Mount/Info/MountCrabRank18Epic=Многие глубинные ползуны густо покрыты блестящими кристаллами, характерными для тех глубин, где они обитают. Это – их естественная защита от высокого давления. Награда за достижение ранга мастера в лиге героев или командной лиге в четвертом сезоне 2018 года.
 Mount/Info/MountDeer_Rank16_00=Пылающий стихийный олень – истинное воплощение доблести и отваги. Награда за достижение платинового ранга в лиге героев или бронзового ранга в командной лиге в ходе третьего сезона.
 Mount/Info/MountDeer_Rank16_01=Наполненный силой эпический стихийный олень своим величием приводит в трепет всякого, кто его увидит. Награда за достижение ранга мастера в лиге героев или командной лиге в ходе третьего сезона.
+Mount/Info/MountDirewolfThreeTails=
 Mount/Info/MountDirewolf_Esport17_00=Сколько волка Нексуса не корми… Впрочем, доподлинно известно, что достойнейшим воинам все же удается завоевать их уважение и преданность.
 Mount/Info/MountDirewolf_Esport17_01=Закованные в броню волки хаоса порождены энергией Нексуса и закалены в битвах. Они – воплощение физической силы и выносливости. Только величайшие из героев могут оседлать их.
 Mount/Info/MountDirewolf_Rank15_00=Стихийные волки являются лишь на зов достойных героев. Награда за достижение 20-го ранга в лиге героев или 40-го ранга в командной лиге в период межсезонья.
@@ -15430,9 +15433,9 @@ Mount/Info/MountLion_Arcane=Нексус всегда вознаграждает
 Mount/Info/MountLion_Rank16_00=Царственные стихийные львы покоряются только самым смелым героям. Награда за достижение платинового ранга в лиге героев или бронзового ранга в командной лиге в ходе второго сезона.
 Mount/Info/MountLion_Rank16_01=Закованный в броню эпический стихийный лев всегда готов ворваться со своим хозяином в гущу битвы. Награда за достижение ранга мастера в лиге героев или командной лиге в ходе второго сезона.
 Mount/Info/MountMeatWagon=Одно из самых жутких и необычных средств передвижения Плети. Мясные фургоны изначально использовались для хранения свежих трупов и все еще вселяют ужас в сердца даже самых отважных врагов.
-Mount/Info/MountMonoWheelMadAxe19=
-Mount/Info/MountMonoWheelMadAxe19Var1=
-Mount/Info/MountMonoWheelMadAxe19Var2=
+Mount/Info/MountMonoWheelMadAxe19=Эта развалина уже пару раз прокатилась по Арене пустошей. До сих пор держится молодцом... только не опирайтесь на выступающие детали.
+Mount/Info/MountMonoWheelMadAxe19Var1=Эта развалина уже пару раз прокатилась по Арене пустошей. До сих пор держится молодцом... только не опирайтесь на выступающие детали.
+Mount/Info/MountMonoWheelMadAxe19Var2=Эта развалина уже пару раз прокатилась по Арене пустошей. До сих пор держится молодцом... только не опирайтесь на выступающие детали.
 Mount/Info/MountMouseSummer20=Гата де Баталья бросается в бой верхом на гигантском устрашающем грызуне. Но вы только посмотрите, какие у него крохотные миленькие усики!
 Mount/Info/MountNexagonFAL16=Сама сущность Нексуса кроется в упоении вечной битвой. И этот нексагон – символ триумфа Ballistix, победителей Fall Global Championship 2016.
 Mount/Info/MountNexagonMSB18=Этот нексагон, выкованный в пекле битвы, знаменует победу Gen.G. на чемпионате Mid-Season Brawl 2018.
@@ -15445,6 +15448,7 @@ Mount/Info/MountNexagonSpooky18Var1=От некоторых проклятий �
 Mount/Info/MountNexagonSpooky18Var2=Иногда упорством и самоотверженностью можно заслужить искупление. Или даже вернуть жизнь – правда, не в первоначальном виде.
 Mount/Info/MountNexagonSpooky18Var3=От некоторых проклятий невозможно избавиться, поэтому иногда лучше просто принять новый порядок вещей, чем цепляться за прошлое.
 Mount/Info/MountOwlSeekerAltered20=В далеком мире, еще не опустошенном Пылающим Легионом, по озаренным солнцем лугам Азерота по-прежнему носятся стаи диких дозорных.
+Mount/Info/MountPhoenix=
 Mount/Info/MountPigNexus=Из хаотической энергии Нексуса продолжают появляться загадочные создания, которые со временем становятся лишь сильнее. Посвящается BlizzCon 2017.
 Mount/Info/MountPigPinata=Какие плюсы в том, чтобы сражаться верхом на свиньяте? Если ее разобьют, вам достанется куча конфет! Только не забудьте поделиться с друзьями...
 Mount/Info/MountPigSpring19=Ходят слухи, что высокопоставленные агенты Jigoku Cybernetics рыскают по Калдейскому Акрополю на ненасытных боевых кибервепрях. К сожалению, те, кто могли бы подтвердить эту информацию, необъяснимым образом исчезают.
@@ -15717,6 +15721,7 @@ Mount/Name/MountDeer_Rank16_00Var2=Зеленый стихийный олень
 Mount/Name/MountDeer_Rank16_01=Эпический стихийный олень
 Mount/Name/MountDeer_Rank16_01Var1=Эпический лазурный стихийный олень
 Mount/Name/MountDeer_Rank16_01Var2=Эпический зеленый стихийный олень
+Mount/Name/MountDirewolfThreeTails=Лютый волк Нексуса
 Mount/Name/MountDirewolf_Esport17Epic=Эпический волк хаоса
 Mount/Name/MountDirewolf_Esport17EpicVar1=Эпический смертоносный волк хаоса
 Mount/Name/MountDirewolf_Esport17EpicVar2=Эпический яростный волк хаоса
@@ -15847,6 +15852,12 @@ Mount/Name/MountNexagonSpooky18Var3=Токсичное надгробие
 Mount/Name/MountOwlSeekerAltered20=Дозорный
 Mount/Name/MountOwlSeekerAltered20Var1=Лесной дозорный
 Mount/Name/MountOwlSeekerAltered20Var2=Сумеречный дозорный
+Mount/Name/MountPhoenix=Феникс
+Mount/Name/MountPhoenixVar1=
+Mount/Name/MountPhoenixVar2=
+Mount/Name/MountPhoenixVar3=
+Mount/Name/MountPhoenixVar4=
+Mount/Name/MountPhoenixVar5=
 Mount/Name/MountPigFel=Адский вепрь
 Mount/Name/MountPigFelVar1=Вепрь Скверны
 Mount/Name/MountPigFelVar2=Вепрь из долины Призрачной Луны
@@ -16039,6 +16050,8 @@ Mount/Name/NexusCharger=Скакун Нексуса
 Mount/Name/NexusChargerGold=Золотой скакун Нексуса
 Mount/Name/NexusChargerOrange=Янтарный скакун Нексуса
 Mount/Name/NexusChargerViolet=Сиреневый скакун Нексуса
+Mount/Name/Phoenix=Феникс
+Mount/Name/PhoenixCommon=
 Mount/Name/RainbowUnicorn=Радужный единорог
 Mount/Name/RainbowUnicornGreen=Счастливый единорог
 Mount/Name/RainbowUnicornOrange=Оранжевый единорог
@@ -17200,7 +17213,7 @@ Param/Value/lib_Game_0C17214B=Old XP <c val="00FF00">ON</c>, XP Globes <c val="F
 Param/Value/lib_Game_0C32B233=Зачет убийства
 Param/Value/lib_Game_0DF09886= и с весом 
 Param/Value/lib_Game_0E6D649F=Макс. исцеления в команде 1: 
-Param/Value/lib_Game_0F666E73=  
+Param/Value/lib_Game_0F666E73=
 Param/Value/lib_Game_0FC5C672=%
 Param/Value/lib_Game_1047EE16=
 Param/Value/lib_Game_11E00082=Лучший лекарь команды 2: 
@@ -17332,7 +17345,7 @@ Param/Value/lib_Game_A4E072FE=---------------------------------
 Param/Value/lib_Game_A5DE41CD=%
 Param/Value/lib_Game_A5E800FD= для игрока 
 Param/Value/lib_Game_A6AA3EBD=%
-Param/Value/lib_Game_A78D91D5=  
+Param/Value/lib_Game_A78D91D5=
 Param/Value/lib_Game_A7B0450E=Воины
 Param/Value/lib_Game_A83B9DD0=МАШИНА СМЕРТИ
 Param/Value/lib_Game_A90166F5=1X
@@ -18266,6 +18279,7 @@ Reward/Description/BlizzCon2016GiftPromo=Награда за посещение 
 Reward/Description/BlizzCon2017Common=Награда за посещение BlizzCon 2017.
 Reward/Description/BlizzCon2019Common=Награда за посещение BlizzCon 2019.
 Reward/Description/BlizzCon2021Common=Награда за посещение BlizzCon 2021.
+Reward/Description/Blizzcon2026RewardCommon=С благодарностью от команды разработчиков Heroes of the Storm!
 Reward/Description/BoardGameSticker=Соберите 3 штуки, чтобы получить контейнер игрушек!
 Reward/Description/BracketChallengeParticipationPortrait=Спасибо за участие в состязаниях и мероприятиях Heroes of the Dorm Bracket Challenge 2016. Примите этот портрет и буст на 3 дня в качестве нашей благодарности!
 Reward/Description/BrightwingBasic=Теперь вам доступен портрет Светика. Вы можете использовать его в качестве портрета для своего профиля.
@@ -18405,6 +18419,7 @@ Reward/Description/MountBattleBeastTriceratops_01=Поздравляем! Вы �
 Reward/Description/MountCatFire=Поздравляем!
 Reward/Description/MountCrabRank18Base=Поздравляем! Вы достигли платинового ранга в лиге героев или бронзового ранга в командной лиге в четвертом сезоне 2018 года и получаете ползуна!
 Reward/Description/MountCrabRank18Epic=Поздравляем! Вы достигли ранга мастера в лиге героев или командной лиге в четвертом сезоне 2018 года и получаете эпического ползуна!
+Reward/Description/MountDirewolfThreeTails=С благодарностью от команды разработчиков Heroes of the Storm!
 Reward/Description/MountGoatGuardian21=Поздравляем! Вы получили транспорт лесного защитника в награду за выполнение сезонной цепочки заданий лиги Нексуса.
 Reward/Description/MountGoatGuardian21Var1=Поздравляем! Вы получили транспорт лесного защитника в награду за выполнение сезонной цепочки заданий лиги Нексуса.
 Reward/Description/MountGoatGuardian21Var2=Поздравляем! Вы получили транспорт лесного защитника в награду за выполнение сезонной цепочки заданий лиги Нексуса.
@@ -18603,6 +18618,7 @@ Reward/Description/Tespa2015Portrait=Награда за участие или �
 Reward/Description/TespaMembershipPortrait=Награда официальным участникам TeSPA.
 Reward/Description/ThrallBasic=Теперь вам доступен портрет Тралла. Вы можете использовать его в качестве портрета для своего профиля.
 Reward/Description/ThrallEpic=Теперь вам доступен особый портрет Тралла.
+Reward/Description/ThrallToon20Var4=Примите ваш облик «Механик-ремонтник Тралл»!
 Reward/Description/Toy2019RepeatableFlyout=Соберите 3 штуки, чтобы получить контейнер новых игрушек!
 Reward/Description/Toy2019UniqueFlyout=Вы завершили особое задание Щекотуна Мефисто.
 Reward/Description/Toy2025RepeatableFlyout=Соберите 3 штуки, чтобы получить контейнер новых игрушек!
@@ -19094,6 +19110,8 @@ Reward/Name/BlazeResistance19Portrait=Портрет Огненного Штор
 Reward/Name/BlizzCon2014=Портрет BlizzCon 2014
 Reward/Name/BlizzCon2016Gift=Портрет BlizzCon 2016
 Reward/Name/BlizzCon2017Portrait=Портрет BlizzCon 2017
+Reward/Name/Blizzcon2026Giveaway=Портрет в честь BlizzCon 2026
+Reward/Name/Blizzcon2026Logo=Портрет с логотипом BlizzCon 2026
 Reward/Name/BloodElfSketchWCAVPortrait=Набросок «Эльфийка крови – жрица»
 Reward/Name/BloodlustBrawlPortrait=Портрет «Кровожадная потасовка»
 Reward/Name/BloodmoonTowerSpooky18Portrait=Портрет врат Кровавой Луны
@@ -21217,9 +21235,6 @@ Skin/AdditionalSearchText/CrusaderIvory=Синий Рыжий
 Skin/AdditionalSearchText/CrusaderOWC20=райнхардт серебряный overwatch овервотч косплей
 Skin/AdditionalSearchText/CrusaderOWC20Var1=райнхардт синий голубой overwatch овервотч косплей
 Skin/AdditionalSearchText/CrusaderOWC20Var2=райнхардт белый золотой overwatch овервотч косплей
-Skin/AdditionalSearchText/CrusaderOWC20Var3=райнхардт серебряный overwatch овервотч косплей
-Skin/AdditionalSearchText/CrusaderOWC20Var4=райнхардт синий голубой overwatch овервотч косплей
-Skin/AdditionalSearchText/CrusaderOWC20Var5=райнхардт белый золотой overwatch овервотч косплей
 Skin/AdditionalSearchText/CrusaderRed=Черный Красный
 Skin/AdditionalSearchText/CrusaderSpell=Разрушительница чар Джоанна Кроссовер Красный
 Skin/AdditionalSearchText/CrusaderSpellVar1=Черный Оранжевый
@@ -21248,9 +21263,6 @@ Skin/AdditionalSearchText/DemonHunterMecha19Var4=коричневый серый
 Skin/AdditionalSearchText/DemonHunterOWC20=райнхардт черный overwatch овервотч косплей
 Skin/AdditionalSearchText/DemonHunterOWC20Var1=райнхардт розовый overwatch овервотч косплей
 Skin/AdditionalSearchText/DemonHunterOWC20Var2=райнхардт белый overwatch овервотч косплей
-Skin/AdditionalSearchText/DemonHunterOWC20Var3=райнхардт черный overwatch овервотч косплей
-Skin/AdditionalSearchText/DemonHunterOWC20Var4=райнхардт розовый overwatch овервотч косплей
-Skin/AdditionalSearchText/DemonHunterOWC20Var5=райнхардт белый overwatch овервотч косплей
 Skin/AdditionalSearchText/DemonHunterPink=Розовый Фиолетовый Пурпурный
 Skin/AdditionalSearchText/DemonHunterVampireHunter=Истребительница вампиров Валла Вороний двор Синий
 Skin/AdditionalSearchText/DemonHunterVampireHunterDark=Черный Красный
@@ -21707,9 +21719,6 @@ Skin/AdditionalSearchText/RaynorMarshallSkinRed=Красный Черный
 Skin/AdditionalSearchText/RaynorOWC20=солдат 76 синий голубой overwatch овервотч косплей
 Skin/AdditionalSearchText/RaynorOWC20Var1=солдат 76 золотой overwatch овервотч косплей
 Skin/AdditionalSearchText/RaynorOWC20Var2=солдат 76 красный overwatch овервотч косплей
-Skin/AdditionalSearchText/RaynorOWC20Var3=солдат 76 синий голубой overwatch овервотч косплей
-Skin/AdditionalSearchText/RaynorOWC20Var4=солдат 76 золотой overwatch овервотч косплей
-Skin/AdditionalSearchText/RaynorOWC20Var5=солдат 76 красный overwatch овервотч косплей
 Skin/AdditionalSearchText/RaynorPatriot=Звездно-полосатый Рейнор Синий Красный
 Skin/AdditionalSearchText/RaynorPatriotBlack=Черный Серый Красный
 Skin/AdditionalSearchText/RaynorPatriotRed=Красный Синий
@@ -22114,7 +22123,6 @@ Skin/Info/ChenWarmaster=Мастера боя составляют костяк 
 Skin/Info/CrusaderCenturion=По приказу императора Северуса к порталу богов выступил целый легион. Назад вернулись все, кроме одного воина. Этого центуриона боги забрали в наказание за человеческую гордыню.
 Skin/Info/CrusaderEnforcer=Будущие агенты отряда штурмовых тактических операций и разведывательных миссий (ШТОРМ) должны пройти скрупулезный отбор инструктора Джоанны. Многие в ее роду служили в этом элитном подразделении, поэтому впечатлить ее непросто.
 Skin/Info/CrusaderOWC20=Джоанна знает, что только в слиянии с традициями других миров вера Закарума преодолеет грехи своих последователей. Начать можно с малого: новая одежда и реактивное оружие.
-Skin/Info/CrusaderOWC20NoMask=Крестоносцы без шлема – все еще крестоносцы. Они клянутся служить Свету до самой смерти.
 Skin/Info/CrusaderSpell=Обычно разрушители чар служат стражами Кель'Таласа. Но Джоанна избрала иной путь – она поклялась очистить от скверны земли Лордерона и не знать покоя, пока слава ее родины не воссияет вновь.
 Skin/Info/CrusaderWCAV=Говорят, встретиться лицом к лицу с командиром клана Песни Войны – значит испытать на себе всю мощь Орды. За плечами у Джо'Анны долгие годы сражений, но ее боевой клич до сих пор содрогает небеса.
 Skin/Info/Default=Описание облика по умолчанию
@@ -22124,7 +22132,6 @@ Skin/Info/DemonHunterCowgirl=По части разрешения «пробле
 Skin/Info/DemonHunterHorns=После победы над Владыкой Ужаса Валла приняла мантию главы ордена. Теперь она обучает новых охотников на демонов и делится с ними своими знаниями и опытом.
 Skin/Info/DemonHunterMecha19=Меху Валлу создали в пару к мехе Ирель для поддержки на передовой. Эта модель отличается колоссальной огневой мощью и подвижностью. Нашествие ксенотронов стало поводом для первых испытаний тандема.
 Skin/Info/DemonHunterOWC20=Посвятив жизнь истреблению сил зла в Санктуарии, Валла даже не представляла, какое множество демонов обитает в других вселенных. Это открытие стало для нее шоком. Некоторые из демонов принимали облик ее бывших товарищей – тогда-то она и поняла, что надо было действовать намного решительней.
-Skin/Info/DemonHunterOWC20NoMask=Посвятив жизнь истреблению сил зла в Санктуарии, Валла даже не представляла, какое множество демонов обитает в других вселенных. Это открытие стало для нее шоком. Некоторые из демонов принимали облик ее бывших товарищей – тогда-то она и поняла, что надо было действовать намного решительней.
 Skin/Info/DemonHunterPink=Выбор цвета.
 Skin/Info/DemonHunterVaHmpireunterDark=Жажда крови, которую испытывала графиня, не иссякла даже после ее смерти. И когда из заброшенной башни на Вороньем дворе вылетел рой вампиров, выжившие решили дать им отпор.
 Skin/Info/DemonHunterVampireHunter=Жажда крови, которую испытывала графиня, не иссякла даже после ее смерти. И когда из заброшенной башни на Вороньем дворе вылетел рой вампиров, выжившие решили дать им отпор.
@@ -22269,7 +22276,6 @@ Skin/Info/RaynorCommander=Иногда неплохо бывает скинут�
 Skin/Info/RaynorMadAxe18=По легенде дорожный рейдер когда-то служил шерифом и пытался навести порядок в Хромированных пустошах. Сложно сказать, осталось ли в этом призраке что-то от прежнего героя.
 Skin/Info/RaynorMarshallSkinCommon=Когда Конфедерация выработала на Мар-Саре все месторождения ресурсов, колонисты пришли в отчаяние. Шериф Джеймс Ю. Рейнор оказался единственным, кто еще пытался защитить мир, ввергнутый в пучину хаоса.
 Skin/Info/RaynorOWC20=Бросить дорогого человека на смерть. Годами терпеть клевету негодяев с манией величия. Кто угодно надел бы после такого маску.
-Skin/Info/RaynorOWC20NoMask=На самом деле в маске совсем не так тяжело дышать, как кажется. Рейнор снимает ее, когда хочет напугать врагов злобным оскалом.
 Skin/Info/RaynorPatriot=Когда военно-космические войска США благополучно эвакуировали колонистов из сектора Копрулу, полковник Рейнор не мог отделаться от ощущения, что монстры последуют за спасенными на Землю.
 Skin/Info/RaynorUltimate=Внутри – записка на желтом листке: «Привет, ковбой. Я решил, что пара улучшений твоему костюмчику не повредит. Не благодари». - Свонн
 Skin/Info/RedKaijoDiablo=Ядерной энергии получалось все больше и больше, и в какой-то момент безумные эксперименты правительства Новотристрама вышли из-под контроля. Они думали, что ничего страшного не случится. Они ошибались.
@@ -22621,9 +22627,6 @@ Skin/Name/CrusaderIvory=Белая Джоанна
 Skin/Name/CrusaderOWC20=Миротворица Джоанна
 Skin/Name/CrusaderOWC20Var1=Сияющая миротворица Джоанна
 Skin/Name/CrusaderOWC20Var2=Фанатичная миротворица Джоанна
-Skin/Name/CrusaderOWC20Var3=Миротворица Джоанна без маски
-Skin/Name/CrusaderOWC20Var4=Сияющая миротворица Джоанна без маски
-Skin/Name/CrusaderOWC20Var5=Фанатичная миротворица Джоанна без маски
 Skin/Name/CrusaderRed=Ониксовая Джоанна
 Skin/Name/CrusaderSpell=Разрушительница чар
 Skin/Name/CrusaderSpellVar1=Железная разрушительница чар
@@ -22654,9 +22657,6 @@ Skin/Name/DemonHunterMecha19Var4=Легированная меха Валла
 Skin/Name/DemonHunterOWC20=Темная охотница Валла
 Skin/Name/DemonHunterOWC20Var1=Яркая темная охотница Валла
 Skin/Name/DemonHunterOWC20Var2=Алебастровая темная охотница Валла
-Skin/Name/DemonHunterOWC20Var3=Темная охотница Валла без маски
-Skin/Name/DemonHunterOWC20Var4=Яркая темная охотница Валла без маски
-Skin/Name/DemonHunterOWC20Var5=Алебастровая темная охотница Валла без маски
 Skin/Name/DemonHunterPink=Розовая Валла
 Skin/Name/DemonHunterVampireHunter=Истребительница вампиров Валла
 Skin/Name/DemonHunterVampireHunterDark=Черная истребительница вампиров Валла
@@ -23155,9 +23155,6 @@ Skin/Name/RaynorMarshallSkinRed=Шериф Доминиона Рейнор
 Skin/Name/RaynorOWC20=Рейнор-76
 Skin/Name/RaynorOWC20Var1=Усиленный Рейнор-76
 Skin/Name/RaynorOWC20Var2=Элитный Рейнор-76
-Skin/Name/RaynorOWC20Var3=Рейнор-76 без маски
-Skin/Name/RaynorOWC20Var4=Усиленный Рейнор-76 без маски
-Skin/Name/RaynorOWC20Var5=Элитный Рейнор-76 без маски
 Skin/Name/RaynorPatriot=Звездно-полосатый Рейнор
 Skin/Name/RaynorPatriotBlack=Звездно-полосатый агент Рейнор
 Skin/Name/RaynorPatriotRed=Звездно-полосатый страж Рейнор
@@ -23728,9 +23725,6 @@ Skin/SortName/CrusaderEnforcerVar1=EnforcerVar1
 Skin/SortName/CrusaderOWC20=CrusaderOW20MaskVar0
 Skin/SortName/CrusaderOWC20Var1=CrusaderOW20MaskVar1
 Skin/SortName/CrusaderOWC20Var2=CrusaderOW20MaskVar2
-Skin/SortName/CrusaderOWC20Var3=CrusaderOW20NoMaskVar0
-Skin/SortName/CrusaderOWC20Var4=CrusaderOW20NoMaskVar1
-Skin/SortName/CrusaderOWC20Var5=CrusaderOW20NoMaskVar2
 Skin/SortName/CrusaderSpellCommonVar0=SpellVar0
 Skin/SortName/CrusaderSpellCommonVar1=SpellVar1
 Skin/SortName/CrusaderUltimateCommonVar0=zUltimateVar0
@@ -23752,9 +23746,6 @@ Skin/SortName/DemonHunterMecha19CommonVar1=DemonHunterMecha19Var1
 Skin/SortName/DemonHunterOWC20=DemonHunterOWC20MaskVar0
 Skin/SortName/DemonHunterOWC20Var1=DemonHunterOWC20MaskVar1
 Skin/SortName/DemonHunterOWC20Var2=DemonHunterOWC20MaskVar2
-Skin/SortName/DemonHunterOWC20Var3=DemonHunterOWC20NoMaskVar0
-Skin/SortName/DemonHunterOWC20Var4=DemonHunterOWC20NoMaskVar1
-Skin/SortName/DemonHunterOWC20Var5=DemonHunterOWC20NoMaskVar2
 Skin/SortName/DemonHunterUltimateCommonVar0=zUltimateVar0
 Skin/SortName/DemonHunterUltimateCommonVar1=zUltimateVar1
 Skin/SortName/DemonHunterVampireCommonVar0=VampireVar0
@@ -24028,9 +24019,6 @@ Skin/SortName/RaynorMarshallCommonVar1=MarshallVar1
 Skin/SortName/RaynorOWC20=RaynorOWC20MaskVar0
 Skin/SortName/RaynorOWC20Var1=RaynorOWC20MaskVar1
 Skin/SortName/RaynorOWC20Var2=RaynorOWC20MaskVar2
-Skin/SortName/RaynorOWC20Var3=RaynorOWC20NoMaskVar0
-Skin/SortName/RaynorOWC20Var4=RaynorOWC20NoMaskVar1
-Skin/SortName/RaynorOWC20Var5=RaynorOWC20NoMaskVar2
 Skin/SortName/RaynorStarsCommonVar0=StarsVar0
 Skin/SortName/RaynorStarsCommonVar1=StarsVar1
 Skin/SortName/RaynorToys19CommonVar1=GreenArmyVar1
@@ -24127,7 +24115,7 @@ Skin/SortName/ThrallToon20CommonVar0=ThrallToon20Var0
 Skin/SortName/ThrallToon20CommonVar1=ThrallToon20Var1
 Skin/SortName/ThrallToon20CommonVar2=ThrallToon20Var2
 Skin/SortName/ThrallToon20CommonVar3=ThrallToon20Var3
-Skin/SortName/ThrallToon20CommonVar4=ThrallToon20Var1
+Skin/SortName/ThrallToon20CommonVar4=ThrallToon20Var4
 Skin/SortName/ThrallUltimateCommonVar0=zUltimateVar0
 Skin/SortName/ThrallUltimateCommonVar1=zUltimateVar1
 Skin/SortName/TychusBaseCommonVar0=zzTychusVar0
@@ -25920,6 +25908,23 @@ UI/AutoSelectFilterTooltip/Support=Включить всех героев под
 UI/AutoSelectFilterTooltip/Tank=Включить всех танков
 UI/AutoSelectFilterTooltip/Warrior=Включить всех бойцов
 UI/AutoSelectToastTitle=Способности выбраны автоматически.
+UI/BRAWL=
+UI/BRAWL/AdditionalInfoDescription=<ul indent="2" text="•"><li>Камни возвращения (B) не действуют. В стартовой области не восполняется здоровье.</li><li>Специальные генераторы образуют сферы регенерации прямо на поле боя.</li></ul>
+UI/BRAWL/AdditionalInfoLabel=Дополнительная информация
+UI/BRAWL/BRAWLInfo=Информация
+UI/BRAWL/Description=Случайные герои — одна линия
+UI/BRAWL/InfoButton/Tooltip=
+UI/BRAWL/IntroDescription=Случайно выбранные герои сражаются на единственной линии!
+UI/BRAWL/IntroLabel=
+UI/BRAWL/MapsRotation=Поля боя
+UI/BRAWL/MapsRotation/Tooltip=
+UI/BRAWL/ObjectiveDescription=Уничтожьте вражескую цитадель, чтобы выиграть матч.
+UI/BRAWL/ObjectiveLabel=Уничтожьте вражескую цитадель.
+UI/BRAWL/ShufflePickDescription=Выберите одного из трех определенных случайным образом героев. У вас есть только 30 секунд, так что поспешите!
+UI/BRAWL/ShufflePickLabel=Выбор из трех
+UI/BRAWL/SingleLaneDescription=На поле боя нет особых задач. Готовьтесь к непрерывной битве!
+UI/BRAWL/SingleLaneLabel=Одна линия
+UI/BRAWL/Unavailable=
 UI/BattleChat/CustomMessageFormat=<s val="BattleChatCustomMessage">[<a name="CustomMessage" href="CustomMessage"><IMG path="Assets\Textures\storm_social_socialpanel_broadcast.dds" height="16" width="21" alignment="absolutemiddle"/> Рассылка</a>] <a name="PresenceId" href="%presenceId%">%senderName%</a>: %message%</s>
 UI/BattleChat/FriendProgramMatch=<s val="BattleChatSystem"><a name="PresenceId" href="%presenceId%">%userName%</a> заходит в Нексус <a name="InviteToParty" href="%presenceId%"><c val="57b4ff">[пригласить в группу]</c></a>.</s>
 UI/BattleChat/StatisticGames=Количество текущих матчей Heroes of the Storm: %num%

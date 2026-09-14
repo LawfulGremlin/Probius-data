@@ -1888,7 +1888,7 @@ Button/Name/AbathurLocustSwarm=식충 번식
 Button/Name/AbathurMonstrosityDeepTunnel=굴 파기
 Button/Name/AbathurMonstrosityEvolutionCompleteTalent=진화 완료
 Button/Name/AbathurReinforcedCarapaceTalent=갑피 보강
-Button/Name/AbathurSlapathur=
+Button/Name/AbathurSlapathur=찰싹투르
 Button/Name/AbathurSymbiote=공생체
 Button/Name/AbathurSymbioteAdrenalOverloadTalent=아드레날린 과부하
 Button/Name/AbathurSymbioteAdrenalineBoostTalent=아드레날린 증폭
@@ -3741,7 +3741,7 @@ Button/SimpleDisplayText/AbathurLocustSwarm=식충 떼 생성
 Button/SimpleDisplayText/AbathurMonstrosityDeepTunnel=대상 위치로 굴을 파서 이동
 Button/SimpleDisplayText/AbathurMonstrosityEvolutionCompleteTalent=흉물 공격력 증가
 Button/SimpleDisplayText/AbathurReinforcedCarapaceTalent=갑피 보호막 증가
-Button/SimpleDisplayText/AbathurSlapathur=
+Button/SimpleDisplayText/AbathurSlapathur=일반 공격 시 기절, 추가 피해
 Button/SimpleDisplayText/AbathurSymbiote=아군을 돕고 새 능력을 얻음
 Button/SimpleDisplayText/AbathurSymbioteAdrenalOverloadTalent=숙주 공격 속도 증가
 Button/SimpleDisplayText/AbathurSymbioteAdrenalineBoostTalent=갑피가 이동 속도를 증가시킴
@@ -5196,7 +5196,7 @@ Button/SimpleDisplayText/WitchDoctorThingOfTheDeepToken=<img path="@UI/StormTale
 Button/SimpleDisplayText/WitchDoctorToadAffinityTalent=영웅 적중 시 재사용 대기시간 감소
 Button/SimpleDisplayText/WitchDoctorVileInfection=<c val="#TooltipQuest">퀘스트:</c> 부두 의식 강화
 Button/SimpleDisplayText/WitchDoctorVoodooRitualBloodRitualTalent=부두 의식으로 생명력 및 마나 회복
-Button/SimpleDisplayText/WitchDoctorVoodooRitualToken=일반 공격과 기술이 영웅이 아닌 적들을 중독시켜 <c val="#TooltipNumbers"><d ref="Behavior,WitchDoctorVoodooRitualDoT,Duration" player="0"/></c>초에 걸쳐 <c val="#TooltipNumbers"><d ref="(Behavior,WitchDoctorVoodooRitualDoT,Duration-0.0625)*Effect,WitchDoctorVoodooRitualDamage,Amount"/></c>의 추가 피해를 줍니다.<n/><n/><c val="#TooltipQuest">퀘스트:</c> 돌격병이 부두 의식에 중독된 상태로 죽으면 최대 생명력이 <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualHealthAccumulator,Scale"/></c>, 최대 마나가 <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualEnergyAccumulator,Scale"/></c> 영구히 증가합니다.
+Button/SimpleDisplayText/WitchDoctorVoodooRitualToken=나지보의 일반 공격과 기술이 영웅이 아닌 적들을 중독시켜 <c val="#TooltipNumbers"><d ref="Behavior,WitchDoctorVoodooRitualDoT,Duration" player="0"/></c>초에 걸쳐 <c val="#TooltipNumbers"><d ref="(Behavior,WitchDoctorVoodooRitualDoT,Duration)*Effect,WitchDoctorVoodooRitualDamage,Amount"/></c>의 추가 피해를 줍니다.<n/><n/><c val="#TooltipQuest">퀘스트:</c> 돌격병이 부두 의식에 중독된 상태로 죽으면 최대 생명력이 <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualHealthAccumulator,Scale"/></c>, 최대 마나가 <c val="#TooltipNumbers"><d ref="Accumulator,WitchDoctorVoodooRitualEnergyAccumulator,Scale"/></c> 영구히 증가합니다.
 Button/SimpleDisplayText/WitchDoctorVoodooRitualTrait=일반 공격 및 기술이 지속 피해를 주고 돌격병 처치 시 생명력 및 마나 영구히 증가
 Button/SimpleDisplayText/WitchDoctorWidowmakers=<c val="#TooltipQuest">퀘스트:</c> 시체 거미 강화
 Button/SimpleDisplayText/WitchDoctorWidowmakersToken=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/>영웅 공격 시 시체 거미 강화
@@ -5265,7 +5265,7 @@ Button/SimpleDisplayText/ZagaraHunterKillerBroodExpansionTalent=추적 도살자
 Button/SimpleDisplayText/ZagaraHunterKillerGroovedSpinesTalent=추적 도살자 사거리 및 공격력 증가
 Button/SimpleDisplayText/ZagaraHunterKillerMutaliskTalent=추적 도살자 대신 뮤탈리스크 소환
 Button/SimpleDisplayText/ZagaraHydraliskTransfusionTalent=추적 도살자 공격 시 생명력 회복
-Button/SimpleDisplayText/ZagaraInfest=주위 아군 원거리 돌격병 공격력 증가
+Button/SimpleDisplayText/ZagaraInfest=<c val="#TooltipQuest">퀘스트:</c> 주위 원거리 돌격병 공격력 증가
 Button/SimpleDisplayText/ZagaraInfestItem=주위 아군 원거리 돌격병 공격력 증가
 Button/SimpleDisplayText/ZagaraInfestedDrop=애바퀴를 생성하는 저그 낙하 주머니를 대상 지역에 떨어트림
 Button/SimpleDisplayText/ZagaraInfestedDropBileDropTalent=<c val="#TooltipQuest">퀘스트:</c> 생성되는 최대 애바퀴 수 증가
@@ -5312,14 +5312,14 @@ Button/SimpleDisplayText/ZeratulVorpalBladeHotbar=마지막으로 공격한 적�
 Button/SimpleDisplayText/ZeratulWarpSkirmisher=날카로운 칼날 2회 충전 가능
 Button/SimpleDisplayText/ZeratulWormholeTalent=처음 점멸을 사용한 위치로 돌아갈 수 있음
 Button/Tooltip/AbathurDeepTunnel=시야가 확보된 곳으로 빠르게 굴을 파서 이동합니다.
-Button/Tooltip/AbathurEvolveMonstrosityHotbar=아군 돌격병이나 식충을 흉물로 진화시킵니다. 흉물 주위에서 적 돌격병이 죽으면 흉물의 생명력이 <c val="#TooltipNumbers"><d ref="100*Behavior,AbathurEvolveMonstrosityHealthStack,Modification.VitalMaxArray[Life]/Unit,AbathurEvolvedMonstrosity,LifeStart"/>%</c> 증가하고 일반 공격력이 <c val="#TooltipNumbers"><d ref="Accumulator,AbathurEvolveMonstrosityMinionAbsorbedAccumulator,Scale*100"/>%</c> 증가합니다. 이 효과는 최대 <c val="#TooltipNumbers"><d ref="Behavior,AbathurEvolveMonstrosityAbathurStack,MaxStackCount"/></c>회 중첩됩니다. 흉물은 갑피로 생명력을 회복할 수 있으며, 시야가 확보된 곳으로 <c val="#TooltipNumbers"><d ref="Abil,AbathurMonstrosityDeepTunnel,Cost.Cooldown.TimeUse"/></c>초마다 굴 파기 기술을 사용할 수 있습니다.<n/><n/>흉물에 공생체를 사용하면, 공생체의 기술을 사용하면서 흉물을 조종할 수 있습니다. 흉물을 소환한 후 이 기술을 다시 사용하면 자동으로 흉물에게 공생체를 사용합니다.
+Button/Tooltip/AbathurEvolveMonstrosityHotbar=아군 돌격병이나 식충을 흉물로 진화시킵니다. 흉물 주위에서 적 돌격병이 죽으면 흉물의 생명력이 <c val="#TooltipNumbers"><d ref="100*Accumulator,AbathurEvolveMonstrosityStackHealthAccumulator,Scale/Unit,AbathurEvolvedMonstrosity,LifeStart" player="0"/>%</c> 증가하고 일반 공격력이 <c val="#TooltipNumbers"><d ref="Accumulator,AbathurEvolveMonstrosityStackDamageAccumulator,Scale*100" player="0"/>%</c> 증가합니다. 이 효과는 최대 <c val="#TooltipNumbers"><d ref="Behavior,AbathurEvolveMonstrosityQuestStack,Max"/></c>회 중첩됩니다. 흉물은 갑피로 생명력을 회복할 수 있으며, 시야가 확보된 곳으로 <c val="#TooltipNumbers"><d ref="Abil,AbathurMonstrosityDeepTunnel,Cost.Cooldown.TimeUse"/></c>초마다 굴 파기 기술을 사용할 수 있습니다.<n/><n/>흉물에 공생체를 사용하면, 공생체의 기술을 활용하면서 흉물을 조종할 수 있습니다. 흉물을 소환한 후 이 기술을 다시 사용하면 자동으로 흉물에게 공생체를 사용합니다.
 Button/Tooltip/AbathurEvolvedMonstrosity=<s val="StandardTooltipDetails">궁극기</s><n/><s val="StandardTooltipDetails">재사용 대기시간: <d ref="Abil,WitchDoctorGargantuan,Cost[0].Cooldown.TimeUse" precision="1"/>초<n/><n/><s val="StandardTooltip">생성될 때 <s val="StandardTooltipDetails"><d ref="Effect,WitchDoctorGargantuanInitialImpactDamage,Amount"/></s>의 피해를 주는 덩치를 소환합니다. 덩치는 적 돌격병을 집어들 수 있고, 발을 굴러 주위 적들의 이동 속도를 <s val="StandardTooltipDetails"><d ref="-Behavior,WitchDoctorGargantuanSlow,Modification.UnifiedMoveSpeedFactor*100"/>%</s> 감소시킵니다. 덩치는 <s val="StandardTooltipDetails">20</s>초 동안 전장에 머뭅니다.
 Button/Tooltip/AbathurLocustMasterHotbar=사용하면 주기적으로 식충을 생성하는 둥지를 만듭니다. 식충 둥지는 동시에 하나만 활성화할 수 있습니다.
 Button/Tooltip/AbathurLocustNest=<s val="StandardTooltipDetails">충전 대기시간: <d ref="Abil,AbathurToxicNest,Cost[0].Charge.TimeUse" precision="1"/>초<n/><n/><s val="StandardTooltip">일정 시간 후 활성화되는 지뢰를 생성합니다. 지뢰는 <s val="StandardTooltipDetails"><d ref="Effect,ToxicNestDamage,Amount"/></s>의 피해를 주고 <s val="StandardTooltipDetails"><d ref="Behavior,ToxicNestReveal,Duration" player="0"/></s>초 동안 적을 드러냅니다. <s val="StandardTooltipDetails"><d ref="Behavior,ToxicNestSearchBehaviorTimedLife,Duration" player="0"/></s>초 동안 지속됩니다.</s>
 Button/Tooltip/AbathurLocustNestItem=<s val="StandardTooltipHeader">식충 번식</s><n/><s val="StandardTooltipDetails">재사용 대기시간: <d ref="Abil,AbathurLocustSwarm,Cost[0].Cooldown.TimeUse" precision="1"/>초<n/><s val="StandardTooltip"><n/><s val="StandardTooltip">사용하면 대상 지역에 둥지를 만듭니다. 둥지에서는 <s val="StandardTooltipDetails">3</s>마리의 식충이 생성됩니다.
-Button/Tooltip/AbathurLocustStrain=<c val="#TooltipNumbers"><d ref="Abil,AbathurSpawnLocusts,Cost[0].Cooldown.TimeUse" player="0" precision="1"/></c>초마다 식충을 생성합니다. 식충은 가장 가까운 공격로에 합류하여 적을 공격합니다. 식충은 <c val="#TooltipNumbers"><d ref="Behavior,LocustTimedLife,Duration" player="0"/></c>초 동안 지속되며 <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustWeaponDamage,Amount"/></c>의 일반 공격력과 <c val="#TooltipNumbers"><d ref="Unit,AbathurLocustNormal,LifeMax"/></c>의 생명력을 지닙니다. 구조물에는 <c val="#TooltipNumbers"><d ref="100*Effect,AbathurLocustWeaponDamage,MultiplicativeModifierArray[StructureDamage].Modifier"/>%</c>의 추가 피해를 줍니다.
+Button/Tooltip/AbathurLocustStrain=<c val="#TooltipNumbers"><d ref="Abil,AbathurSpawnLocusts,Cost[0].Cooldown.TimeUse" player="0" precision="1"/></c>초마다 식충을 생성합니다. 식충은 가장 가까운 공격로에 합류하여 적을 공격합니다. 식충은 준 피해의 <c val="#TooltipNumbers">20%</c>만큼 생명력을 회복하며, 주위에서 돌격병이 죽을 때마다 최대 생명력의 <c val="#TooltipNumbers">20%</c>를 회복합니다.</n></n>식충은 <c val="#TooltipNumbers"><d ref="-Unit,AbathurLocust,LifeMax/Unit,AbathurLocust,LifeRegenRate"/></c>초에 걸쳐 생명력을 잃고, <c val="#TooltipNumbers"><d ref="Unit,AbathurLocustNormal,LifeMax"/></c>의 생명력을 지닙니다. 일반 공격 시 <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustWeaponDamage,Amount"/></c>의 피해를 주고 영웅이 아닌 적 대상에게는 <c val="#TooltipNumbers"><d ref="100*Effect,AbathurLocustWeaponDamage,MultiplicativeModifierArray[StructureDamage].Modifier"/>%</c>의 추가 피해를 줍니다.
 Button/Tooltip/AbathurLocustStrainAssaultStrainTalent=식충의 일반 공격이 주위에 <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustAssaultWeaponCleaveDamage,Amount/Effect,AbathurLocustAssaultWeaponDamage,Amount*100"/>%</c>의 피해를 주고, 죽을 때 폭발하여 <c val="#TooltipNumbers"><d ref="Effect,AbathurLocustAssaultExplodeDamage,Amount"/></c>의 피해를 줍니다.
-Button/Tooltip/AbathurLocustStrainBombardStrainTalent=식충의 지속 시간이 <c val="#TooltipNumbers"><d ref="100*Talent,AbathurCombatStyleBombardStrain,AbilityModificationArray[0].Modifications[0].Value/Behavior,LocustTimedLife,Duration"Player="0"/>%</c>초 증가하고 일반 공격이 장거리 공격이 됩니다.
+Button/Tooltip/AbathurLocustStrainBombardStrainTalent=식충의 일반 공격이 장거리 공격이 되며, 생명력이 <c val="#TooltipNumbers">50%</c> 더 느리게 줄어듭니다.
 Button/Tooltip/AbathurLocustStrainCombatAdaptationTalent=<s val="StandardTooltipHeader">전투 적응 형질</s><s val="StandardTooltipDetails"><n/><n/><s val="StandardTooltip">식충의 공격 속도가 <s val="StandardTooltipDetails"><d ref="100*Behavior,CombatAdaptation,Modification.AdditiveAttackSpeedFactor"/>%</s> 증가합니다.
 Button/Tooltip/AbathurLocustStrainCombatAdaptationTalentSimple=<s val="TalentChoiceNameLabel">전투 적응 형질</s><n/><s val="TalentChoiceDescriptionLabel">식충 공격 속도 증가
 Button/Tooltip/AbathurLocustStrainSurvivalInstinctsTalent=식충의 생명력이 <c val="#TooltipNumbers"><d ref="100*Behavior,AbathurSurvivalInstinctsBuff,Modification.VitalMaxAdditiveMultiplierArray[Life]" player="0"/>%</c> 증가하고 공격력이 <c val="#TooltipNumbers"><d ref="100*Effect,AbathurLocustWeaponDamage,MultiplicativeModifierArray[SurvivalInstincts].Modifier"/>%</c> 증가합니다.
@@ -5327,7 +5327,7 @@ Button/Tooltip/AbathurLocustSwarm=사용하면 주위 대상 지역에서 <c val
 Button/Tooltip/AbathurMonstrosityDeepTunnel=흉물이 대상 위치로 굴을 파도록 명령
 Button/Tooltip/AbathurMonstrosityEvolutionCompleteTalent=흉물의 일반 공격력이 <c val="#TooltipNumbers"><d ref="100*Effect,AbathurEvolveMonstrosityWeaponDamage,MultiplicativeModifierArray[EvolutionCompleteDamage].Modifier"/>%</c> 증가합니다. 
 Button/Tooltip/AbathurReinforcedCarapaceTalent=갑피의 보호막이 <c val="#TooltipNumbers"><d ref="100*(Talent,AbathurReinforcedCarapace,AbilityModificationArray[0].Modifications[0].Value)-100"Precision="2"/>%</c> 증가합니다.
-Button/Tooltip/AbathurSlapathur=
+Button/Tooltip/AbathurSlapathur=아바투르의 일반 공격이 <c val="#TooltipNumbers">500%</c>의 추가 피해를 주고, <c val="#TooltipNumbers"><d ref="Behavior,AbathurSlapathurStun,Duration" precision="1"/></c>초 동안 정예가 아닌 대상을 기절시키며 구조물을 무력화합니다.</n></n>동일한 영웅이나 구조물은 <c val="#TooltipNumbers"><d ref="Behavior,SlapathurInternalCooldown,Duration"/></c>초에 한 번씩만 기절시키거나 무력화할 수 있습니다.
 Button/Tooltip/AbathurSymbiote=공생체를 소환하여 다른 아군 유닛이나 구조물을 지원합니다. 활성화된 동안 공생체를 조종하여 새로운 기술을 사용할 수 있습니다. 공생체는 주위 적들이 죽을 때 경험치를 획득할 수 있습니다.
 Button/Tooltip/AbathurSymbioteAdrenalOverloadTalent=숙주로 삼은 영웅의 공격 속도가 <c val="#TooltipNumbers"><d ref="Behavior,AbathurAdrenalOverload,Modification.AdditiveAttackSpeedFactor*100" player="0" precision="2"/>%</c> 증가합니다.
 Button/Tooltip/AbathurSymbioteAdrenalineBoostTalent=공생체의 갑피가 대상의 이동 속도를 <c val="#TooltipNumbers"><d ref="Behavior,AdrenalineBoost,Duration" precision="1" player="0"/></c>초 동안 <c val="#TooltipNumbers"><d ref="100*Behavior,AdrenalineBoost,Modification.UnifiedMoveSpeedFactor"/>%</c> 증가시킵니다.
@@ -5379,7 +5379,7 @@ Button/Tooltip/AnubarakHardenCarapaceShedExoskeletonTalent=강화 갑피를 사�
 Button/Tooltip/AnubarakHardenCarapaceUrtricatingSpinesTalent=강화 갑피를 사용하면 주위 적들에게 <c val="#TooltipNumbers"><d ref="Effect,AnubarakUrticatingSpinesDamage,Amount"/></c>의 피해를 줍니다. 영웅에게는 두 배의 피해를 줍니다.
 Button/Tooltip/AnubarakImpale=<c val="#TooltipNumbers"><d ref="Effect,AnubarakImpaleDamage,Amount"/></c>의 피해를 주고 <c val="#TooltipNumbers"><d ref="Behavior,AnubarakImpaleStun,Duration" player="0" precision="2"/></c>초 동안 기절시킵니다.
 Button/Tooltip/AnubarakImpaleBedOfBarbsTalent=꿰뚫기 경로에 가시 무덤이 생겨나 적들을 <c val="#TooltipNumbers"><d ref="-100*Behavior,AnubarakImpaleBedOfBarbsSlow,Modification.UnifiedMoveSpeedFactor" precision="2"/>%</c> 느려지게 하고 초당 <c val="#TooltipNumbers"><d ref="Effect,AnubarakImpaleBedOfBarbsPeriodicDamage,Amount"/></c>의 피해를 줍니다. 가시 무덤은 <c val="#TooltipNumbers"><d ref="Effect,AnubarakImpaleBedOfBarbsCreatePersistent,PeriodCount*Effect,AnubarakImpaleBedOfBarbsCreatePersistent,PeriodicPeriodArray[0]" player="0" precision="1"/></c>초 동안 지속됩니다.
-Button/Tooltip/AnubarakLeechingMandiblesTalent=딱정벌레가 아눕아락 근처에서 일반 공격력이 <c val="#TooltipNumbers"><d ref="Effect,AnubarakBeetleSpitBeetleDamage,MultiplicativeModifierArray[AnubarakLeechingScarabsDamage].Modifier*100"/>%</c> 증가하고 딱정벌레가 일반 공격으로 준 피해의 <c val="#TooltipNumbers">50%</c>만큼 아눕아락의 생명력을 회복시킵니다.
+Button/Tooltip/AnubarakLeechingMandiblesTalent=딱정벌레 공격이 <c val="#TooltipNumbers"><d ref="Effect,AnubarakBeetleSpitBeetleDamage,MultiplicativeModifierArray[AnubarakLeechingScarabsDamage].Modifier*100"/>%</c>의 추가 피해를 주고, 아눕아락이 주위에 있을 경우 준 피해의 <c val="#TooltipNumbers"><d ref="Effect,AnubarakBeetleSpitBeetleDamage,LeechFraction[Life]*100"/>%</c>만큼 생명력을 회복시킵니다.
 Button/Tooltip/AnubarakLegionOfBeetlesTalent=딱정벌레는 기본 기술 방어력이 <c val="#TooltipNumbers"><d ref="Behavior,AnubarakLegionOfBeetlesBeetleArmorBuffBehavior,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Ability]"/></c>입니다. <c val="#TooltipNumbers"><d ref="Abil,AnubarakLegionOfBeetles,Cost[0].Cooldown.TimeUse" player="0"/></c>초마다 딱정벌레를 생성합니다. 활성화 또는 비활성화할 수 있습니다.
 Button/Tooltip/AnubarakLegionOfBeetlesToggle=<s val="StandardTooltipHeader">딱정벌레 군단</s><n/><s val="StandardTooltipDetails">재사용 대기시간: <d ref="Abil,AnubarakLegionofBeetlesTalentAbility,Cost[0].Cooldown.TimeUse"/>초</n></n><s val="StandardTooltip">주기적으로 딱정벌레를 소환합니다.
 Button/Tooltip/AnubarakLocustSwarm=주위 적들에게 초당 <c val="#TooltipNumbers"><d ref="Effect,AnubarakLocustSwarmDamage,Amount"/></c>의 피해를 줍니다. 적에게 피해를 줄 때마다 <c val="#TooltipNumbers"><d ref="Effect,AnubarakLocustSwarmHeal,RechargeVitalRate"/></c>의 생명력을 회복합니다. <c val="#TooltipNumbers"><d ref="[d ref='Effect,AnubarakLocustSwarmCreatePersistent,PeriodCount' player='0'/] * Effect,AnubarakLocustSwarmCreatePersistent,PeriodicPeriodArray[0]"/></c>초 동안 지속됩니다.
@@ -5431,7 +5431,7 @@ Button/Tooltip/ArtanisTwinBladesTripleStrikeTalent=이연격으로 일반 공격
 Button/Tooltip/ArtanisTwinBladesZealotChargeTalent=이연격의 돌진 거리가 <c val="#TooltipNumbers">75%</c> 증가합니다.
 Button/Tooltip/ArthasAbsoluteZeroSummonSindragosaTalent=신드라고사가 두 배 멀리 날아갑니다. 적 영웅들은 <c val="#TooltipNumbers"><d ref="Behavior,ArthasSummonSindragosaHeroRoot,Duration" player="0"Precision="2"/></c>초 동안 이동 불가 상태가 된 후, <c val="#TooltipNumbers"><d ref="Behavior,ArthasSummonSindragosaAbsoluteZeroSlow,Duration" player="0" precision="1"/></c>초 동안 <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasSummonSindragosaAbsoluteZeroSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> 느려집니다.
 Button/Tooltip/ArthasAntiMagicShellTalent=사용하면 <c val="#TooltipNumbers"><d ref="Behavior,ArthasAntiMagicShellCaster,Duration"/></c>초 동안 기술 피해에 면역이 되고 방지한 피해의 <c val="#TooltipNumbers">25%</c>만큼 생명력을 회복합니다.
-Button/Tooltip/ArthasArmyOfTheDead=충전 횟수를 모두 소모하여 동일한 수의 구울을 소환합니다. 이 구울들은 <c val="#TooltipNumbers"><d ref="-Unit,ArthasArmyOfTheDeadGhoul,LifeMax/Unit,ArthasArmyOfTheDeadGhoul,LifeRegenRate" player="0"/></c>초에 걸쳐 생명력을 잃으며 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadGhoulWeaponDamage,Amount"/></c>의 피해를 주는 공격을 합니다. 재사용하면 구울 한 마리를 희생하여 생명력을 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHeal,RechargeVitalRate"/></c> 회복합니다. 최대 <c val="#TooltipNumbers"><d ref="Abil,ArthasArmyOfTheDead,Cost.Charge.CountMax"/></c>회 충전됩니다.<n/><n/>주위 적 돌격병이 죽을 때마다 이 기술의 충전 대기시간이 <c val="#TooltipNumbers"><d ref="-Effect,ArthasArmyoftheDeadNPCDeathModifyChargeCooldown,Cost[0].ChargeTimeUse"precision="1"/></c>초 감소합니다. 영웅을 처치하면 이 기술의 충전 대기시간이 <c val="#TooltipNumbers"><d ref="-Effect,ArthasArmyoftheDeadTakedownModifyChargeCooldown,Cost[0].ChargeTimeUse"precision="1"/></c>초 감소합니다.
+Button/Tooltip/ArthasArmyOfTheDead=<c val="#TooltipNumbers"><d const="$ArthasArmyOfTheDeadGhoulDecayDuration" /></c>초에 걸쳐 생명력이 감소하는 생명력 <c val="#TooltipNumbers"><d ref="Unit,ArthasArmyOfTheDeadGhoul,LifeMax"/></c>의 구울 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadSpawnPersistent,PeriodCount" player="0"/></c>마리를 소환합니다. 구울은 아서스를 따라다니며 주위 적들을 공격해 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadGhoulWeaponDamage,Amount"/></c>의 피해를 줍니다.<n/><n/>다시 사용하면 구울 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHealSearch,AreaArray[0].MaxCount"/></c>마리를 희생해 자신의 생명력을 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHeal,RechargeVitalRate"/></c> 회복시킵니다. <c val="#TooltipNumbers"><d ref="Abil,ArthasArmyOfTheDeadSacrifice,Cost.Cooldown.TimeUse"/></c>초의 재사용 대기시간을 가집니다.
 Button/Tooltip/ArthasArmyOfTheDeadSacrifice=구울 하나를 희생시켜 <c val="#TooltipNumbers"><d ref="Effect,ArthasArmyOfTheDeadHeal,RechargeVitalRate"/></c>의 생명력을 회복합니다.
 Button/Tooltip/ArthasArmyOfTheDeadSacrificeUpgrade=<s val="StandardTooltipDetails">재사용 대기시간: <d ref="Abil,ArthasArmyOfTheDeadSacrifice,Cost[0].Cooldown.TimeUse"/>초<n/><n/><s val="StandardTooltip">구울 하나를 희생시켜 <s val="StandardTooltipDetails"><d ref="Effect,ArmyOfTheDeadLegionofNorthrendHeal,RechargeVitalRate"/></s>의 생명력을 회복합니다.
 Button/Tooltip/ArthasBitingColdFrozenTempestTalent=서리 폭풍으로 적에게 <c val="#TooltipNumbers">1</c>초 동안 피해를 줄 때마다 서리 폭풍의 공격력이 <c val="#TooltipNumbers"><d ref="100*Accumulator,ArthasFrozenTempestBitingColdTalentAccumulator,Scale*2"Precision="2"/>%</c> 증가하여 최대 <c val="#TooltipNumbers"><d ref="100*Accumulator,ArthasFrozenTempestBitingColdTalentAccumulator,MaxAccumulation"/>%</c> 증가합니다.
@@ -5449,11 +5449,11 @@ Button/Tooltip/ArthasFrostPresenceHowlingBlastTalent=울부짖는 한파의 사�
 Button/Tooltip/ArthasFrostPresenceToken=<c val="#TooltipQuest">영웅 적중: <c val="#TooltipNumbers" validator="True"><d ref="$BehaviorStackCount:ArthasFrostPresenceTokenCounter$"/>/<d ref="Behavior,ArthasFrostPresenceTokenCounter,Max"/></c>
 Button/Tooltip/ArthasFrostStrikeFrostmourneHungersTalent=서리한이 굶주렸다가 범위 내에 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersFrostStrikeTalentDamage,Amount"/></c>의 추가 기술 피해를 주고 적중한 적 영웅을 <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrostmourneHungersFrostStrikeSlow,Duration"/></c>초 동안 <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasFrostmourneHungersFrostStrikeSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> 느려지게 만듭니다.
 Button/Tooltip/ArthasFrostmourneFeedsFrostmourneHungersTalents=서리한이 굶주렸다의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Talent,ArthasMasteryFrostmourneFeedsFrostmourneHungers,AbilityModificationArray[0].Modifications[0].Value"/></c>초 감소합니다. 서리한이 굶주렸다로 가한 일반 공격 피해량의 <c val="#TooltipNumbers"><d ref="100*Effect,ArthasFrostmourneHungersDamage,LeechFraction[Life]"/>%</c>만큼 자신의 생명력을 회복합니다.
-Button/Tooltip/ArthasFrostmourneHungers=사용하면 다음 일반 공격이 즉시 적중하여 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c>의 추가 피해를 주고 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c>의 마나를 회복시킵니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">퀘스트:</c> 서리한이 굶주렸다가 돌격병을 처치하거나 영웅에게 적중하면 서리한이 굶주렸다의 추가 공격력과 일반 공격력이 영구적으로 <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> 증가합니다.
+Button/Tooltip/ArthasFrostmourneHungers=사용하면 다음 일반 공격이 즉시 적중하여 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c>의 추가 피해를 주고 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c>의 마나를 회복시킵니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">퀘스트:</c> 서리한이 굶주렸다가 돌격병을 처치하거나 영웅에게 적중하면 서리한이 굶주렸다의 추가 공격력이 영구적으로 <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c>, 아서스의 일반 공격력이 <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersBasicAttackDamageAccumulator,Scale" precision="2"/></c> 증가합니다.
 Button/Tooltip/ArthasFrostmourneHungersActive=<s val="StandardTooltipDetails">고유 능력<n/><s val="StandardTooltipDetails">재사용 대기시간: <d ref="Abil,FrostmourneHungers,Cost[0].Cooldown.TimeUse" precision="1"/>초</s><n/><n/><s val="StandardTooltip">다음 일반 공격이 <s val="StandardTooltipDetails"><d ref="100*Effect,FrostmourneHungersDamage,AttributeFactor[Heroic]"/>%</s> 증가한 피해를 주고 <s val="StandardTooltipDetails"><d ref="Effect,FrostmourneHungersManaRestoreModifyUnit,VitalArray[2].Change"/></s>의 마나를 회복시킵니다.</s>
 Button/Tooltip/ArthasFrostmourneHungersHeroSelectButton=<s val="StandardTooltip">사용하면 다음 공격이 강화되고 적중 시 마나를 회복합니다.
 Button/Tooltip/ArthasFrostmourneHungersPrimed=다음 일반 공격이 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c>의 추가 피해를 주고 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c>의 마나를 회복시킵니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">퀘스트:</c> 서리한이 굶주렸다가 돌격병을 처치하거나 영웅에게 적중하면 서리한이 굶주렸다의 추가 공격력과 일반 공격력이 영구적으로 <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> 증가합니다.
-Button/Tooltip/ArthasFrostmourneHungersToken=<c val="#TooltipQuest">추가 일반 공격력: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c></c><n/><c val="#TooltipQuest">서리한이 굶주렸다 추가 공격력: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c>
+Button/Tooltip/ArthasFrostmourneHungersToken=<c val="#TooltipQuest">추가 일반 공격력: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersBasicAttackDamageAccumulator,Scale"/></c></c><n/><c val="#TooltipQuest">서리한이 굶주렸다 추가 공격력: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ArthasFrostmourneHungersTokenCounter$*Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c>
 Button/Tooltip/ArthasFrostmourneHungersTokenSimple=사용하면 다음 일반 공격이 즉시 적중하여 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersDamage,FlatModifierArray[0].Modifier "/></c>의 추가 피해를 주고 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrostmourneHungersCreateManaHealer,RechargeVitalRate" player="0"/></c>의 마나를 회복시킵니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">퀘스트:</c> 서리한이 굶주렸다가 돌격병을 처치하거나 영웅에게 적중하면 일반 공격력이 영구적으로 <c val="#TooltipNumbers"><d ref="Accumulator,ArthasFrostmourneHungersDamageAccumulator,Scale"/></c> 증가합니다.
 Button/Tooltip/ArthasFrozenTempest=주위 적들에게 초당 <c val="#TooltipNumbers"><d ref="Effect,ArthasFrozenTempestDamage,Amount*2"/></c>의 피해를 주고 초당 <c val="#TooltipNumbers"><d ref="-1*Behavior,ArthasFrozenTempestSlow,Modification.UnifiedMoveSpeedFactor*100*2" player="0"/>%</c> 느려지게 하여 최대 <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasFrozenTempestSlow,MaxStackCount*Behavior,ArthasFrozenTempestSlow,Modification.UnifiedMoveSpeedFactor" player="0"/>%</c> 느려지게 합니다. 적중당한 영웅은 공격 속도가 초당 <c val="#TooltipNumbers"><d ref="-Behavior,ArthasFrozenTempestAttackSpeedSlow,Modification.AdditiveAttackSpeedFactor * 100 * 2" player="0"/>%</c> 감소하여 최대 <c val="#TooltipNumbers"><d ref="-Behavior,ArthasFrozenTempestAttackSpeedSlow,Modification.AdditiveAttackSpeedFactor * 100 * Behavior,ArthasFrozenTempestAttackSpeedSlow,MaxStackCount" player="0"/>%</c> 감소합니다. 이 효과는 <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestSlow,Duration" precision="1" player="0"/></c>초 동안 지속됩니다.
 Button/Tooltip/ArthasFrozenTempestDeactive=서리 폭풍을 비활성화합니다.
@@ -5461,11 +5461,11 @@ Button/Tooltip/ArthasFrozenWastesFrozenTempestTalent=서리 폭풍의 초당 마
 Button/Tooltip/ArthasFrozenWastesQuestTokenFrozenTempestTalent=<c val="#TooltipQuest">영웅 적중: <c val="#TooltipNumbers" validator="ArthasDoesNotHaveMaxFrozenWastesStacks"><d ref="Accumulator,ArthasFrozenWastesTokenAccumulator,Scale*$BehaviorStackCount:ArthasFrozenWastesQuestToken$"/>/<d ref="Accumulator,ArthasFrozenWastesTokenAccumulator,MaxAccumulation"/></c></c>
 Button/Tooltip/ArthasGorefiendsGrasp=죽음의 고리에 적중당한 영웅을 끌어당깁니다.<n/><n/><c val="#AbilityPassive">지속 효과:</c> 죽음의 고리의 사거리가 <c val="#TooltipNumbers"><d ref="-100+(100*Talent,ArthasGorefiendsGrasp,AbilityModificationArray[0].Modifications[0].Value)"/>%</c> 증가합니다.
 Button/Tooltip/ArthasHowlingBlast=대상 지역 안의 적들을 <c val="#TooltipNumbers"><d ref="Behavior,ArthasHowlingBlastRoot,Duration" player="0" precision="2"/></c>초 동안 이동 불가 상태로 만들고 <c val="#TooltipNumbers"><d ref="Effect,ArthasHowlingBlastDamage,Amount"/></c>의 피해를 줍니다.
-Button/Tooltip/ArthasIceboundFortitudeTalent=사용하면 방어력이 <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,ArmorModification.AllArmorBonus"/></c> 증가하고 기절, 감속, 이동 불가 효과의 지속시간이 <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,Duration" precision="1"/></c>초 동안 <c val="#TooltipNumbers">75%</c> 감소합니다.<n/><n/>울부짖는 한파로 이동 불가 상태가 된 영웅 한 명마다 이 기술의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Effect,ArthasIceboundFortitudeModifyCooldown,Cost[0].CooldownTimeUse"/></c>초 감소합니다.
+Button/Tooltip/ArthasIceboundFortitudeTalent=사용하면 모든 감속 및 이동 불가 효과를 즉시 제거합니다. 방어력이 <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,ArmorModification.AllArmorBonus"/></c> 증가하고 기절, 감속, 이동 불가 효과의 지속시간이 <c val="#TooltipNumbers"><d ref="Behavior,ArthasIceboundFortitudeCasterBehavior,Duration" precision="1"/></c>초 동안 <c val="#TooltipNumbers">75%</c> 감소합니다.<n/><n/>울부짖는 한파로 이동 불가 상태가 된 영웅 한 명마다 이 기술의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Effect,ArthasIceboundFortitudeModifyCooldown,Cost[0].CooldownTimeUse"/></c>초 감소합니다.
 Button/Tooltip/ArthasIcyTalons=서리 폭풍이 적 영웅에게 피해를 줄 때마다 공격 속도가 <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,Duration" precision="3"/></c>초 동안 <c val="#TooltipNumbers"><d ref="100*Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,Modification.AdditiveAttackSpeedFactor"precision="2"/>%</c> 증가하여 최대 <c val="#TooltipNumbers"><d ref="100*Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,Modification.AdditiveAttackSpeedFactor*Behavior,ArthasFrozenTempestIcyTalonsTalentAttackSpeedBuff,MaxStackCount" precision="3"/>%</c> 증가합니다. 
 Button/Tooltip/ArthasImmortalCoilDeathCoilTalent=죽음의 고리를 적에게 사용했을 때도 생명력을 회복합니다. 자신에게 사용하면 생명력을 <c val="#TooltipNumbers"><d ref="Effect,ArthasDeathCoilSelfCastCreateHealer,MultiplicativeModifierArray[0].Modifier*100"Precision="2"/>%</c> 추가로 회복하고, 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Effect,ArthasDeathCoilImmortalCoilTalentModifyUnit,Cost[0].CooldownTimeUse"/></c>초 감소합니다.
 Button/Tooltip/ArthasLegionOfNorthrendArmyOfTheDeadTalent=사자의 군대 충전 대기시간이 <c val="#TooltipNumbers"><d ref="-Talent,ArthasMasteryLegionOfNorthrendArmyoftheDead,AbilityModificationArray[0].Modifications[0].Value"/></c>초 감소합니다.<n/><n/>1회 사용할 때마다 추가 구울 1마리가 생성되어 주위 적을 공격합니다. 이 구울들은 희생시킬 수 없습니다.
-Button/Tooltip/ArthasPathofFrost=사용하면 즉시 탑승하며 <c val="#TooltipNumbers"><d ref="100*(Behavior,ArthasPathofFrostTimedBehavior,Modification.UnifiedMoveSpeedFactor-Behavior,Mounted,Modification.UnifiedMoveSpeedFactor)"/>%의</c> 추가 이동 속도를 얻습니다. 피해를 받아도 이 탈것에서 내리지 않습니다. 최대 <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostTimedBehavior,Duration"/></c>초 동안 유지됩니다.<n/><n/>탈것에서 내려오면 주위 적을 <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostSlow,Duration"/></c>초 동안 <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasPathofFrostSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> 느려지게 하고 <c val="#TooltipNumbers"><d ref="Effect,ArthasPathofFrostDamage,Amount"/></c>의 피해를 줍니다.
+Button/Tooltip/ArthasPathofFrost=사용하면 즉시 탑승하며 <c val="#TooltipNumbers">140%</c>의 최소 이동 속도를 얻습니다. 피해를 받아도 이 탈것에서 내리지 않습니다. 최대 <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostTimedBehavior,Duration"/></c>초 동안 유지됩니다.<n/><n/>탈것에서 내려오면 주위 적을 <c val="#TooltipNumbers"><d ref="Behavior,ArthasPathofFrostSlow,Duration"/></c>초 동안 <c val="#TooltipNumbers"><d ref="-100*Behavior,ArthasPathofFrostSlow,Modification.UnifiedMoveSpeedFactor"/>%</c> 느려지게 하고 <c val="#TooltipNumbers"><d ref="Effect,ArthasPathofFrostDamage,Amount"/></c>의 피해를 줍니다.
 Button/Tooltip/ArthasRemorselessWinterFrozenTempestTalent=서리 폭풍의 범위 안에서 <c val="#TooltipNumbers">2.5</c>초 이상 영향을 받는 적 영웅들은 <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestRemorselessWinterRoot,Duration"Precision="2"/></c>초 동안 이동 불가 상태가 되고, 자신은 최대 생명력의 <c val="#TooltipNumbers"><d ref="100*Effect,ArthasFrozenTempestRemorselessWinterTalentHealer,RechargeVitalFraction"/>%</c>만큼 생명력을 회복합니다. 이 효과는 각 대상마다 <c val="#TooltipNumbers"><d ref="Behavior,ArthasFrozenTempestRemorselessWinterImmunity,Duration"/></c>초의 재사용 대기시간을 갖습니다.
 Button/Tooltip/ArthasRime=<c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeCharged,DamageResponse.Cost.Charge.TimeUse"/></c>초마다, 물리 방어력이 <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeChargedArmorBehavior,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Basic]"/></c> 증가하여 다음 영웅 일반 공격으로 받는 피해가 <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeChargedArmorBehavior,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Basic]"/>%</c> 감소합니다. 최대 <c val="#TooltipNumbers"><d ref="Behavior,ArthasRimeCharged,DamageResponse.Cost.Charge.CountMax"/></c>회 충전됩니다.<n/><n/><c val="#AbilityPassive">지속 효과: </c>감속, 이동 불가, 또는 기절 상태일 때 초당 <c val="#TooltipNumbers"><d ref="Effect,ArthasRimeHeal,RechargeVitalRate*(1/Behavior,ArthasRimeHealCarry,Period)"/></c>만큼 생명력을 회복합니다.
 Button/Tooltip/ArthasRuneTap=<s val="StandardTooltipHeader">맹렬한 분노의 룬</s><s val="StandardTooltipDetails"><n/><n/>방사 피해 +25%<n/>생명력 착취 +10%
@@ -5690,7 +5690,7 @@ Button/Tooltip/CancelBanelingBarrage=<s val="StandardTooltip"><n/>맹독충 굴�
 Button/Tooltip/CancelTrebuchetTransform=<s val="StandardTooltip"><n/>상태 변경을 취소합니다.
 Button/Tooltip/CatapultMinion=<s val="StandardTooltipDetails">원거리에서 방사 피해를 줍니다. 적 구조물보다 사거리가 깁니다.</s>
 Button/Tooltip/CentrifugalHooksTalent2=<s val="StandardTooltipHeader">원심 고리</s><n/><s val="StandardTooltip"><n/>맹독충이 두 배 더 멀리 이동합니다.
-Button/Tooltip/ChenAccumulatingFlame=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">보상:</c> 불의 숨결으로 영웅에게 피해를 주면 지속 피해가 <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestToken,Value" precision="2"/></c>만큼 영구적으로 증가합니다.  처치하면 <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestTokenHeroDeath,Value"/></c>만큼 증가합니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">보상:</c> <c val="#TooltipNumbers">20</c> 피해로 증가하면 술통 부수기의 사거리가 증가합니다.<n/></n><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">신화 보상:</c> <c val="#TooltipNumbers">75</c> 피해로 증가하면 불의 숨결이 적 방어력을 <c val="#TooltipNumbers">20</c> 감소시키며, 영웅을 공격할 때마다 지속시간이 <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireAccumulatingFlameIncreaseIgniteDuration,Value" precision="2"/></c>초 증가합니다.
+Button/Tooltip/ChenAccumulatingFlame=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">보상:</c> 불의 숨결로 적 영웅에게 피해를 주면 지속 피해가 <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestToken,Value" precision="2"/></c>만큼 영구적으로 증가합니다. 처치하면 <c val="#TooltipNumbers"><d ref="Effect,AddFirebreathQuestTokenHeroDeath,Value"/></c>만큼 증가합니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">보상:</c> <c val="#TooltipNumbers">25</c> 피해로 증가하면 술통 부수기의 사거리가 증가합니다.<n/></n><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">신화 보상:</c> <c val="#TooltipNumbers">80</c> 피해로 증가하면 불의 숨결이 적 방어력을 <c val="#TooltipNumbers">20</c> 감소시키며, 영웅을 공격할 때마다 지속시간이 <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireAccumulatingFlameIncreaseIgniteDuration,Value" precision="2"/></c>초 증가합니다.
 Button/Tooltip/ChenAnotherRound=술통 부수기의 반경이 <c val="#TooltipNumbers"><d ref="Talent,ChenAnotherRound,AbilityModificationArray[0].Modifications[0].Value/Effect,ChenKegSmashSearch,AreaArray[0].Radius*100"/>%</c> 증가하고 적 영웅에게 적중하면 다음 일반 기술의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="Effect,ChenFlyingKickAnotherRoundTalentModifyCooldown,Cost[0].CooldownTimeUse*(-1)"/></c>초 감소합니다.
 Button/Tooltip/ChenBreathOfFire=부채꼴 모양으로 불의 숨결을 내뱉어 <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireDamage,Amount"/></c>의 피해를 줍니다. 술에 젖은 적에게는 불을 붙여 <c val="#TooltipNumbers"><d ref="Behavior,ChenBreathofFireDoT,Duration"/></c>초에 걸쳐 <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireDoTDamage,Amount*Behavior,ChenBreathofFireDoT,Duration"/></c>의 추가 피해를 주고, 술통 부수기의 감속 효과 지속 시간을 <c val="#TooltipNumbers"><d ref="Effect,ChenBreathofFireBoggedDownModifySlowBehaviorBuffDuration,Value"Precision="2"/></c>초 증가시킵니다.<n/><n/>불의 숨결을 사용하거나 <c val="#TooltipNumbers"><d ref="Behavior,ChenBreathOfFireKegSmashAbilityChangeTimerBehavior,Duration"/></c>초가 지나면, 이 기술이 술통 부수기로 바뀝니다.<n/><n/><c val="#ColorYellow">술통 부수기</c><n/>적들에게 피해를 주고 느려지게 합니다.
 Button/Tooltip/ChenBreathOfFireRingOfFireTalent=적에게 불을 붙이면, 자신이 불타는 오라에 휩싸여 <c val="#TooltipNumbers"><d ref="Behavior,ChenBreathofFireRingOfFire,Duration"/></c>초 동안 주위 적들에게 매초 <c val="#TooltipNumbers"><d ref="Effect,ChenBreathOfFireRingOfFireTalentDamage,Amount"/></c>의 피해를 줍니다.
@@ -6486,7 +6486,7 @@ Button/Tooltip/MurkyMarchOfTheMurlocsNeverEndingMurlocsTalent=정신을 집중�
 Button/Tooltip/MurkyOctoGrab=저지 불가 상태가 되어 대상 적 영웅을 <c val="#TooltipNumbers"><d ref="Behavior,OctoGrabStun,Duration" player="0"/></c>초 동안 기절시키고, 매초 <c val="#TooltipNumbers"><d ref="Effect,OctoGrabPokeDamage,Amount"/></c>의 피해를 주며 때립니다.
 Button/Tooltip/MurkyOctoGrabAndASharkTooTalent=문어발 휘감기의 공격력이 <c val="#TooltipNumbers"><d ref="Effect,OctoGrabPokeMasteryDamage,Amount * 100"/>%</c> 증가합니다.
 Button/Tooltip/MurkyPufferfish=대상 지점 <c val="#TooltipNumbers"><d ref="Unit,MurkyPufferfish,LifeMax"/></c>의 생명력을 지닌 복어를 내뱉습니다. <c val="#TooltipNumbers"><d ref="Behavior,MurkyPufferfishTimedLife,Duration" player="0" precision="2"/></c>초 후, 복어는 폭발해 <c val="#TooltipNumbers"><d ref="Effect,MurkyPufferfishDamage,Amount"/></c>의 피해를 줍니다. 구조물에는 <c val="#TooltipNumbers"><d ref="-100*Effect,MurkyPufferfishDamage,MultiplicativeModifierArray[2].Modifier"/>%</c> 감소한 피해를 줍니다.</n></n><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">퀘스트:</c> 점액이 묻은 영웅을 처치하거나 복어로 적중시켜야 합니다. 영웅 및 구조물은 추가 중첩을 4 제공합니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">보상:</c> <c val="#TooltipNumbers">200</c> 중첩을 획득하면 머키의 일반 기술이 구조물에 주는 피해가 더 이상 감소하지 않습니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">신화 보상:</c> <c val="#TooltipNumbers">400</c> 중첩을 획득하면 머키의 생명력이 <c val="#TooltipNumbers">50%</c> 증가합니다.
-Button/Tooltip/MurkyPufferfishPuffedUpToken=<c val="#TooltipQuest">복어로 적중한 점액이 묻은 영웅: </c><d ref="$BehaviorStackCount:MurkyPuffedUpTokenCounter$"/>/<d ref="Behavior,MurkyPuffedUpTokenCounter,Max"/>
+Button/Tooltip/MurkyPufferfishPuffedUpToken=<c val="#TooltipQuest">복어에 적중한 점액 덮인 적: </c><d ref="$BehaviorStackCount:PuffedUpTokenCounter$"/>/<d ref="Behavior,PuffedUpTokenCounter,Max"/>
 Button/Tooltip/MurkyPufferfishTufferfishTalent=복어의 기술 방어력이 <c val="#TooltipNumbers"><d ref="Behavior,MurkyPufferfishTufferfishTalentCarry,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Ability]"/></c> 증가하고 점액이 묻은 대상에게 <c val="#TooltipNumbers"><d ref="100*Effect,MurkyPufferfishDamage,MultiplicativeModifierArray[0].Modifier"/>%</c>의 추가 피해를 줍니다.
 Button/Tooltip/MurkyPufferfishWrathOfCodTalent=복어가 적 영웅에게 <c val="#TooltipNumbers"><d ref="Behavior,MurkyPufferfishWrathofCodTalentDoT,Duration"/></c>초에 걸쳐 대상의 최대 생명력의 <c val="#TooltipNumbers"><d ref="(100*Effect,MurkyPufferfishWrathOfCodTalentDamage,VitalFractionMax[Life])*Behavior,MurkyPufferfishWrathofCodTalentDoT,Duration"/>%</c>만큼 추가 피해를 줍니다.
 Button/Tooltip/MurkyRejuvenatingBubbleTalent=안전 방울이 머키의 최대 생명력의 <c val="#TooltipNumbers"><d ref="Effect,MurkySafetyBubbleCreateRejuvenatingBubbleMasteryHealer,RechargeVitalFraction*[d ref='Behavior,MurkySafetyBubble,PeriodCount' player='0'/]*100" precision="2"/>%</c>를 회복시킵니다.
@@ -6682,7 +6682,7 @@ Button/Tooltip/RexxarUnleashTheBoars=모든 적 영웅을 추적하는 멧돼지
 Button/Tooltip/RexxarUnleashTheBoarsKillCommandTalent=멧돼지를 풀어라의 공격력이 <c val="#TooltipNumbers"><d ref="Effect,RexxarUnleashTheBoarsDamage,MultiplicativeModifierArray[KillCommand].Modifier*100"/>%</c> 증가하고 대상들을 <c val="#TooltipNumbers"><d ref="Behavior,RexxarUnleashTheBoarsKillCommandRoot,Duration" player="0" precision="2"/></c>초 동안 이동 불가 상태로 만듭니다.
 Button/Tooltip/RuthlessOnslaughtCharge=대상에게 돌진합니다.
 Button/Tooltip/SeasonedMarksmanActivatable=공격 속도가 <c val="#TooltipNumbers"><d ref="Behavior,SeasonedMarksmanAttackSpeedBuff,Duration"/></c>초 동안 <c val="#TooltipNumbers"><d ref="Behavior,SeasonedMarksmanAttackSpeedBuff,Modification.AdditiveAttackSpeedFactor*100"/>%</c> 증가합니다.
-Button/Tooltip/SgtHammerBluntForceGun=전장을 가로지르는 미사일을 발사해서 경로에 있는 구조물이 아닌 적들에게 <c val="#TooltipNumbers"><d ref="Effect,BluntForceGunDamage,Amount"/></c>의 피해를 줍니다.
+Button/Tooltip/SgtHammerBluntForceGun=전장을 가로지르는 미사일을 발사해서 경로에 있는 적에게 <c val="#TooltipNumbers"><d ref="Effect,BluntForceGunDamage,Amount"/> </c>의 피해를 줍니다. 구조물에는 <c val="#TooltipNumbers">50%</c>의 피해를 줍니다.
 Button/Tooltip/SgtHammerBluntForceGunOrbitalBFGTalent=크고 아름다운 미사일이 <c val="#TooltipNumbers">5</c>초마다 행성을 돌며 현재 설정된 궤도를 비행합니다. 마지막으로 발사한 미사일만 반복해서 궤도를 비행합니다.
 Button/Tooltip/SgtHammerConcussiveBlast=전방의 적들에게 <c val="#TooltipNumbers"><d ref="Effect,ConcussiveBlastDamage,Amount"/></c>의 피해를 주고 밀쳐냅니다.<n/><n/><c val="ffff8a">공성 모드:</c> 반경이 <c val="#TooltipNumbers"><d ref="((Effect,SgtHammerConcussiveBlastEnterSiegeModeModifyPlayer,EffectArray[0].Value-Effect,SgtHammerConcussiveBlastExitSiegeModeModifyPlayer,EffectArray[0].Value)/Effect,SgtHammerConcussiveBlastExitSiegeModeModifyPlayer,EffectArray[0].Value)*100" player="0"/>%</c> 증가합니다.
 Button/Tooltip/SgtHammerConcussiveBlastBarricadeCancel=파편벽을 파괴합니다.
@@ -6925,7 +6925,7 @@ Button/Tooltip/TychusCommandeerOdin=오딘을 투하해서 조종합니다. 오�
 Button/Tooltip/TychusCommandeerOdinAnnihilate=오딘의 포를 일직선상으로 발사해 경로에 있는 모든 대상에게 <c val="#TooltipNumbers"><d ref="Effect,TychusOdinAnnihilateDamage,Amount"/></c>의 피해를 줍니다.
 Button/Tooltip/TychusCommandeerOdinBigRedButtonTalent=오딘의 지속 시간이 <c val="#TooltipNumbers"><d ref="(Talent,TychusMasteryOdinBigRedButton,AbilityModificationArray[0].Modifications[0].Value* 100)-100"/>%</c> 증가하고 라그나로크 미사일이 핵 미사일을 발사하여 대상 위치에 <c val="#TooltipNumbers"><d ref="Effect,TychusOdinRagnarokMissilesNuclearBlastCreatePersistent,PeriodicPeriodArray[0]" precision="1"/></c>초 후에 <c val="#TooltipNumbers"><d ref="Effect,TychusOdinNuclearBlastDamage,Amount"/></c>의 피해를 줍니다.
 Button/Tooltip/TychusCommandeerOdinRagnarokMissilesTargeted=대상 지역에 미사일 다발을 발사해 적들에게 <c val="#TooltipNumbers"><d ref="Effect,TychusOdinRagnarokMissilesTargetedDamage,Amount"/></c>의 피해를 주고 이동 속도를 <c val="#TooltipNumbers"><d ref="Behavior,TychusOdinRagnarokMissilesTargetedSlow,Duration" player="0"/></c>초 동안 <c val="#TooltipNumbers"><d ref="Behavior,TychusOdinRagnarokMissilesTargetedSlow,Modification.UnifiedMoveSpeedFactor*(-100)"/>%</c> 감소시킵니다.
-Button/Tooltip/TychusDrakkenLaserDrill=레이저 천공기를 소환해 주위 적들을 공격하여 매초 <c val="#TooltipNumbers"><d ref="Effect,LaserDrillWeaponDamage,Amount/Effect,LaserDrillWeaponCreatePersistent,ExpireDelay"/></c>의 피해를 줍니다. 다시 사용하면 대상을 변경할 수 있습니다. <c val="#TooltipNumbers"><d ref="Behavior,LaserDrillTimedLife,Duration" player="0"/></c>초 동안 지속됩니다.
+Button/Tooltip/TychusDrakkenLaserDrill=레이저 천공기를 소환해 주위 적들을 공격하여 매초 <c val="#TooltipNumbers"><d ref="Effect,LaserDrillWeaponDamage,Amount/Effect,LaserDrillWeaponCreatePersistent,ExpireDelay"/></c>의 피해를 줍니다. 다시 사용하면 대상을 변경할 수 있습니다. <c val="#TooltipNumbers"><d const="$TychusLaserDrillDecayDuration" player="0"/></c>초에 걸쳐 생명력을 잃습니다.
 Button/Tooltip/TychusDrakkenLaserDrillIssueOrder=레이저 천공기에 다른 대상 공격 명령을 내립니다.
 Button/Tooltip/TychusDrakkenLaserFocusingDiodesTalent=드라켄 레이저 천공기의 사거리가 <c val="#TooltipNumbers"><d ref="(Talent,TychusMasteryDrakkenLaserFocusingDiodes,AbilityModificationArray[0].Modifications[0].Value / Weapon,TychusLaserDrillWeapon,Range)*100" player="0"/>%</c> 증가합니다. 한 대상을 공격하는 시간이 길어질수록 공격력이 증가하여 최대 <c val="#TooltipNumbers"><d ref="Accumulator,TychusLaserDrillFocusingDiodesAccumulator,MaxAccumulation*100" player="0"/>%</c>의 추가 피해를 줍니다.
 Button/Tooltip/TychusFragGrenade=수류탄을 던져 적들에게 <c val="#TooltipNumbers"><d ref="Effect,TychusGrenadeDamage,Amount"/></c>의 피해를 주고 밀쳐냅니다.
@@ -7165,11 +7165,11 @@ Button/Tooltip/ZagaraFuzzyExitNydusWorm=<s val="StandardTooltip">대상 땅굴�
 Button/Tooltip/ZagaraHunterKiller=단일 대상을 공격하며 초당 <c val="#TooltipNumbers"><d ref="Effect,ZagaraHydraliskRangedDamage,Amount"/></c>의 피해를 주는 히드라리스크를 소환합니다. 히드라리스크는 <c val="#TooltipNumbers"><d ref="Unit,ZagaraHydralisk,LifeMax"/></c>의 생명력을 가지며, <c val="#TooltipNumbers"><d ref="-Unit,ZagaraHydralisk,LifeMax/Unit,ZagaraHydralisk,LifeRegenRate" player="0"/></c>초에 걸쳐 생명력을 잃습니다.
 Button/Tooltip/ZagaraHunterKillerBroodExpansionTalent=추적 도살자의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryBroodExpansion,AbilityModificationArray[0].Modifications[0].Value"/></c>초 감소하고 마나 소모량이 <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryBroodExpansion,AbilityModificationArray[0].Modifications[1].Value"/></c> 감소합니다.
 Button/Tooltip/ZagaraHunterKillerGroovedSpinesTalent=추적 도살자의 사거리가 <c val="#TooltipNumbers">35%</c> 증가하고 공격력이 <c val="#TooltipNumbers">20%</c> 증가합니다.
-Button/Tooltip/ZagaraHunterKillerMutaliskTalent=추적 도살자의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryMutalisk,AbilityModificationArray[0].Modifications[1].Value"/></c>초 감소하고, 히드라리스크 대신 연쇄 공격을 하고 <c val="#TooltipNumbers"><d ref="Unit,ZagaraMutalisk,LifeMax"/></c>의 생명력을 가진 뮤탈리스크를 소환합니다. 뮤탈리스크는 <c val="#TooltipNumbers"><c val="#TooltipNumbers"><d ref="-Unit,ZagaraMutalisk,LifeMax/Unit,ZagaraMutalisk,LifeRegenRate" player="0"/></c></c>초에 걸쳐 생명력을 잃습니다.
+Button/Tooltip/ZagaraHunterKillerMutaliskTalent=추적 도살자의 재사용 대기시간이 <c val="#TooltipNumbers"><d ref="-Talent,ZagaraMasteryMutalisk,AbilityModificationArray[0].Modifications[0].Value"/></c>초 감소하고, 히드라리스크 대신 연쇄 공격을 하고 <c val="#TooltipNumbers"><d ref="Unit,ZagaraMutalisk,LifeMax"/></c>의 생명력을 가진 뮤탈리스크를 소환합니다. 뮤탈리스크는 <c val="#TooltipNumbers"><c val="#TooltipNumbers"><d ref="-Unit,ZagaraMutalisk,LifeMax/Unit,ZagaraMutalisk,LifeRegenRate" player="0"/></c></c>초에 걸쳐 생명력을 잃습니다.
 Button/Tooltip/ZagaraHydraliskTransfusionTalent=추적 도살자가 일반 공격으로 영웅에게 준 피해의 <c val="#TooltipNumbers"><d ref="100*Effect,ZagaraHunterKillerHydraliskTransfusionCreateHealer,RechargeVitalRate/Effect,ZagaraHydraliskRangedDamage,Amount"player="0"/>%</c>만큼 자가라가 생명력을 회복합니다.
-Button/Tooltip/ZagaraInfest=주위 원거리 돌격병의 공격력이 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> 증가합니다. 자가라가 <c val="#TooltipNumbers">1000</c>의 공성 피해를 줄 때마다 공격력이 추가로 <c val="#TooltipNumbers">1%</c> 증가합니다. 활성화 또는 비활성화할 수 있습니다.
-Button/Tooltip/ZagaraInfestItem=주위 원거리 돌격병의 공격력이 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> 증가합니다. <c val="#TooltipNumbers">1000</c>의 공성 피해를 줄 때마다 공격력이 추가로 <c val="#TooltipNumbers">1%</c> 증가합니다. 활성화 또는 비활성화할 수 있습니다.<n/><n/><c val="#TooltipQuest">현재 추가 공격력:</c> <c val="#TooltipNumbers"><d ref="(100*Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic])-125"precision="0"/>%</c>
-Button/Tooltip/ZagaraInfestToggleOff=주위 원거리 돌격병의 공격력이 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> 증가합니다. <c val="#TooltipNumbers">1000</c>의 공성 피해를 줄 때마다 공격력이 추가로 <c val="#TooltipNumbers">1%</c> 증가합니다. 활성화 또는 비활성화할 수 있습니다.<n/><n/><c val="#TooltipQuest">현재 추가 공격력:</c> <c val="#TooltipNumbers"><d ref="(100*Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic])-125"precision="0"/>%</c>
+Button/Tooltip/ZagaraInfest=주위 원거리 돌격병의 공격력이 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> 증가합니다. 활성화 또는 비활성화할 수 있습니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">반복 퀘스트:</c> <c val="#TooltipNumbers">1000</c>의 공성 피해를 줄 때마다 효과가 <c val="#TooltipNumbers">1%</c>씩 증가합니다.
+Button/Tooltip/ZagaraInfestItem=주위 원거리 돌격병의 공격력이 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> 증가합니다. 활성화 또는 비활성화할 수 있습니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">반복 퀘스트:</c> <c val="#TooltipNumbers">1000</c>의 공성 피해를 줄 때마다 효과가 <c val="#TooltipNumbers">1%</c>씩 증가합니다.<n/><n/><c val="#TooltipQuest">현재 추가 공격력:</c> <c val="#TooltipNumbers"><d ref="$AccumulatedValue:Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]$*100" precision="1"/>%</c>
+Button/Tooltip/ZagaraInfestToggleOff=주위 원거리 돌격병의 공격력이 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]*100"Player="0"/>%</c> 증가합니다. 활성화 또는 비활성화할 수 있습니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">반복 퀘스트:</c> <c val="#TooltipNumbers">1000</c>의 공성 피해를 줄 때마다 효과가 <c val="#TooltipNumbers">1%</c>씩 증가합니다.<n/><n/><c val="#TooltipQuest">현재 추가 공격력:</c> <c val="#TooltipNumbers"><d ref="$AccumulatedValue:Behavior,ZagaraInfestBuff,Modification.DamageDealtFraction[Basic]$*100" precision="1"/>%</c>
 Button/Tooltip/ZagaraInfestedDrop=대상 지점에 저그 낙하 주머니를 떨어트려 <c val="#TooltipNumbers"><d ref="Effect,ZagaraInfestedDropDamage,Amount"/></c>의 피해를 줍니다. <n/><n/>주머니에서는 애바퀴 <c val="#TooltipNumbers"><d ref="Effect,InfestedDropCreateSpawnPersistent,PeriodCount" player="0"/></c>마리가 생성됩니다. 애바퀴는 초당 <c val="#TooltipNumbers"><d ref="Effect,ZagaraRoachAttackDamage,Amount"/></c>의 피해를 주며 <c val="#TooltipNumbers"><d ref="-Unit,ZagaraRoach,LifeMax/Unit,ZagaraRoach,LifeRegenRate" player="0"/></c>초에 걸쳐 생명력을 잃습니다.
 Button/Tooltip/ZagaraInfestedDropBileDropTalent=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">퀘스트:</c> 감염체 투하의 반경이 <c val="#TooltipNumbers">20%</c> 증가합니다.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="#TooltipQuest">보상:</c> 감염체 투하가 적 영웅에게 <c val="#TooltipNumbers"><d ref="Behavior,ZagaraInfestedDropBileDropQuestToken,Max"/></c>회 이상 적중하면 애바퀴가 한 마리 추가로 생성됩니다.
 Button/Tooltip/ZagaraInfestedDropBileDropTalentToken=<c val="#TooltipQuest">영웅 적중: </c><c val="#TooltipNumbers" validator="True"><d ref="$BehaviorStackCount:ZagaraInfestedDropBileDropQuestToken$"/>/<d ref="Behavior,ZagaraInfestedDropBileDropQuestToken,Max"/><c val="#TooltipQuest"></c>
@@ -7226,7 +7226,7 @@ Button/TooltipAppender/AzmodanGlobeOfAnnihilationTasteForBlood=<n/><c val="#Tool
 Button/TooltipAppender/ButcherFreshMeatAbattoirTalentAppender=<n/><n/><c val="#TooltipQuest">고기 수집: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ButcherFreshMeatAbattoirTalentTokenCounter$"/><n/><c val="#TooltipQuest">추가 일반 공격력: </c><d ref="$BehaviorStackCount:ButcherFreshMeatAbattoirTalentTokenCounter$*Accumulator,ButcherFreshMeatAbattoirTalentAccumulator,Scale"precision="1"/></c></c>
 Button/TooltipAppender/ButcherFreshMeatAppender=<n/><n/><c val="#TooltipQuest">고기 수집: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$"/><n/><c val="#TooltipQuest">추가 일반 공격력: </c><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$*Accumulator,ButcherFreshMeatAccumulator,Scale"precision="1"/></c></c>
 Button/TooltipAppender/ButcherFreshMeatAppenderComplete=<n/><n/><c val="#TooltipQuest">퀘스트 완료!<n/>고기 수집: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$"/><n/><c val="#TooltipQuest">추가 일반 공격력: </c><d ref="$BehaviorStackCount:ButcherFreshMeatTokenCounter$*Accumulator,ButcherFreshMeatAccumulator,Scale+Behavior,ButcherFreshMeatQuestCompletionCarry,Modification.DamageDealtScaled[Basic]"precision="1"/></c></c>
-Button/TooltipAppender/ChenBreathofFireAccumulatingFlame=<n/><c val="#TooltipQuest">불 붙인 영웅: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$"/>/<d ref="Behavior,ChenBreathOfFireAccumulatingFlameTokenCounter,Max"/><n/><c val="#TooltipQuest">추가 피해:</c> <d ref="100*($BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$)*Accumulator,BreathofFireQuestDamage,Scale"/>%
+Button/TooltipAppender/ChenBreathofFireAccumulatingFlame=<n/><c val="#TooltipQuest">영웅 불 붙이기: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$"/>/<d ref="Behavior,ChenBreathOfFireAccumulatingFlameTokenCounter,Max"/><n/><c val="#TooltipQuest">추가 피해:</c> <d ref="100*($BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$)*Accumulator,ChenAccumulatingFlameAccumulator,Scale"/>%
 Button/TooltipAppender/ChenBreathofFireAccumulatingFlameComplete=<n/><c val="#TooltipQuest">퀘스트 완료!<n/><c val="#TooltipQuest">추가 피해:</c> <c val="#TooltipNumbers"><d ref="100*($BehaviorStackCount:ChenBreathOfFireAccumulatingFlameTokenCounter$)*Accumulator,ChenAccumulatingFlameAccumulator,Scale"/>%</c>
 Button/TooltipAppender/ChenFortifyingBrewFreshestIngredients=<n/><c val="#TooltipQuest">재생의 구슬 획득: <c val="#TooltipNumbers"><d ref="$BehaviorStackCount:ChenFreshestIngredientsTokenCounter$"/>/<d ref="Behavior,ChenFreshestIngredientsTokenCounter,Max"/></c><n/>추가 생명력 재생량: <c val="#TooltipNumbers"><d ref="Accumulator,ChenFreshestIngredientsTalentAccumulator,Scale*($BehaviorStackCount:ChenFreshestIngredientsTokenCounter$)"/></c></c>
 Button/TooltipAppender/ChenFortifyingBrewFreshestIngredientsComplete=<n/><c val="#TooltipQuest">퀘스트 완료!<n/>추가 생명력 재생량: <c val="#TooltipNumbers"><d ref="Accumulator,ChenFreshestIngredientsTalentAccumulator,Scale*($BehaviorStackCount:ChenFreshestIngredientsTokenCounter$)"/></c></c>
@@ -7465,7 +7465,7 @@ DragonStatueDefendDefendDragonStatue=DefendDragonStatue
 Effect/Name/AllShallBurnCasterRevealerCreatePersistent=All Shall Burn Caster Revealer (Create Persistent)
 Effect/Name/AllShallBurnCasterRevealerDestroyPersistent=All Shall Burn Caster Revealer (Destroy Persistent)
 Effect/Name/Azmodan200IQCastSet=
-Effect/Name/Azmodan200IQPlayDummySet= 
+Effect/Name/Azmodan200IQPlayDummySet=
 Effect/Name/AzmodanAllShallBurnManaDrain=All Shall Burn (Mana Drain)
 Effect/Name/AzmodanAllShallBurnMarchOfSinCreatePersistent=All Shall Burn (March Of Sin Create Persistent)
 Effect/Name/AzmodanAllShallBurnMarchOfSinCreatePersistentStructure=All Shall Burn (March of Sin Create Persistent Structure)
@@ -14438,6 +14438,7 @@ Hero/Info/Wizard=원소술사들은 반항적이거나 힘을 끝없이 갈구�
 Hero/Info/Zagara=케리건이 저그의 여왕이라면, 자가라는 무리의 어미입니다. 교활하고 집요한 자가라는 수하들을 지휘하며 전장을 누빕니다. 그녀의 무리를 상대할 땐 조심하세요. 자가라는 자신의 아이들을 괴롭히는 자들을 결코 용서하지 않습니다.
 Hero/Info/Zeratul=불가사의한 암흑 기사 제라툴은 젤나가를 섬깁니다. 제라툴은 능숙하게 공허의 힘을 다루지만, 코프룰루 구역의 지도자들이 존경하는 점은 바로 제라툴의 지혜로움입니다. 늘 극적인 순간에 나타나는걸 좋아하긴 하지만요.
 Hero/Name/Abathur=아바투르
+Hero/Name/AbathurSymbiote=공생체
 Hero/Name/Anubarak=아눕아락
 Hero/Name/Artanis=아르타니스
 Hero/Name/Arthas=아서스
@@ -14971,6 +14972,7 @@ Mount/AdditionalSearchText/MountDeer_Rank16_01Var2=초록 사슴 등급전
 Mount/AdditionalSearchText/MountDemonicHorse=빨강 회색 말 군마
 Mount/AdditionalSearchText/MountDemonicHorseVar1=말 초록
 Mount/AdditionalSearchText/MountDemonicHorseVar2=말 노랑 주황
+Mount/AdditionalSearchText/MountDirewolfThreeTails=시공의 폭풍 광포한 늑대 블리즈컨
 Mount/AdditionalSearchText/MountDirewolf_Esport17Epic=혼돈의 늑대 파랑
 Mount/AdditionalSearchText/MountDirewolf_Esport17EpicVar1=혼돈의 늑대 빨강 갈색
 Mount/AdditionalSearchText/MountDirewolf_Esport17EpicVar2=혼돈의 늑대 빨강 갈색
@@ -15401,6 +15403,7 @@ Mount/Info/MountCrabRank18Base=흐릿한 심연의 구멍더듬발은 땅 위로
 Mount/Info/MountCrabRank18Epic=구멍더듬발들은 고압의 서식지에서 생성되는 고밀도의 빛나는 수정을 등껍질에 박아 몸을 더욱 안전히 보호합니다. 2018년 시즌 4 동안 영웅 리그나 팀 리그에서 마스터에 도달하면 주어집니다.
 Mount/Info/MountDeer_Rank16_00=쉽게 눈에 띄지 않는 불꽃 수사슴은 불타는 용기와 기백의 상징입니다. 시즌 3 동안 영웅 리그에서 플래티넘에 도달하거나 팀 리그에서 브론즈에 도달하면 주어집니다.
 Mount/Info/MountDeer_Rank16_01=막대한 힘이 깃든 이 영예로운 불꽃 수사슴은, 보는 이로 하여금 경외감을 느끼게 할 우아함을 뽐냅니다.시즌 3 동안 영웅 리그나 팀 리그에서 마스터에 도달하면 주어집니다.
+Mount/Info/MountDirewolfThreeTails=
 Mount/Info/MountDirewolf_Esport17_00=시공의 폭풍의 불안정한 힘으로 창조된 늑대들은 길들이기 매우 어렵다고 합니다. 하지만 그만한 가치를 증명한 자들은 이 야수들을 자신의 동반자로 삼았습니다.
 Mount/Info/MountDirewolf_Esport17_01=시공의 폭풍의 힘으로 벼려지고 열띤 승부의 기운으로 제련된 무장한 혼돈의 늑대들은 힘의 상징이라 할 수 있습니다. 가장 뛰어난 기량을 가진 자들만이 이들을 타고 전장에 뛰어들 수 있습니다.
 Mount/Info/MountDirewolf_Rank15_00=불꽃 늑대는 시공의 폭풍에서 자신의 실력을 증명한 자들만을 주인으로 대합니다. 프리시즌 동안 영웅 리그에서 20 등급 이상을 달성하거나 팀 리그에서 40 등급 이상을 달성하면 주어집니다.
@@ -15430,9 +15433,9 @@ Mount/Info/MountLion_Arcane=시공의 폭풍은 경쟁에 열렬한 관심을 �
 Mount/Info/MountLion_Rank16_00=장엄한 불꽃 사자는 전장에서 용기를 증명한 자들을 주인으로 대합니다. 시즌 2 동안 영웅 리그에서 플래티넘에 도달하거나 팀 리그에서 브론즈에 도달하면 주어집니다.
 Mount/Info/MountLion_Rank16_01=찬란한 갑주를 걸친 영예로운 불꽃 사자는 언제든지 전장에 뛰어들 준비가 되어있습니다. 시즌 2 동안 영웅 리그나 팀 리그에서 마스터에 도달하면 주어집니다.
 Mount/Info/MountMeatWagon=언데드 스컬지가 사용하는 가장 기괴하고 참혹한 기계 중 하나인 시체 수레는 시체를 수집하고 저장할 용도로 만들어졌습니다. 가장 굳건한 수호자들마저도 이 탈것을 보면 동요한다고 하지요.
-Mount/Info/MountMonoWheelMadAxe19=
-Mount/Info/MountMonoWheelMadAxe19Var1=
-Mount/Info/MountMonoWheelMadAxe19Var2=
+Mount/Info/MountMonoWheelMadAxe19=이 고철은 황무지 투기장에서 몇 번 굴렀습니다. 아직 쓸 만하기는 하지만... 그래도 뾰족한 부분에 기대지는 마세요.
+Mount/Info/MountMonoWheelMadAxe19Var1=이 고철은 황무지 투기장에서 몇 번 굴렀습니다. 아직 쓸 만하기는 하지만... 그래도 뾰족한 부분에 기대지는 마세요.
+Mount/Info/MountMonoWheelMadAxe19Var2=이 고철은 황무지 투기장에서 몇 번 굴렀습니다. 아직 쓸 만하기는 하지만... 그래도 뾰족한 부분에 기대지는 마세요.
 Mount/Info/MountMouseSummer20=라 가타 데 바타야는 거대하고 무시무시하...지만 귀여운 수염을 가진 설치류를 타고 싸움에 뛰어듭니다.
 Mount/Info/MountNexagonFAL16=영웅들이 펼친 승부야말로 시공의 폭풍의 진정한 정수입니다. 이 시공의 증표에는 2016년 폴 글로벌 챔피언인 Ballistix의 이름이 선명하게 새겨져 있습니다.
 Mount/Info/MountNexagonMSB18=열띤 승부의 장의 최정상에 오른 자들에게만 주어지는 이 시공의 증표에는 최후의 일격으로 2018년 미드 시즌 난투 챔피언으로 거듭난 Gen.G의 이름이 선명하게 새겨져 있습니다.
@@ -15445,6 +15448,7 @@ Mount/Info/MountNexagonSpooky18Var1=정화할 수 없는 타락도 있는 법입
 Mount/Info/MountNexagonSpooky18Var2=모든 것은 만회할 기회가 있습니다. 하지만 집념과 희생이 따르죠. 과거로 돌아갈 수는 없겠지만 생명은 다시 피어나겠죠.
 Mount/Info/MountNexagonSpooky18Var3=정화할 수 없는 타락도 있는 법입니다. 때로는 죽어가는 진실을 놓아주고 새로운 질서를 받아들여야 하죠.
 Mount/Info/MountOwlSeekerAltered20=불타는 군단의 손길이 닿지 않은 머나먼 지역에서는 아직도 떠돌이 추적자 무리들이 아제로스의 황금 평원을 배회하고 있습니다.
+Mount/Info/MountPhoenix=
 Mount/Info/MountPigNexus=시공의 폭풍을 둘러싼 혼돈의 에너지로부터 계속해서 신비한 생명체들이 태어나 시간이 흐름 속에 강해지고 있습니다. 블리즈컨 2017을 기념하며 출시되었습니다. 
 Mount/Info/MountPigPinata=돼지박을 타고 다니면 뭐가 좋냐고요? 터질 때마다 사탕이 쏟아진다는 거죠! 그렇다고 일부러 터트리면 안 됩니다...
 Mount/Info/MountPigSpring19=소문에 의하면 JIOK 사이버네틱스의 고위 요원들은 탐욕스런 사이버 전쟁멧돼지를 타고 칼데움 아크로폴리스를 배회하는데, 공교롭게도 그들을 본 자들은 모두 흔적도 없이 사라졌다고 합니다.
@@ -15717,6 +15721,7 @@ Mount/Name/MountDeer_Rank16_00Var2=신록의 불꽃 수사슴
 Mount/Name/MountDeer_Rank16_01=영예로운 불꽃 수사슴
 Mount/Name/MountDeer_Rank16_01Var1=영예로운 하늘빛 불꽃 수사슴
 Mount/Name/MountDeer_Rank16_01Var2=영예로운 신록의 불꽃 수사슴
+Mount/Name/MountDirewolfThreeTails=시공의 폭풍 광포한 늑대
 Mount/Name/MountDirewolf_Esport17Epic=영예로운 혼돈의 늑대
 Mount/Name/MountDirewolf_Esport17EpicVar1=영예로운 치명적인 혼돈의 늑대
 Mount/Name/MountDirewolf_Esport17EpicVar2=영예로운 흉포한 혼돈의 늑대
@@ -15847,6 +15852,12 @@ Mount/Name/MountNexagonSpooky18Var3=맹독 묘비
 Mount/Name/MountOwlSeekerAltered20=추적자
 Mount/Name/MountOwlSeekerAltered20Var1=숲의 추적자
 Mount/Name/MountOwlSeekerAltered20Var2=황혼의 추적자
+Mount/Name/MountPhoenix=불사조
+Mount/Name/MountPhoenixVar1=
+Mount/Name/MountPhoenixVar2=
+Mount/Name/MountPhoenixVar3=
+Mount/Name/MountPhoenixVar4=
+Mount/Name/MountPhoenixVar5=
 Mount/Name/MountPigFel=지옥멧돼지
 Mount/Name/MountPigFelVar1=타락멧돼지
 Mount/Name/MountPigFelVar2=어둠달 지옥멧돼지
@@ -16039,6 +16050,8 @@ Mount/Name/NexusCharger=시공의 폭풍마
 Mount/Name/NexusChargerGold=황금 시공의 폭풍마
 Mount/Name/NexusChargerOrange=황색 시공의 폭풍마
 Mount/Name/NexusChargerViolet=보랏빛 시공의 폭풍마
+Mount/Name/Phoenix=불사조
+Mount/Name/PhoenixCommon=
 Mount/Name/RainbowUnicorn=무지개 유니콘
 Mount/Name/RainbowUnicornGreen=행운의 무지개 유니콘
 Mount/Name/RainbowUnicornOrange=주황 무지개 유니콘
@@ -18266,6 +18279,7 @@ Reward/Description/BlizzCon2016GiftPromo=블리즈컨 2016에 참관해서 획�
 Reward/Description/BlizzCon2017Common=블리즈컨 2017에 참관해서 획득
 Reward/Description/BlizzCon2019Common=블리즈컨 2019에 참관해서 획득
 Reward/Description/BlizzCon2021Common=블리즈컨 2021에 참관해서 획득
+Reward/Description/Blizzcon2026RewardCommon=히어로즈 오브 더 스톰 팀이 감사를 전합니다!
 Reward/Description/BoardGameSticker=3개를 모아서 장난감 상자를 얻으세요!
 Reward/Description/BracketChallengeParticipationPortrait=2016 학교의 영웅의 도전! 가상 대진표에 참여해주셔서 감사합니다. 감사의 선물로 이 초상화와 3일 부스트를 드리겠습니다!
 Reward/Description/BrightwingBasic=프로필에 사용할 수 있는 빛나래 초상화를 해제했습니다.
@@ -18405,6 +18419,7 @@ Reward/Description/MountBattleBeastTriceratops_01=축하합니다! 2018년 영�
 Reward/Description/MountCatFire=축하합니다!
 Reward/Description/MountCrabRank18Base=축하합니다! 2018년 영웅 리그 시즌 4에 플래티넘에 도달하거나, 2018년 팀 리그 시즌 4에 브론즈에 도달해서 구멍더듬발 탈것을 획득했습니다!
 Reward/Description/MountCrabRank18Epic=축하합니다! 2018년 영웅 리그 시즌 4 또는 팀 리그 시즌 4에서 마스터에 도달해서 영예로운 구멍더듬발 탈것을 획득했습니다!
+Reward/Description/MountDirewolfThreeTails=히어로즈 오브 더 스톰 팀이 감사를 전합니다!
 Reward/Description/MountGoatGuardian21=축하합니다! 폭풍 리그 시즌 퀘스트를 완료해서 숲 수호자 탈것을 획득했습니다!
 Reward/Description/MountGoatGuardian21Var1=축하합니다! 폭풍 리그 시즌 퀘스트를 완료해서 숲 수호자 탈것을 획득했습니다!
 Reward/Description/MountGoatGuardian21Var2=축하합니다! 폭풍 리그 시즌 퀘스트를 완료해서 숲 수호자 탈것을 획득했습니다!
@@ -18603,6 +18618,7 @@ Reward/Description/Tespa2015Portrait=2015 학교의 영웅 이벤트에 참여�
 Reward/Description/TespaMembershipPortrait=TeSPA 공식 회원으로 등록해서 획득
 Reward/Description/ThrallBasic=프로필에 사용할 수 있는 스랄 초상화를 해제했습니다.
 Reward/Description/ThrallEpic=스랄 마스터 초상화를 해제했습니다.
+Reward/Description/ThrallToon20Var4=수리의 달인 기계광 스랄 스킨을 드립니다!
 Reward/Description/Toy2019RepeatableFlyout=3개를 모아서 새로운 장난감 상자를 얻으세요!
 Reward/Description/Toy2019UniqueFlyout=솜인형 메피스토의 특별 퀘스트 중 하나를 완료했습니다.
 Reward/Description/Toy2025RepeatableFlyout=3개를 모아서 새로운 장난감 상자를 얻으세요!
@@ -19094,6 +19110,8 @@ Reward/Name/BlazeResistance19Portrait=화염폭풍 블레이즈 초상화
 Reward/Name/BlizzCon2014=블리즈컨 2014 초상화
 Reward/Name/BlizzCon2016Gift=블리즈컨 2016 초상화
 Reward/Name/BlizzCon2017Portrait=블리즈컨 2017 초상화
+Reward/Name/Blizzcon2026Giveaway=블리즈컨 2026 무료 증정 초상화
+Reward/Name/Blizzcon2026Logo=블리즈컨 2026 로고 초상화
 Reward/Name/BloodElfSketchWCAVPortrait=스케치 블러드 엘프 사제 초상화
 Reward/Name/BloodlustBrawlPortrait=피의 욕망 난투 초상화
 Reward/Name/BloodmoonTowerSpooky18Portrait=핏빛 달의 문 초상화
@@ -21217,9 +21235,6 @@ Skin/AdditionalSearchText/CrusaderIvory=파랑 황갈색
 Skin/AdditionalSearchText/CrusaderOWC20=라인하르트 은색 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/CrusaderOWC20Var1=라인하르트 파랑 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/CrusaderOWC20Var2=라인하르트 하양 금색 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/CrusaderOWC20Var3=라인하르트 은색 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/CrusaderOWC20Var4=라인하르트 파랑 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/CrusaderOWC20Var5=라인하르트 하양 금색 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/CrusaderRed=검정 빨강
 Skin/AdditionalSearchText/CrusaderSpell=주문파괴자 요한나 이중 세계관 빨강
 Skin/AdditionalSearchText/CrusaderSpellVar1=검정 주황
@@ -21248,9 +21263,6 @@ Skin/AdditionalSearchText/DemonHunterMecha19Var4=갈색 회색 검정 로봇
 Skin/AdditionalSearchText/DemonHunterOWC20=리퍼 검정 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/DemonHunterOWC20Var1=리퍼 분홍 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/DemonHunterOWC20Var2=리퍼 하양 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/DemonHunterOWC20Var3=리퍼 검정 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/DemonHunterOWC20Var4=리퍼 분홍 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/DemonHunterOWC20Var5=리퍼 하양 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/DemonHunterPink=분홍 보라
 Skin/AdditionalSearchText/DemonHunterVampireHunter=흡혈귀 학살자 발라 까마귀 궁정 파랑
 Skin/AdditionalSearchText/DemonHunterVampireHunterDark=검정 빨강
@@ -21707,9 +21719,6 @@ Skin/AdditionalSearchText/RaynorMarshallSkinRed=빨강 검정
 Skin/AdditionalSearchText/RaynorOWC20=솔저 76 파랑 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/RaynorOWC20Var1=솔저 76 금색 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/RaynorOWC20Var2=솔저 76 빨강 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/RaynorOWC20Var3=솔저 76 파랑 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/RaynorOWC20Var4=솔저 76 금색 옵치 오버워치 코스프레
-Skin/AdditionalSearchText/RaynorOWC20Var5=솔저 76 빨강 옵치 오버워치 코스프레
 Skin/AdditionalSearchText/RaynorPatriot=캡틴 레이너 파랑 빨강
 Skin/AdditionalSearchText/RaynorPatriotBlack=검정 회색 빨강
 Skin/AdditionalSearchText/RaynorPatriotRed=빨강 파랑
@@ -22114,7 +22123,6 @@ Skin/Info/ChenWarmaster=전투대장들은 레이션의 대군에서 최전선�
 Skin/Info/CrusaderCenturion=세베루스 황제의 명에 따라 전 군단이 신들의 문을 향해 전진했습니다. 그중 단 한 명, 백인대장 하나만 고향으로 돌아왔고, 이는 인류의 오만방자함에 대한 신들의 벌로 받아들여졌습니다.
 Skin/Info/CrusaderEnforcer=긴급 구조 및 특별 전술 임무 전문인 폭풍 특공대에 합류하려면 훈련교관 요한나의 엄격한 심사에 합격해야 합니다. 대대로 폭풍 특공대 장교를 지낸 가문에서 자란 그녀에게 좋은 인상을 주려면 보통 실력으로는 힘들겠죠.
 Skin/Info/CrusaderOWC20=요한나는 다른 영역의 전통을 채택해야만 자카룸의 신조를 회복할 수 있음을 알고 있습니다. 소소하게 새로운 의상과 로켓 무기로 시작해 봅니다.
-Skin/Info/CrusaderOWC20NoMask=투구가 없다고 성전사가 될 수 없는 것은 아닙니다. 평생 헌신하며 빛을 섬기는 것이 성전사의 길이니까요.
 Skin/Info/CrusaderSpell=대부분의 주문파괴자는 쿠엘탈라스를 수호하지만, 요한나는 로데론을 정화하기 위해 자신만의 성전을 시작했습니다. 그녀는 자신의 고향을 재건할 때까지 쉬지 않고 노력할 것입니다.
 Skin/Info/CrusaderWCAV=전장에서 전쟁노래 사령관과 맞닥뜨리면 호드의 힘을 톡톡히 느낄 수 있다고 합니다. 오랜 세월이 흘렀지만 요한나는 천지를 뒤흔들 전투의 함성과 함께 여전히 적에게 돌진합니다.
 Skin/Info/Default=기본 스킨 정보
@@ -22124,7 +22132,6 @@ Skin/Info/DemonHunterCowgirl=무법천지인 릭스빌의 분쟁들을 발라 �
 Skin/Info/DemonHunterHorns=공포의 땅에서 공포의 군주를 처치하고 돌아온 발라는 결사단의 지도자라는 무거운 책무를 받아들이고 자신의 지식과 경험을 신입 악마사냥꾼들에게 나눠 주기 시작했습니다.
 Skin/Info/DemonHunterMecha19=메카 발라는 압도적인 화력과 기동성을 무기로, 메카 이렐이 최전선을 장악하는 동안 공격을 퍼부을 수 있도록 설계되었습니다. 이 시험용 로봇들은 제노공학 군단이 쳐들어왔을 때 처음 시험 가동되었습니다.
 Skin/Info/DemonHunterOWC20=일생을 바쳐 성역의 악을 처단한 발라는 상상보다 많은 악마가 다중 우주에 존재한다는 사실을 발견하고 충격을 받았습니다. 어떤 악마는 옛 동지의 얼굴을 쓰고 있었습니다. 그를 통해 발라는 자신이 해이했다는 사실을 깨달았습니다.
-Skin/Info/DemonHunterOWC20NoMask=일생을 바쳐 성역의 악을 처단한 발라는 상상보다 많은 악마가 다중 우주에 존재한다는 사실을 발견하고 충격을 받았습니다. 옛 동지의 얼굴을 쓴 악마도 있고 자신의 얼굴을 선택한 악마도 있었습니다.
 Skin/Info/DemonHunterPink=다른 색상입니다.
 Skin/Info/DemonHunterVaHmpireunterDark=피에 대한 여백작의 갈증은 죽음으로도 채워지지 않았습니다. 까마귀 궁정의 잊혀진 첨탑으로부터 흡혈귀 무리가 몰려나오자 생존자들은 그들에 맞서기 위해 힘을 모았습니다.
 Skin/Info/DemonHunterVampireHunter=피에 대한 여백작의 갈증은 죽음으로도 채워지지 않았습니다. 까마귀 궁정에 흡혈귀 무리가 퍼져나가자 생존자들은 그들에 맞서기 위해 힘을 모았습니다.
@@ -22269,7 +22276,6 @@ Skin/Info/RaynorCommander=때로는 CMC 강화 전투복을 벗고 뭔가 조금
 Skin/Info/RaynorMadAxe18=전설에 따르면 로드레이더는 크롬의 황무지의 법과 질서를 지키는 보안관이었다고 합니다. 섬뜩한 영혼만이 남은 이자에게 살아생전의 의식이 과연 있을지는 누구도 모른다고 하죠.
 Skin/Info/RaynorMarshallSkinCommon=연합의 채굴 작업으로 마 사라의 자원이 고갈되기 시작하자, 거주민들은 필사적으로 변했습니다. 제임스 E. 레이너 보안관은 이 혼돈의 세계에 평화를 유지하려 홀로 애쓰고 있습니다.
 Skin/Info/RaynorOWC20=어쩔 수 없이 소중한 사람을 죽도록 내버려 둬야 했습니다. 과대망상증 권력자의 중상모략에 오랫동안 시달렸습니다. 그렇다면 누구라도 마스크를 쓸 것입니다.
-Skin/Info/RaynorOWC20NoMask=사실 마스크를 써도 숨쉬는 데에 큰 문제는 없습니다. 레이너는 적에게 자신의 분노한 얼굴을 보여주기 위해 마스크를 벗습니다.
 Skin/Info/RaynorPatriot=미 우주군은 코프룰루 구역에서 거주민들을 구해내는 데 성공했지만, 레이너 대령은 괴물들이 지구까지 따라올 것을 우려했습니다.
 Skin/Info/RaynorUltimate=안쪽에 붙은 작은 노란색 메모지에는 이렇게 적혀 있습니다. "이봐, 촌놈. 자네 전투복에 업그레이드가 좀 필요해 보여서 손 좀 봤네. 감사 인사는 나중에 받지. -스완"
 Skin/Info/RedKaijoDiablo=거듭된 실험으로 점점 큰 핵 에너지를 이용할 수 있게 된 신 트리스트럼 정부는 자신감에 찬 나머지, 원자력을 자유자재로 다룰 수 있다고 생각했습니다. 그러나 그것은 착각이었습니다.
@@ -22621,9 +22627,6 @@ Skin/Name/CrusaderIvory=상아색 요한나
 Skin/Name/CrusaderOWC20=평화의 수호자 요한나
 Skin/Name/CrusaderOWC20Var1=빛나는 평화의 수호자 요한나
 Skin/Name/CrusaderOWC20Var2=열성적인 평화의 수호자 요한나
-Skin/Name/CrusaderOWC20Var3=마스크 벗은 평화의 수호자 요한나
-Skin/Name/CrusaderOWC20Var4=마스크 벗은 빛나는 평화의 수호자 요한나
-Skin/Name/CrusaderOWC20Var5=마스크 벗은 열성적인 평화의 수호자 요한나
 Skin/Name/CrusaderRed=흑마노 요한나
 Skin/Name/CrusaderSpell=주문파괴자 요한나
 Skin/Name/CrusaderSpellVar1=강철 주문파괴자 요한나
@@ -22654,9 +22657,6 @@ Skin/Name/DemonHunterMecha19Var4=합금 메카 발라
 Skin/Name/DemonHunterOWC20=그림자 추적자 발라
 Skin/Name/DemonHunterOWC20Var1=강렬한 그림자 추적자 발라
 Skin/Name/DemonHunterOWC20Var2=순백의 그림자 추적자 발라
-Skin/Name/DemonHunterOWC20Var3=마스크 벗은 그림자 추적자 발라
-Skin/Name/DemonHunterOWC20Var4=마스크 벗은 강렬한 그림자 추적자 발라
-Skin/Name/DemonHunterOWC20Var5=마스크 벗은 순백의 그림자 추적자 발라
 Skin/Name/DemonHunterPink=분홍꽃 발라
 Skin/Name/DemonHunterVampireHunter=흡혈귀 학살자 발라
 Skin/Name/DemonHunterVampireHunterDark=칠흑의 흡혈귀 학살자 발라
@@ -23155,9 +23155,6 @@ Skin/Name/RaynorMarshallSkinRed=자치령 보안관 레이너
 Skin/Name/RaynorOWC20=레이너 76
 Skin/Name/RaynorOWC20Var1=강화된 레이너 76
 Skin/Name/RaynorOWC20Var2=정예병 레이너 76
-Skin/Name/RaynorOWC20Var3=마스크 벗은 레이너 76
-Skin/Name/RaynorOWC20Var4=마스크 벗은 강화된 레이너 76
-Skin/Name/RaynorOWC20Var5=마스크 벗은 정예병 레이너 76
 Skin/Name/RaynorPatriot=캡틴 레이너
 Skin/Name/RaynorPatriotBlack=은빛 캡틴 레이너
 Skin/Name/RaynorPatriotRed=수호자 캡틴 레이너
@@ -23728,9 +23725,6 @@ Skin/SortName/CrusaderEnforcerVar1=EnforcerVar1
 Skin/SortName/CrusaderOWC20=CrusaderOW20MaskVar0
 Skin/SortName/CrusaderOWC20Var1=CrusaderOW20MaskVar1
 Skin/SortName/CrusaderOWC20Var2=CrusaderOW20MaskVar2
-Skin/SortName/CrusaderOWC20Var3=CrusaderOW20NoMaskVar0
-Skin/SortName/CrusaderOWC20Var4=CrusaderOW20NoMaskVar1
-Skin/SortName/CrusaderOWC20Var5=CrusaderOW20NoMaskVar2
 Skin/SortName/CrusaderSpellCommonVar0=SpellVar0
 Skin/SortName/CrusaderSpellCommonVar1=SpellVar1
 Skin/SortName/CrusaderUltimateCommonVar0=zUltimateVar0
@@ -23752,9 +23746,6 @@ Skin/SortName/DemonHunterMecha19CommonVar1=DemonHunterMecha19Var1
 Skin/SortName/DemonHunterOWC20=DemonHunterOWC20MaskVar0
 Skin/SortName/DemonHunterOWC20Var1=DemonHunterOWC20MaskVar1
 Skin/SortName/DemonHunterOWC20Var2=DemonHunterOWC20MaskVar2
-Skin/SortName/DemonHunterOWC20Var3=DemonHunterOWC20NoMaskVar0
-Skin/SortName/DemonHunterOWC20Var4=DemonHunterOWC20NoMaskVar1
-Skin/SortName/DemonHunterOWC20Var5=DemonHunterOWC20NoMaskVar2
 Skin/SortName/DemonHunterUltimateCommonVar0=zUltimateVar0
 Skin/SortName/DemonHunterUltimateCommonVar1=zUltimateVar1
 Skin/SortName/DemonHunterVampireCommonVar0=VampireVar0
@@ -24028,9 +24019,6 @@ Skin/SortName/RaynorMarshallCommonVar1=MarshallVar1
 Skin/SortName/RaynorOWC20=RaynorOWC20MaskVar0
 Skin/SortName/RaynorOWC20Var1=RaynorOWC20MaskVar1
 Skin/SortName/RaynorOWC20Var2=RaynorOWC20MaskVar2
-Skin/SortName/RaynorOWC20Var3=RaynorOWC20NoMaskVar0
-Skin/SortName/RaynorOWC20Var4=RaynorOWC20NoMaskVar1
-Skin/SortName/RaynorOWC20Var5=RaynorOWC20NoMaskVar2
 Skin/SortName/RaynorStarsCommonVar0=StarsVar0
 Skin/SortName/RaynorStarsCommonVar1=StarsVar1
 Skin/SortName/RaynorToys19CommonVar1=GreenArmyVar1
@@ -24127,7 +24115,7 @@ Skin/SortName/ThrallToon20CommonVar0=스랄만화20변형0
 Skin/SortName/ThrallToon20CommonVar1=스랄만화20변형1
 Skin/SortName/ThrallToon20CommonVar2=스랄만화20변형2
 Skin/SortName/ThrallToon20CommonVar3=스랄만화20변형3
-Skin/SortName/ThrallToon20CommonVar4=스랄만화20변형1
+Skin/SortName/ThrallToon20CommonVar4=ThrallToon20Var4
 Skin/SortName/ThrallUltimateCommonVar0=zUltimateVar0
 Skin/SortName/ThrallUltimateCommonVar1=zUltimateVar1
 Skin/SortName/TychusBaseCommonVar0=zzTychusVar0
@@ -25920,6 +25908,23 @@ UI/AutoSelectFilterTooltip/Support=지원가 영웅 모두 포함
 UI/AutoSelectFilterTooltip/Tank=모든 전사 영웅 포함
 UI/AutoSelectFilterTooltip/Warrior=전사 영웅 모두 포함
 UI/AutoSelectToastTitle=기술 자동 선택됨
+UI/BRAWL=
+UI/BRAWL/AdditionalInfoDescription=<ul indent="2" text="•"><li>귀환석(B)을 사용할 수 없으며 시작 지점에서 생명력을 회복할 수 없습니다.</li><li>구슬 생성기가 주기적으로 전장에 재생의 구슬을 생성합니다.</li></ul>
+UI/BRAWL/AdditionalInfoLabel=추가 정보
+UI/BRAWL/BRAWLInfo=정보
+UI/BRAWL/Description=무작위 영웅들의 단일 공격로 승부
+UI/BRAWL/InfoButton/Tooltip=
+UI/BRAWL/IntroDescription=무작위로 선택된 영웅들이 하나의 공격로에서 승부를 펼칩니다!
+UI/BRAWL/IntroLabel=
+UI/BRAWL/MapsRotation=전장
+UI/BRAWL/MapsRotation/Tooltip=
+UI/BRAWL/ObjectiveDescription=적의 핵을 파괴하면 승리합니다.
+UI/BRAWL/ObjectiveLabel=적의 핵 파괴
+UI/BRAWL/ShufflePickDescription=세 명의 무작위 영웅 중 하나를 선택하세요. 영웅을 선택할 수 있는 시간은 30초뿐입니다!
+UI/BRAWL/ShufflePickLabel=선별 선택
+UI/BRAWL/SingleLaneDescription=추가적인 전장 목표가 없습니다. 끊임없는 싸움을 준비하세요.
+UI/BRAWL/SingleLaneLabel=단일 공격로
+UI/BRAWL/Unavailable=
 UI/BattleChat/CustomMessageFormat=<s val="BattleChatCustomMessage">[<a name="CustomMessage" href="CustomMessage"><IMG path="Assets\Textures\storm_social_socialpanel_broadcast.dds" height="16" width="21" alignment="absolutemiddle"/> 단체 알림 메시지</a>] <a name="PresenceId" href="%presenceId%">%senderName%</a>: %message%</s>
 UI/BattleChat/FriendProgramMatch=<s val="BattleChatSystem"><a name="PresenceId" href="%presenceId%">%userName%</a> 님이 시공의 폭풍 속으로 들어왔습니다. <a name="InviteToParty" href="%presenceId%"><c val="57b4ff">[파티 초대]</c></a></s>
 UI/BattleChat/StatisticGames=진행 중인 히어로즈 오브 더 스톰 게임: %num%개

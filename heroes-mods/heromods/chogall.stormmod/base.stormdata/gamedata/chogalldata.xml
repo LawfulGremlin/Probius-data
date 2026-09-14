@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
   <const id="$ChoConsumingBlazeHealAmount" value="40" />
+  <const id="$ChoConsumingFireBonusHealAmount" value="75" />
+  <const id="$GallShadowflameCooldown" value="3" />
+  <const id="$GallDreadOrbCooldown" value="6" />
   <const id="$GallOgreRageBonus" value="0.25" />
   <const id="$GallOgreRampageBonus" value="0.05" />
   <const id="$GallEyeOfKilroggRange" value="12" />
   <const id="$GallWeSeeYouRangeModifier" value="0.33" />
   <const id="$GallWeSeeYouRangeIncrease" value="*($GallEyeOfKilroggRange $GallWeSeeYouRangeModifier)" evaluateAsExpression="1" />
+  <const id="$GallDoubleTroubleProcCooldownReduction" value="0.5" />
+  <const id="$GallDoubleTroubleQuestCompleteCooldownReduction" value="1" />
+  <const id="$GallTwilightFrenzyCooldownToReduceTo" value="2" />
   <CAbilEffectInstant id="GallTwilightFrenzy">
     <Effect value="GallTwilightFrenzyApplyBehavior" />
     <Cost>
@@ -192,7 +198,7 @@
     <Effect value="GallShadowflameInitialSet" />
     <Flags index="RequireTargetVision" value="0" />
     <Cost>
-      <Cooldown TimeUse="3" />
+      <Cooldown TimeUse="$GallShadowflameCooldown" />
     </Cost>
     <Arc value="360" />
     <CmdButtonArray index="Execute" DefaultButtonFace="GallShadowflame">
@@ -221,7 +227,7 @@
     <Flags index="RecursiveCursor" value="1" />
     <Flags index="RequireTargetVision" value="0" />
     <Cost>
-      <Cooldown TimeUse="6" />
+      <Cooldown TimeUse="$GallDreadOrbCooldown" />
     </Cost>
     <Range value="6.5" />
     <RangeSlop value="8" />
@@ -342,17 +348,26 @@
     <Scale value="0.12" />
     <UnitSource Value="Target" />
   </CAccumulatorToken>
-  <CAccumulatorToken id="ChoConsumingBlazeHealAccumulator" parent="BaseAccumulator">
-    <MaxAccumulation value="30" />
+  <CAccumulatorToken id="ChoConsumingBlazeHealAccumulator" parent="BaseTokenAccumulator">
+    <MinAccumulation value="0" />
+    <MaxAccumulation value="65535" />
+    <ApplicationRule value="Add" />
     <TokenId value="ChoConsumingBlazeNonHeroCounter" />
-    <Scale value="1" />
-    <Offset value="-1" />
+    <Scale value="$ChoConsumingBlazeHealAmount" />
   </CAccumulatorToken>
-  <CAccumulatorToken id="ChoConsumingBlazeHeroHealAccumulator" parent="BaseAccumulator">
-    <MaxAccumulation value="15" />
+  <CAccumulatorToken id="ChoConsumingBlazeHeroHealAccumulator" parent="BaseTokenAccumulator">
+    <MinAccumulation value="0" />
+    <MaxAccumulation value="65535" />
+    <ApplicationRule value="Add" />
     <TokenId value="ChoConsumingBlazeHeroCounter" />
-    <Scale value="1" />
-    <Offset value="-1" />
+    <Scale value="$ChoConsumingBlazeHealAmount" />
+  </CAccumulatorToken>
+  <CAccumulatorToken id="ChoConsumingFireHitAccumulator" parent="BaseTokenAccumulator">
+    <MinAccumulation value="0" />
+    <MaxAccumulation value="65535" />
+    <ApplicationRule value="Add" />
+    <TokenId value="ChoConsumingBlazeHeroCounter" />
+    <Scale value="$ChoConsumingFireBonusHealAmount" />
   </CAccumulatorToken>
   <CActorRegion default="1" id="ChoSurgingFistGuideRegion" parent="StormGuideRegion">
     <On Terms="ActorCreation" Send="QueryPersistent ChoSurgingFistGuideRegionAdd StormGuideRegionRemove AgainstRadiusGame" />
@@ -967,7 +982,6 @@
   <CActorModel id="ChoConsumingBlazeHeal" parent="StormModelAnimationStyleOneShot">
     <On Terms="Effect.ChoConsumingBlazeCasterHeal.Start; At Caster" Send="Create" />
     <On Terms="Effect.ChoConsumingBlazeCreateHealer.Start; At Caster" Send="Create" />
-    <On Terms="Effect.ChoConsumingBlazeCreateHealerHero.Start; At Caster" Send="Create" />
     <On Terms="ActorCreation" Send="SetTintColor {127,255,0 0.500000}" />
     <HostSiteOps Ops="SOpShadow" />
     <Inherits index="Visibility" value="1" />
@@ -2158,6 +2172,7 @@
     <ConditionalEvents Compare="GE" CompareValue="20">
       <Event EventId="QuestIncrease" Effect="GallRunicBlastApplyBombsAwayTalentGallCarry" />
     </ConditionalEvents>
+    <Max value="65535" />
   </CBehaviorTokenCounter>
   <CBehaviorTokenCounter id="GallShadowflameDoubleTroubleTalentTokenCounter" parent="StormQuestToken">
     <Face value="GallDoubleTroubleToken" />
@@ -2950,24 +2965,23 @@
     <WhichUnit Value="Caster" />
   </CEffectApplyBehavior>
   <CEffectModifyPlayer id="GallTwilightFrenzyBuffApplyBonus">
-    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost[0].Cooldown.TimeUse" Value="2.000000" />
-    <EffectArray Operation="Set" Reference="Abil,GallDreadOrb,Cost[0].Cooldown.TimeUse" Value="2.000000" />
+    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost[0].Cooldown.TimeUse" Value="$GallTwilightFrenzyCooldownToReduceTo" />
+    <EffectArray Operation="Set" Reference="Abil,GallDreadOrb,Cost[0].Cooldown.TimeUse" Value="$GallTwilightFrenzyCooldownToReduceTo" />
   </CEffectModifyPlayer>
   <CEffectModifyPlayer id="GallTwilightFrenzyBuffReset">
-    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost[0].Cooldown.TimeUse" Value="3.000000" />
-    <EffectArray Operation="Set" Reference="Abil,GallDreadOrb,Cost[0].Cooldown.TimeUse" Value="6.000000" />
+    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost[0].Cooldown.TimeUse" Value="$GallShadowflameCooldown" />
+    <EffectArray Operation="Set" Reference="Abil,GallDreadOrb,Cost[0].Cooldown.TimeUse" Value="$GallDreadOrbCooldown" />
   </CEffectModifyPlayer>
   <CEffectModifyPlayer id="GallTwilightFrenzyBuffResetTwilightNova">
-    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost[0].Cooldown.TimeUse" Value="3.000000" />
-    <EffectArray Operation="Set" Reference="Abil,GallDreadOrb,Cost[0].Cooldown.TimeUse" Value="6.000000" />
+    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost[0].Cooldown.TimeUse" Value="$GallShadowflameCooldown" />
+    <EffectArray Operation="Set" Reference="Abil,GallDreadOrb,Cost[0].Cooldown.TimeUse" Value="$GallDreadOrbCooldown" />
   </CEffectModifyPlayer>
   <CEffectModifyPlayer id="GallShadowflameDoubleTroubleTalentCompletionModifyPlayer">
-    <EffectArray Operation="Subtract" Reference="Abil,GallShadowflame,Cost.Cooldown.TimeUse" Value="0.500000" />
+    <EffectArray Operation="Subtract" Reference="Abil,GallShadowflame,Cost.Cooldown.TimeUse" Value="$GallDoubleTroubleQuestCompleteCooldownReduction" />
   </CEffectModifyPlayer>
   <CEffectModifyPlayer id="GallTwilightFrenzyDoubleTroubleTalentCompletionModifyPlayer" parent="GallShadowflameDoubleTroubleTalentCompletionModifyPlayer">
     <ValidatorArray value="GallHasDoubleTroubleTalent" />
     <ValidatorArray value="GallCastHasDoubleTroubleCompleted" />
-    <EffectArray index="0" Operation="Subtract" Reference="Abil,GallShadowflame,Cost.Cooldown.TimeUse" Value="1.000000" />
   </CEffectModifyPlayer>
   <CEffectSet id="ChoConsumingBlazeBasicAttackSet">
     <ValidatorArray value="CasterNotBlindedAndTargetNotEvading" />
@@ -3262,7 +3276,7 @@
     <Behavior value="GallShadowflameSearingShadowsTalentArmorDebuff" />
   </CEffectApplyBehavior>
   <CEffectModifyPlayer id="GallShadowflameDoubleTroubleTalentCompletionResetPlayer">
-    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost.Cooldown.TimeUse" Value="3" />
+    <EffectArray Operation="Set" Reference="Abil,GallShadowflame,Cost.Cooldown.TimeUse" Value="$GallShadowflameCooldown" />
   </CEffectModifyPlayer>
   <CEffectApplyBehavior id="ChoOgreHideApplyEnragedRegenerationTalentCarry">
     <WhichUnit Effect="ChoGallLinkUnitsInitialSet" Value="Caster" />
@@ -4037,7 +4051,6 @@
   <CEffectSet id="ChoConsumingBlazeCastSet">
     <EffectArray value="ChoConsumingBlazeSearchArea" />
     <EffectArray value="ChoConsumingBlazeCreateHealer" />
-    <EffectArray value="ChoConsumingBlazeCreateHealerHero" />
     <EffectArray value="ChoConsumingBlazeSetWeaponCooldown" />
   </CEffectSet>
   <CEffectSwitch id="ChoFuelForTheFlameSearchSwitch">
@@ -4114,23 +4127,17 @@
   <CEffectCreateHealer id="ChoConsumingBlazeCasterHeal" parent="StormSelfOnlyHealingSpell">
     <ImpactUnit Value="Caster" />
     <RechargeVitalRate value="$ChoConsumingBlazeHealAmount" />
-    <MultiplicativeModifierArray index="0" Validator="ChoTargetisHeroandCasterHasConsumingFireTalent" Modifier="1.5" Crit="1" />
+    <FlatModifierArray index="ConsumingFire" Validator="ChoTargetisHeroandCasterHasConsumingFireTalent" Modifier="$ChoConsumingFireBonusHealAmount" Crit="1" />
     <SourceButtonFace value="ChoConsumingBlaze" />
   </CEffectCreateHealer>
   <CEffectCreateHealer id="ChoConsumingBlazeCreateHealer" parent="StormSelfOnlyHealingSpell">
-    <ValidatorArray value="ChoConsumingBlazeCasterHasGE1NonHeroToken" />
+    <ValidatorArray value="ChoConsumingBlazeCasterHasGE1AnyTokenCounter" />
     <ImpactUnit Value="Caster" />
-    <RechargeVitalRate value="$ChoConsumingBlazeHealAmount">
+    <RechargeVitalRate value="0">
       <AccumulatorArray value="ChoConsumingBlazeHealAccumulator" />
-    </RechargeVitalRate>
-  </CEffectCreateHealer>
-  <CEffectCreateHealer id="ChoConsumingBlazeCreateHealerHero" parent="StormSelfOnlyHealingSpell">
-    <ValidatorArray value="ChoConsumingBlazeCasterHasGE1HeroToken" />
-    <ImpactUnit Value="Caster" />
-    <RechargeVitalRate value="$ChoConsumingBlazeHealAmount">
       <AccumulatorArray value="ChoConsumingBlazeHeroHealAccumulator" />
     </RechargeVitalRate>
-    <MultiplicativeModifierArray index="Hero" Validator="ChoHasConsumingFireTalent" Modifier="1.75" Crit="1" />
+    <FlatModifierArray index="ConsumingFire" Validator="ChoConsumingBlazeCasterHasGE1HeroTrackedAndHasConsumingFireTalent" Accumulator="ChoConsumingFireHitAccumulator" Crit="1" />
   </CEffectCreateHealer>
   <CEffectDamage id="ChoConsumingBlazeDamage" parent="StormSpellDot">
     <Amount value="15" />
@@ -5422,7 +5429,7 @@
   </CEffectSet>
   <CEffectModifyUnit id="GallShadowflameDoubleTroubleTalentModifyCooldown">
     <ImpactUnit Value="Caster" />
-    <Cost Abil="GallShadowflame,Execute" CooldownOperation="Add" CooldownTimeUse="-0.5" />
+    <Cost Abil="GallShadowflame,Execute" CooldownOperation="Add" CooldownTimeUse="-$GallDoubleTroubleProcCooldownReduction" />
     <ValidatorArray value="GallDoesNotHaveShadowflameDoubleTroubleTalentImpactMarker" />
   </CEffectModifyUnit>
   <CEffectModifyUnit id="GallPsychoticBreakCooldownResetShadowBoltVolley">
@@ -5695,17 +5702,33 @@
         <AffectedByOverdrive value="1" />
       </Modifications>
       <Modifications>
-        <Catalog value="Effect" />
-        <Entry value="ChoConsumingBlazeCreateHealer" />
-        <Field value="RechargeVitalRate" />
+        <Catalog value="Accumulator" />
+        <Entry value="ChoConsumingBlazeHealAccumulator" />
+        <Field value="Scale" />
+        <Value value="0.040000" />
+        <AffectedByAbilityPower value="1" />
+        <AffectedByOverdrive value="1" />
+      </Modifications>
+      <Modifications>
+        <Catalog value="Accumulator" />
+        <Entry value="ChoConsumingBlazeHeroHealAccumulator" />
+        <Field value="Scale" />
+        <Value value="0.040000" />
+        <AffectedByAbilityPower value="1" />
+        <AffectedByOverdrive value="1" />
+      </Modifications>
+      <Modifications>
+        <Catalog value="Accumulator" />
+        <Entry value="ChoConsumingFireHitAccumulator" />
+        <Field value="Scale" />
         <Value value="0.040000" />
         <AffectedByAbilityPower value="1" />
         <AffectedByOverdrive value="1" />
       </Modifications>
       <Modifications>
         <Catalog value="Effect" />
-        <Entry value="ChoConsumingBlazeCreateHealerHero" />
-        <Field value="RechargeVitalRate" />
+        <Entry value="ChoConsumingBlazeCasterHeal" />
+        <Field value="FlatModifierArray[ConsumingFire].Modifier" />
         <Value value="0.040000" />
         <AffectedByAbilityPower value="1" />
         <AffectedByOverdrive value="1" />
@@ -6159,17 +6182,33 @@
         <AffectedByOverdrive value="1" />
       </Modifications>
       <Modifications>
-        <Catalog value="Effect" />
-        <Entry value="ChoConsumingBlazeCreateHealer" />
-        <Field value="RechargeVitalRate" />
+        <Catalog value="Accumulator" />
+        <Entry value="ChoConsumingBlazeHealAccumulator" />
+        <Field value="Scale" />
+        <Value value="0.040000" />
+        <AffectedByAbilityPower value="1" />
+        <AffectedByOverdrive value="1" />
+      </Modifications>
+      <Modifications>
+        <Catalog value="Accumulator" />
+        <Entry value="ChoConsumingBlazeHeroHealAccumulator" />
+        <Field value="Scale" />
+        <Value value="0.040000" />
+        <AffectedByAbilityPower value="1" />
+        <AffectedByOverdrive value="1" />
+      </Modifications>
+      <Modifications>
+        <Catalog value="Accumulator" />
+        <Entry value="ChoConsumingFireHitAccumulator" />
+        <Field value="Scale" />
         <Value value="0.040000" />
         <AffectedByAbilityPower value="1" />
         <AffectedByOverdrive value="1" />
       </Modifications>
       <Modifications>
         <Catalog value="Effect" />
-        <Entry value="ChoConsumingBlazeCreateHealerHero" />
-        <Field value="RechargeVitalRate" />
+        <Entry value="ChoConsumingBlazeCasterHeal" />
+        <Field value="FlatModifierArray[ConsumingFire].Modifier" />
         <Value value="0.040000" />
         <AffectedByAbilityPower value="1" />
         <AffectedByOverdrive value="1" />
@@ -8059,6 +8098,15 @@
     <Value value="1" />
     <TokenId value="ChoConsumingBlazeHeroCounter" />
   </CValidatorUnitCompareTokenCount>
+  <CValidatorCombine id="ChoConsumingBlazeCasterHasGE1AnyTokenCounter">
+    <CombineArray value="ChoConsumingBlazeCasterHasGE1NonHeroToken" />
+    <CombineArray value="ChoConsumingBlazeCasterHasGE1HeroToken" />
+  </CValidatorCombine>
+  <CValidatorCombine id="ChoConsumingBlazeCasterHasGE1HeroTrackedAndHasConsumingFireTalent">
+    <CombineArray value="ChoConsumingBlazeCasterHasGE1HeroToken" />
+    <CombineArray value="ChoHasConsumingFireTalent" />
+    <Type value="And" />
+  </CValidatorCombine>
   <CValidatorPlayerTalent id="GallTalentHasGiantScorcher">
     <WhichPlayer Value="Caster" />
     <Find value="1" />
