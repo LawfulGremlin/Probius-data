@@ -2407,7 +2407,6 @@
       <Skin>ArthasCrimsonCount</Skin>
       <Skin>ArthasGuanYu</Skin>
       <Skin>ArthasCraft20</Skin>
-      <Skin>ArthasDeathKnight</Skin>
     </Skins>
     <VariationSkins>
       <VariationSkin>ArthasBlue</VariationSkin>
@@ -24239,6 +24238,180 @@
       </Level20>
     </Talents>
   </Wizard>
+  <Xalatath unitId="HeroXalatath" hyperlinkId="Xalatath" attributeId="HXAL" franchise="Warcraft" gender="Male" innerRadius="0.6875" radius="0.6875" releaseDate="2026-01-01" sight="12" speed="4.8398" rarity="Legendary" scalingLinkId="ExcellentMana" defaultMountId="HorseCommon">
+    <Descriptors>
+      <Descriptor>EnergyImportant</Descriptor>
+      <Descriptor>Escaper</Descriptor>
+      <Descriptor>Ganker</Descriptor>
+      <Descriptor>Overconfident</Descriptor>
+      <Descriptor>TowerPusher</Descriptor>
+    </Descriptors>
+    <Units>
+      <Unit>XalatathDarkHeartRitual</Unit>
+      <Unit>XalatathVoidMinion</Unit>
+    </Units>
+    <Portraits>
+      <HeroSelect>storm_ui_ingame_heroselect_btn_xalatath.png</HeroSelect>
+      <Leaderboard>storm_ui_ingame_hero_leaderboard_xalatath.png</Leaderboard>
+      <Loading>storm_ui_ingame_hero_loadingscreen_xalatath.png</Loading>
+      <PartyFrame>storm_ui_ingame_partypanel_btn_xalatath.png</PartyFrame>
+      <Target>ui_targetportrait_hero_xalatath.png</Target>
+      <DraftScreen>storm_ui_glues_draft_portrait_xalatath.png</DraftScreen>
+      <PartyFrames>
+        <PartyFrame>storm_ui_ingame_partyframe_xalatath.png</PartyFrame>
+      </PartyFrames>
+      <Minimap>storm_ui_minimapicon_xalatath.png</Minimap>
+      <TargetInfo>storm_ui_ingame_partyframe_xalatath.png</TargetInfo>
+    </Portraits>
+    <Life>
+      <Amount scale="0.04">1270</Amount>
+      <RegenRate scale="0.04">2.6484</RegenRate>
+    </Life>
+    <Energy>
+      <Amount>500</Amount>
+      <RegenRate>3</RegenRate>
+    </Energy>
+    <Ratings complexity="8" damage="8" survivability="6" utility="6" />
+    <Weapons>
+      <XalatathHeroWeapon range="7" period="1">
+        <Damage scale="0.04">69</Damage>
+      </XalatathHeroWeapon>
+    </Weapons>
+    <Skins>
+      <Skin>XalatathVoidflame</Skin>
+    </Skins>
+    <VariationSkins>
+      <VariationSkin>XalatathVar1</VariationSkin>
+      <VariationSkin>XalatathVar2</VariationSkin>
+      <VariationSkin>XalatathVar3</VariationSkin>
+      <VariationSkin>XalatathVar4</VariationSkin>
+    </VariationSkins>
+    <VoiceLines>
+      <VoiceLine>XalatathBase_VoiceLine01</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine02</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine03</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine04</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine05</VoiceLine>
+    </VoiceLines>
+    <MountCategories>
+      <MountCategory>Ride</MountCategory>
+      <MountCategory>Ridebeast</MountCategory>
+      <MountCategory>Ridebike</MountCategory>
+      <MountCategory>Ridesurf</MountCategory>
+    </MountCategories>
+    <Abilities>
+      <Basic>
+        <XalatathShadowMark buttonId="XalatathShadowMark" abilityType="Q">
+          <Charges consume="1" initial="1" isHidden="true" recastCooldown="3">1</Charges>
+        </XalatathShadowMark>
+        <XalatathVoidStep buttonId="XalatathVoidStep" abilityType="W" />
+        <XalatathDarkHeartRitual buttonId="XalatathDarkHeartRitual" abilityType="E" />
+      </Basic>
+      <Heroic>
+        <XalatathVoidEruption buttonId="XalatathVoidEruption" abilityType="Heroic" />
+        <XalatathVoidConvergence buttonId="XalatathVoidConvergence" abilityType="Heroic" />
+      </Heroic>
+      <Trait>
+        <XalatathVoidVolley buttonId="XalatathVoidVolley" abilityType="Trait" />
+      </Trait>
+      <Mount>
+        <Mount buttonId="SummonMount" abilityType="Z">
+          <Icon>storm_ui_icon_generic_mount.png</Icon>
+        </Mount>
+      </Mount>
+      <Hearth>
+        <Hearthstone buttonId="Hearthstone" abilityType="B">
+          <Icon>storm_ui_icon_miscrune_1.png</Icon>
+        </Hearthstone>
+      </Hearth>
+      <Spray>
+        <LootSpray buttonId="LootSpray" abilityType="Spray">
+          <Icon>storm_temp_war3_btnhealingspray.png</Icon>
+        </LootSpray>
+      </Spray>
+      <Voice>
+        <LootYellVoiceLine buttonId="LootYellVoiceLine" abilityType="Voice">
+          <Icon>storm_btn_d3_barbarian_threateningshout.png</Icon>
+        </LootYellVoiceLine>
+      </Voice>
+    </Abilities>
+    <SubAbilities>
+      <Mount_x007C_SummonMount_x007C_Z>
+        <Mount>
+          <Dismount buttonId="UnsummonMount" abilityType="Z">
+            <Icon>storm_ui_icon_generic_cancel_mount.png</Icon>
+            <ToggleCooldown>0.1</ToggleCooldown>
+          </Dismount>
+        </Mount>
+      </Mount_x007C_SummonMount_x007C_Z>
+      <XalatathVoidStep_x007C_XalatathVoidStep_x007C_W>
+        <Basic>
+          <XalatathVoidStepCancel buttonId="XalatathVoidStepCancel" abilityType="W">
+            <ToggleCooldown>0.5</ToggleCooldown>
+          </XalatathVoidStepCancel>
+        </Basic>
+      </XalatathVoidStep_x007C_XalatathVoidStep_x007C_W>
+      <XalatathVoidEruption_x007C_XalatathVoidEruption_x007C_Heroic>
+        <Heroic>
+          <XalatathVoidEruptionCancel buttonId="XalatathVoidEruptionCancel" abilityType="Heroic" />
+        </Heroic>
+      </XalatathVoidEruption_x007C_XalatathVoidEruption_x007C_Heroic>
+    </SubAbilities>
+    <Talents>
+      <Level1>
+        <XalatathToxicMark buttonId="XalatathToxicMark" abilityType="Q" sort="1" />
+        <XalatathCloakOfShadows buttonId="XalatathCloakOfShadows" abilityType="W" sort="2" />
+        <XalatathAnchoredCore buttonId="XalatathAnchoredCore" abilityType="E" sort="3" />
+      </Level1>
+      <Level4>
+        <XalatathFrozenMark buttonId="XalatathFrozenMark" abilityType="Q" sort="1" />
+        <XalatathVoidAcolyte buttonId="XalatathVoidAcolyte" abilityType="W" sort="2" />
+        <XalatathDarkBarrier buttonId="XalatathDarkBarrier" abilityType="E" sort="3" />
+      </Level4>
+      <Level7>
+        <XalatathVoidAdept buttonId="XalatathVoidAdept" abilityType="Q" isQuest="true" sort="1" />
+        <XalatathSilenceOfTheLamb buttonId="XalatathSilenceOfTheLamb" abilityType="W" sort="2" />
+        <XalatathVoidSummoner buttonId="XalatathVoidSummoner" abilityType="W" sort="3" />
+      </Level7>
+      <Level10>
+        <XalatathHeroicAbilityVoidEruption buttonId="XalatathVoidEruption" abilityType="Heroic" sort="1">
+          <AbilityTalentLinkIds>
+            <AbilityTalentLinkId>XalatathVoidEruption</AbilityTalentLinkId>
+          </AbilityTalentLinkIds>
+        </XalatathHeroicAbilityVoidEruption>
+        <XalatathHeroicAbilityVoidConvergence buttonId="XalatathVoidConvergence" abilityType="Heroic" sort="2">
+          <AbilityTalentLinkIds>
+            <AbilityTalentLinkId>XalatathVoidConvergence</AbilityTalentLinkId>
+          </AbilityTalentLinkIds>
+        </XalatathHeroicAbilityVoidConvergence>
+      </Level10>
+      <Level13>
+        <XalatathPummelingStep buttonId="XalatathPummelingStep" abilityType="W" sort="1" />
+        <XalatathDarkHeartsProtection buttonId="XalatathDarkHeartsProtection" abilityType="E" sort="2" />
+        <XalatathCrushingCascade buttonId="XalatathCrushingCascade" abilityType="Trait" sort="3" />
+      </Level13>
+      <Level16>
+        <XalatathMarkedResilience buttonId="XalatathMarkedResilience" abilityType="Q" sort="1" />
+        <XalatathPullOfTheDarkHeart buttonId="XalatathPullOfTheDarkHeart" abilityType="E" sort="2" />
+        <XalatathFracturedReality buttonId="XalatathFracturedReality" abilityType="Trait" sort="3" />
+      </Level16>
+      <Level20>
+        <XalatathOrbitalEruption buttonId="XalatathOrbitalEruption" abilityType="Heroic" sort="1">
+          <PrerequisiteTalentIds>
+            <PrerequisiteTalentId>XalatathHeroicAbilityVoidEruption</PrerequisiteTalentId>
+          </PrerequisiteTalentIds>
+        </XalatathOrbitalEruption>
+        <XalatathRiftInvasion buttonId="XalatathRiftInvasion" abilityType="Heroic" sort="2">
+          <PrerequisiteTalentIds>
+            <PrerequisiteTalentId>XalatathHeroicAbilityVoidConvergence</PrerequisiteTalentId>
+          </PrerequisiteTalentIds>
+        </XalatathRiftInvasion>
+        <XalatathDuelingOrbs buttonId="XalatathDuelingOrbs" abilityType="Q" sort="3" />
+        <XalatathParadoxLoop buttonId="XalatathParadoxLoop" abilityType="W" sort="4" />
+        <XalatathUnstableCore buttonId="XalatathUnstableCore" abilityType="E" sort="5" />
+      </Level20>
+    </Talents>
+  </Xalatath>
   <Yrel unitId="HeroYrel" hyperlinkId="Yrel" attributeId="YREL" franchise="Warcraft" gender="Female" innerRadius="0.75" radius="0.75" releaseDate="2018-06-12" sight="12" speed="4.8398" rarity="Legendary" scalingLinkId="ExcellentMana" defaultMountId="HorseCommon">
     <Descriptors>
       <Descriptor>BodyBlocker</Descriptor>
@@ -25419,7 +25592,6 @@
       <Skin>ZuljinUltimate</Skin>
       <Skin>ZuljinFire</Skin>
       <Skin>ZuljinLunar</Skin>
-      <Skin>ZuljinZergjin</Skin>
     </Skins>
     <VariationSkins>
       <VariationSkin>ZuljinBaseVar1</VariationSkin>

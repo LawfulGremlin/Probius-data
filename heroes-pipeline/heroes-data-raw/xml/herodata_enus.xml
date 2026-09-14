@@ -313,7 +313,7 @@
         <AbathurCombatStyleSurvivalInstincts buttonId="AbathurLocustStrainSurvivalInstinctsTalent" name="Survival Instincts" abilityType="Trait" sort="4">
           <Icon>storm_ui_icon_abathur_spawnlocust.png</Icon>
           <ShortTooltip>Increases Locust Health and damage</ShortTooltip>
-          <FullTooltip>Increases Locust's Health by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; and damage by &lt;c val="bfd4fd"&gt;60%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Reduce damage taken by Locusts from non-Heroes by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; and increase their damage by &lt;c val="bfd4fd"&gt;60%&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>AbathurSpawnLocusts</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -3177,7 +3177,6 @@
       <Skin>ArthasCrimsonCount</Skin>
       <Skin>ArthasGuanYu</Skin>
       <Skin>ArthasCraft20</Skin>
-      <Skin>ArthasDeathKnight</Skin>
     </Skins>
     <VariationSkins>
       <VariationSkin>ArthasBlue</VariationSkin>
@@ -11213,7 +11212,7 @@
             <Icon>storm_ui_icon_garrosh_armor_up.png</Icon>
             <CooldownTooltip>Cooldown: 30 seconds</CooldownTooltip>
             <ShortTooltip>Activate Armor Up to increase bonus</ShortTooltip>
-            <FullTooltip>Armor Up can be activated to increase its Armor bonus by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
+            <FullTooltip>Armor Up can be activated to increase its Armor bonus by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;5&lt;/c&gt; seconds.</FullTooltip>
           </GarroshArmorUpDoubleUp>
         </Trait>
       </GarroshArmorUpDoubleUp_x007C_GarroshArmorUpDoubleUp>
@@ -11231,7 +11230,7 @@
         <GarroshWreckingBallUnrivaledStrength buttonId="GarroshWreckingBallUnrivaledStrength" name="Unrivaled Strength" abilityType="E" sort="2">
           <Icon>storm_ui_icon_garrosh_wrecking_ball.png</Icon>
           <ShortTooltip>Increase Wrecking Ball's throw range, damage</ShortTooltip>
-          <FullTooltip>Increase Wrecking Ball's throw range by &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; and its damage by &lt;c val="bfd4fd"&gt;125%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Increase Wrecking Ball's throw range by &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; and its damage by &lt;c val="bfd4fd"&gt;75%&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GarroshWreckingBall</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -11248,7 +11247,7 @@
         <GarroshBloodthirstInFortheKill buttonId="GarroshBloodthirstInFortheKill" name="In For the Kill" abilityType="W" sort="1">
           <Icon>storm_ui_icon_garrosh_bloodthirst.png</Icon>
           <ShortTooltip>Bloodthirst kills reset cooldown, restore Mana</ShortTooltip>
-          <FullTooltip>Increase Bloodthirst's damage against non-Heroes by &lt;c val="bfd4fd"&gt;70%&lt;/c&gt;. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.</FullTooltip>
+          <FullTooltip>Increase Bloodthirst's damage against non-Heroes by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt;. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GarroshBloodthirst</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -11280,7 +11279,7 @@
         <GarroshOppressor buttonId="GarroshOppressor" name="Oppressor " abilityType="W" sort="2">
           <Icon>storm_ui_icon_garrosh_bloodthirst.png</Icon>
           <ShortTooltip>Basic Attacks, Bloodthirst reduce Spell Power</ShortTooltip>
-          <FullTooltip>Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by &lt;c val="bfd4fd"&gt;30%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;2.5&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;2.5&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GarroshBloodthirst</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -11329,7 +11328,7 @@
         <GarroshBloodthirstBloodcraze buttonId="GarroshBloodthirstBloodcraze" name="Bloodcraze" abilityType="W" sort="2">
           <Icon>storm_ui_icon_garrosh_bloodthirst.png</Icon>
           <ShortTooltip>Bloodthirst heals over time</ShortTooltip>
-          <FullTooltip>When hitting a Hero, Bloodthirst heals for an additional &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; of Garrosh's maximum Health over &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>When hitting a Hero, Bloodthirst heals for an additional &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; of Garrosh's maximum Health over &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GarroshBloodthirst</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -11338,7 +11337,7 @@
           <Icon>storm_ui_icon_garrosh_armor_up.png</Icon>
           <CooldownTooltip>Cooldown: 30 seconds</CooldownTooltip>
           <ShortTooltip>Activate Armor Up to increase bonus</ShortTooltip>
-          <FullTooltip>Armor Up can be activated to increase its Armor bonus by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Armor Up can be activated to increase its Armor bonus by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt; for &lt;c val="bfd4fd"&gt;5&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>GarroshArmorUp</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -18771,7 +18770,7 @@
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 70&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 14 seconds</CooldownTooltip>
           <ShortTooltip>Gain Move Speed and put enemies to Sleep</ShortTooltip>
-          <FullTooltip>After &lt;c val="bfd4fd"&gt;0.75&lt;/c&gt; seconds, gain &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; Movement Speed for &lt;c val="bfd4fd"&gt;2&lt;/c&gt; seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for &lt;c val="bfd4fd"&gt;2.5&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>After &lt;c val="bfd4fd"&gt;0.62&lt;/c&gt; seconds, gain &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; Movement Speed for &lt;c val="bfd4fd"&gt;2&lt;/c&gt; seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for &lt;c val="bfd4fd"&gt;2.5&lt;/c&gt; seconds.</FullTooltip>
         </MalGanisNightRush>
       </Basic>
       <Heroic>
@@ -18795,7 +18794,7 @@
         <MalGanisVampiricTouch buttonId="MalGanisVampiricTouch" name="Vampiric Touch" abilityType="Trait" isActive="false" isPassive="true">
           <Icon>storm_ui_icon_malganis_trait.png</Icon>
           <ShortTooltip>Mal'Ganis heals from damage dealt</ShortTooltip>
-          <FullTooltip>Mal'Ganis heals for &lt;c val="bfd4fd"&gt;45%&lt;/c&gt; of damage dealt to enemy Heroes and &lt;c val="bfd4fd"&gt;10%&lt;/c&gt; of damage dealt to non-Heroes.</FullTooltip>
+          <FullTooltip>Mal'Ganis heals for &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; of damage dealt to enemy Heroes and &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; of damage dealt to non-Heroes.</FullTooltip>
         </MalGanisVampiricTouch>
       </Trait>
       <Mount>
@@ -21316,7 +21315,7 @@
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 45&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 10 seconds</CooldownTooltip>
           <ShortTooltip>Throw a hammer, stunning and damaging the first enemy hit</ShortTooltip>
-          <FullTooltip>Throw a hammer, dealing &lt;c val="bfd4fd"&gt;110~~0.04~~&lt;/c&gt; damage to the first enemy hit and Stunning them for &lt;c val="bfd4fd"&gt;1.25&lt;/c&gt; seconds&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant &lt;c val="bfd4fd"&gt;1&lt;/c&gt; stack. Stunned enemies provide &lt;c val="bfd4fd"&gt;2&lt;/c&gt; stacks.  If the Hero dies within &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds, gain &lt;c val="bfd4fd"&gt;5&lt;/c&gt; stacks.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;45&lt;/c&gt; targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;160&lt;/c&gt; targets, Storm Bolt's range is increased by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;, width increased by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt;, and now pierces all targets.</FullTooltip>
+          <FullTooltip>Throw a hammer, dealing &lt;c val="bfd4fd"&gt;110~~0.04~~&lt;/c&gt; damage to the first enemy hit and Stunning them for &lt;c val="bfd4fd"&gt;1.25&lt;/c&gt; seconds&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant &lt;c val="bfd4fd"&gt;1&lt;/c&gt; stack. Stunned enemies provide &lt;c val="bfd4fd"&gt;2&lt;/c&gt; stacks.  If the Hero dies within &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds, gain &lt;c val="bfd4fd"&gt;5&lt;/c&gt; stacks.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;45&lt;/c&gt; targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds and restore &lt;c val="bfd4fd"&gt;3&lt;/c&gt; Mana.&lt;n/&gt;&lt;n/&gt;&lt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;160&lt;/c&gt; targets, Storm Bolt's range is increased by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;, width increased by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt;, and now pierces all targets.</FullTooltip>
         </MuradinStormBolt>
         <MuradinThunderclap buttonId="MuradinThunderclap" name="Thunder Clap" abilityType="W">
           <Icon>storm_ui_icon_muradin_thunderclap.png</Icon>
@@ -22413,7 +22412,7 @@
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 35&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 7 seconds</CooldownTooltip>
           <ShortTooltip>Your Basic Attacks and Abilities cause enemies to take damage over time</ShortTooltip>
-          <FullTooltip>Qhira deals &lt;c val="bfd4fd"&gt;32~~0.04~~&lt;/c&gt; damage and heals for &lt;c val="bfd4fd"&gt;90~~0.04~~&lt;/c&gt; Health per enemy Hero affected. Damage and healing is increased by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; per each additional stack on that Hero.&lt;n/&gt;&lt;n/&gt;&lt;c val="00ff90"&gt;Passive:&lt;/c&gt; Basic Attack and Ability damage cause enemies to bleed for &lt;c val="bfd4fd"&gt;32~~0.04~~&lt;/c&gt; damage over &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds. Stacks &lt;c val="bfd4fd"&gt;5&lt;/c&gt; times.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by &lt;c val="bfd4fd"&gt;0.24%&lt;/c&gt;. &lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After damaging Heroes with Blood Rage's bleed damage &lt;c val="bfd4fd"&gt;150&lt;/c&gt; times, Blood Rage's duration is increased by &lt;c val="bfd4fd"&gt;2&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Qhira deals &lt;c val="bfd4fd"&gt;32~~0.04~~&lt;/c&gt; damage and heals for &lt;c val="bfd4fd"&gt;90~~0.04~~&lt;/c&gt; Health per enemy Hero affected. Damage and healing is increased by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; per each additional stack on that Hero.&lt;n/&gt;&lt;n/&gt;&lt;c val="00ff90"&gt;Passive:&lt;/c&gt; Basic Attack and Ability damage cause enemies to bleed for &lt;c val="bfd4fd"&gt;28~~0.04~~&lt;/c&gt; damage over &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds. Stacks &lt;c val="bfd4fd"&gt;5&lt;/c&gt; times.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by &lt;c val="bfd4fd"&gt;0.2%&lt;/c&gt;. &lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After damaging Heroes with Blood Rage's bleed damage &lt;c val="bfd4fd"&gt;150&lt;/c&gt; times, Blood Rage's duration is increased by &lt;c val="bfd4fd"&gt;2&lt;/c&gt; seconds.</FullTooltip>
         </NexusHunterBloodRage>
         <NexusHunterRevolvingSweep buttonId="NexusHunterRevolvingSweep" name="Revolving Sweep" abilityType="E">
           <Icon>storm_ui_icon_nexushunter_e.png</Icon>
@@ -22509,7 +22508,7 @@
         <NexusHunterFatalWounds buttonId="NexusHunterFatalWounds" name="Fatal Wounds" abilityType="W" sort="2">
           <Icon>storm_ui_icon_nexushunter_w.png</Icon>
           <ShortTooltip>Increase Blood Rage damage to low health enemies</ShortTooltip>
-          <FullTooltip>While at maximum stacks, Blood Rage's bleed deals &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; additional damage to enemy Heroes under &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; Health.</FullTooltip>
+          <FullTooltip>While at maximum stacks, Blood Rage's bleed deals &lt;c val="bfd4fd"&gt;70%&lt;/c&gt; additional damage to enemy Heroes under &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; Health.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>NexusHunterBloodRage</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -22611,7 +22610,7 @@
         <NexusHunterPulsingPain buttonId="NexusHunterPulsingPain" name="Pulsing Pain" abilityType="E" sort="2">
           <Icon>storm_ui_icon_nexushunter_e.png</Icon>
           <ShortTooltip>Increase Revolving Sweep damage to main target</ShortTooltip>
-          <FullTooltip>Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional &lt;c val="bfd4fd"&gt;135~~0.04~~&lt;/c&gt; damage.</FullTooltip>
+          <FullTooltip>Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional &lt;c val="bfd4fd"&gt;150~~0.04~~&lt;/c&gt; damage.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>NexusHunterRevolvingSweepSecondary</AbilityTalentLinkId>
             <AbilityTalentLinkId>NexusHunterRevolvingSweep</AbilityTalentLinkId>
@@ -22639,7 +22638,7 @@
         <NexusHunterRevolvingSweepLingeringAilment buttonId="NexusHunterRevolvingSweepLingeringAilment" name="Lingering Ailment" abilityType="E" sort="2">
           <Icon>storm_ui_icon_nexushunter_e_alt_1.png</Icon>
           <ShortTooltip>Reduce enemy Hero Armor</ShortTooltip>
-          <FullTooltip>Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by &lt;c val="bfd4fd"&gt;35&lt;/c&gt; for &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by &lt;c val="bfd4fd"&gt;25&lt;/c&gt; for &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>NexusHunterRevolvingSweepSecondary</AbilityTalentLinkId>
             <AbilityTalentLinkId>NexusHunterRevolvingSweep</AbilityTalentLinkId>
@@ -26955,7 +26954,7 @@
           <SylvanasBlackArrowsPassive buttonId="SylvanasBlackArrowsPassive" name="Black Arrows" abilityType="Trait" isActive="false" isPassive="true">
             <Icon>storm_ui_icon_sylvanas_blackarrows.png</Icon>
             <ShortTooltip>Basic Attacks apply Black Arrows, increasing Sylvanas's damage</ShortTooltip>
-            <FullTooltip>Basic Attacks infect enemies with Black Arrows for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds, stacking up to &lt;c val="bfd4fd"&gt;3&lt;/c&gt; times. Sylvanas deals &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; more damage to enemies with &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Damage Heroes and Structures with &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks of Black Arrows.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon damaging enemies &lt;c val="bfd4fd"&gt;250&lt;/c&gt; times, increase the damage bonus provided by Black Arrows to &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Pinnacle Reward:&lt;/c&gt; Upon damaging enemies &lt;c val="bfd4fd"&gt;400&lt;/c&gt; times, Black Arrows now heals Sylvanas for &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; of damage dealt at &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks, doubled against Heroes.</FullTooltip>
+            <FullTooltip>Basic Attacks infect enemies with Black Arrows for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds, stacking up to &lt;c val="bfd4fd"&gt;3&lt;/c&gt; times. Sylvanas deals &lt;c val="bfd4fd"&gt;15%&lt;/c&gt; more damage to enemies with &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Damage Heroes and Structures with &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks of Black Arrows.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon damaging enemies &lt;c val="bfd4fd"&gt;250&lt;/c&gt; times, increase the damage bonus provided by Black Arrows to &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Reward:&lt;/c&gt; Upon damaging enemies &lt;c val="bfd4fd"&gt;400&lt;/c&gt; times, Black Arrows now heals Sylvanas for &lt;c val="bfd4fd"&gt;25%&lt;/c&gt; of damage dealt at &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks, doubled against Heroes.</FullTooltip>
           </SylvanasBlackArrowsPassive>
         </Trait>
       </SylvanasBlackArrowsActive_x007C_SylvanasBlackArrows_x007C_Trait>
@@ -30926,9 +30925,9 @@
         <WhitemaneDesperatePlea buttonId="WhitemaneDesperatePlea" name="Desperate Plea" abilityType="Q">
           <Icon>storm_ui_icon_whitemane_desperation.png</Icon>
           <ToggleCooldown>0.5</ToggleCooldown>
-          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 40&lt;/s&gt;</EnergyTooltip>
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 45&lt;/s&gt;</EnergyTooltip>
           <ShortTooltip>Heal an allied Hero</ShortTooltip>
-          <FullTooltip>Heal an allied Hero for &lt;c val="bfd4fd"&gt;140~~0.04~~&lt;/c&gt; and gain &lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; for &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; increases Desperate Plea's Mana cost by &lt;c val="bfd4fd"&gt;40&lt;/c&gt;, and stacks up to &lt;c val="bfd4fd"&gt;3&lt;/c&gt; times.&lt;n/&gt;&lt;n/&gt;&lt;c val="ffff8a"&gt;Current Mana Cost:&lt;/c&gt; &lt;c val="bfd4fd"&gt;40&lt;/c&gt;</FullTooltip>
+          <FullTooltip>Heal an allied Hero for &lt;c val="bfd4fd"&gt;140~~0.04~~&lt;/c&gt; and gain &lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; for &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; increases Desperate Plea's Mana cost by &lt;c val="bfd4fd"&gt;40&lt;/c&gt;, and stacks up to &lt;c val="bfd4fd"&gt;3&lt;/c&gt; times.&lt;n/&gt;&lt;n/&gt;&lt;c val="ffff8a"&gt;Current Mana Cost:&lt;/c&gt; &lt;c val="bfd4fd"&gt;45&lt;/c&gt;</FullTooltip>
         </WhitemaneDesperatePlea>
         <WhitemaneInquisition buttonId="WhitemaneInquisition" name="Inquisition" abilityType="W">
           <Icon>storm_ui_icon_whitemane_inquisition.png</Icon>
@@ -31104,7 +31103,7 @@
         </WhitemaneSaintlyGreatstaff>
         <WhitemaneIntercession buttonId="WhitemaneIntercession" name="Intercession" abilityType="Active" isActive="true" sort="3">
           <Icon>storm_ui_icon_whitemane_intercession.png</Icon>
-          <CooldownTooltip>Cooldown: 60 seconds</CooldownTooltip>
+          <CooldownTooltip>Cooldown: 75 seconds</CooldownTooltip>
           <ShortTooltip>Make an ally Unstoppable</ShortTooltip>
           <FullTooltip>Activate to make an ally Unstoppable for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; second.</FullTooltip>
         </WhitemaneIntercession>
@@ -31159,7 +31158,7 @@
         <WhitemaneDesperatePleaRadiance buttonId="WhitemaneDesperatePleaRadiance" name="Radiance" abilityType="Q" sort="1">
           <Icon>storm_ui_icon_whitemane_desperation.png</Icon>
           <ShortTooltip>&lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; heals allies with &lt;c val="FFF5C2"&gt;Zeal&lt;/c&gt;</ShortTooltip>
-          <FullTooltip>Reaching &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks of &lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; heals for &lt;c val="bfd4fd"&gt;175~~0.04~~&lt;/c&gt; and reapplies &lt;c val="FFF5C2"&gt;Zeal&lt;/c&gt; to allies with &lt;c val="FFF5C2"&gt;Zeal&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Reaching &lt;c val="bfd4fd"&gt;3&lt;/c&gt; stacks of &lt;c val="FF8B8B"&gt;Desperation&lt;/c&gt; heals for &lt;c val="bfd4fd"&gt;190~~0.04~~&lt;/c&gt; and reapplies &lt;c val="FFF5C2"&gt;Zeal&lt;/c&gt; to allies with &lt;c val="FFF5C2"&gt;Zeal&lt;/c&gt;.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>WhitemaneDesperatePlea</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -31989,6 +31988,213 @@
       </Level20>
     </Talents>
   </Wizard>
+  <Xalatath name="Xal'atath" unitId="HeroXalatath" hyperlinkId="Xalatath" attributeId="HXAL" difficulty="Medium" franchise="Warcraft" gender="Male" title="The Harbinger of the Void" innerRadius="0.6875" radius="0.6875" releaseDate="2026-01-01" sight="12" speed="4.8398" type="Ranged" rarity="Legendary" scalingLinkId="ExcellentMana" defaultMountId="HorseCommon">
+    <SearchText>World of Warcraft Mage Void</SearchText>
+    <Description>A ranged damage dealer who manipulates void energy to overwhelm enemies and control the battlefield.</Description>
+    <InfoText>For eons, Xal'atath has manipulated gods and mortals alike to ascend the cosmic ladder. Once a servant of Dimensius the All-Devouring, and then a prisoner of the Old Gods, Xal'atath has now attained her freedom and set her own plans in motion—starting with the destruction of Dalaran and the transformation of the Sunwell.</InfoText>
+    <Descriptors>
+      <Descriptor>EnergyImportant</Descriptor>
+      <Descriptor>Escaper</Descriptor>
+      <Descriptor>Ganker</Descriptor>
+      <Descriptor>Overconfident</Descriptor>
+      <Descriptor>TowerPusher</Descriptor>
+    </Descriptors>
+    <Units>
+      <Unit>XalatathDarkHeartRitual</Unit>
+      <Unit>XalatathVoidMinion</Unit>
+    </Units>
+    <Portraits>
+      <HeroSelect>storm_ui_ingame_heroselect_btn_xalatath.png</HeroSelect>
+      <Leaderboard>storm_ui_ingame_hero_leaderboard_xalatath.png</Leaderboard>
+      <Loading>storm_ui_ingame_hero_loadingscreen_xalatath.png</Loading>
+      <PartyFrame>storm_ui_ingame_partypanel_btn_xalatath.png</PartyFrame>
+      <Target>ui_targetportrait_hero_xalatath.png</Target>
+      <DraftScreen>storm_ui_glues_draft_portrait_xalatath.png</DraftScreen>
+      <PartyFrames>
+        <PartyFrame>storm_ui_ingame_partyframe_xalatath.png</PartyFrame>
+      </PartyFrames>
+      <Minimap>storm_ui_minimapicon_xalatath.png</Minimap>
+      <TargetInfo>storm_ui_ingame_partyframe_xalatath.png</TargetInfo>
+    </Portraits>
+    <Life>
+      <Amount scale="0.04" type="Health">1270</Amount>
+      <RegenRate scale="0.04">2.6484</RegenRate>
+    </Life>
+    <Energy>
+      <Amount type="Mana">500</Amount>
+      <RegenRate>3</RegenRate>
+    </Energy>
+    <Roles>
+      <Role>Assassin</Role>
+    </Roles>
+    <ExpandedRole>Ranged Assassin</ExpandedRole>
+    <Ratings complexity="8" damage="8" survivability="6" utility="6" />
+    <Weapons>
+      <XalatathHeroWeapon range="7" period="1">
+        <Damage scale="0.04">69</Damage>
+      </XalatathHeroWeapon>
+    </Weapons>
+    <Skins>
+      <Skin>XalatathVoidflame</Skin>
+    </Skins>
+    <VariationSkins>
+      <VariationSkin>XalatathVar1</VariationSkin>
+      <VariationSkin>XalatathVar2</VariationSkin>
+      <VariationSkin>XalatathVar3</VariationSkin>
+      <VariationSkin>XalatathVar4</VariationSkin>
+    </VariationSkins>
+    <VoiceLines>
+      <VoiceLine>XalatathBase_VoiceLine01</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine02</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine03</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine04</VoiceLine>
+      <VoiceLine>XalatathBase_VoiceLine05</VoiceLine>
+    </VoiceLines>
+    <MountCategories>
+      <MountCategory>Ride</MountCategory>
+      <MountCategory>Ridebeast</MountCategory>
+      <MountCategory>Ridebike</MountCategory>
+      <MountCategory>Ridesurf</MountCategory>
+    </MountCategories>
+    <Abilities>
+      <Basic>
+        <XalatathShadowMark buttonId="XalatathShadowMark" name="Shadow Mark (Q)" abilityType="Q">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 45&lt;/s&gt;</EnergyTooltip>
+          <Charges consume="1" initial="1" isHidden="true" recastCooldown="3">1</Charges>
+          <CooldownTooltip>Cooldown: 7 seconds</CooldownTooltip>
+        </XalatathShadowMark>
+        <XalatathVoidStep buttonId="XalatathVoidStep" name="Void Step (W)" abilityType="W">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
+          <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
+        </XalatathVoidStep>
+        <XalatathDarkHeartRitual buttonId="XalatathDarkHeartRitual" name="Dark Heart Ritual (E)" abilityType="E">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
+          <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
+        </XalatathDarkHeartRitual>
+      </Basic>
+      <Heroic>
+        <XalatathVoidEruption buttonId="XalatathVoidEruption" name="Void Eruption" abilityType="Heroic">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 80&lt;/s&gt;</EnergyTooltip>
+          <CooldownTooltip>Cooldown: 75 seconds</CooldownTooltip>
+        </XalatathVoidEruption>
+        <XalatathVoidConvergence buttonId="XalatathVoidConvergence" name="Void Convergence" abilityType="Heroic">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 75&lt;/s&gt;</EnergyTooltip>
+          <CooldownTooltip>Cooldown: 90 seconds</CooldownTooltip>
+        </XalatathVoidConvergence>
+      </Heroic>
+      <Trait>
+        <XalatathVoidVolley buttonId="XalatathVoidVolley" name="Void Volley (Trait)" abilityType="Trait">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 75&lt;/s&gt;</EnergyTooltip>
+        </XalatathVoidVolley>
+      </Trait>
+      <Mount>
+        <Mount buttonId="SummonMount" name="Summon Mount" abilityType="Z">
+          <Icon>storm_ui_icon_generic_mount.png</Icon>
+          <CooldownTooltip>Cooldown: 4 seconds</CooldownTooltip>
+          <FullTooltip>After Channeling for &lt;c val="bfd4fd"&gt;1&lt;/c&gt; second, gain &lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;30%&lt;/s&gt; Movement Speed.</FullTooltip>
+        </Mount>
+      </Mount>
+      <Hearth>
+        <Hearthstone buttonId="Hearthstone" name="Hearthstone" abilityType="B">
+          <Icon>storm_ui_icon_miscrune_1.png</Icon>
+          <FullTooltip>After Channeling for &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds, teleport back to the Hall of Storms, instantly restoring &lt;c val="bfd4fd"&gt;1125&lt;/c&gt; Health and &lt;c val="bfd4fd"&gt;150&lt;/c&gt; Mana.</FullTooltip>
+        </Hearthstone>
+      </Hearth>
+      <Spray>
+        <LootSpray buttonId="LootSpray" name="Quick Spray Expression" abilityType="Spray">
+          <Icon>storm_temp_war3_btnhealingspray.png</Icon>
+          <CooldownTooltip>Cooldown: 3 seconds</CooldownTooltip>
+          <FullTooltip>Express yourself to other players by marking the ground with your selected spray.</FullTooltip>
+        </LootSpray>
+      </Spray>
+      <Voice>
+        <LootYellVoiceLine buttonId="LootYellVoiceLine" name="Quick Voice Line Expression" abilityType="Voice">
+          <Icon>storm_btn_d3_barbarian_threateningshout.png</Icon>
+          <CooldownTooltip>Cooldown: 7 seconds</CooldownTooltip>
+          <FullTooltip>Express yourself to other players by playing your selected Voice Line.</FullTooltip>
+        </LootYellVoiceLine>
+      </Voice>
+    </Abilities>
+    <SubAbilities>
+      <Mount_x007C_SummonMount_x007C_Z>
+        <Mount>
+          <Dismount buttonId="UnsummonMount" name="Unsummon Mount" abilityType="Z">
+            <Icon>storm_ui_icon_generic_cancel_mount.png</Icon>
+            <ToggleCooldown>0.1</ToggleCooldown>
+            <FullTooltip>Dismounts you.</FullTooltip>
+          </Dismount>
+        </Mount>
+      </Mount_x007C_SummonMount_x007C_Z>
+      <XalatathVoidStep_x007C_XalatathVoidStep_x007C_W>
+        <Basic>
+          <XalatathVoidStepCancel buttonId="XalatathVoidStepCancel" abilityType="W">
+            <ToggleCooldown>0.5</ToggleCooldown>
+          </XalatathVoidStepCancel>
+        </Basic>
+      </XalatathVoidStep_x007C_XalatathVoidStep_x007C_W>
+      <XalatathVoidEruption_x007C_XalatathVoidEruption_x007C_Heroic>
+        <Heroic>
+          <XalatathVoidEruptionCancel buttonId="XalatathVoidEruptionCancel" abilityType="Heroic">
+            <CooldownTooltip>Cooldown: 1.5 seconds</CooldownTooltip>
+          </XalatathVoidEruptionCancel>
+        </Heroic>
+      </XalatathVoidEruption_x007C_XalatathVoidEruption_x007C_Heroic>
+    </SubAbilities>
+    <Talents>
+      <Level1>
+        <XalatathToxicMark buttonId="XalatathToxicMark" abilityType="Q" sort="1" />
+        <XalatathCloakOfShadows buttonId="XalatathCloakOfShadows" abilityType="W" sort="2" />
+        <XalatathAnchoredCore buttonId="XalatathAnchoredCore" abilityType="E" sort="3" />
+      </Level1>
+      <Level4>
+        <XalatathFrozenMark buttonId="XalatathFrozenMark" abilityType="Q" sort="1" />
+        <XalatathVoidAcolyte buttonId="XalatathVoidAcolyte" abilityType="W" sort="2" />
+        <XalatathDarkBarrier buttonId="XalatathDarkBarrier" abilityType="E" sort="3" />
+      </Level4>
+      <Level7>
+        <XalatathVoidAdept buttonId="XalatathVoidAdept" abilityType="Q" isQuest="true" sort="1" />
+        <XalatathSilenceOfTheLamb buttonId="XalatathSilenceOfTheLamb" abilityType="W" sort="2" />
+        <XalatathVoidSummoner buttonId="XalatathVoidSummoner" abilityType="W" sort="3" />
+      </Level7>
+      <Level10>
+        <XalatathHeroicAbilityVoidEruption buttonId="XalatathVoidEruption" abilityType="Heroic" sort="1">
+          <AbilityTalentLinkIds>
+            <AbilityTalentLinkId>XalatathVoidEruption</AbilityTalentLinkId>
+          </AbilityTalentLinkIds>
+        </XalatathHeroicAbilityVoidEruption>
+        <XalatathHeroicAbilityVoidConvergence buttonId="XalatathVoidConvergence" abilityType="Heroic" sort="2">
+          <AbilityTalentLinkIds>
+            <AbilityTalentLinkId>XalatathVoidConvergence</AbilityTalentLinkId>
+          </AbilityTalentLinkIds>
+        </XalatathHeroicAbilityVoidConvergence>
+      </Level10>
+      <Level13>
+        <XalatathPummelingStep buttonId="XalatathPummelingStep" abilityType="W" sort="1" />
+        <XalatathDarkHeartsProtection buttonId="XalatathDarkHeartsProtection" abilityType="E" sort="2" />
+        <XalatathCrushingCascade buttonId="XalatathCrushingCascade" abilityType="Trait" sort="3" />
+      </Level13>
+      <Level16>
+        <XalatathMarkedResilience buttonId="XalatathMarkedResilience" abilityType="Q" sort="1" />
+        <XalatathPullOfTheDarkHeart buttonId="XalatathPullOfTheDarkHeart" abilityType="E" sort="2" />
+        <XalatathFracturedReality buttonId="XalatathFracturedReality" abilityType="Trait" sort="3" />
+      </Level16>
+      <Level20>
+        <XalatathOrbitalEruption buttonId="XalatathOrbitalEruption" abilityType="Heroic" sort="1">
+          <PrerequisiteTalentIds>
+            <PrerequisiteTalentId>XalatathHeroicAbilityVoidEruption</PrerequisiteTalentId>
+          </PrerequisiteTalentIds>
+        </XalatathOrbitalEruption>
+        <XalatathRiftInvasion buttonId="XalatathRiftInvasion" abilityType="Heroic" sort="2">
+          <PrerequisiteTalentIds>
+            <PrerequisiteTalentId>XalatathHeroicAbilityVoidConvergence</PrerequisiteTalentId>
+          </PrerequisiteTalentIds>
+        </XalatathRiftInvasion>
+        <XalatathDuelingOrbs buttonId="XalatathDuelingOrbs" abilityType="Q" sort="3" />
+        <XalatathParadoxLoop buttonId="XalatathParadoxLoop" abilityType="W" sort="4" />
+        <XalatathUnstableCore buttonId="XalatathUnstableCore" abilityType="E" sort="5" />
+      </Level20>
+    </Talents>
+  </Xalatath>
   <Yrel name="Yrel" unitId="HeroYrel" hyperlinkId="Yrel" attributeId="YREL" difficulty="Hard" franchise="Warcraft" gender="Female" title="Light of Hope" innerRadius="0.75" radius="0.75" releaseDate="2018-06-12" sight="12" speed="4.8398" type="Melee" rarity="Legendary" scalingLinkId="ExcellentMana" defaultMountId="HorseCommon">
     <SearchText>Yerel WoW Draenei Warlords of Draenor WoD Alliance Paladin BFA Battle for Azeroth Stun CC Displace Sustain Dive Escape Offlaner</SearchText>
     <Description>A deliberate melee Bruiser whose heavyweight abilities reward investment and careful timing.</Description>
@@ -32316,7 +32522,7 @@
         <YrelVindicationAldorPeacekeeper buttonId="YrelVindicationAldorPeacekeeper" name="Aldor Peacekeeper" abilityType="Q" sort="1">
           <Icon>storm_ui_icon_yrel_vindication.png</Icon>
           <ShortTooltip>Vindication can reduce enemy damage</ShortTooltip>
-          <FullTooltip>Enemy Heroes hit by Vindication at maximum charge deal &lt;c val="bfd4fd"&gt;40%&lt;/c&gt; less damage for &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds.</FullTooltip>
+          <FullTooltip>Enemy Heroes hit by Vindication at maximum charge deal &lt;c val="bfd4fd"&gt;50%&lt;/c&gt; less damage for &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>YrelVindicationCast</AbilityTalentLinkId>
             <AbilityTalentLinkId>YrelVindication</AbilityTalentLinkId>
@@ -32335,7 +32541,7 @@
         <YrelVelensChosen buttonId="YrelVelensChosen" name="Velen's Chosen" abilityType="Passive" sort="3">
           <Icon>storm_ui_icon_yrel_velens_chosen.png</Icon>
           <ShortTooltip>Basic Abilities can grant Spell Power</ShortTooltip>
-          <FullTooltip>Hitting an enemy Hero with a Basic Ability at maximum charge grants &lt;c val="bfd4fd"&gt;10%&lt;/c&gt; Spell Power for &lt;c val="bfd4fd"&gt;10&lt;/c&gt; seconds, up to &lt;c val="bfd4fd"&gt;30%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Hitting an enemy Hero with a Basic Ability at maximum charge grants &lt;c val="bfd4fd"&gt;8%&lt;/c&gt; Spell Power for &lt;c val="bfd4fd"&gt;10&lt;/c&gt; seconds, up to &lt;c val="bfd4fd"&gt;24%&lt;/c&gt;.</FullTooltip>
         </YrelVelensChosen>
       </Level13>
       <Level16>
@@ -32394,7 +32600,7 @@
         </YrelBubbleHearth>
         <YrelSeraphim buttonId="YrelSeraphim" name="Seraphim" abilityType="Active" isActive="true" sort="4">
           <Icon>storm_ui_icon_yrel_seraphim.png</Icon>
-          <CooldownTooltip>Cooldown: 20 seconds</CooldownTooltip>
+          <CooldownTooltip>Cooldown: 30 seconds</CooldownTooltip>
           <ShortTooltip>Activate to become Unstoppable</ShortTooltip>
           <FullTooltip>Activate to become Unstoppable for &lt;c val="bfd4fd"&gt;2&lt;/c&gt; seconds.</FullTooltip>
         </YrelSeraphim>
@@ -32488,7 +32694,7 @@
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 75&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 16 seconds</CooldownTooltip>
           <ShortTooltip>Unleash a Hydralisk on an enemy</ShortTooltip>
-          <FullTooltip>Summon a Hydralisk to attack a single target, dealing &lt;c val="bfd4fd"&gt;71~~0.05~~&lt;/c&gt; damage per second. The Hydralisk loses Health over &lt;c val="bfd4fd"&gt;10&lt;/c&gt; seconds, and has &lt;c val="bfd4fd"&gt;450~~0.045~~&lt;/c&gt; Health.</FullTooltip>
+          <FullTooltip>Summon a Hydralisk to attack a single target, dealing &lt;c val="bfd4fd"&gt;71~~0.05~~&lt;/c&gt; damage per second. The Hydralisk loses Health over &lt;c val="bfd4fd"&gt;10&lt;/c&gt; seconds, and has &lt;c val="bfd4fd"&gt;500~~0.045~~&lt;/c&gt; Health.</FullTooltip>
         </ZagaraSummonHydralisk>
         <ZagaraInfestedDrop buttonId="ZagaraInfestedDrop" name="Infested Drop" abilityType="E">
           <Icon>storm_ui_icon_zagara_infesteddrop.png</Icon>
@@ -32692,7 +32898,7 @@
         <ZagaraMasteryMutalisk buttonId="ZagaraHunterKillerMutaliskTalent" name="Mutalisk" abilityType="W" sort="2">
           <Icon>storm_ui_icon_zagara_hunterkillermuta.png</Icon>
           <ShortTooltip>Hunter Killer summons a Mutalisk instead</ShortTooltip>
-          <FullTooltip>Reduce the cooldown of Hunter Killer by &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over &lt;c val="bfd4fd"&gt;42&lt;/c&gt; seconds, and have &lt;c val="bfd4fd"&gt;420~~0.045~~&lt;/c&gt; Health.</FullTooltip>
+          <FullTooltip>Reduce the cooldown of Hunter Killer by &lt;c val="bfd4fd"&gt;4&lt;/c&gt; seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over &lt;c val="bfd4fd"&gt;42&lt;/c&gt; seconds, and have &lt;c val="bfd4fd"&gt;450~~0.045~~&lt;/c&gt; Health.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>ZagaraSummonHydralisk</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -33556,7 +33762,6 @@
       <Skin>ZuljinUltimate</Skin>
       <Skin>ZuljinFire</Skin>
       <Skin>ZuljinLunar</Skin>
-      <Skin>ZuljinZergjin</Skin>
     </Skins>
     <VariationSkins>
       <VariationSkin>ZuljinBaseVar1</VariationSkin>

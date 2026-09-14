@@ -3816,8 +3816,7 @@
       "ArthasLichPrince",
       "ArthasCrimsonCount",
       "ArthasGuanYu",
-      "ArthasCraft20",
-      "ArthasDeathKnight"
+      "ArthasCraft20"
     ],
     "variationSkins": [
       "ArthasBlue",
@@ -38558,6 +38557,364 @@
       ]
     }
   },
+  "Xalatath": {
+    "unitId": "HeroXalatath",
+    "hyperlinkId": "Xalatath",
+    "attributeId": "HXAL",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "innerRadius": 0.6875,
+    "radius": 0.6875,
+    "releaseDate": "2026-01-01",
+    "sight": 12.0,
+    "speed": 4.8398,
+    "rarity": "Legendary",
+    "scalingLinkId": "ExcellentMana",
+    "defaultMountId": "HorseCommon",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "TowerPusher"
+    ],
+    "units": [
+      "XalatathDarkHeartRitual",
+      "XalatathVoidMinion"
+    ],
+    "portraits": {
+      "heroSelect": "storm_ui_ingame_heroselect_btn_xalatath.png",
+      "leaderboard": "storm_ui_ingame_hero_leaderboard_xalatath.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_xalatath.png",
+      "partyPanel": "storm_ui_ingame_partypanel_btn_xalatath.png",
+      "target": "ui_targetportrait_hero_xalatath.png",
+      "draftScreen": "storm_ui_glues_draft_portrait_xalatath.png",
+      "partyFrames": [
+        "storm_ui_ingame_partyframe_xalatath.png"
+      ],
+      "minimap": "storm_ui_minimapicon_xalatath.png",
+      "targetInfo": "storm_ui_ingame_partyframe_xalatath.png"
+    },
+    "life": {
+      "amount": 1270.0,
+      "scale": 0.04,
+      "regenRate": 2.6484,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500.0,
+      "regenRate": 3.0
+    },
+    "ratings": {
+      "complexity": 8.0,
+      "damage": 8.0,
+      "survivability": 6.0,
+      "utility": 6.0
+    },
+    "weapons": [
+      {
+        "nameId": "XalatathHeroWeapon",
+        "range": 7.0,
+        "period": 1.0,
+        "damage": 69.0,
+        "damageScale": 0.04
+      }
+    ],
+    "skins": [
+      "XalatathVoidflame"
+    ],
+    "variationSkins": [
+      "XalatathVar1",
+      "XalatathVar2",
+      "XalatathVar3",
+      "XalatathVar4"
+    ],
+    "voiceLines": [
+      "XalatathBase_VoiceLine01",
+      "XalatathBase_VoiceLine02",
+      "XalatathBase_VoiceLine03",
+      "XalatathBase_VoiceLine04",
+      "XalatathBase_VoiceLine05"
+    ],
+    "mountCategories": [
+      "Ride",
+      "Ridebeast",
+      "Ridebike",
+      "Ridesurf"
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "XalatathShadowMark",
+          "buttonId": "XalatathShadowMark",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 3.0
+          },
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "XalatathVoidStep",
+          "buttonId": "XalatathVoidStep",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "XalatathDarkHeartRitual",
+          "buttonId": "XalatathDarkHeartRitual",
+          "abilityType": "E"
+        }
+      ],
+      "heroic": [
+        {
+          "nameId": "XalatathVoidEruption",
+          "buttonId": "XalatathVoidEruption",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "XalatathVoidConvergence",
+          "buttonId": "XalatathVoidConvergence",
+          "abilityType": "Heroic"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "XalatathVoidVolley",
+          "buttonId": "XalatathVoidVolley",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "Mount",
+          "buttonId": "SummonMount",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "abilityType": "Z"
+        }
+      ],
+      "hearth": [
+        {
+          "nameId": "Hearthstone",
+          "buttonId": "Hearthstone",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "abilityType": "B"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "abilityType": "Voice"
+        }
+      ]
+    },
+    "subAbilities": [
+      {
+        "Mount|SummonMount|Z": {
+          "mount": [
+            {
+              "nameId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "abilityType": "Z"
+            }
+          ]
+        },
+        "XalatathVoidStep|XalatathVoidStep|W": {
+          "basic": [
+            {
+              "nameId": "XalatathVoidStepCancel",
+              "buttonId": "XalatathVoidStepCancel",
+              "toggleCooldown": 0.5,
+              "abilityType": "W"
+            }
+          ]
+        },
+        "XalatathVoidEruption|XalatathVoidEruption|Heroic": {
+          "heroic": [
+            {
+              "nameId": "XalatathVoidEruptionCancel",
+              "buttonId": "XalatathVoidEruptionCancel",
+              "abilityType": "Heroic"
+            }
+          ]
+        }
+      }
+    ],
+    "talents": {
+      "level1": [
+        {
+          "nameId": "XalatathToxicMark",
+          "buttonId": "XalatathToxicMark",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathCloakOfShadows",
+          "buttonId": "XalatathCloakOfShadows",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathAnchoredCore",
+          "buttonId": "XalatathAnchoredCore",
+          "abilityType": "E",
+          "sort": 3
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "XalatathFrozenMark",
+          "buttonId": "XalatathFrozenMark",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathVoidAcolyte",
+          "buttonId": "XalatathVoidAcolyte",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathDarkBarrier",
+          "buttonId": "XalatathDarkBarrier",
+          "abilityType": "E",
+          "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "XalatathVoidAdept",
+          "buttonId": "XalatathVoidAdept",
+          "abilityType": "Q",
+          "isQuest": true,
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathSilenceOfTheLamb",
+          "buttonId": "XalatathSilenceOfTheLamb",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathVoidSummoner",
+          "buttonId": "XalatathVoidSummoner",
+          "abilityType": "W",
+          "sort": 3
+        }
+      ],
+      "level10": [
+        {
+          "nameId": "XalatathHeroicAbilityVoidEruption",
+          "buttonId": "XalatathVoidEruption",
+          "abilityType": "Heroic",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "XalatathVoidEruption"
+          ]
+        },
+        {
+          "nameId": "XalatathHeroicAbilityVoidConvergence",
+          "buttonId": "XalatathVoidConvergence",
+          "abilityType": "Heroic",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "XalatathVoidConvergence"
+          ]
+        }
+      ],
+      "level13": [
+        {
+          "nameId": "XalatathPummelingStep",
+          "buttonId": "XalatathPummelingStep",
+          "abilityType": "W",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathDarkHeartsProtection",
+          "buttonId": "XalatathDarkHeartsProtection",
+          "abilityType": "E",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathCrushingCascade",
+          "buttonId": "XalatathCrushingCascade",
+          "abilityType": "Trait",
+          "sort": 3
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "XalatathMarkedResilience",
+          "buttonId": "XalatathMarkedResilience",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathPullOfTheDarkHeart",
+          "buttonId": "XalatathPullOfTheDarkHeart",
+          "abilityType": "E",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathFracturedReality",
+          "buttonId": "XalatathFracturedReality",
+          "abilityType": "Trait",
+          "sort": 3
+        }
+      ],
+      "level20": [
+        {
+          "nameId": "XalatathOrbitalEruption",
+          "buttonId": "XalatathOrbitalEruption",
+          "abilityType": "Heroic",
+          "sort": 1,
+          "prerequisiteTalentIds": [
+            "XalatathHeroicAbilityVoidEruption"
+          ]
+        },
+        {
+          "nameId": "XalatathRiftInvasion",
+          "buttonId": "XalatathRiftInvasion",
+          "abilityType": "Heroic",
+          "sort": 2,
+          "prerequisiteTalentIds": [
+            "XalatathHeroicAbilityVoidConvergence"
+          ]
+        },
+        {
+          "nameId": "XalatathDuelingOrbs",
+          "buttonId": "XalatathDuelingOrbs",
+          "abilityType": "Q",
+          "sort": 3
+        },
+        {
+          "nameId": "XalatathParadoxLoop",
+          "buttonId": "XalatathParadoxLoop",
+          "abilityType": "W",
+          "sort": 4
+        },
+        {
+          "nameId": "XalatathUnstableCore",
+          "buttonId": "XalatathUnstableCore",
+          "abilityType": "E",
+          "sort": 5
+        }
+      ]
+    }
+  },
   "Yrel": {
     "unitId": "HeroYrel",
     "hyperlinkId": "Yrel",
@@ -40453,8 +40810,7 @@
     "skins": [
       "ZuljinUltimate",
       "ZuljinFire",
-      "ZuljinLunar",
-      "ZuljinZergjin"
+      "ZuljinLunar"
     ],
     "variationSkins": [
       "ZuljinBaseVar1",

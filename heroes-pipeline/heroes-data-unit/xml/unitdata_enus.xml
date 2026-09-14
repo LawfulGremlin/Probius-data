@@ -71,7 +71,7 @@
     </Portraits>
     <Life>
       <Amount scale="0.04">225</Amount>
-      <RegenRate scale="0.04">-6.617647058823529</RegenRate>
+      <RegenRate scale="0.04">-7.941176470588235</RegenRate>
     </Life>
     <Weapons>
       <AbathurLocustBombardWeapon range="7" period="1">
@@ -4129,12 +4129,12 @@
       <TargetInfo>storm_ui_ingame_targetinfopanel_unit_gardenofterror_merc_flower_ranged.png</TargetInfo>
     </Portraits>
     <Life>
-      <Amount scale="0">800</Amount>
+      <Amount scale="0">600</Amount>
       <RegenRate scale="0">0</RegenRate>
     </Life>
     <Weapons>
       <ShamblerWeapon range="0.5" period="1.5">
-        <Damage scale="0">100</Damage>
+        <Damage scale="0">75</Damage>
       </ShamblerWeapon>
     </Weapons>
   </gardenofterror-Shambler>
@@ -11473,7 +11473,7 @@
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 45&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 10 seconds</CooldownTooltip>
           <ShortTooltip>Throw a hammer, stunning and damaging the first enemy hit</ShortTooltip>
-          <FullTooltip>Throw a hammer, dealing &lt;c val="bfd4fd"&gt;110~~0.04~~&lt;/c&gt; damage to the first enemy hit and Stunning them for &lt;c val="bfd4fd"&gt;1.25&lt;/c&gt; seconds&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant &lt;c val="bfd4fd"&gt;1&lt;/c&gt; stack. Stunned enemies provide &lt;c val="bfd4fd"&gt;2&lt;/c&gt; stacks.  If the Hero dies within &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds, gain &lt;c val="bfd4fd"&gt;5&lt;/c&gt; stacks.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;45&lt;/c&gt; targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;160&lt;/c&gt; targets, Storm Bolt's range is increased by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;, width increased by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt;, and now pierces all targets.</FullTooltip>
+          <FullTooltip>Throw a hammer, dealing &lt;c val="bfd4fd"&gt;110~~0.04~~&lt;/c&gt; damage to the first enemy hit and Stunning them for &lt;c val="bfd4fd"&gt;1.25&lt;/c&gt; seconds&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant &lt;c val="bfd4fd"&gt;1&lt;/c&gt; stack. Stunned enemies provide &lt;c val="bfd4fd"&gt;2&lt;/c&gt; stacks.  If the Hero dies within &lt;c val="bfd4fd"&gt;3&lt;/c&gt; seconds, gain &lt;c val="bfd4fd"&gt;5&lt;/c&gt; stacks.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;45&lt;/c&gt; targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by &lt;c val="bfd4fd"&gt;0.5&lt;/c&gt; seconds and restore &lt;c val="bfd4fd"&gt;3&lt;/c&gt; Mana.&lt;n/&gt;&lt;n/&gt;&lt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Reward:&lt;/c&gt; Upon hitting &lt;c val="bfd4fd"&gt;160&lt;/c&gt; targets, Storm Bolt's range is increased by &lt;c val="bfd4fd"&gt;50%&lt;/c&gt;, width increased by &lt;c val="bfd4fd"&gt;100%&lt;/c&gt;, and now pierces all targets.</FullTooltip>
         </MuradinStormBolt>
         <NovaPinningShot buttonId="NovaPinningShot" name="Pinning Shot" abilityType="W">
           <Icon>storm_ui_icon_nova_pinningshot.png</Icon>
@@ -17938,6 +17938,229 @@
       </WizardMinion>
     </Weapons>
   </WizardMinion>
+  <XalatathDarkHeartRitual name="Dark Heart Ritual (Unit)" hyperlinkId="XalatathDarkHeartRitual" innerRadius="0.125" radius="0.125" sight="7" speed="3.5" damageType="Summon">
+    <Attributes>
+      <Attribute>Summoned</Attribute>
+    </Attributes>
+    <Portraits>
+      <TargetInfo>storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png</TargetInfo>
+    </Portraits>
+    <Life>
+      <Amount scale="0">1</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+    <Abilities>
+      <Hidden>
+        <DarkHeartMove abilityType="Hidden" />
+      </Hidden>
+    </Abilities>
+  </XalatathDarkHeartRitual>
+  <XalatathFracturedRealityTrailUnit hyperlinkId="XalatathFracturedRealityTrailUnit" innerRadius="0.25" radius="0.25">
+    <Attributes>
+      <Attribute>IgnoredByTowerAI</Attribute>
+      <Attribute>ImmuneToAOE</Attribute>
+      <Attribute>ImmuneToFriendlyAbilities</Attribute>
+      <Attribute>ImmuneToSkillshots</Attribute>
+      <Attribute>NoMinionAggro</Attribute>
+      <Attribute>Summoned</Attribute>
+    </Attributes>
+    <Life>
+      <Amount scale="0">1</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathFracturedRealityTrailUnit>
+  <XalatathOrbitalEruptionCenterDummyUnit hyperlinkId="XalatathOrbitalEruptionCenterDummyUnit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathOrbitalEruptionCenterDummyUnit>
+  <XalatathOrbitalEruptionCenterMissileTier1Unit hyperlinkId="XalatathOrbitalEruptionCenterMissileTier1Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathOrbitalEruptionCenterMissileTier1Unit>
+  <XalatathOrbitalEruptionCenterMissileTier2Unit hyperlinkId="XalatathOrbitalEruptionCenterMissileTier2Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathOrbitalEruptionCenterMissileTier2Unit>
+  <XalatathOrbitalEruptionCenterMissileTier3Unit hyperlinkId="XalatathOrbitalEruptionCenterMissileTier3Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathOrbitalEruptionCenterMissileTier3Unit>
+  <XalatathOrbitalEruptionCenterMissileTier4Unit hyperlinkId="XalatathOrbitalEruptionCenterMissileTier4Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathOrbitalEruptionCenterMissileTier4Unit>
+  <XalatathOrbitalEruptionOrbUnit hyperlinkId="XalatathOrbitalEruptionOrbUnit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathOrbitalEruptionOrbUnit>
+  <XalatathShadowMarkDummyUnit hyperlinkId="XalatathShadowMarkDummyUnit" radius="0.5">
+    <Attributes>
+      <Attribute>IgnoredByTowerAI</Attribute>
+      <Attribute>ImmuneToAOE</Attribute>
+      <Attribute>ImmuneToFriendlyAbilities</Attribute>
+      <Attribute>ImmuneToSkillshots</Attribute>
+      <Attribute>NoMinionAggro</Attribute>
+      <Attribute>Summoned</Attribute>
+    </Attributes>
+    <Life>
+      <Amount scale="0">1</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathShadowMarkDummyUnit>
+  <XalatathUnstableCoreFireUnit hyperlinkId="XalatathUnstableCoreFireUnit" innerRadius="1.5" radius="1.5">
+    <Attributes>
+      <Attribute>IgnoredByTowerAI</Attribute>
+      <Attribute>ImmuneToAOE</Attribute>
+      <Attribute>ImmuneToFriendlyAbilities</Attribute>
+      <Attribute>ImmuneToSkillshots</Attribute>
+      <Attribute>NoMinionAggro</Attribute>
+      <Attribute>Summoned</Attribute>
+    </Attributes>
+    <Life>
+      <Amount scale="0">1</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathUnstableCoreFireUnit>
+  <XalatathVoidConvergencePortalUnit hyperlinkId="XalatathVoidConvergencePortalUnit" innerRadius="0.25" radius="4.5" sight="5">
+    <Attributes>
+      <Attribute>ImmuneToFriendlyAbilities</Attribute>
+      <Attribute>ImmuneToSkillshots</Attribute>
+      <Attribute>NoMinionAggro</Attribute>
+      <Attribute>Summoned</Attribute>
+    </Attributes>
+    <Portraits>
+      <TargetInfo>storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png</TargetInfo>
+    </Portraits>
+    <Life>
+      <Amount scale="0">1200</Amount>
+      <RegenRate scale="0">-60</RegenRate>
+    </Life>
+    <Abilities>
+      <Hidden>
+        <HeroGenericSummonedUnitSpecialCaseInteraction buttonId="SummonedUnitSpecialCaseInteraction" name="Summoned Unit Special Case Interaction" abilityType="Hidden">
+          <Icon>storm_temp_btn-ability-protoss-prismaticbeam-color.png</Icon>
+        </HeroGenericSummonedUnitSpecialCaseInteraction>
+      </Hidden>
+    </Abilities>
+  </XalatathVoidConvergencePortalUnit>
+  <XalatathVoidEruptionCarrierMissileTier1Unit hyperlinkId="XalatathVoidEruptionCarrierMissileTier1Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidEruptionCarrierMissileTier1Unit>
+  <XalatathVoidEruptionCarrierMissileTier2Unit hyperlinkId="XalatathVoidEruptionCarrierMissileTier2Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidEruptionCarrierMissileTier2Unit>
+  <XalatathVoidEruptionCarrierMissileTier3Unit hyperlinkId="XalatathVoidEruptionCarrierMissileTier3Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidEruptionCarrierMissileTier3Unit>
+  <XalatathVoidEruptionCarrierMissileTier4Unit hyperlinkId="XalatathVoidEruptionCarrierMissileTier4Unit">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidEruptionCarrierMissileTier4Unit>
+  <XalatathVoidEruptionDummyMissileCenter hyperlinkId="XalatathVoidEruptionDummyMissileCenter">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidEruptionDummyMissileCenter>
+  <XalatathVoidMinion name="Void Minion" hyperlinkId="XalatathVoidMinion" innerRadius="1" radius="1" sight="7" speed="5.75" damageType="Summon">
+    <Attributes>
+      <Attribute>Summoned</Attribute>
+    </Attributes>
+    <Portraits>
+      <TargetInfo>storm_ui_ingame_targetinfopanel_unit_xalatath_voidminion.png</TargetInfo>
+      <Minimap>storm_ui_minimapicon_jaina_water_elemental.png</Minimap>
+    </Portraits>
+    <Life>
+      <Amount scale="0.04">250</Amount>
+      <RegenRate scale="0.04">-8.333333333333334</RegenRate>
+    </Life>
+    <Weapons>
+      <XalatathVoidMinionWeapon range="1.5" period="0.75">
+        <Damage scale="0.04">95</Damage>
+      </XalatathVoidMinionWeapon>
+    </Weapons>
+    <Abilities>
+      <Basic>
+        <XalatathVoidMinionDash buttonId="XalatathVoidMinionDash" abilityType="Q" />
+      </Basic>
+      <Hidden>
+        <HeroGenericSummonedUnitSpecialCaseInteraction buttonId="SummonedUnitSpecialCaseInteraction" name="Summoned Unit Special Case Interaction" abilityType="Hidden">
+          <Icon>storm_temp_btn-ability-protoss-prismaticbeam-color.png</Icon>
+        </HeroGenericSummonedUnitSpecialCaseInteraction>
+      </Hidden>
+    </Abilities>
+  </XalatathVoidMinion>
+  <XalatathVoidVolley2MissileInnerLeft hyperlinkId="XalatathVoidVolley2MissileInnerLeft">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidVolley2MissileInnerLeft>
+  <XalatathVoidVolley2MissileInnerRight hyperlinkId="XalatathVoidVolley2MissileInnerRight">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidVolley2MissileInnerRight>
+  <XalatathVoidVolley2MissileMiddleLeft hyperlinkId="XalatathVoidVolley2MissileMiddleLeft">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidVolley2MissileMiddleLeft>
+  <XalatathVoidVolley2MissileMiddleRight hyperlinkId="XalatathVoidVolley2MissileMiddleRight">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidVolley2MissileMiddleRight>
+  <XalatathVoidVolley2MissileOuterLeft hyperlinkId="XalatathVoidVolley2MissileOuterLeft">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidVolley2MissileOuterLeft>
+  <XalatathVoidVolley2MissileOuterRight hyperlinkId="XalatathVoidVolley2MissileOuterRight">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathVoidVolley2MissileOuterRight>
+  <XalatathWeaponMissileLeft hyperlinkId="XalatathWeaponMissileLeft">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathWeaponMissileLeft>
+  <XalatathWeaponMissileRight hyperlinkId="XalatathWeaponMissileRight">
+    <Life>
+      <Amount scale="0">10</Amount>
+      <RegenRate scale="0">0</RegenRate>
+    </Life>
+  </XalatathWeaponMissileRight>
   <XelnagaArtifact name="Xel'naga Artifact" hyperlinkId="XelnagaArtifact" radius="0.75" sight="32">
     <Attributes>
       <Attribute>ImmuneToAOE</Attribute>
@@ -18072,8 +18295,8 @@
       <TargetInfo>storm_ui_ingame_targetinfopanel_unit_zagara_hydralisk.png</TargetInfo>
     </Portraits>
     <Life>
-      <Amount scale="0.045">450</Amount>
-      <RegenRate scale="0.045">-45</RegenRate>
+      <Amount scale="0.045">500</Amount>
+      <RegenRate scale="0.045">-50</RegenRate>
     </Life>
     <Weapons>
       <ZagaraHydraliskMelee range="0.5" period="1">
@@ -18104,8 +18327,8 @@
       <TargetInfo>storm_ui_ingame_targetinfopanel_unit_zagara_mutalisk.png</TargetInfo>
     </Portraits>
     <Life>
-      <Amount scale="0.045">420</Amount>
-      <RegenRate scale="0.045">-10</RegenRate>
+      <Amount scale="0.045">450</Amount>
+      <RegenRate scale="0.045">-10.714285714285714</RegenRate>
     </Life>
     <Weapons>
       <ZagaraMutaliskWeapon range="5.5" period="1">
@@ -18164,8 +18387,8 @@
       <TargetInfo>storm_ui_ingame_targetinfopanel_unit_zagara_roach.png</TargetInfo>
     </Portraits>
     <Life>
-      <Amount scale="0.04">328</Amount>
-      <RegenRate scale="0.04">-32.8</RegenRate>
+      <Amount scale="0.04">360</Amount>
+      <RegenRate scale="0.04">-36</RegenRate>
     </Life>
     <Weapons>
       <ZagaraRoachMeleeWeapon range="1.25" period="1">

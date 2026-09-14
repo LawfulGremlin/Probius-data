@@ -491,7 +491,7 @@
           "name": "Survival Instincts",
           "icon": "storm_ui_icon_abathur_spawnlocust.png",
           "shortTooltip": "Increases Locust Health and damage",
-          "fullTooltip": "Increases Locust's Health by <c val=\"bfd4fd\">100%</c> and damage by <c val=\"bfd4fd\">60%</c>.",
+          "fullTooltip": "Reduce damage taken by Locusts from non-Heroes by <c val=\"bfd4fd\">50%</c> and increase their damage by <c val=\"bfd4fd\">60%</c>.",
           "abilityType": "Trait",
           "sort": 4,
           "abilityTalentLinkIds": [
@@ -4935,8 +4935,7 @@
       "ArthasLichPrince",
       "ArthasCrimsonCount",
       "ArthasGuanYu",
-      "ArthasCraft20",
-      "ArthasDeathKnight"
+      "ArthasCraft20"
     ],
     "variationSkins": [
       "ArthasBlue",
@@ -17468,7 +17467,7 @@
               "icon": "storm_ui_icon_garrosh_armor_up.png",
               "cooldownTooltip": "Cooldown: 30 seconds",
               "shortTooltip": "Activate Armor Up to increase bonus",
-              "fullTooltip": "Armor Up can be activated to increase its Armor bonus by <c val=\"bfd4fd\">100%</c> for <c val=\"bfd4fd\">3</c> seconds.",
+              "fullTooltip": "Armor Up can be activated to increase its Armor bonus by <c val=\"bfd4fd\">100%</c> for <c val=\"bfd4fd\">5</c> seconds.",
               "abilityType": "Trait"
             }
           ]
@@ -17497,7 +17496,7 @@
           "name": "Unrivaled Strength",
           "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
           "shortTooltip": "Increase Wrecking Ball's throw range, damage",
-          "fullTooltip": "Increase Wrecking Ball's throw range by <c val=\"bfd4fd\">15%</c> and its damage by <c val=\"bfd4fd\">125%</c>.",
+          "fullTooltip": "Increase Wrecking Ball's throw range by <c val=\"bfd4fd\">15%</c> and its damage by <c val=\"bfd4fd\">75%</c>.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17531,7 +17530,7 @@
           "name": "In For the Kill",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "shortTooltip": "Bloodthirst kills reset cooldown, restore Mana",
-          "fullTooltip": "Increase Bloodthirst's damage against non-Heroes by <c val=\"bfd4fd\">70%</c>. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.",
+          "fullTooltip": "Increase Bloodthirst's damage against non-Heroes by <c val=\"bfd4fd\">100%</c>. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.",
           "abilityType": "W",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -17584,7 +17583,7 @@
           "name": "Oppressor ",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "shortTooltip": "Basic Attacks, Bloodthirst reduce Spell Power",
-          "fullTooltip": "Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by <c val=\"bfd4fd\">30%</c> for <c val=\"bfd4fd\">2.5</c> seconds.",
+          "fullTooltip": "Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by <c val=\"bfd4fd\">25%</c> for <c val=\"bfd4fd\">2.5</c> seconds.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17665,7 +17664,7 @@
           "name": "Bloodcraze",
           "icon": "storm_ui_icon_garrosh_bloodthirst.png",
           "shortTooltip": "Bloodthirst heals over time",
-          "fullTooltip": "When hitting a Hero, Bloodthirst heals for an additional <c val=\"bfd4fd\">15%</c> of Garrosh's maximum Health over <c val=\"bfd4fd\">3</c> seconds.",
+          "fullTooltip": "When hitting a Hero, Bloodthirst heals for an additional <c val=\"bfd4fd\">15%</c> of Garrosh's maximum Health over <c val=\"bfd4fd\">4</c> seconds.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -17679,7 +17678,7 @@
           "icon": "storm_ui_icon_garrosh_armor_up.png",
           "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Activate Armor Up to increase bonus",
-          "fullTooltip": "Armor Up can be activated to increase its Armor bonus by <c val=\"bfd4fd\">100%</c> for <c val=\"bfd4fd\">3</c> seconds.",
+          "fullTooltip": "Armor Up can be activated to increase its Armor bonus by <c val=\"bfd4fd\">100%</c> for <c val=\"bfd4fd\">5</c> seconds.",
           "abilityType": "Trait",
           "isActive": true,
           "sort": 3,
@@ -29252,7 +29251,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 70</s>",
           "cooldownTooltip": "Cooldown: 14 seconds",
           "shortTooltip": "Gain Move Speed and put enemies to Sleep",
-          "fullTooltip": "After <c val=\"bfd4fd\">0.75</c> seconds, gain <c val=\"bfd4fd\">50%</c> Movement Speed for <c val=\"bfd4fd\">2</c> seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for <c val=\"bfd4fd\">2.5</c> seconds.",
+          "fullTooltip": "After <c val=\"bfd4fd\">0.62</c> seconds, gain <c val=\"bfd4fd\">50%</c> Movement Speed for <c val=\"bfd4fd\">2</c> seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for <c val=\"bfd4fd\">2.5</c> seconds.",
           "abilityType": "E"
         }
       ],
@@ -29288,7 +29287,7 @@
           "name": "Vampiric Touch",
           "icon": "storm_ui_icon_malganis_trait.png",
           "shortTooltip": "Mal'Ganis heals from damage dealt",
-          "fullTooltip": "Mal'Ganis heals for <c val=\"bfd4fd\">45%</c> of damage dealt to enemy Heroes and <c val=\"bfd4fd\">10%</c> of damage dealt to non-Heroes.",
+          "fullTooltip": "Mal'Ganis heals for <c val=\"bfd4fd\">50%</c> of damage dealt to enemy Heroes and <c val=\"bfd4fd\">15%</c> of damage dealt to non-Heroes.",
           "abilityType": "Trait",
           "isActive": false,
           "isPassive": true
@@ -33216,7 +33215,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 45</s>",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Throw a hammer, stunning and damaging the first enemy hit",
-          "fullTooltip": "Throw a hammer, dealing <c val=\"bfd4fd\">110~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val=\"bfd4fd\">1.25</c> seconds<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val=\"bfd4fd\">1</c> stack. Stunned enemies provide <c val=\"bfd4fd\">2</c> stacks.  If the Hero dies within <c val=\"bfd4fd\">3</c> seconds, gain <c val=\"bfd4fd\">5</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon hitting <c val=\"bfd4fd\">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val=\"bfd4fd\">0.5</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Upon hitting <c val=\"bfd4fd\">160</c> targets, Storm Bolt's range is increased by <c val=\"bfd4fd\">50%</c>, width increased by <c val=\"bfd4fd\">100%</c>, and now pierces all targets.",
+          "fullTooltip": "Throw a hammer, dealing <c val=\"bfd4fd\">110~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val=\"bfd4fd\">1.25</c> seconds<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val=\"bfd4fd\">1</c> stack. Stunned enemies provide <c val=\"bfd4fd\">2</c> stacks.  If the Hero dies within <c val=\"bfd4fd\">3</c> seconds, gain <c val=\"bfd4fd\">5</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon hitting <c val=\"bfd4fd\">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val=\"bfd4fd\">0.5</c> seconds and restore <c val=\"bfd4fd\">3</c> Mana.<n/><n/><<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Upon hitting <c val=\"bfd4fd\">160</c> targets, Storm Bolt's range is increased by <c val=\"bfd4fd\">50%</c>, width increased by <c val=\"bfd4fd\">100%</c>, and now pierces all targets.",
           "abilityType": "Q"
         },
         {
@@ -34930,7 +34929,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 35</s>",
           "cooldownTooltip": "Cooldown: 7 seconds",
           "shortTooltip": "Your Basic Attacks and Abilities cause enemies to take damage over time",
-          "fullTooltip": "Qhira deals <c val=\"bfd4fd\">32~~0.04~~</c> damage and heals for <c val=\"bfd4fd\">90~~0.04~~</c> Health per enemy Hero affected. Damage and healing is increased by <c val=\"bfd4fd\">50%</c> per each additional stack on that Hero.<n/><n/><c val=\"00ff90\">Passive:</c> Basic Attack and Ability damage cause enemies to bleed for <c val=\"bfd4fd\">32~~0.04~~</c> damage over <c val=\"bfd4fd\">4</c> seconds. Stacks <c val=\"bfd4fd\">5</c> times.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by <c val=\"bfd4fd\">0.24%</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After damaging Heroes with Blood Rage's bleed damage <c val=\"bfd4fd\">150</c> times, Blood Rage's duration is increased by <c val=\"bfd4fd\">2</c> seconds.",
+          "fullTooltip": "Qhira deals <c val=\"bfd4fd\">32~~0.04~~</c> damage and heals for <c val=\"bfd4fd\">90~~0.04~~</c> Health per enemy Hero affected. Damage and healing is increased by <c val=\"bfd4fd\">50%</c> per each additional stack on that Hero.<n/><n/><c val=\"00ff90\">Passive:</c> Basic Attack and Ability damage cause enemies to bleed for <c val=\"bfd4fd\">28~~0.04~~</c> damage over <c val=\"bfd4fd\">4</c> seconds. Stacks <c val=\"bfd4fd\">5</c> times.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by <c val=\"bfd4fd\">0.2%</c>. <n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After damaging Heroes with Blood Rage's bleed damage <c val=\"bfd4fd\">150</c> times, Blood Rage's duration is increased by <c val=\"bfd4fd\">2</c> seconds.",
           "abilityType": "W"
         },
         {
@@ -35077,7 +35076,7 @@
           "name": "Fatal Wounds",
           "icon": "storm_ui_icon_nexushunter_w.png",
           "shortTooltip": "Increase Blood Rage damage to low health enemies",
-          "fullTooltip": "While at maximum stacks, Blood Rage's bleed deals <c val=\"bfd4fd\">50%</c> additional damage to enemy Heroes under <c val=\"bfd4fd\">50%</c> Health.",
+          "fullTooltip": "While at maximum stacks, Blood Rage's bleed deals <c val=\"bfd4fd\">70%</c> additional damage to enemy Heroes under <c val=\"bfd4fd\">50%</c> Health.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -35236,7 +35235,7 @@
           "name": "Pulsing Pain",
           "icon": "storm_ui_icon_nexushunter_e.png",
           "shortTooltip": "Increase Revolving Sweep damage to main target",
-          "fullTooltip": "Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional <c val=\"bfd4fd\">135~~0.04~~</c> damage.",
+          "fullTooltip": "Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional <c val=\"bfd4fd\">150~~0.04~~</c> damage.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -35279,7 +35278,7 @@
           "name": "Lingering Ailment",
           "icon": "storm_ui_icon_nexushunter_e_alt_1.png",
           "shortTooltip": "Reduce enemy Hero Armor",
-          "fullTooltip": "Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by <c val=\"bfd4fd\">35</c> for <c val=\"bfd4fd\">4</c> seconds.",
+          "fullTooltip": "Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by <c val=\"bfd4fd\">25</c> for <c val=\"bfd4fd\">4</c> seconds.",
           "abilityType": "E",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -41995,7 +41994,7 @@
               "name": "Black Arrows",
               "icon": "storm_ui_icon_sylvanas_blackarrows.png",
               "shortTooltip": "Basic Attacks apply Black Arrows, increasing Sylvanas's damage",
-              "fullTooltip": "Basic Attacks infect enemies with Black Arrows for <c val=\"bfd4fd\">3</c> seconds, stacking up to <c val=\"bfd4fd\">3</c> times. Sylvanas deals <c val=\"bfd4fd\">15%</c> more damage to enemies with <c val=\"bfd4fd\">3</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Damage Heroes and Structures with <c val=\"bfd4fd\">3</c> stacks of Black Arrows.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon damaging enemies <c val=\"bfd4fd\">250</c> times, increase the damage bonus provided by Black Arrows to <c val=\"bfd4fd\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Pinnacle Reward:</c> Upon damaging enemies <c val=\"bfd4fd\">400</c> times, Black Arrows now heals Sylvanas for <c val=\"bfd4fd\">25%</c> of damage dealt at <c val=\"bfd4fd\">3</c> stacks, doubled against Heroes.",
+              "fullTooltip": "Basic Attacks infect enemies with Black Arrows for <c val=\"bfd4fd\">3</c> seconds, stacking up to <c val=\"bfd4fd\">3</c> times. Sylvanas deals <c val=\"bfd4fd\">15%</c> more damage to enemies with <c val=\"bfd4fd\">3</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Damage Heroes and Structures with <c val=\"bfd4fd\">3</c> stacks of Black Arrows.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon damaging enemies <c val=\"bfd4fd\">250</c> times, increase the damage bonus provided by Black Arrows to <c val=\"bfd4fd\">50%</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Upon damaging enemies <c val=\"bfd4fd\">400</c> times, Black Arrows now heals Sylvanas for <c val=\"bfd4fd\">25%</c> of damage dealt at <c val=\"bfd4fd\">3</c> stacks, doubled against Heroes.",
               "abilityType": "Trait",
               "isActive": false,
               "isPassive": true
@@ -48196,9 +48195,9 @@
           "name": "Desperate Plea",
           "icon": "storm_ui_icon_whitemane_desperation.png",
           "toggleCooldown": 0.5,
-          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 40</s>",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 45</s>",
           "shortTooltip": "Heal an allied Hero",
-          "fullTooltip": "Heal an allied Hero for <c val=\"bfd4fd\">140~~0.04~~</c> and gain <c val=\"FF8B8B\">Desperation</c> for <c val=\"bfd4fd\">4</c> seconds.<n/><n/><c val=\"FF8B8B\">Desperation</c> increases Desperate Plea's Mana cost by <c val=\"bfd4fd\">40</c>, and stacks up to <c val=\"bfd4fd\">3</c> times.<n/><n/><c val=\"ffff8a\">Current Mana Cost:</c> <c val=\"bfd4fd\">40</c>",
+          "fullTooltip": "Heal an allied Hero for <c val=\"bfd4fd\">140~~0.04~~</c> and gain <c val=\"FF8B8B\">Desperation</c> for <c val=\"bfd4fd\">4</c> seconds.<n/><n/><c val=\"FF8B8B\">Desperation</c> increases Desperate Plea's Mana cost by <c val=\"bfd4fd\">40</c>, and stacks up to <c val=\"bfd4fd\">3</c> times.<n/><n/><c val=\"ffff8a\">Current Mana Cost:</c> <c val=\"bfd4fd\">45</c>",
           "abilityType": "Q"
         },
         {
@@ -48472,7 +48471,7 @@
           "buttonId": "WhitemaneIntercession",
           "name": "Intercession",
           "icon": "storm_ui_icon_whitemane_intercession.png",
-          "cooldownTooltip": "Cooldown: 60 seconds",
+          "cooldownTooltip": "Cooldown: 75 seconds",
           "shortTooltip": "Make an ally Unstoppable",
           "fullTooltip": "Activate to make an ally Unstoppable for <c val=\"bfd4fd\">1</c> second.",
           "abilityType": "Active",
@@ -48560,7 +48559,7 @@
           "name": "Radiance",
           "icon": "storm_ui_icon_whitemane_desperation.png",
           "shortTooltip": "<c val=\"FF8B8B\">Desperation</c> heals allies with <c val=\"FFF5C2\">Zeal</c>",
-          "fullTooltip": "Reaching <c val=\"bfd4fd\">3</c> stacks of <c val=\"FF8B8B\">Desperation</c> heals for <c val=\"bfd4fd\">175~~0.04~~</c> and reapplies <c val=\"FFF5C2\">Zeal</c> to allies with <c val=\"FFF5C2\">Zeal</c>.",
+          "fullTooltip": "Reaching <c val=\"bfd4fd\">3</c> stacks of <c val=\"FF8B8B\">Desperation</c> heals for <c val=\"bfd4fd\">190~~0.04~~</c> and reapplies <c val=\"FFF5C2\">Zeal</c> to allies with <c val=\"FFF5C2\">Zeal</c>.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -49842,6 +49841,408 @@
       ]
     }
   },
+  "Xalatath": {
+    "name": "Xal'atath",
+    "unitId": "HeroXalatath",
+    "hyperlinkId": "Xalatath",
+    "attributeId": "HXAL",
+    "difficulty": "Medium",
+    "franchise": "Warcraft",
+    "gender": "Male",
+    "title": "The Harbinger of the Void",
+    "innerRadius": 0.6875,
+    "radius": 0.6875,
+    "releaseDate": "2026-01-01",
+    "sight": 12.0,
+    "speed": 4.8398,
+    "type": "Ranged",
+    "rarity": "Legendary",
+    "scalingLinkId": "ExcellentMana",
+    "defaultMountId": "HorseCommon",
+    "searchText": "World of Warcraft Mage Void",
+    "description": "A ranged damage dealer who manipulates void energy to overwhelm enemies and control the battlefield.",
+    "infoText": "For eons, Xal'atath has manipulated gods and mortals alike to ascend the cosmic ladder. Once a servant of Dimensius the All-Devouring, and then a prisoner of the Old Gods, Xal'atath has now attained her freedom and set her own plans in motion—starting with the destruction of Dalaran and the transformation of the Sunwell.",
+    "descriptors": [
+      "EnergyImportant",
+      "Escaper",
+      "Ganker",
+      "Overconfident",
+      "TowerPusher"
+    ],
+    "units": [
+      "XalatathDarkHeartRitual",
+      "XalatathVoidMinion"
+    ],
+    "portraits": {
+      "heroSelect": "storm_ui_ingame_heroselect_btn_xalatath.png",
+      "leaderboard": "storm_ui_ingame_hero_leaderboard_xalatath.png",
+      "loading": "storm_ui_ingame_hero_loadingscreen_xalatath.png",
+      "partyPanel": "storm_ui_ingame_partypanel_btn_xalatath.png",
+      "target": "ui_targetportrait_hero_xalatath.png",
+      "draftScreen": "storm_ui_glues_draft_portrait_xalatath.png",
+      "partyFrames": [
+        "storm_ui_ingame_partyframe_xalatath.png"
+      ],
+      "minimap": "storm_ui_minimapicon_xalatath.png",
+      "targetInfo": "storm_ui_ingame_partyframe_xalatath.png"
+    },
+    "life": {
+      "amount": 1270.0,
+      "scale": 0.04,
+      "type": "Health",
+      "regenRate": 2.6484,
+      "regenScale": 0.04
+    },
+    "energy": {
+      "amount": 500.0,
+      "type": "Mana",
+      "regenRate": 3.0
+    },
+    "roles": [
+      "Assassin"
+    ],
+    "expandedRole": "Ranged Assassin",
+    "ratings": {
+      "complexity": 8.0,
+      "damage": 8.0,
+      "survivability": 6.0,
+      "utility": 6.0
+    },
+    "weapons": [
+      {
+        "nameId": "XalatathHeroWeapon",
+        "range": 7.0,
+        "period": 1.0,
+        "damage": 69.0,
+        "damageScale": 0.04
+      }
+    ],
+    "skins": [
+      "XalatathVoidflame"
+    ],
+    "variationSkins": [
+      "XalatathVar1",
+      "XalatathVar2",
+      "XalatathVar3",
+      "XalatathVar4"
+    ],
+    "voiceLines": [
+      "XalatathBase_VoiceLine01",
+      "XalatathBase_VoiceLine02",
+      "XalatathBase_VoiceLine03",
+      "XalatathBase_VoiceLine04",
+      "XalatathBase_VoiceLine05"
+    ],
+    "mountCategories": [
+      "Ride",
+      "Ridebeast",
+      "Ridebike",
+      "Ridesurf"
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "XalatathShadowMark",
+          "buttonId": "XalatathShadowMark",
+          "name": "Shadow Mark (Q)",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 45</s>",
+          "charges": {
+            "countMax": 1,
+            "countUse": 1,
+            "countStart": 1,
+            "hideCount": true,
+            "recastCooldown": 3.0
+          },
+          "cooldownTooltip": "Cooldown: 7 seconds",
+          "abilityType": "Q"
+        },
+        {
+          "nameId": "XalatathVoidStep",
+          "buttonId": "XalatathVoidStep",
+          "name": "Void Step (W)",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 50</s>",
+          "cooldownTooltip": "Cooldown: 15 seconds",
+          "abilityType": "W"
+        },
+        {
+          "nameId": "XalatathDarkHeartRitual",
+          "buttonId": "XalatathDarkHeartRitual",
+          "name": "Dark Heart Ritual (E)",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 50</s>",
+          "cooldownTooltip": "Cooldown: 15 seconds",
+          "abilityType": "E"
+        }
+      ],
+      "heroic": [
+        {
+          "nameId": "XalatathVoidEruption",
+          "buttonId": "XalatathVoidEruption",
+          "name": "Void Eruption",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 80</s>",
+          "cooldownTooltip": "Cooldown: 75 seconds",
+          "abilityType": "Heroic"
+        },
+        {
+          "nameId": "XalatathVoidConvergence",
+          "buttonId": "XalatathVoidConvergence",
+          "name": "Void Convergence",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 75</s>",
+          "cooldownTooltip": "Cooldown: 90 seconds",
+          "abilityType": "Heroic"
+        }
+      ],
+      "trait": [
+        {
+          "nameId": "XalatathVoidVolley",
+          "buttonId": "XalatathVoidVolley",
+          "name": "Void Volley (Trait)",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 75</s>",
+          "abilityType": "Trait"
+        }
+      ],
+      "mount": [
+        {
+          "nameId": "Mount",
+          "buttonId": "SummonMount",
+          "name": "Summon Mount",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "cooldownTooltip": "Cooldown: 4 seconds",
+          "fullTooltip": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\" name=\"StandardTooltipDetails\">30%</s> Movement Speed.",
+          "abilityType": "Z"
+        }
+      ],
+      "hearth": [
+        {
+          "nameId": "Hearthstone",
+          "buttonId": "Hearthstone",
+          "name": "Hearthstone",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "fullTooltip": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana.",
+          "abilityType": "B"
+        }
+      ],
+      "spray": [
+        {
+          "nameId": "LootSpray",
+          "buttonId": "LootSpray",
+          "name": "Quick Spray Expression",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "cooldownTooltip": "Cooldown: 3 seconds",
+          "fullTooltip": "Express yourself to other players by marking the ground with your selected spray.",
+          "abilityType": "Spray"
+        }
+      ],
+      "voice": [
+        {
+          "nameId": "LootYellVoiceLine",
+          "buttonId": "LootYellVoiceLine",
+          "name": "Quick Voice Line Expression",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "cooldownTooltip": "Cooldown: 7 seconds",
+          "fullTooltip": "Express yourself to other players by playing your selected Voice Line.",
+          "abilityType": "Voice"
+        }
+      ]
+    },
+    "subAbilities": [
+      {
+        "Mount|SummonMount|Z": {
+          "mount": [
+            {
+              "nameId": "Dismount",
+              "buttonId": "UnsummonMount",
+              "name": "Unsummon Mount",
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "toggleCooldown": 0.1,
+              "fullTooltip": "Dismounts you.",
+              "abilityType": "Z"
+            }
+          ]
+        },
+        "XalatathVoidStep|XalatathVoidStep|W": {
+          "basic": [
+            {
+              "nameId": "XalatathVoidStepCancel",
+              "buttonId": "XalatathVoidStepCancel",
+              "toggleCooldown": 0.5,
+              "abilityType": "W"
+            }
+          ]
+        },
+        "XalatathVoidEruption|XalatathVoidEruption|Heroic": {
+          "heroic": [
+            {
+              "nameId": "XalatathVoidEruptionCancel",
+              "buttonId": "XalatathVoidEruptionCancel",
+              "cooldownTooltip": "Cooldown: 1.5 seconds",
+              "abilityType": "Heroic"
+            }
+          ]
+        }
+      }
+    ],
+    "talents": {
+      "level1": [
+        {
+          "nameId": "XalatathToxicMark",
+          "buttonId": "XalatathToxicMark",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathCloakOfShadows",
+          "buttonId": "XalatathCloakOfShadows",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathAnchoredCore",
+          "buttonId": "XalatathAnchoredCore",
+          "abilityType": "E",
+          "sort": 3
+        }
+      ],
+      "level4": [
+        {
+          "nameId": "XalatathFrozenMark",
+          "buttonId": "XalatathFrozenMark",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathVoidAcolyte",
+          "buttonId": "XalatathVoidAcolyte",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathDarkBarrier",
+          "buttonId": "XalatathDarkBarrier",
+          "abilityType": "E",
+          "sort": 3
+        }
+      ],
+      "level7": [
+        {
+          "nameId": "XalatathVoidAdept",
+          "buttonId": "XalatathVoidAdept",
+          "abilityType": "Q",
+          "isQuest": true,
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathSilenceOfTheLamb",
+          "buttonId": "XalatathSilenceOfTheLamb",
+          "abilityType": "W",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathVoidSummoner",
+          "buttonId": "XalatathVoidSummoner",
+          "abilityType": "W",
+          "sort": 3
+        }
+      ],
+      "level10": [
+        {
+          "nameId": "XalatathHeroicAbilityVoidEruption",
+          "buttonId": "XalatathVoidEruption",
+          "abilityType": "Heroic",
+          "sort": 1,
+          "abilityTalentLinkIds": [
+            "XalatathVoidEruption"
+          ]
+        },
+        {
+          "nameId": "XalatathHeroicAbilityVoidConvergence",
+          "buttonId": "XalatathVoidConvergence",
+          "abilityType": "Heroic",
+          "sort": 2,
+          "abilityTalentLinkIds": [
+            "XalatathVoidConvergence"
+          ]
+        }
+      ],
+      "level13": [
+        {
+          "nameId": "XalatathPummelingStep",
+          "buttonId": "XalatathPummelingStep",
+          "abilityType": "W",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathDarkHeartsProtection",
+          "buttonId": "XalatathDarkHeartsProtection",
+          "abilityType": "E",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathCrushingCascade",
+          "buttonId": "XalatathCrushingCascade",
+          "abilityType": "Trait",
+          "sort": 3
+        }
+      ],
+      "level16": [
+        {
+          "nameId": "XalatathMarkedResilience",
+          "buttonId": "XalatathMarkedResilience",
+          "abilityType": "Q",
+          "sort": 1
+        },
+        {
+          "nameId": "XalatathPullOfTheDarkHeart",
+          "buttonId": "XalatathPullOfTheDarkHeart",
+          "abilityType": "E",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathFracturedReality",
+          "buttonId": "XalatathFracturedReality",
+          "abilityType": "Trait",
+          "sort": 3
+        }
+      ],
+      "level20": [
+        {
+          "nameId": "XalatathOrbitalEruption",
+          "buttonId": "XalatathOrbitalEruption",
+          "abilityType": "Heroic",
+          "sort": 1,
+          "prerequisiteTalentIds": [
+            "XalatathHeroicAbilityVoidEruption"
+          ]
+        },
+        {
+          "nameId": "XalatathRiftInvasion",
+          "buttonId": "XalatathRiftInvasion",
+          "abilityType": "Heroic",
+          "sort": 2,
+          "prerequisiteTalentIds": [
+            "XalatathHeroicAbilityVoidConvergence"
+          ]
+        },
+        {
+          "nameId": "XalatathDuelingOrbs",
+          "buttonId": "XalatathDuelingOrbs",
+          "abilityType": "Q",
+          "sort": 3
+        },
+        {
+          "nameId": "XalatathParadoxLoop",
+          "buttonId": "XalatathParadoxLoop",
+          "abilityType": "W",
+          "sort": 4
+        },
+        {
+          "nameId": "XalatathUnstableCore",
+          "buttonId": "XalatathUnstableCore",
+          "abilityType": "E",
+          "sort": 5
+        }
+      ]
+    }
+  },
   "Yrel": {
     "name": "Yrel",
     "unitId": "HeroYrel",
@@ -50336,7 +50737,7 @@
           "name": "Aldor Peacekeeper",
           "icon": "storm_ui_icon_yrel_vindication.png",
           "shortTooltip": "Vindication can reduce enemy damage",
-          "fullTooltip": "Enemy Heroes hit by Vindication at maximum charge deal <c val=\"bfd4fd\">40%</c> less damage for <c val=\"bfd4fd\">3</c> seconds.",
+          "fullTooltip": "Enemy Heroes hit by Vindication at maximum charge deal <c val=\"bfd4fd\">50%</c> less damage for <c val=\"bfd4fd\">4</c> seconds.",
           "abilityType": "Q",
           "sort": 1,
           "abilityTalentLinkIds": [
@@ -50365,7 +50766,7 @@
           "name": "Velen's Chosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "Basic Abilities can grant Spell Power",
-          "fullTooltip": "Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val=\"bfd4fd\">10%</c> Spell Power for <c val=\"bfd4fd\">10</c> seconds, up to <c val=\"bfd4fd\">30%</c>.",
+          "fullTooltip": "Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val=\"bfd4fd\">8%</c> Spell Power for <c val=\"bfd4fd\">10</c> seconds, up to <c val=\"bfd4fd\">24%</c>.",
           "abilityType": "Passive",
           "sort": 3
         }
@@ -50460,7 +50861,7 @@
           "buttonId": "YrelSeraphim",
           "name": "Seraphim",
           "icon": "storm_ui_icon_yrel_seraphim.png",
-          "cooldownTooltip": "Cooldown: 20 seconds",
+          "cooldownTooltip": "Cooldown: 30 seconds",
           "shortTooltip": "Activate to become Unstoppable",
           "fullTooltip": "Activate to become Unstoppable for <c val=\"bfd4fd\">2</c> seconds.",
           "abilityType": "Active",
@@ -50599,7 +51000,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 75</s>",
           "cooldownTooltip": "Cooldown: 16 seconds",
           "shortTooltip": "Unleash a Hydralisk on an enemy",
-          "fullTooltip": "Summon a Hydralisk to attack a single target, dealing <c val=\"bfd4fd\">71~~0.05~~</c> damage per second. The Hydralisk loses Health over <c val=\"bfd4fd\">10</c> seconds, and has <c val=\"bfd4fd\">450~~0.045~~</c> Health.",
+          "fullTooltip": "Summon a Hydralisk to attack a single target, dealing <c val=\"bfd4fd\">71~~0.05~~</c> damage per second. The Hydralisk loses Health over <c val=\"bfd4fd\">10</c> seconds, and has <c val=\"bfd4fd\">500~~0.045~~</c> Health.",
           "abilityType": "W"
         },
         {
@@ -50943,7 +51344,7 @@
           "name": "Mutalisk",
           "icon": "storm_ui_icon_zagara_hunterkillermuta.png",
           "shortTooltip": "Hunter Killer summons a Mutalisk instead",
-          "fullTooltip": "Reduce the cooldown of Hunter Killer by <c val=\"bfd4fd\">4</c> seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over <c val=\"bfd4fd\">42</c> seconds, and have <c val=\"bfd4fd\">420~~0.045~~</c> Health.",
+          "fullTooltip": "Reduce the cooldown of Hunter Killer by <c val=\"bfd4fd\">4</c> seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over <c val=\"bfd4fd\">42</c> seconds, and have <c val=\"bfd4fd\">450~~0.045~~</c> Health.",
           "abilityType": "W",
           "sort": 2,
           "abilityTalentLinkIds": [
@@ -52299,8 +52700,7 @@
     "skins": [
       "ZuljinUltimate",
       "ZuljinFire",
-      "ZuljinLunar",
-      "ZuljinZergjin"
+      "ZuljinLunar"
     ],
     "variationSkins": [
       "ZuljinBaseVar1",

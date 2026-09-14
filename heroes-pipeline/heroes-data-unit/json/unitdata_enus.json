@@ -123,7 +123,7 @@
     "life": {
       "amount": 225.0,
       "scale": 0.04,
-      "regenRate": -6.617647058823529,
+      "regenRate": -7.941176470588235,
       "regenScale": 0.04
     },
     "weapons": [
@@ -6389,7 +6389,7 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_gardenofterror_merc_flower_ranged.png"
     },
     "life": {
-      "amount": 800.0,
+      "amount": 600.0,
       "scale": 0.0,
       "regenRate": 0.0,
       "regenScale": 0.0
@@ -6399,7 +6399,7 @@
         "nameId": "ShamblerWeapon",
         "range": 0.5,
         "period": 1.5,
-        "damage": 100.0,
+        "damage": 75.0,
         "damageScale": 0.0
       }
     ]
@@ -17895,7 +17895,7 @@
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 45</s>",
           "cooldownTooltip": "Cooldown: 10 seconds",
           "shortTooltip": "Throw a hammer, stunning and damaging the first enemy hit",
-          "fullTooltip": "Throw a hammer, dealing <c val=\"bfd4fd\">110~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val=\"bfd4fd\">1.25</c> seconds<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val=\"bfd4fd\">1</c> stack. Stunned enemies provide <c val=\"bfd4fd\">2</c> stacks.  If the Hero dies within <c val=\"bfd4fd\">3</c> seconds, gain <c val=\"bfd4fd\">5</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon hitting <c val=\"bfd4fd\">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val=\"bfd4fd\">0.5</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Upon hitting <c val=\"bfd4fd\">160</c> targets, Storm Bolt's range is increased by <c val=\"bfd4fd\">50%</c>, width increased by <c val=\"bfd4fd\">100%</c>, and now pierces all targets.",
+          "fullTooltip": "Throw a hammer, dealing <c val=\"bfd4fd\">110~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val=\"bfd4fd\">1.25</c> seconds<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val=\"bfd4fd\">1</c> stack. Stunned enemies provide <c val=\"bfd4fd\">2</c> stacks.  If the Hero dies within <c val=\"bfd4fd\">3</c> seconds, gain <c val=\"bfd4fd\">5</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon hitting <c val=\"bfd4fd\">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val=\"bfd4fd\">0.5</c> seconds and restore <c val=\"bfd4fd\">3</c> Mana.<n/><n/><<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Upon hitting <c val=\"bfd4fd\">160</c> targets, Storm Bolt's range is increased by <c val=\"bfd4fd\">50%</c>, width increased by <c val=\"bfd4fd\">100%</c>, and now pierces all targets.",
           "abilityType": "Q"
         },
         {
@@ -28592,6 +28592,343 @@
       }
     ]
   },
+  "XalatathDarkHeartRitual": {
+    "name": "Dark Heart Ritual (Unit)",
+    "hyperlinkId": "XalatathDarkHeartRitual",
+    "innerRadius": 0.125,
+    "radius": 0.125,
+    "sight": 7.0,
+    "speed": 3.5,
+    "damageType": "Summon",
+    "attributes": [
+      "Summoned"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png"
+    },
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    },
+    "abilities": {
+      "hidden": [
+        {
+          "nameId": "DarkHeartMove",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
+  "XalatathFracturedRealityTrailUnit": {
+    "hyperlinkId": "XalatathFracturedRealityTrailUnit",
+    "innerRadius": 0.25,
+    "radius": 0.25,
+    "attributes": [
+      "IgnoredByTowerAI",
+      "ImmuneToAOE",
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro",
+      "Summoned"
+    ],
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathOrbitalEruptionCenterDummyUnit": {
+    "hyperlinkId": "XalatathOrbitalEruptionCenterDummyUnit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathOrbitalEruptionCenterMissileTier1Unit": {
+    "hyperlinkId": "XalatathOrbitalEruptionCenterMissileTier1Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathOrbitalEruptionCenterMissileTier2Unit": {
+    "hyperlinkId": "XalatathOrbitalEruptionCenterMissileTier2Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathOrbitalEruptionCenterMissileTier3Unit": {
+    "hyperlinkId": "XalatathOrbitalEruptionCenterMissileTier3Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathOrbitalEruptionCenterMissileTier4Unit": {
+    "hyperlinkId": "XalatathOrbitalEruptionCenterMissileTier4Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathOrbitalEruptionOrbUnit": {
+    "hyperlinkId": "XalatathOrbitalEruptionOrbUnit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathShadowMarkDummyUnit": {
+    "hyperlinkId": "XalatathShadowMarkDummyUnit",
+    "radius": 0.5,
+    "attributes": [
+      "IgnoredByTowerAI",
+      "ImmuneToAOE",
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro",
+      "Summoned"
+    ],
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathUnstableCoreFireUnit": {
+    "hyperlinkId": "XalatathUnstableCoreFireUnit",
+    "innerRadius": 1.5,
+    "radius": 1.5,
+    "attributes": [
+      "IgnoredByTowerAI",
+      "ImmuneToAOE",
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro",
+      "Summoned"
+    ],
+    "life": {
+      "amount": 1.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidConvergencePortalUnit": {
+    "hyperlinkId": "XalatathVoidConvergencePortalUnit",
+    "innerRadius": 0.25,
+    "radius": 4.5,
+    "sight": 5.0,
+    "attributes": [
+      "ImmuneToFriendlyAbilities",
+      "ImmuneToSkillshots",
+      "NoMinionAggro",
+      "Summoned"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png"
+    },
+    "life": {
+      "amount": 1200.0,
+      "scale": 0.0,
+      "regenRate": -60.0,
+      "regenScale": 0.0
+    },
+    "abilities": {
+      "hidden": [
+        {
+          "nameId": "HeroGenericSummonedUnitSpecialCaseInteraction",
+          "buttonId": "SummonedUnitSpecialCaseInteraction",
+          "name": "Summoned Unit Special Case Interaction",
+          "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
+  "XalatathVoidEruptionCarrierMissileTier1Unit": {
+    "hyperlinkId": "XalatathVoidEruptionCarrierMissileTier1Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidEruptionCarrierMissileTier2Unit": {
+    "hyperlinkId": "XalatathVoidEruptionCarrierMissileTier2Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidEruptionCarrierMissileTier3Unit": {
+    "hyperlinkId": "XalatathVoidEruptionCarrierMissileTier3Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidEruptionCarrierMissileTier4Unit": {
+    "hyperlinkId": "XalatathVoidEruptionCarrierMissileTier4Unit",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidEruptionDummyMissileCenter": {
+    "hyperlinkId": "XalatathVoidEruptionDummyMissileCenter",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidMinion": {
+    "name": "Void Minion",
+    "hyperlinkId": "XalatathVoidMinion",
+    "innerRadius": 1.0,
+    "radius": 1.0,
+    "sight": 7.0,
+    "speed": 5.75,
+    "damageType": "Summon",
+    "attributes": [
+      "Summoned"
+    ],
+    "portraits": {
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_xalatath_voidminion.png",
+      "minimap": "storm_ui_minimapicon_jaina_water_elemental.png"
+    },
+    "life": {
+      "amount": 250.0,
+      "scale": 0.04,
+      "regenRate": -8.333333333333334,
+      "regenScale": 0.04
+    },
+    "weapons": [
+      {
+        "nameId": "XalatathVoidMinionWeapon",
+        "range": 1.5,
+        "period": 0.75,
+        "damage": 95.0,
+        "damageScale": 0.04
+      }
+    ],
+    "abilities": {
+      "basic": [
+        {
+          "nameId": "XalatathVoidMinionDash",
+          "buttonId": "XalatathVoidMinionDash",
+          "abilityType": "Q"
+        }
+      ],
+      "hidden": [
+        {
+          "nameId": "HeroGenericSummonedUnitSpecialCaseInteraction",
+          "buttonId": "SummonedUnitSpecialCaseInteraction",
+          "name": "Summoned Unit Special Case Interaction",
+          "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+          "abilityType": "Hidden"
+        }
+      ]
+    }
+  },
+  "XalatathVoidVolley2MissileInnerLeft": {
+    "hyperlinkId": "XalatathVoidVolley2MissileInnerLeft",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidVolley2MissileInnerRight": {
+    "hyperlinkId": "XalatathVoidVolley2MissileInnerRight",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidVolley2MissileMiddleLeft": {
+    "hyperlinkId": "XalatathVoidVolley2MissileMiddleLeft",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidVolley2MissileMiddleRight": {
+    "hyperlinkId": "XalatathVoidVolley2MissileMiddleRight",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidVolley2MissileOuterLeft": {
+    "hyperlinkId": "XalatathVoidVolley2MissileOuterLeft",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathVoidVolley2MissileOuterRight": {
+    "hyperlinkId": "XalatathVoidVolley2MissileOuterRight",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathWeaponMissileLeft": {
+    "hyperlinkId": "XalatathWeaponMissileLeft",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
+  "XalatathWeaponMissileRight": {
+    "hyperlinkId": "XalatathWeaponMissileRight",
+    "life": {
+      "amount": 10.0,
+      "scale": 0.0,
+      "regenRate": 0.0,
+      "regenScale": 0.0
+    }
+  },
   "XelnagaArtifact": {
     "name": "Xel'naga Artifact",
     "hyperlinkId": "XelnagaArtifact",
@@ -28792,9 +29129,9 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_zagara_hydralisk.png"
     },
     "life": {
-      "amount": 450.0,
+      "amount": 500.0,
       "scale": 0.045,
-      "regenRate": -45.0,
+      "regenRate": -50.0,
       "regenScale": 0.045
     },
     "weapons": [
@@ -28851,9 +29188,9 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_zagara_mutalisk.png"
     },
     "life": {
-      "amount": 420.0,
+      "amount": 450.0,
       "scale": 0.045,
-      "regenRate": -10.0,
+      "regenRate": -10.714285714285714,
       "regenScale": 0.045
     },
     "weapons": [
@@ -28947,9 +29284,9 @@
       "targetInfo": "storm_ui_ingame_targetinfopanel_unit_zagara_roach.png"
     },
     "life": {
-      "amount": 328.0,
+      "amount": 360.0,
       "scale": 0.04,
-      "regenRate": -32.8,
+      "regenRate": -36.0,
       "regenScale": 0.04
     },
     "weapons": [

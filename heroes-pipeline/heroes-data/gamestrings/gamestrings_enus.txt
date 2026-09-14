@@ -821,7 +821,7 @@ abiltalent/cooldown/WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait|False=Coold
 abiltalent/cooldown/WhitemaneGuidingLight|WhitemaneGuidingLight|Active|False=Cooldown: 30 seconds
 abiltalent/cooldown/WhitemaneInquisitionClemency|WhitemaneInquisitionClemency|Active|False=Cooldown: 12 seconds
 abiltalent/cooldown/WhitemaneInquisition|WhitemaneInquisition|W|False=Cooldown: 12 seconds
-abiltalent/cooldown/WhitemaneIntercession|WhitemaneIntercession|Active|False=Cooldown: 60 seconds
+abiltalent/cooldown/WhitemaneIntercession|WhitemaneIntercession|Active|False=Cooldown: 75 seconds
 abiltalent/cooldown/WhitemanePurgeTheWicked|WhitemanePurgeTheWicked|Active|False=Cooldown: 40 seconds
 abiltalent/cooldown/WhitemaneScarletAegis|WhitemaneScarletAegis|Heroic|False=Cooldown: 60 seconds
 abiltalent/cooldown/WhitemaneSearingLash|WhitemaneSearingLash|E|False=Cooldown: 6 seconds
@@ -842,6 +842,12 @@ abiltalent/cooldown/WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|Fals
 abiltalent/cooldown/WizardMagicMissiles|WizardMagicMissiles|Q|False=Cooldown: 3 seconds
 abiltalent/cooldown/WizardTeleport|WizardTeleport|E|False=Cooldown: 5 seconds
 abiltalent/cooldown/WizardWaveOfForce|WizardWaveOfForce|Heroic|False=Cooldown: 30 seconds
+abiltalent/cooldown/XalatathDarkHeartRitual|XalatathDarkHeartRitual|E|False=Cooldown: 15 seconds
+abiltalent/cooldown/XalatathShadowMark|XalatathShadowMark|Q|False=Cooldown: 7 seconds
+abiltalent/cooldown/XalatathVoidConvergence|XalatathVoidConvergence|Heroic|False=Cooldown: 90 seconds
+abiltalent/cooldown/XalatathVoidEruptionCancel|XalatathVoidEruptionCancel|Heroic|False=Cooldown: 1.5 seconds
+abiltalent/cooldown/XalatathVoidEruption|XalatathVoidEruption|Heroic|False=Cooldown: 75 seconds
+abiltalent/cooldown/XalatathVoidStep|XalatathVoidStep|W|False=Cooldown: 15 seconds
 abiltalent/cooldown/YrelArdentDefender|YrelArdentDefender|Heroic|False=Cooldown: 120 seconds
 abiltalent/cooldown/YrelAvengingWrathChannel|YrelAvengingWrath|E|False=Cooldown: 6 seconds
 abiltalent/cooldown/YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E|False=Cooldown: 6 seconds
@@ -855,7 +861,7 @@ abiltalent/cooldown/YrelRighteousHammerChannel|YrelRighteousHammer|W|False=Coold
 abiltalent/cooldown/YrelRighteousHammerDivinePurpose|YrelRighteousHammer|W|False=Cooldown: 6 seconds
 abiltalent/cooldown/YrelRighteousHammer|YrelRighteousHammer|W|False=Cooldown: 6 seconds
 abiltalent/cooldown/YrelSacredGround|YrelSacredGround|Heroic|False=Cooldown: 25 seconds
-abiltalent/cooldown/YrelSeraphim|YrelSeraphim|Active|False=Cooldown: 20 seconds
+abiltalent/cooldown/YrelSeraphim|YrelSeraphim|Active|False=Cooldown: 30 seconds
 abiltalent/cooldown/YrelVindicationCast|YrelVindication|Q|False=Cooldown: 6 seconds
 abiltalent/cooldown/YrelVindication|YrelVindication|Q|False=Cooldown: 6 seconds
 abiltalent/cooldown/ZagaraBanelingBarrage|ZagaraBanelingBarrage|Q|False=Charge Cooldown: 4 seconds
@@ -1316,7 +1322,7 @@ abiltalent/energy/VarianColossusSmash|VarianColossusSmash|Heroic|False=<s val="b
 abiltalent/energy/VarianLionsFang|VarianLionsFang|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
 abiltalent/energy/VarianParry|VarianParry|W|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 30</s>
 abiltalent/energy/VarianTaunt|VarianTaunt|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 20</s>
-abiltalent/energy/WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 40</s>
+abiltalent/energy/WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 45</s>
 abiltalent/energy/WitchDoctorCorpseSpiders|WitchDoctorCorpseSpiders|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 40</s>
 abiltalent/energy/WitchDoctorGargantuan|WitchDoctorGargantuan|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 90</s>
 abiltalent/energy/WitchDoctorHeroicAbilityGargantuan|WitchDoctorGargantuan|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 90</s>
@@ -1331,6 +1337,12 @@ abiltalent/energy/WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|False=
 abiltalent/energy/WizardMagicMissiles|WizardMagicMissiles|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 20</s>
 abiltalent/energy/WizardTeleport|WizardTeleport|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 30</s>
 abiltalent/energy/WizardWaveOfForce|WizardWaveOfForce|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 80</s>
+abiltalent/energy/XalatathDarkHeartRitual|XalatathDarkHeartRitual|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
+abiltalent/energy/XalatathShadowMark|XalatathShadowMark|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 45</s>
+abiltalent/energy/XalatathVoidConvergence|XalatathVoidConvergence|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 75</s>
+abiltalent/energy/XalatathVoidEruption|XalatathVoidEruption|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 80</s>
+abiltalent/energy/XalatathVoidStep|XalatathVoidStep|W|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
+abiltalent/energy/XalatathVoidVolley|XalatathVoidVolley|Trait|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 75</s>
 abiltalent/energy/YrelArdentDefender|YrelArdentDefender|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 80</s>
 abiltalent/energy/YrelAvengingWrathChannel|YrelAvengingWrath|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
 abiltalent/energy/YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
@@ -1364,7 +1376,7 @@ abiltalent/energy/ZuljinTwinCleave|ZuljinTwinCleave|W|False=<s val="bfd4fd" name
 abiltalent/full/AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic|False=Cancels the Symbiote ability.
 abiltalent/full/AbathurCombatStyleBombardStrain|AbathurLocustStrainBombardStrainTalent|Trait|False=Locust's Basic Attacks become a long-range siege attack and they now lose health <c val="bfd4fd">50%</c> more slowly.
 abiltalent/full/AbathurCombatStyleLocustBrood|AbathurLocustSwarm|Active|False=Activate to spawn <c val="bfd4fd">3</c> Locusts at a nearby location.
-abiltalent/full/AbathurCombatStyleSurvivalInstincts|AbathurLocustStrainSurvivalInstinctsTalent|Trait|False=Increases Locust's Health by <c val="bfd4fd">100%</c> and damage by <c val="bfd4fd">60%</c>.
+abiltalent/full/AbathurCombatStyleSurvivalInstincts|AbathurLocustStrainSurvivalInstinctsTalent|Trait|False=Reduce damage taken by Locusts from non-Heroes by <c val="bfd4fd">50%</c> and increase their damage by <c val="bfd4fd">60%</c>.
 abiltalent/full/AbathurDeepTunnel|AbathurDeepTunnel|Z|False=Quickly tunnel to a visible location.
 abiltalent/full/AbathurEvolveMonstrosityActiveSymbiote|EvolveMonstrosityActiveHotbar|Heroic|False=Activate to cast Symbiote on Abathur's Monstrosity.
 abiltalent/full/AbathurEvolveMonstrosity|AbathurEvolveMonstrosityHotbar|Heroic|False=Turn an allied Minion or Locust into a Monstrosity. When enemy Minions near the Monstrosity die, it gains <c val="bfd4fd">2%</c> Health and <c val="bfd4fd">2%</c> Basic Attack damage, stacking up to <c val="bfd4fd">40</c> times. The Monstrosity can be healed by Carapace and has the ability to Burrow to a visible location every <c val="bfd4fd">80</c> seconds.<n/><n/>Using Symbiote on the Monstrosity allows Abathur to control it, in addition to Symbiote's normal benefits. This Ability can be reactivated to automatically cast Symbiote on his Monstrosity.
@@ -2235,12 +2247,12 @@ abiltalent/full/GallTwistingNetherActivated|GallTwistingNetherActivated|Heroic|F
 abiltalent/full/GallTwistingNether|GallTwistingNether|Heroic|False=After <c val="bfd4fd">1</c> second, nearby enemies are Slowed by <c val="bfd4fd">50%</c> while Gall channels, up to <c val="bfd4fd">5</c> seconds. Activate to deal <c val="bfd4fd">353~~0.05~~</c> damage.
 abiltalent/full/GallWeSeeYou|GallWeSeeYou|Passive|False=Eye of Kilrogg's cooldown is decreased by <c val="bfd4fd">25</c> seconds, its range is increased by <c val="bfd4fd">33%</c>, and the number of Basic Attacks required to kill it is increased by <c val="bfd4fd">1</c>.
 abiltalent/full/GarroshArmorUpBodyCheck|GarroshArmorUpBodyCheck|Active|False=Activate to deal <c val="bfd4fd">111~~0.04~~</c> damage to a target enemy and Slow them by <c val="bfd4fd">35%</c> for <c val="bfd4fd">3</c> seconds. Enemy Heroes hit receive <c val="bfd4fd">30%</c> reduced healing for <c val="bfd4fd">3</c> seconds.
-abiltalent/full/GarroshArmorUpDoubleUp|GarroshArmorUpDoubleUp|Trait|False=Armor Up can be activated to increase its Armor bonus by <c val="bfd4fd">100%</c> for <c val="bfd4fd">3</c> seconds.
+abiltalent/full/GarroshArmorUpDoubleUp|GarroshArmorUpDoubleUp|Trait|False=Armor Up can be activated to increase its Armor bonus by <c val="bfd4fd">100%</c> for <c val="bfd4fd">5</c> seconds.
 abiltalent/full/GarroshArmorUpInnerRage|GarroshArmorUpInnerRage|Active|False=Body Check gains an additional charge and its healing reduction is increased by an additional <c val="bfd4fd">45%</c>.
 abiltalent/full/GarroshArmorUpSeasonedSoldier|GarroshArmorUpSeasonedSoldier|Passive|False=Gain <c val="bfd4fd">5%</c> maximum Health, increase Groundbreaker's Slow duration by <c val="bfd4fd">1</c> second, and Bloodthirst gains an additional charge.
 abiltalent/full/GarroshArmorUp|GarroshArmorUp|Trait|True=Garrosh gains <c val="bfd4fd">1</c> Armor for every <c val="bfd4fd">2%</c> of maximum Health missing.
-abiltalent/full/GarroshBloodthirstBloodcraze|GarroshBloodthirstBloodcraze|W|False=When hitting a Hero, Bloodthirst heals for an additional <c val="bfd4fd">15%</c> of Garrosh's maximum Health over <c val="bfd4fd">3</c> seconds.
-abiltalent/full/GarroshBloodthirstInFortheKill|GarroshBloodthirstInFortheKill|W|False=Increase Bloodthirst's damage against non-Heroes by <c val="bfd4fd">70%</c>. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.
+abiltalent/full/GarroshBloodthirstBloodcraze|GarroshBloodthirstBloodcraze|W|False=When hitting a Hero, Bloodthirst heals for an additional <c val="bfd4fd">15%</c> of Garrosh's maximum Health over <c val="bfd4fd">4</c> seconds.
+abiltalent/full/GarroshBloodthirstInFortheKill|GarroshBloodthirstInFortheKill|W|False=Increase Bloodthirst's damage against non-Heroes by <c val="bfd4fd">100%</c>. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.
 abiltalent/full/GarroshBloodthirstThirstforBattle|GarroshBloodthirstThirstforBattle|W|False=Basic Attacks against Heroes reduce the cooldown of Bloodthirst by <c val="bfd4fd">2</c> seconds.
 abiltalent/full/GarroshBloodthirst|GarroshBloodthirst|W|False=Deal <c val="bfd4fd">156~~0.04~~</c> damage to an enemy and heal for <c val="bfd4fd">10%</c> of Garrosh's missing Health. Healing is increased by <c val="bfd4fd">100%</c> against Heroes.
 abiltalent/full/GarroshDecimateDeadlyCalm|GarroshDecimateDeadlyCalm|Heroic|False=Heroes hit by Decimate deal <c val="bfd4fd">40%</c> less damage for <c val="bfd4fd">3</c> seconds.
@@ -2254,13 +2266,13 @@ abiltalent/full/GarroshHeroicAbilityDecimate|GarroshDecimate|Heroic|False=Deal <
 abiltalent/full/GarroshHeroicAbilityWarlordsChallenge|GarroshWarlordsChallenge|Heroic|False=Silence nearby Heroes and force them to attack Garrosh for <c val="bfd4fd">2</c> seconds.
 abiltalent/full/GarroshIndomitable|GarroshIndomitable|Active|False=Activate to become Unstoppable for <c val="bfd4fd">1.5</c> seconds.
 abiltalent/full/GarroshIntotheFrayLoktarOgar|GarroshIntoTheFrayLoktarOgar|Active|False=Increase Into the Fray's Armor by <c val="bfd4fd">20</c>. Hitting enemy Heroes with Into the Fray reduces its cooldown by <c val="bfd4fd">12</c> seconds.
-abiltalent/full/GarroshOppressor|GarroshOppressor|W|False=Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by <c val="bfd4fd">30%</c> for <c val="bfd4fd">2.5</c> seconds.
+abiltalent/full/GarroshOppressor|GarroshOppressor|W|False=Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by <c val="bfd4fd">25%</c> for <c val="bfd4fd">2.5</c> seconds.
 abiltalent/full/GarroshWarlordsChallengeDeathWish|GarroshWarlordsChallengeDeathWish|Heroic|False=Increase the duration of Warlord's Challenge by <c val="bfd4fd">0.5</c> seconds. If an enemy Hero is killed while Taunted by Warlord's Challenge, its cooldown is reduced by <c val="bfd4fd">45</c> seconds.
 abiltalent/full/GarroshWarlordsChallenge|GarroshWarlordsChallenge|Heroic|False=Silence nearby Heroes and force them to attack Garrosh for <c val="bfd4fd">2</c> seconds.
 abiltalent/full/GarroshWreckingBallEarthshaker|GarroshWreckingBallEarthshaker|E|False=Wrecking Ball Stuns enemies near the impact area for <c val="bfd4fd">0.5</c> seconds.
 abiltalent/full/GarroshWreckingBallIntotheFray|GarroshWreckingBallIntotheFray|Active|False=Activate to throw a nearby ally and grant them <c val="bfd4fd">20</c> Armor for <c val="bfd4fd">3</c> seconds. Deals <c val="bfd4fd">91~~0.04~~</c> damage to nearby enemies upon impact and Slows them by <c val="bfd4fd">30%</c> for <c val="bfd4fd">2.5</c> seconds.<n/><n/>While in flight, allied Heroes are Unstoppable.
 abiltalent/full/GarroshWreckingBallTitanicMight|GarroshWreckingBallTitanicMight|E|False=Wrecking Ball now throws the <c val="bfd4fd">2</c> closest enemies.
-abiltalent/full/GarroshWreckingBallUnrivaledStrength|GarroshWreckingBallUnrivaledStrength|E|False=Increase Wrecking Ball's throw range by <c val="bfd4fd">15%</c> and its damage by <c val="bfd4fd">125%</c>.
+abiltalent/full/GarroshWreckingBallUnrivaledStrength|GarroshWreckingBallUnrivaledStrength|E|False=Increase Wrecking Ball's throw range by <c val="bfd4fd">15%</c> and its damage by <c val="bfd4fd">75%</c>.
 abiltalent/full/GarroshWreckingBall|GarroshWreckingBall|E|False=Throw a nearby enemy Hero, Minion, or Mercenary to the target location, dealing <c val="bfd4fd">91~~0.04~~</c> damage to enemies near the impact and Slowing them by <c val="bfd4fd">30%</c> for <c val="bfd4fd">2.5</c> seconds.
 abiltalent/full/GazloweBigGameHunter|GazloweBigGameHunter|Trait|False=Increase maximum Scrap by <c val="bfd4fd">2</c>. Basic Attacks against enemy Heroes, Mercenaries, or Monsters accelerates Reduce, Reuse, Recycle Scrap regeneration by <c val="bfd4fd">1.5</c> seconds.
 abiltalent/full/GazloweDethLazorFirinMahLazorz|GazloweDethLazorFirinMahLazorz|W|False=Firing Deth Lazor causes all of Gazlowe's Rock-It! Turrets to fire a Deth Lazor of their own that deals <c val="bfd4fd">125~~0.04~~</c> damage.
@@ -2848,12 +2860,12 @@ abiltalent/full/MalGanisNightRushCancel|MalGanisNightRushCancel|E|False=Cancel N
 abiltalent/full/MalGanisNightRushDeepSleep|MalGanisNightRushDeepSleep|E|False=Increase Night Rush's Sleep duration by <c val="bfd4fd">0.75</c> seconds and its Movement Speed bonus by <c val="bfd4fd">15%</c>.
 abiltalent/full/MalGanisNightRushSpreadingPlague|MalGanisNightRushSpreadingPlague|E|False=After casting Night Rush, deal <c val="bfd4fd">33~~0.04~~</c> damage per second to nearby enemies. This effect lasts for <c val="bfd4fd">5</c> seconds and Basic Attacks against Heroes refresh its duration.<n/><n/>Does not wake Sleeping targets.
 abiltalent/full/MalGanisNightRushTheNightBeckons|MalGanisNightRushTheNightBeckons|E|False=Basic Attacks deal <c val="bfd4fd">200%</c> bonus damage to Sleeping enemies. After Night Rush's Sleep ends, targets are Slowed by <c val="bfd4fd">30%</c> for <c val="bfd4fd">3</c> seconds.
-abiltalent/full/MalGanisNightRush|MalGanisNightRush|E|False=After <c val="bfd4fd">0.75</c> seconds, gain <c val="bfd4fd">50%</c> Movement Speed for <c val="bfd4fd">2</c> seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for <c val="bfd4fd">2.5</c> seconds.
+abiltalent/full/MalGanisNightRush|MalGanisNightRush|E|False=After <c val="bfd4fd">0.62</c> seconds, gain <c val="bfd4fd">50%</c> Movement Speed for <c val="bfd4fd">2</c> seconds. While active, Mal'Ganis can move through enemy Heroes and put them to Sleep for <c val="bfd4fd">2.5</c> seconds.
 abiltalent/full/MalGanisVampiricTouchBloodRush|MalGanisVampiricTouchBloodRush|Trait|False=When Mal'Ganis is healed by a Hero, he gains <c val="bfd4fd">1%</c> Movement Speed for <c val="bfd4fd">6</c> seconds, up to <c val="bfd4fd">15%</c>.
 abiltalent/full/MalGanisVampiricTouchFrenziedAssault|MalGanisVampiricTouchFrenziedAssault|Passive|False=Basic Attacks against Heroes with a higher Health percentage heal for an additional <c val="bfd4fd">50%</c> of damage dealt.<n/><n/>Basic Attacks against Heroes with a lower Health percentage grant <c val="bfd4fd">35%</c> Attack Speed for <c val="bfd4fd">3</c> seconds.
 abiltalent/full/MalGanisVampiricTouchTimeToFeed|MalGanisVampiricTouchTimeToFeed|Passive|False=Mal'Ganis heals for <c val="bfd4fd">70~~0.04~~</c> when damaging a nearby enemy Hero. This can occur once every <c val="bfd4fd">6</c> seconds against each enemy Hero, but is also refreshed when they are Slept by Night Rush.
 abiltalent/full/MalGanisVampiricTouchVampiricAura|MalGanisVampiricTouchVampiricAura|Trait|False=Mal'Ganis heals for <c val="bfd4fd">40%</c> of Physical Damage dealt, and nearby allied Heroes heal for <c val="bfd4fd">20%</c> of Physical Damage dealt.
-abiltalent/full/MalGanisVampiricTouch|MalGanisVampiricTouch|Trait|True=Mal'Ganis heals for <c val="bfd4fd">45%</c> of damage dealt to enemy Heroes and <c val="bfd4fd">10%</c> of damage dealt to non-Heroes.
+abiltalent/full/MalGanisVampiricTouch|MalGanisVampiricTouch|Trait|True=Mal'Ganis heals for <c val="bfd4fd">50%</c> of damage dealt to enemy Heroes and <c val="bfd4fd">15%</c> of damage dealt to non-Heroes.
 abiltalent/full/MalthaelAngelOfDeath|MalthaelAngelOfDeath|Heroic|False=Last Rites heals for <c val="bfd4fd">100%</c> of the damage dealt, and its current and future cooldown reduction bonuses are doubled.
 abiltalent/full/MalthaelBlackHarvest|MalthaelBlackHarvest|Trait|False=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Apply <c val="00DFDF">Reaper's Mark</c> to Heroes for a total of <c val="bfd4fd">150</c> seconds.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> Permanently increase <c val="00DFDF">Reaper's Mark's</c> duration by <c val="bfd4fd">2</c> seconds.
 abiltalent/full/MalthaelColdHand|MalthaelColdHand|Q|False=Soul Rip Slows enemies by <c val="bfd4fd">20%</c> for <c val="bfd4fd">2.5</c> seconds.
@@ -3048,7 +3060,7 @@ abiltalent/full/MuradinMasteryThunderclapReverberation|MuradinThunderclapReverbe
 abiltalent/full/MuradinMasteryThunderclapThunderstrike|MuradinThunderclapThunderstrikeTalent|W|False=Thunder Clap deals <c val="bfd4fd">200%</c> more damage if only one target is hit.<n/><n/><c val="00ff90">Passive:</c> Increase the duration of Dwarf Toss's Armor by <c val="bfd4fd">2</c> seconds.
 abiltalent/full/MuradinSecondWind|MuradinSecondWind|Trait|True=Muradin restores <c val="bfd4fd">55~~0.04~~</c> Health per second when he has not taken damage for <c val="bfd4fd">4</c> seconds. When below <c val="bfd4fd">40%</c> Health, increased to <c val="bfd4fd">111~~0.04~~</c> Health per second.
 abiltalent/full/MuradinStormboltPerfectStorm|MuradinStormboltPerfectStormTalent|Q|False=Storm Bolt's cooldown is reset and <c val="bfd4fd">25</c> Mana is refunded if an enemy dies within <c val="bfd4fd">3</c> seconds of being hit by it. This effect has an <c val="bfd4fd">8.5</c> second cooldown.
-abiltalent/full/MuradinStormBolt|MuradinStormbolt|Q|False=Throw a hammer, dealing <c val="bfd4fd">110~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val="bfd4fd">1.25</c> seconds<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val="bfd4fd">1</c> stack. Stunned enemies provide <c val="bfd4fd">2</c> stacks.  If the Hero dies within <c val="bfd4fd">3</c> seconds, gain <c val="bfd4fd">5</c> stacks.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> Upon hitting <c val="bfd4fd">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val="bfd4fd">0.5</c> seconds.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Mythic Reward:</c> Upon hitting <c val="bfd4fd">160</c> targets, Storm Bolt's range is increased by <c val="bfd4fd">50%</c>, width increased by <c val="bfd4fd">100%</c>, and now pierces all targets.
+abiltalent/full/MuradinStormBolt|MuradinStormbolt|Q|False=Throw a hammer, dealing <c val="bfd4fd">110~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val="bfd4fd">1.25</c> seconds<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val="bfd4fd">1</c> stack. Stunned enemies provide <c val="bfd4fd">2</c> stacks.  If the Hero dies within <c val="bfd4fd">3</c> seconds, gain <c val="bfd4fd">5</c> stacks.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> Upon hitting <c val="bfd4fd">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val="bfd4fd">0.5</c> seconds and restore <c val="bfd4fd">3</c> Mana.<n/><n/><<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Mythic Reward:</c> Upon hitting <c val="bfd4fd">160</c> targets, Storm Bolt's range is increased by <c val="bfd4fd">50%</c>, width increased by <c val="bfd4fd">100%</c>, and now pierces all targets.
 abiltalent/full/MuradinThunderclap|MuradinThunderclap|W|False=Blast nearby enemies for <c val="bfd4fd">96~~0.04~~</c> damage and Slow them by <c val="bfd4fd">30%</c> for <c val="bfd4fd">2.5</c> seconds. Heroes hit also have their Attack Speed reduced by <c val="bfd4fd">30%</c> for the duration.
 abiltalent/full/MurkyAFishyDeal|MurkyAFishyDeal|Active|False=Killing a Minion with Pufferfish grants a stack of Bribe. Use <c val="bfd4fd">8</c> stacks to bribe a Mercenary, instantly defeating them. Does not work on Elite Mercenaries.<n/><n/>Maximum of <c val="bfd4fd">32</c> stacks of Bribe.
 abiltalent/full/MurkyBlackLagoon|MurkySlimeBlackLagoonTalent|Q|False=Increase Slime's radius by <c val="bfd4fd">30%</c>.
@@ -3110,12 +3122,12 @@ abiltalent/full/NecromancerTalentTragOulsEssence|NecromancerTragOulsEssence|Trai
 abiltalent/full/NecromancerTalentWeaken|NecromancerWeaken|W|False=Enemy Heroes who are damaged by Cursed Strikes or Skeletal Warriors deal <c val="bfd4fd">35%</c> less damage for <c val="bfd4fd">3</c> seconds.
 abiltalent/full/NexusHunterBloodRageHealmonger|NexusHunterBloodRageHealmonger|W|False=If Blood Rage damages an enemy Hero below <c val="bfd4fd">50%</c> Health, it heals for an additional <c val="bfd4fd">210~~0.04~~</c> Health.
 abiltalent/full/NexusHunterBloodRageYourPainMyGain|NexusHunterBloodRageYourPainMyGain|Passive|False=Basic Attacking an enemy Hero causes Qhira to gain <c val="bfd4fd">10</c> Armor for <c val="bfd4fd">3</c> seconds. Stacks <c val="bfd4fd">3</c> times.
-abiltalent/full/NexusHunterBloodRage|NexusHunterBloodRage|W|False=Qhira deals <c val="bfd4fd">32~~0.04~~</c> damage and heals for <c val="bfd4fd">90~~0.04~~</c> Health per enemy Hero affected. Damage and healing is increased by <c val="bfd4fd">50%</c> per each additional stack on that Hero.<n/><n/><c val="00ff90">Passive:</c> Basic Attack and Ability damage cause enemies to bleed for <c val="bfd4fd">32~~0.04~~</c> damage over <c val="bfd4fd">4</c> seconds. Stacks <c val="bfd4fd">5</c> times.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by <c val="bfd4fd">0.24%</c>. <n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> After damaging Heroes with Blood Rage's bleed damage <c val="bfd4fd">150</c> times, Blood Rage's duration is increased by <c val="bfd4fd">2</c> seconds.
+abiltalent/full/NexusHunterBloodRage|NexusHunterBloodRage|W|False=Qhira deals <c val="bfd4fd">32~~0.04~~</c> damage and heals for <c val="bfd4fd">90~~0.04~~</c> Health per enemy Hero affected. Damage and healing is increased by <c val="bfd4fd">50%</c> per each additional stack on that Hero.<n/><n/><c val="00ff90">Passive:</c> Basic Attack and Ability damage cause enemies to bleed for <c val="bfd4fd">28~~0.04~~</c> damage over <c val="bfd4fd">4</c> seconds. Stacks <c val="bfd4fd">5</c> times.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by <c val="bfd4fd">0.2%</c>. <n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> After damaging Heroes with Blood Rage's bleed damage <c val="bfd4fd">150</c> times, Blood Rage's duration is increased by <c val="bfd4fd">2</c> seconds.
 abiltalent/full/NexusHunterCarnageMaximumEffort|NexusHunterCarnageMaximumEffort|Q|False=If Carnage damages the same enemy Hero <c val="bfd4fd">3</c> times it deals an additional <c val="bfd4fd">108~~0.04~~</c> damage and Slows by <c val="bfd4fd">25%</c> for <c val="bfd4fd">2.5</c> seconds. 
 abiltalent/full/NexusHunterCarnage|NexusHunterCarnage|Q|False=Unleash your sword in the target direction, continuously dealing <c val="bfd4fd">30~~0.04~~</c> damage to enemies caught in its path.
 abiltalent/full/NexusHunterChainsaw|NexusHunterChainsaw|Q|False=Carnage's cooldown recharges <c val="bfd4fd">100%</c> faster while an enemy Hero has maximum Blood Rage stacks.
 abiltalent/full/NexusHunterEnsnaringSwing|NexusHunterEnsnaringSwing|E|False=The primary target of Revolving Sweep is Slowed by <c val="bfd4fd">60%</c> while Qhira is attached to them. Secondary targets hit by Revolving Sweep's swing are Slowed by <c val="bfd4fd">40%</c> for <c val="bfd4fd">3</c> seconds.
-abiltalent/full/NexusHunterFatalWounds|NexusHunterFatalWounds|W|False=While at maximum stacks, Blood Rage's bleed deals <c val="bfd4fd">50%</c> additional damage to enemy Heroes under <c val="bfd4fd">50%</c> Health.
+abiltalent/full/NexusHunterFatalWounds|NexusHunterFatalWounds|W|False=While at maximum stacks, Blood Rage's bleed deals <c val="bfd4fd">70%</c> additional damage to enemy Heroes under <c val="bfd4fd">50%</c> Health.
 abiltalent/full/NexusHunterFinalStrikeActivate|NexusHunterFinalStrike|Heroic|False=After <c val="bfd4fd">1</c> second, deal <c val="bfd4fd">410~~0.04~~</c> damage to enemies in a line. This damage is increased by <c val="bfd4fd">25%</c> against enemy Heroes who are below <c val="bfd4fd">50%</c> Health.
 abiltalent/full/NexusHunterFinalStrikeUnleashedPotential|NexusHunterFinalStrikeUnleashedPotential|Heroic|False=Increase the damage to enemy Heroes under <c val="bfd4fd">50%</c> Health from <c val="bfd4fd">25%</c> to <c val="bfd4fd">50%</c>.<n/><n/>If an enemy Hero dies within <c val="bfd4fd">1.5</c> seconds of being hit by Final Strike, then reset the cooldowns of Final Strike and all of Qhira's Basic Abilities.
 abiltalent/full/NexusHunterFinalStrike|NexusHunterFinalStrike|Heroic|False=After <c val="bfd4fd">1</c> second, deal <c val="bfd4fd">410~~0.04~~</c> damage to enemies in a line. This damage is increased by <c val="bfd4fd">25%</c> against enemy Heroes who are below <c val="bfd4fd">50%</c> Health.
@@ -3123,9 +3135,9 @@ abiltalent/full/NexusHunterFinishingTouch|NexusHunterFinishingTouch|Passive|Fals
 abiltalent/full/NexusHunterGrapplingHookUtilityBelt|NexusHunterGrapplingHookUtilityBelt|Trait|False=Grappling Hook's cooldown is reset when hitting an enemy Hero with the initial impact of Revolving Sweep and recharges <c val="bfd4fd">900%</c> faster if Qhira hasn't taken damage within the last <c val="bfd4fd">2</c> seconds.
 abiltalent/full/NexusHunterGrapplingHook|NexusHunterGrapplingHook|Trait|False=Qhira fires a grappling hook that pulls her to terrain it contacts. If an enemy Hero is hit, they take <c val="bfd4fd">35~~0.04~~</c> damage and Qhira launches at them, kicking them for an additional <c val="bfd4fd">108~~0.04~~</c> damage.<n/><n/>Can be used while Revolving Sweep is active.
 abiltalent/full/NexusHunterHuntersVengeanceNoSanctuary|NexusHunterHuntersVengeanceNoSanctuary|Passive|False=Nearby enemy Heroes below <c val="bfd4fd">50%</c> Health are revealed and you gain <c val="bfd4fd">20%</c> Movement Speed while an enemy Hero is revealed by you in this way.<n/><n/>Additionally, you deal <c val="bfd4fd">20%</c> increased damage to these revealed enemies.
-abiltalent/full/NexusHunterPulsingPain|NexusHunterPulsingPain|E|False=Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional <c val="bfd4fd">135~~0.04~~</c> damage.
+abiltalent/full/NexusHunterPulsingPain|NexusHunterPulsingPain|E|False=Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional <c val="bfd4fd">150~~0.04~~</c> damage.
 abiltalent/full/NexusHunterRevolvingSweepBoomingKick|NexusHunterRevolvingSweepBoomingKick|E|False=Increase the Stun duration of Revolving Sweep's re-activation by <c val="bfd4fd">0.25</c> seconds. Enemy Heroes around the primary target are also affected by Revolving Sweep's re-activation.
-abiltalent/full/NexusHunterRevolvingSweepLingeringAilment|NexusHunterRevolvingSweepLingeringAilment|E|False=Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by <c val="bfd4fd">35</c> for <c val="bfd4fd">4</c> seconds.
+abiltalent/full/NexusHunterRevolvingSweepLingeringAilment|NexusHunterRevolvingSweepLingeringAilment|E|False=Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by <c val="bfd4fd">25</c> for <c val="bfd4fd">4</c> seconds.
 abiltalent/full/NexusHunterRevolvingSweepSecondary|NexusHunterRevolvingSweepSecondary|E|False=Fly into your target dealing <c val="bfd4fd">108~~0.04~~</c> damage, knocking them away and Stunning them for <c val="bfd4fd">0.75</c> seconds.
 abiltalent/full/NexusHunterRevolvingSweepSwingLifeAway|NexusHunterRevolvingSweepSwingLifeAway|E|False=Revolving Sweep's cooldown recharges <c val="bfd4fd">250%</c> faster while Qhira is swinging around her target. She also gains <c val="bfd4fd">60</c> Spell Armor for <c val="bfd4fd">5</c> seconds after the re-activation impact.
 abiltalent/full/NexusHunterRevolvingSweep|NexusHunterRevolvingSweep|E|False=Attach your sword on the first enemy Hero hit, dealing <c val="bfd4fd">96~~0.04~~</c> damage and Stunning them for <c val="bfd4fd">0.25</c> seconds. Once attached, Qhira becomes Immune to all effects, swinging around the target for <c val="bfd4fd">2.75</c> seconds and dealing <c val="bfd4fd">105~~0.04~~</c> damage to enemies between you and the target.<n/><n/>Re-activate to send you to the target's location knocking them away, dealing <c val="bfd4fd">108~~0.04~~</c> damage and Stunning them for <c val="bfd4fd">0.75</c> seconds.
@@ -3457,7 +3469,7 @@ abiltalent/full/StukovVirulentReaction|StukovVirulentReactionTalent|E|False=Deto
 abiltalent/full/StukovWeightedPustuleReactiveBallistospores|StukovReactiveBallistosporesTalent|Active|False=Activate to instantly spread a Weighted Pustule to all nearby enemy Heroes and reset the cooldown of Bio-Kill Switch.<n/><n/><c val="00ff90">Passive</c>: While below <c val="bfd4fd">50%</c> Health, the cooldown of Bio-Kill Switch refreshes <c val="bfd4fd">100%</c> faster.
 abiltalent/full/StukovWeightedPustule|StukovWeightedPustule|W|False=Hurl a pustule that impacts all enemy Heroes in its path, dealing <c val="bfd4fd">20~~0.04~~</c> damage and Slowing by <c val="bfd4fd">5%</c>, increasing to <c val="bfd4fd">50%</c> over <c val="bfd4fd">3</c> seconds. Deals an additional <c val="bfd4fd">88~~0.04~~</c> damage upon expiring or being removed.
 abiltalent/full/SylvanasBlackArrowsActive|SylvanasBlackArrows|Trait|False=Basic Attacks infect enemies with Black Arrows for <c val="bfd4fd">3</c> seconds, stacking up to <c val="bfd4fd">3</c> times. Sylvanas deals <c val="bfd4fd">15%</c> more damage to enemies with <c val="bfd4fd">3</c> stacks.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Damage Heroes and Structures with <c val="bfd4fd">3</c> stacks of Black Arrows.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> Upon damaging enemies <c val="bfd4fd">250</c> times, increase the damage bonus provided by Black Arrows to <c val="bfd4fd">50%</c>.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Mythic Reward:</c> Upon damaging enemies <c val="bfd4fd">400</c> times, Black Arrows now heals Sylvanas for <c val="bfd4fd">25%</c> of damage dealt at <c val="bfd4fd">3</c> stacks, doubled against Heroes.
-abiltalent/full/SylvanasBlackArrowsPassive|SylvanasBlackArrowsPassive|Trait|True=Basic Attacks infect enemies with Black Arrows for <c val="bfd4fd">3</c> seconds, stacking up to <c val="bfd4fd">3</c> times. Sylvanas deals <c val="bfd4fd">15%</c> more damage to enemies with <c val="bfd4fd">3</c> stacks.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Damage Heroes and Structures with <c val="bfd4fd">3</c> stacks of Black Arrows.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> Upon damaging enemies <c val="bfd4fd">250</c> times, increase the damage bonus provided by Black Arrows to <c val="bfd4fd">50%</c>.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Pinnacle Reward:</c> Upon damaging enemies <c val="bfd4fd">400</c> times, Black Arrows now heals Sylvanas for <c val="bfd4fd">25%</c> of damage dealt at <c val="bfd4fd">3</c> stacks, doubled against Heroes.
+abiltalent/full/SylvanasBlackArrowsPassive|SylvanasBlackArrowsPassive|Trait|True=Basic Attacks infect enemies with Black Arrows for <c val="bfd4fd">3</c> seconds, stacking up to <c val="bfd4fd">3</c> times. Sylvanas deals <c val="bfd4fd">15%</c> more damage to enemies with <c val="bfd4fd">3</c> stacks.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Damage Heroes and Structures with <c val="bfd4fd">3</c> stacks of Black Arrows.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> Upon damaging enemies <c val="bfd4fd">250</c> times, increase the damage bonus provided by Black Arrows to <c val="bfd4fd">50%</c>.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Mythic Reward:</c> Upon damaging enemies <c val="bfd4fd">400</c> times, Black Arrows now heals Sylvanas for <c val="bfd4fd">25%</c> of damage dealt at <c val="bfd4fd">3</c> stacks, doubled against Heroes.
 abiltalent/full/SylvanasDarkLadysCall|SylvanasDarkLadysCallMindControlTalent|Heroic|False=Heroes hit by Mind Control have their vision radius greatly reduced for <c val="bfd4fd">5</c> seconds. Mind Control's cooldown is reduced by <c val="bfd4fd">25</c> seconds.
 abiltalent/full/SylvanasHauntingArrows|SylvanasBlackArrowsHauntingArrowsTalent|Trait|False=Black Arrows can now be activated to cause all Basic Attacks and Abilities to Stun Minions and Structures for <c val="bfd4fd">3</c> seconds. Lasts for <c val="bfd4fd">10</c> seconds. Basic Attacks against Structures reduce this cooldown by <c val="bfd4fd">3</c> seconds.
 abiltalent/full/SylvanasHauntingWaveActivateWindrunnerTalent|SylvanasHauntingWaveActivateFree|E|False=Activate to teleport to the banshees' location.
@@ -3766,10 +3778,10 @@ abiltalent/full/VarianVictoryRush|VarianVictoryRush|Passive|False=Every <c val="
 abiltalent/full/VoidPrisonCancel|ZeratulVoidPrisonCancel|Heroic|False=<n/>Cancels the Void Prison ability.
 abiltalent/full/VorpalBladeBlink|ZeratulVorpalBladeHotbar|Active|False=Activate to teleport to Zeratul's last non-structure Basic Attack target within <c val="bfd4fd">3</c> seconds. The target is revealed during these <c val="bfd4fd">3</c> seconds.
 abiltalent/full/WhitemaneDesperatePleaMartyrdom|WhitemaneDesperatePleaMartyrdom|Q|False=Desperate Plea's healing is increased by <c val="bfd4fd">30%</c>. Increase this by an additional <c val="bfd4fd">10%</c> for each active <c val="FFF5C2">Zeal</c>.
-abiltalent/full/WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|False=Reaching <c val="bfd4fd">3</c> stacks of <c val="FF8B8B">Desperation</c> heals for <c val="bfd4fd">175~~0.04~~</c> and reapplies <c val="FFF5C2">Zeal</c> to allies with <c val="FFF5C2">Zeal</c>.
+abiltalent/full/WhitemaneDesperatePleaRadiance|WhitemaneDesperatePleaRadiance|Q|False=Reaching <c val="bfd4fd">3</c> stacks of <c val="FF8B8B">Desperation</c> heals for <c val="bfd4fd">190~~0.04~~</c> and reapplies <c val="FFF5C2">Zeal</c> to allies with <c val="FFF5C2">Zeal</c>.
 abiltalent/full/WhitemaneDesperatePleaUnwaveringFaith|WhitemaneDesperatePleaUnwaveringFaith|Q|False=Increase Whitemane's Basic Attack range by <c val="bfd4fd">1.1</c>. Whitemane gains <c val="bfd4fd">20%</c> increased Basic Attack damage for each active <c val="FFF5C2">Zeal</c> buff.
 abiltalent/full/WhitemaneDesperatePleaZealousSpirit|WhitemaneDesperatePleaZealousSpirit|Q|False=Upon reaching <c val="bfd4fd">2</c> stacks of <c val="FF8B8B">Desperation</c>, Whitemane gains <c val="FFF5C2">Zeal</c>.
-abiltalent/full/WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q|False=Heal an allied Hero for <c val="bfd4fd">140~~0.04~~</c> and gain <c val="FF8B8B">Desperation</c> for <c val="bfd4fd">4</c> seconds.<n/><n/><c val="FF8B8B">Desperation</c> increases Desperate Plea's Mana cost by <c val="bfd4fd">40</c>, and stacks up to <c val="bfd4fd">3</c> times.<n/><n/><c val="ffff8a">Current Mana Cost:</c> <c val="bfd4fd">40</c>
+abiltalent/full/WhitemaneDesperatePlea|WhitemaneDesperatePlea|Q|False=Heal an allied Hero for <c val="bfd4fd">140~~0.04~~</c> and gain <c val="FF8B8B">Desperation</c> for <c val="bfd4fd">4</c> seconds.<n/><n/><c val="FF8B8B">Desperation</c> increases Desperate Plea's Mana cost by <c val="bfd4fd">40</c>, and stacks up to <c val="bfd4fd">3</c> times.<n/><n/><c val="ffff8a">Current Mana Cost:</c> <c val="bfd4fd">45</c>
 abiltalent/full/WhitemaneDivineReckoningJudgmentDay|WhitemaneDivineReckoningJudgmentDay|Heroic|False=Divine Reckoning deals <c val="bfd4fd">50%</c> more damage and pulls enemies to its center the first time it hits them.
 abiltalent/full/WhitemaneDivineReckoning|WhitemaneDivineReckoning|Heroic|False=After <c val="bfd4fd">1</c> second, consecrate an area for <c val="bfd4fd">4</c> seconds, dealing <c val="bfd4fd">50~~0.04~~</c> damage every <c val="bfd4fd">0.5</c> seconds to enemies inside. <c val="bfd4fd">25%</c> of the damage dealt to Heroes is returned as Mana.
 abiltalent/full/WhitemaneFanaticalPower|WhitemaneTraitZeal|Trait|False=Whitemane's healing Abilities apply <c val="FFF5C2">Zeal</c> for <c val="bfd4fd">8</c> seconds. Allies with <c val="FFF5C2">Zeal</c> are healed for <c val="bfd4fd">100%</c> of the damage Whitemane deals to Heroes.<n/><n/>Activate to gain <c val="bfd4fd">25%</c> Spell Power and lose <c val="bfd4fd">15</c> Armor for <c val="bfd4fd">5</c> seconds. Can be cast while channeling abilities.
@@ -3881,8 +3893,8 @@ abiltalent/full/YrelRighteousHammer|YrelRighteousHammer|W|False=Swing Yrel's ham
 abiltalent/full/YrelSacredGroundHallowedGround|YrelSacredGroundHallowedGround|Heroic|False=Casting Avenging Wrath while inside Sacred Ground moves Sacred Ground to Yrel's location upon landing.
 abiltalent/full/YrelSacredGround|YrelSacredGround|Heroic|False=Yrel sanctifies the ground around her, gaining <c val="bfd4fd">50</c> Armor until she leaves the area.
 abiltalent/full/YrelSeraphim|YrelSeraphim|Active|False=Activate to become Unstoppable for <c val="bfd4fd">2</c> seconds.
-abiltalent/full/YrelVelensChosen|YrelVelensChosen|Passive|False=Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val="bfd4fd">10%</c> Spell Power for <c val="bfd4fd">10</c> seconds, up to <c val="bfd4fd">30%</c>.
-abiltalent/full/YrelVindicationAldorPeacekeeper|YrelVindicationAldorPeacekeeper|Q|False=Enemy Heroes hit by Vindication at maximum charge deal <c val="bfd4fd">40%</c> less damage for <c val="bfd4fd">3</c> seconds.
+abiltalent/full/YrelVelensChosen|YrelVelensChosen|Passive|False=Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val="bfd4fd">8%</c> Spell Power for <c val="bfd4fd">10</c> seconds, up to <c val="bfd4fd">24%</c>.
+abiltalent/full/YrelVindicationAldorPeacekeeper|YrelVindicationAldorPeacekeeper|Q|False=Enemy Heroes hit by Vindication at maximum charge deal <c val="bfd4fd">50%</c> less damage for <c val="bfd4fd">4</c> seconds.
 abiltalent/full/YrelVindicationCast|YrelVindication|Q|False=Unleash holy energy around Yrel, dealing <c val="bfd4fd">48~~0.04~~</c> damage to nearby enemies and healing her for <c val="bfd4fd">111~~0.04~~</c>.<n/><n/>Charging up this Ability increases its damage up to <c val="bfd4fd">160~~0.04~~</c>, and healing up to <c val="bfd4fd">370~~0.04~~</c>.
 abiltalent/full/YrelVindicationLightOfKarabor|YrelVindicationLightOfKarabor|Q|False=Increase Vindication's radius by <c val="bfd4fd">15%</c>. Hitting an enemy Hero increases Vindication's healing by <c val="bfd4fd">40%</c>. If more than one Hero is hit, the bonus is increased to <c val="bfd4fd">80%</c>.
 abiltalent/full/YrelVindication|YrelVindication|Q|False=Unleash holy energy around Yrel, dealing <c val="bfd4fd">48~~0.04~~</c> damage to nearby enemies and healing her for <c val="bfd4fd">111~~0.04~~</c>.<n/><n/>Charging up this Ability increases its damage up to <c val="bfd4fd">160~~0.04~~</c>, and healing up to <c val="bfd4fd">370~~0.04~~</c>.
@@ -3902,14 +3914,14 @@ abiltalent/full/ZagaraMasteryEndlessCreep|ZagaraCreepTumorEndlessCreepTalent|Her
 abiltalent/full/ZagaraMasteryEnvenomedSpines|ZagaraEnvenomedSpinesTalent|Active|False=Activate to have Zagara's next Basic Attack apply <c val="bfd4fd">230~~0.04~~</c> damage over <c val="bfd4fd">5</c> seconds.
 abiltalent/full/ZagaraMasteryHydraliskTransfusion|ZagaraHydraliskTransfusionTalent|W|False=Zagara is healed for <c val="bfd4fd">60%</c> of the damage dealt by Hunter Killers' Basic Attacks to Heroes.
 abiltalent/full/ZagaraMasteryInfest|ZagaraInfest|Active|False=Nearby Ranged Minions deal an additional <c val="bfd4fd">100%</c> damage. Can be toggled on or off.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Repeatable Quest:</c> Every <c val="bfd4fd">1000</c> Siege damage dealt increases this bonus by <c val="bfd4fd">1%</c>.
-abiltalent/full/ZagaraMasteryMutalisk|ZagaraHunterKillerMutaliskTalent|W|False=Reduce the cooldown of Hunter Killer by <c val="bfd4fd">4</c> seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over <c val="bfd4fd">42</c> seconds, and have <c val="bfd4fd">420~~0.045~~</c> Health.
+abiltalent/full/ZagaraMasteryMutalisk|ZagaraHunterKillerMutaliskTalent|W|False=Reduce the cooldown of Hunter Killer by <c val="bfd4fd">4</c> seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over <c val="bfd4fd">42</c> seconds, and have <c val="bfd4fd">450~~0.045~~</c> Health.
 abiltalent/full/ZagaraMasteryProtectiveCoating|ZagaraCreepTumorProtectiveCoating|Trait|False=While on Creep, Zagara gains <c val="bfd4fd">20</c> Armor, taking <c val="bfd4fd">20%</c> less damage.
 abiltalent/full/ZagaraMasterySerratedSpines|ZagaraSerratedSpinesTalent|Passive|False=<img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Each Basic Attack against a Hero increases Zagara's Attack Damage by <c val="bfd4fd">0.2%</c>.
 abiltalent/full/ZagaraMasteryTyrantMaw|ZagaraDevouringMawTyrantMawTalent|Heroic|False=Devouring Maw deals <c val="bfd4fd">50%</c> more damage. Takedowns reduce its cooldown by <c val="bfd4fd">25</c> seconds.
 abiltalent/full/ZagaraMasteryVolatileAcid|ZagaraBanelingBarrageVolatileAcidTalent|Q|False=Banelings can travel <c val="bfd4fd">50%</c> further before exploding.
 abiltalent/full/ZagaraPackInstinct|ZagaraPackInstinct|W|False=Zagara and her summons deal <c val="bfd4fd">20%</c> more damage to enemies attacked by a Hunter Killer in the last <c val="bfd4fd">2</c> seconds.
 abiltalent/full/ZagaraSummonCreepTumor|ZagaraCreepTumor|Trait|False=Lay a Creep Tumor that generates Creep. While on Creep, Zagara moves <c val="bfd4fd">20%</c> faster and her summons move <c val="bfd4fd">30%</c> faster. Tumors lose Health over <c val="bfd4fd">250</c> seconds and reveal the surrounding area while active.<n/><n/>Stores up to <c val="bfd4fd">3</c> charges.
-abiltalent/full/ZagaraSummonHydralisk|ZagaraHunterKiller|W|False=Summon a Hydralisk to attack a single target, dealing <c val="bfd4fd">71~~0.05~~</c> damage per second. The Hydralisk loses Health over <c val="bfd4fd">10</c> seconds, and has <c val="bfd4fd">450~~0.045~~</c> Health.
+abiltalent/full/ZagaraSummonHydralisk|ZagaraHunterKiller|W|False=Summon a Hydralisk to attack a single target, dealing <c val="bfd4fd">71~~0.05~~</c> damage per second. The Hydralisk loses Health over <c val="bfd4fd">10</c> seconds, and has <c val="bfd4fd">500~~0.045~~</c> Health.
 abiltalent/full/ZagaraSummonNydusWorm|ZagaraNydusNetwork|Heroic|False=Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates <c val="bfd4fd">10%</c> Health and Mana per second.<n/><n/>Stores up to <c val="bfd4fd">2</c> charges. Maximum of <c val="bfd4fd">4 </c>Nydus Worms at a time.<n/><n/><c val="00ff90">Passive:</c> Creep spreads <c val="bfd4fd">15%</c> farther. <n/><c val="00ff90">Passive:</c> While on Creep, each Basic Attack reduces all of Zagara's cooldowns by <c val="bfd4fd">0.4</c> seconds.
 abiltalent/full/ZagaraViscousAcid|ZagaraViscousAcid|Q|False=Banelings Slow enemies by <c val="bfd4fd">25%</c> for <c val="bfd4fd">2.5</c> seconds.
 abiltalent/full/ZaryaDeepBurn|ZaryaDeepBurn|Q|False=Hitting a Hero with Particle Grenade causes Basic Attacks against them to generate <c val="bfd4fd">2</c> Energy. Lasts <c val="bfd4fd">4</c> seconds.
@@ -6496,6 +6508,12 @@ abiltalent/name/WizardTeleport|WizardTeleport|E|False=Teleport
 abiltalent/name/WizardTraitCriticalMass|WizardTraitCriticalMass|Trait|True=Critical Mass
 abiltalent/name/WizardWaveOfForceRepulsion|WizardWaveOfForceRepulsionTalent|Heroic|False=Repulsion
 abiltalent/name/WizardWaveOfForce|WizardWaveOfForce|Heroic|False=Wave of Force
+abiltalent/name/XalatathDarkHeartRitual|XalatathDarkHeartRitual|E|False=Dark Heart Ritual (E)
+abiltalent/name/XalatathShadowMark|XalatathShadowMark|Q|False=Shadow Mark (Q)
+abiltalent/name/XalatathVoidConvergence|XalatathVoidConvergence|Heroic|False=Void Convergence
+abiltalent/name/XalatathVoidEruption|XalatathVoidEruption|Heroic|False=Void Eruption
+abiltalent/name/XalatathVoidStep|XalatathVoidStep|W|False=Void Step (W)
+abiltalent/name/XalatathVoidVolley|XalatathVoidVolley|Trait|False=Void Volley (Trait)
 abiltalent/name/YrelArdentDefenderWordOfGlory|YrelArdentDefenderWordOfGlory|Heroic|False=Word of Glory
 abiltalent/name/YrelArdentDefender|YrelArdentDefender|Heroic|False=Ardent Defender
 abiltalent/name/YrelAvengingWrathAegisOfLight|YrelAvengingWrathAegisOfLight|E|False=Aegis of Light
@@ -9267,6 +9285,7 @@ unit/description/Varian=A Bruiser that can flex into dealing damage or protectin
 unit/description/Whitemane=A versatile Healer who heals her allies by smiting her foes.
 unit/description/WitchDoctor=A sustained damage Mage who gains power when killing enemy minions.
 unit/description/Wizard=A high burst damage Mage who can reset her Abilities upon getting a takedown.
+unit/description/Xalatath=A ranged damage dealer who manipulates void energy to overwhelm enemies and control the battlefield.
 unit/description/Yrel=A deliberate melee Bruiser whose heavyweight abilities reward investment and careful timing.
 unit/description/Zagara=A Summoner who provides lots of vision of the battleground.
 unit/description/Zarya=A Support that can enable deadly allies and is good at preventing burst damage.
@@ -9357,6 +9376,7 @@ unit/difficulty/Varian=Medium
 unit/difficulty/Whitemane=Very Hard
 unit/difficulty/WitchDoctor=Medium
 unit/difficulty/Wizard=Medium
+unit/difficulty/Xalatath=Medium
 unit/difficulty/Yrel=Hard
 unit/difficulty/Zagara=Medium
 unit/difficulty/Zarya=Medium
@@ -9444,6 +9464,7 @@ unit/energytype/Varian=Mana
 unit/energytype/Whitemane=Mana
 unit/energytype/WitchDoctor=Mana
 unit/energytype/Wizard=Mana
+unit/energytype/Xalatath=Mana
 unit/energytype/Yrel=Mana
 unit/energytype/Zagara=Mana
 unit/energytype/Zarya=Energy
@@ -9534,6 +9555,7 @@ unit/expandedrole/Varian=Bruiser
 unit/expandedrole/Whitemane=Healer
 unit/expandedrole/WitchDoctor=Ranged Assassin
 unit/expandedrole/Wizard=Ranged Assassin
+unit/expandedrole/Xalatath=Ranged Assassin
 unit/expandedrole/Yrel=Bruiser
 unit/expandedrole/Zagara=Ranged Assassin
 unit/expandedrole/Zarya=Support
@@ -9624,6 +9646,7 @@ unit/infotext/Varian=Few would have expected that the gladiator known only as Lo
 unit/infotext/Whitemane=As the High Inquisitor of the Scarlet Crusade, Sally Whitemane zealously leads her champions in a neverending war against the undead. Under her guiding Light, all who have been touched by the plague of death will be purged by her cleansing flame... no matter how much they protest.
 unit/infotext/WitchDoctor=With cabalistic incantations and vestments of feather and bone, the witch doctor Nazeebo calls upon spirits from the Unformed Land to aid him. Few outlanders encounter a witch doctor in the flesh, without losing their own.
 unit/infotext/Wizard=The derogatory moniker "wizard" is often given to mages with rebellious attitudes or an obsession with power. Li-Ming displays a little of both and she's hardly ashamed of it. After all, who are they to judge a wielder of limitless arcane magic?
+unit/infotext/Xalatath=For eons, Xal'atath has manipulated gods and mortals alike to ascend the cosmic ladder. Once a servant of Dimensius the All-Devouring, and then a prisoner of the Old Gods, Xal'atath has now attained her freedom and set her own plans in motion—starting with the destruction of Dalaran and the transformation of the Sunwell.
 unit/infotext/Yrel=After traveling to an Alternate Draenor, the forces of Azeroth saved the acolyte Yrel from the Iron Horde. With their aid, she rose to the rank of Exarch and fought back the demonic invasion of her world. Now, she finds herself where time, space, and dimensions converge: the Nexus.
 unit/infotext/Zagara=If Kerrigan is the Queen of the Zerg, then Zagara is the mother of the brood. Cunning and tenacious, she commands her minions on the field of battle. Encounter her brood and beware: Mess with her children, and you answer to mama.
 unit/infotext/Zarya=Aleksandra Zaryanova is one of the world's strongest women and was a promising athlete, but all that changed when the Siberian omnium reawakened. As a soldier in the Russian Defense Force, she now proudly uses her strength to protect the ones she loves.
@@ -9722,6 +9745,7 @@ unit/lifetype/Varian=Health
 unit/lifetype/Whitemane=Health
 unit/lifetype/WitchDoctor=Health
 unit/lifetype/Wizard=Health
+unit/lifetype/Xalatath=Health
 unit/lifetype/Yrel=Health
 unit/lifetype/Zagara=Health
 unit/lifetype/Zarya=Health
@@ -9823,6 +9847,7 @@ unit/name/Varian=Varian
 unit/name/Whitemane=Whitemane
 unit/name/WitchDoctor=Nazeebo
 unit/name/Wizard=Li-Ming
+unit/name/Xalatath=Xal'atath
 unit/name/Yrel=Yrel
 unit/name/Zagara=Zagara
 unit/name/Zarya=Zarya
@@ -9913,6 +9938,7 @@ unit/role/Varian=Multiclass,Warrior,Assassin
 unit/role/Whitemane=Support
 unit/role/WitchDoctor=Specialist
 unit/role/Wizard=Assassin
+unit/role/Xalatath=Assassin
 unit/role/Yrel=Warrior
 unit/role/Zagara=Specialist
 unit/role/Zarya=Warrior
@@ -10003,6 +10029,7 @@ unit/searchtext/Varian=Varian Wrynn Logosh Lo'Gosh Stormwind Human Alliance WoW 
 unit/searchtext/Whitemane=sally priest human WoW World of Warcraft Mists Pandaria MoP Legion Sustain Healer Chapeau
 unit/searchtext/WitchDoctor=Nazeebo Witch Doctor Witchdoctor Nephalem D3 Diablo 3 Diablo3 III Reaper of Souls RoS WD Mage Wall Slow Push Double Soak
 unit/searchtext/Wizard=Li-Ming Li Ming LiMing liming Liming LM Leeming Wizard Nephalem D3 Diablo 3 Diablo3 III Reaper of Souls RoS Mage Burst Displace Mobile Mobility Escape Artillery
+unit/searchtext/Xalatath=World of Warcraft Mage Void
 unit/searchtext/Yrel=Yerel WoW Draenei Warlords of Draenor WoD Alliance Paladin BFA Battle for Azeroth Stun CC Displace Sustain Dive Escape Offlaner
 unit/searchtext/Zagara=Zagara Broodmother Queen Zerg Swarm HotS Heart of the Swarm StarCraft II 2 SC2 SC Star2 Starcraft2 Push Siege Disable Summoner Marksman
 unit/searchtext/Zarya=Zarya Aleksandra Human Overwatch OW Displace Root Time Stop Shields
@@ -10101,6 +10128,7 @@ unit/shieldtype/Varian=Shields
 unit/shieldtype/Whitemane=Shields
 unit/shieldtype/WitchDoctor=Shields
 unit/shieldtype/Wizard=Shields
+unit/shieldtype/Xalatath=Shields
 unit/shieldtype/Yrel=Shields
 unit/shieldtype/Zagara=Shields
 unit/shieldtype/Zarya=Shields
@@ -10191,6 +10219,7 @@ unit/title/Varian=High King of the Alliance
 unit/title/Whitemane=High Inquisitor
 unit/title/WitchDoctor=Heretic Witch Doctor
 unit/title/Wizard=Rebellious Wizard
+unit/title/Xalatath=The Harbinger of the Void
 unit/title/Yrel=Light of Hope
 unit/title/Zagara=Broodmother of the Swarm
 unit/title/Zarya=Defender of Russia
@@ -10281,6 +10310,7 @@ unit/type/Varian=Melee
 unit/type/Whitemane=Ranged
 unit/type/WitchDoctor=Ranged
 unit/type/Wizard=Ranged
+unit/type/Xalatath=Ranged
 unit/type/Yrel=Melee
 unit/type/Zagara=Ranged
 unit/type/Zarya=Ranged
