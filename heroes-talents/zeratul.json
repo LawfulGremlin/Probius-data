@@ -54,7 +54,6 @@
         "tooltipId": "ZeratulCleave",
         "cooldown": 6,
         "manaCost": 40,
-        "icon": "storm_ui_icon_zeratul_cleave.png",
         "type": "basic"
       },
       {
@@ -66,7 +65,6 @@
         "tooltipId": "ZeratulSingularitySpike",
         "cooldown": 12,
         "manaCost": 70,
-        "icon": "storm_ui_icon_zeratul_singularityspike.png",
         "type": "basic"
       },
       {
@@ -78,7 +76,6 @@
         "tooltipId": "ZeratulBlink",
         "cooldown": 10,
         "manaCost": 50,
-        "icon": "storm_ui_icon_zeratul_blink.png",
         "type": "basic"
       },
       {
@@ -90,7 +87,6 @@
         "tooltipId": "ZeratulMightOfTheNerazimPassive",
         "cooldown": 20,
         "manaCost": 30,
-        "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
         "type": "heroic"
       },
       {
@@ -102,7 +98,6 @@
         "tooltipId": "ZeratulVoidPrison",
         "cooldown": 100,
         "manaCost": 80,
-        "icon": "storm_ui_icon_zeratul_voidprison.png",
         "type": "heroic"
       },
       {
@@ -112,7 +107,6 @@
         "trait": true,
         "abilityId": "Zeratul|D1",
         "tooltipId": "ZeratulPermanentCloak",
-        "icon": "storm_ui_icon_zeratul_cloak.png",
         "type": "trait"
       },
       {
@@ -123,7 +117,6 @@
         "abilityId": "Zeratul|11",
         "tooltipId": "ZeratulVorpalBladeHotbar",
         "cooldown": 15,
-        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
         "type": "activable"
       }
     ]
@@ -135,9 +128,9 @@
         "talentTreeId": "ZeratulMasteryGreaterCleaveCleave",
         "name": "Greater Cleave",
         "description": "Increases the radius of Cleave by 33%.",
-        "icon": "storm_ui_icon_zeratul_cleave.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Zeratul|Q1",
         "abilityLinks": [
           "Zeratul|Q1"
@@ -151,7 +144,6 @@
         "talentTreeId": "ZeratulShadowHunter",
         "name": "Shadow Hunter",
         "description": "Quest: Gather Regeneration Globes to lower the Mana cost of Blink by 3, up to 45.  Reward: Upon gathering 15 Regeneration Globes, Basic Attacks reduce the cooldown of Blink by 1.5 seconds.",
-        "icon": "storm_ui_icon_zeratul_blink.png",
         "type": "E",
         "sort": 2,
         "isQuest": true,
@@ -168,9 +160,9 @@
         "talentTreeId": "ZeratulMoveUnseen",
         "name": "Move Unseen",
         "description": "Reduce the cooldown of Permanent Cloak by 1 second. Gain 30% Movement Speed while Stealthed.",
-        "icon": "storm_ui_icon_zeratul_cloak.png",
         "type": "Trait",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Zeratul|D1",
         "abilityLinks": [
           "Zeratul|D1"
@@ -186,9 +178,9 @@
         "talentTreeId": "ZeratulRendingCleave",
         "name": "Rending Cleave",
         "description": "Cleave deals an additional 40% damage over 3 seconds.",
-        "icon": "storm_ui_icon_zeratul_cleave.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Zeratul|Q1",
         "abilityLinks": [
           "Zeratul|Q1"
@@ -202,9 +194,9 @@
         "talentTreeId": "ZeratulPsionicStrength",
         "name": "Psionic Strength",
         "description": "Dealing damage to enemy Heroes increases all damage dealt by 6% for 3 seconds, stacking up to 30%.",
-        "icon": "storm_ui_icon_talent_abilitytalent_damage.png",
         "type": "Passive",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Zeratul|Passive"
       },
       {
@@ -212,11 +204,15 @@
         "talentTreeId": "ZeratulDarknessDescends",
         "name": "Darkness Descends",
         "description": "Activate to gain 40% Attack Speed for 5 seconds.  Passive: Gain 20% Attack Speed.",
-        "icon": "storm_ui_icon_zeratul_shadowassault.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Zeratul|Active"
+        "isQuest": false,
+        "abilityId": "Zeratul|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "ZeratulDarknessDescendsActive"
+        ]
       }
     ],
     "7": [
@@ -225,9 +221,9 @@
         "talentTreeId": "ZeratulWormhole",
         "name": "Wormhole",
         "description": "After 1.25 seconds, reactivate Blink to return to the point where it was cast from within 4 seconds.",
-        "icon": "storm_ui_icon_zeratul_blink.png",
         "type": "E",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Zeratul|E1",
         "abilityLinks": [
           "Zeratul|E1"
@@ -241,9 +237,9 @@
         "talentTreeId": "ZeratulSeekerInTheDark",
         "name": "Seeker in the Dark",
         "description": "Singularity Spike takes 50% longer to explode. It can be reactivated to teleport to the target, granting 30% increased Move Speed for 3 seconds.",
-        "icon": "storm_ui_icon_zeratul_singularityspike.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Zeratul|W1",
         "abilityLinks": [
           "Zeratul|W1"
@@ -257,9 +253,9 @@
         "talentTreeId": "ZeratulWarpSkirmisherTalent",
         "name": "Warp Skirmisher",
         "description": "Vorpal Blade gains a 2nd charge. Teleporting to an enemy with Vorpal Blade or entering Permanent Cloak causes Zeratul's next Basic Attack to deal 50% more damage.",
-        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Zeratul|Passive",
         "abilityLinks": [
           "Zeratul|11"
@@ -275,9 +271,10 @@
         "talentTreeId": "ZeratulMightOfTheNerazim",
         "name": "Might Of The Nerazim",
         "description": "Activate to cast an untalented version of Zeratul's most recently used Basic Ability, dealing 50% less damage.  Passive: After using an Ability, Zeratul's next Basic Attack within 6 seconds deals 30% more damage.",
-        "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
         "type": "Heroic",
         "sort": 1,
+        "cooldown": 20,
+        "isQuest": false,
         "abilityId": "Zeratul|R1",
         "abilityLinks": [
           "Zeratul|R1"
@@ -291,10 +288,10 @@
         "talentTreeId": "ZeratulHeroicAbilityVoidPrison",
         "name": "Void Prison",
         "description": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for 5 seconds. Zeratul is not affected.",
-        "icon": "storm_ui_icon_zeratul_voidprison.png",
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
+        "isQuest": false,
         "abilityId": "Zeratul|R2",
         "abilityLinks": [
           "Zeratul|R2"
@@ -310,9 +307,9 @@
         "talentTreeId": "ZeratulShroudofAdun",
         "name": "Shroud of Adun",
         "description": "Zeratul gains a Shield equal to 20% of his Maximum Health over 3 seconds while under Permanent Cloak.",
-        "icon": "storm_ui_icon_zeratul_cloak.png",
         "type": "Trait",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Zeratul|D1",
         "abilityLinks": [
           "Zeratul|D1"
@@ -326,9 +323,9 @@
         "talentTreeId": "ZeratulMendingStrikes",
         "name": "Mending Strikes",
         "description": "Basic Attacks heal for 35% of the damage dealt.",
-        "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "type": "Passive",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Zeratul|Passive"
       },
       {
@@ -336,9 +333,9 @@
         "talentTreeId": "GenericTalentSpellShield",
         "name": "Spell Shield",
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
-        "icon": "storm_ui_icon_talent_spellshield.png",
         "type": "Active",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Zeratul|Active"
       }
     ],
@@ -348,9 +345,9 @@
         "talentTreeId": "ZeratulMasterWarpBlade",
         "name": "Master Warp-Blade",
         "description": "Every third consecutive Basic Attack against the same target deals 125% more damage.",
-        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Zeratul|Passive",
         "abilityLinks": [
           "Zeratul|D1"
@@ -364,9 +361,9 @@
         "talentTreeId": "ZeratulVoidSlash",
         "name": "Void Slash",
         "description": "If Cleave hits more than one enemy Hero, it deals 40% increased damage and its cooldown is reduced by 3 seconds.",
-        "icon": "storm_ui_icon_zeratul_cleave.png",
         "type": "Q",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Zeratul|Q1",
         "abilityLinks": [
           "Zeratul|Q1"
@@ -380,9 +377,9 @@
         "talentTreeId": "ZeratulSentencedtoDeath",
         "name": "Sentenced to Death",
         "description": "Deal 25% increased damage to enemies while they are marked or Slowed by Singularity Spike.",
-        "icon": "storm_ui_icon_zeratul_singularityspike.png",
         "type": "W",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Zeratul|W1",
         "abilityLinks": [
           "Zeratul|W1"
@@ -398,16 +395,15 @@
         "talentTreeId": "ZeratulTwilightFalls",
         "name": "Twilight Falls",
         "description": "Might of the Nerazim resets the cooldown of all Basic Abilities.",
-        "icon": "storm_ui_icon_zeratul_mightofnerazim.png",
         "type": "Heroic",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Zeratul|R1",
         "abilityLinks": [
           "Zeratul|R1"
         ],
         "abilityTalentLinkIds": [
-          "ZeratulMightOfTheNerazimDummy",
-          "ZeratulMightOfTheNerazim"
+          "ZeratulMightOfTheNerazimDummy"
         ],
         "prerequisiteTalentIds": [
           "ZeratulMightOfTheNerazim"
@@ -418,9 +414,9 @@
         "talentTreeId": "ZeratulUnwaveringPressure",
         "name": "Unwavering Pressure",
         "description": "Singularity Spike no longer costs Mana. Basic Attacks against enemies reduce its cooldown by 1.25 seconds, double versus Heroes.",
-        "icon": "storm_ui_icon_zeratul_singularityspike.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Zeratul|W1",
         "abilityLinks": [
           "Zeratul|W1"
@@ -434,9 +430,9 @@
         "talentTreeId": "ZeratulShadowStrideTalent",
         "name": "Shadow Stride",
         "description": "Reduce the cooldown of Vorpal Blade by 10 seconds. Casting Vorpal Blade grants Zeratul a Shield that absorbs up to 260 (+4% per level) damage for 3 seconds.",
-        "icon": "storm_ui_icon_zeratul_vorpalblade.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Zeratul|Passive",
         "abilityLinks": [
           "Zeratul|11"
@@ -450,9 +446,9 @@
         "talentTreeId": "ZeratulShadowMending",
         "name": "Shadow Mending",
         "description": "Heal for 60% of Spell Damage dealt to Heroes.",
-        "icon": "storm_ui_icon_talent_abilitytalent_heal.png",
         "type": "Passive",
         "sort": 4,
+        "isQuest": false,
         "abilityId": "Zeratul|Passive"
       }
     ]

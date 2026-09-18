@@ -47,7 +47,6 @@
         "tooltipId": "AlarakDiscordStrike",
         "cooldown": 8,
         "manaCost": 55,
-        "icon": "storm_ui_icon_alarak_discordstrike.png",
         "type": "basic"
       },
       {
@@ -59,7 +58,6 @@
         "tooltipId": "AlarakTelekinesis",
         "cooldown": 12,
         "manaCost": 30,
-        "icon": "storm_ui_icon_alarak_telekinesis.png",
         "type": "basic"
       },
       {
@@ -71,7 +69,6 @@
         "tooltipId": "AlarakLightningSurge",
         "cooldown": 6,
         "manaCost": 25,
-        "icon": "storm_ui_icon_alarak_lightningsurge.png",
         "type": "basic"
       },
       {
@@ -83,7 +80,6 @@
         "tooltipId": "AlarakDeadlyCharge",
         "cooldown": 45,
         "manaCost": 60,
-        "icon": "storm_ui_icon_alarak_recklesscharge.png",
         "type": "heroic"
       },
       {
@@ -95,7 +91,6 @@
         "tooltipId": "AlarakCounterStrikeTargeted",
         "cooldown": 30,
         "manaCost": 50,
-        "icon": "storm_ui_icon_alarak_counterstrike.png",
         "type": "heroic"
       },
       {
@@ -105,7 +100,6 @@
         "trait": true,
         "abilityId": "Alarak|D1",
         "tooltipId": "AlarakSadism",
-        "icon": "storm_ui_icon_alarak_sadism.png",
         "type": "trait"
       }
     ]
@@ -117,9 +111,9 @@
         "talentTreeId": "AlarakOverwhelmingPowerDiscordStrike",
         "name": "Overwhelming Power",
         "description": "Hitting an enemy Hero with Discord Strike grants 40% Attack Speed and causes Basic Attacks to heal for 15% of the damage dealt, increased by 50% of Sadism's bonus when hitting Heroes. These effects last for 4 seconds.",
-        "icon": "storm_ui_icon_alarak_discordstrike.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Alarak|Q1",
         "abilityLinks": [
           "Alarak|Q1"
@@ -133,9 +127,9 @@
         "talentTreeId": "AlarakRuthlessMomentum",
         "name": "Ruthless Momentum",
         "description": "Reduce the Mana cost of Telekinesis from 30 to 20. Telekinesis's cooldown recharges 100% faster while above 80% Health.",
-        "icon": "storm_ui_icon_alarak_telekinesis.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alarak|W1",
         "abilityLinks": [
           "Alarak|D1",
@@ -143,9 +137,9 @@
         ],
         "abilityTalentLinkIds": [
           "AlarakTelekinesis",
-          "AlarakDeadlyChargeActivate2ndHeroic",
+          "AlarakSadism",
           "AlarakCounterStrikeTargeted2ndHeroic",
-          "AlarakSadism"
+          "AlarakDeadlyChargeActivate2ndHeroic"
         ]
       },
       {
@@ -153,7 +147,6 @@
         "talentTreeId": "AlarakExtendedLightning",
         "name": "Extended Lightning",
         "description": "Reduce Sadism by 10%.  Quest: Hit Heroes with the center of Lightning Surge.  Reward: After hitting 5 Heroes, increase Lightning Surge's range by 20%.  Reward: After hitting 15 Heroes, Lightning Surge's center also Slows enemies by 40% for 2 seconds.  Reward: After hitting 3 Heroes with the center of a single cast, increase Sadism by 10% and instantly gain all other Rewards.",
-        "icon": "storm_ui_icon_alarak_lightningsurge.png",
         "type": "E",
         "sort": 3,
         "isQuest": true,
@@ -162,8 +155,8 @@
           "Alarak|E1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakLightningSurgeLightningBarrage",
-          "AlarakLightningSurge"
+          "AlarakLightningSurge",
+          "AlarakLightningSurgeLightningBarrage"
         ]
       }
     ],
@@ -173,7 +166,6 @@
         "talentTreeId": "AlarakChaosReigns",
         "name": "Chaos Reigns",
         "description": "Quest: Hit Heroes with Discord Strike.  Reward: After hitting 15 Heroes, increase Discord Strike's damage by 60.  Reward: After hitting 2 Heroes with a single Discord Strike, increase its damage by 60.  Reward: After hitting 3 Heroes with a single Discord Strike, increase its damage by 100 and instantly gain all other Rewards.",
-        "icon": "storm_ui_icon_alarak_discordstrike.png",
         "type": "Q",
         "sort": 1,
         "isQuest": true,
@@ -190,7 +182,6 @@
         "talentTreeId": "AlarakNegativelyCharged",
         "name": "Negatively Charged",
         "description": "Increase the Lightning Surge damage bonus to enemies between Alarak and his victim to 175%.  Repeatable Quest: Each Hero hit by the center of Lightning Surge permanently increases the damage bonus by 5%.",
-        "icon": "storm_ui_icon_alarak_lightningsurge.png",
         "type": "E",
         "sort": 2,
         "isQuest": true,
@@ -199,8 +190,8 @@
           "Alarak|E1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakLightningSurgeLightningBarrage",
-          "AlarakLightningSurge"
+          "AlarakLightningSurge",
+          "AlarakLightningSurgeLightningBarrage"
         ]
       },
       {
@@ -208,17 +199,17 @@
         "talentTreeId": "AlarakShowofForce",
         "name": "Show of Force",
         "description": "Heroes hit with 3 of Alarak's Abilities within 2 seconds take an additional 61 (+4% per level) damage and increase Sadism by 2%, stacking up to 20%.  Sadism gained from Show of Force is lost on death.",
-        "icon": "storm_ui_icon_alarak_sadism.png",
         "type": "Trait",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Alarak|D1",
         "abilityLinks": [
           "Alarak|D1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakDeadlyChargeActivate2ndHeroic",
+          "AlarakSadism",
           "AlarakCounterStrikeTargeted2ndHeroic",
-          "AlarakSadism"
+          "AlarakDeadlyChargeActivate2ndHeroic"
         ]
       }
     ],
@@ -228,9 +219,9 @@
         "talentTreeId": "AlarakDissonance",
         "name": "Dissonance",
         "description": "Increase Discord Strike's Silence duration by 0.75 seconds.",
-        "icon": "storm_ui_icon_alarak_discordstrike.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Alarak|Q1",
         "abilityLinks": [
           "Alarak|Q1"
@@ -244,9 +235,9 @@
         "talentTreeId": "AlarakHinderedMotion",
         "name": "Hindered Motion",
         "description": "Telekinesis Slows enemies by 30% for 3 seconds.",
-        "icon": "storm_ui_icon_alarak_telekinesis_a.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alarak|W1",
         "abilityLinks": [
           "Alarak|W1"
@@ -260,9 +251,9 @@
         "talentTreeId": "AlarakAppliedForce",
         "name": "Applied Force",
         "description": "Reduce Sadism by 10%, but Telekinesis pushes 15% further and has 15% increased range.",
-        "icon": "storm_ui_icon_alarak_telekinesis.png",
         "type": "W",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Alarak|W1",
         "abilityLinks": [
           "Alarak|W1"
@@ -278,10 +269,10 @@
         "talentTreeId": "AlarakDeadlyChargeFirstHeroic",
         "name": "Deadly Charge",
         "description": "After channeling, Alarak charges forward dealing 200 (+4% per level) damage to all enemies in his path. Distance is increased based on the amount of time channeled, up to 1.5 seconds.  Issuing a Move order while this is channeling will cancel it at no cost. Taking damage will interrupt the channeling.",
-        "icon": "storm_ui_icon_alarak_recklesscharge.png",
         "type": "Heroic",
         "sort": 1,
         "cooldown": 45,
+        "isQuest": false,
         "abilityId": "Alarak|R1",
         "abilityLinks": [
           "Alarak|R1"
@@ -295,10 +286,10 @@
         "talentTreeId": "AlarakHeroicAbilityCounterStrike",
         "name": "Counter-Strike",
         "description": "Alarak targets an area and channels for 1 second, becoming Protected and Unstoppable. After, if he took damage from an enemy Hero, he sends a shockwave that deals 275 (+4% per level) damage.",
-        "icon": "storm_ui_icon_alarak_counterstrike.png",
         "type": "Heroic",
         "sort": 2,
         "cooldown": 30,
+        "isQuest": false,
         "abilityId": "Alarak|R2",
         "abilityLinks": [
           "Alarak|R2"
@@ -314,17 +305,17 @@
         "talentTreeId": "AlarakBladeoftheHighlord",
         "name": "Blade of the Highlord",
         "description": "Basic Attacks against Heroes increase Sadism by 2% stacking up to 40%.  Sadism gained from Blade of the Highlord is lost on death.",
-        "icon": "storm_ui_icon_alarak_sadism.png",
         "type": "Trait",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Alarak|D1",
         "abilityLinks": [
           "Alarak|D1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakDeadlyChargeActivate2ndHeroic",
+          "AlarakSadism",
           "AlarakCounterStrikeTargeted2ndHeroic",
-          "AlarakSadism"
+          "AlarakDeadlyChargeActivate2ndHeroic"
         ]
       },
       {
@@ -332,17 +323,17 @@
         "talentTreeId": "AlarakPureMalice",
         "name": "Pure Malice",
         "description": "Increase Sadism by 10% any time an allied Hero dies, up to 40%.  Sadism gained from Pure Malice is lost on death.",
-        "icon": "storm_ui_icon_alarak_sadism_a.png",
         "type": "Trait",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alarak|D1",
         "abilityLinks": [
           "Alarak|D1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakDeadlyChargeActivate2ndHeroic",
+          "AlarakSadism",
           "AlarakCounterStrikeTargeted2ndHeroic",
-          "AlarakSadism"
+          "AlarakDeadlyChargeActivate2ndHeroic"
         ]
       },
       {
@@ -350,10 +341,14 @@
         "talentTreeId": "AlarakRiteofRakShir",
         "name": "Rite of Rak'Shir",
         "description": "Activate to mark an enemy Hero for 300 seconds.  Hitting the marked Hero with Discord Strike increases Sadism by 3%. Killing the marked Hero increases Sadism by 5% and lowers the cooldown of Rite of Rak'Shir to 10 seconds.  Sadism gained from Rite of Rak'Shir is lost on death.",
-        "icon": "storm_ui_icon_alarak_sadism_b.png",
         "type": "Trait",
         "sort": 3,
-        "cooldown": 300
+        "cooldown": 300,
+        "isQuest": false,
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "AlarakRiteofRakShir"
+        ]
       }
     ],
     "16": [
@@ -362,9 +357,9 @@
         "talentTreeId": "AlarakLethalOnslaughtDiscordStrike",
         "name": "Lethal Onslaught",
         "description": "Hitting an enemy Hero with Discord Strike grants 50% of Sadism's damage bonus to Alarak's Basic Attacks for 4 seconds. Basic Attacks against Heroes refresh this duration.",
-        "icon": "storm_ui_icon_alarak_discordstrike.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Alarak|Q1",
         "abilityLinks": [
           "Alarak|Q1"
@@ -378,16 +373,16 @@
         "talentTreeId": "AlarakLightningBarrage",
         "name": "Lightning Barrage",
         "description": "Hitting an enemy Hero with the center of Lightning Surge allows it to be cast again for free on a different primary target within the next 3 seconds. This free cast cannot benefit from Lightning Barrage.",
-        "icon": "storm_ui_icon_alarak_lightningsurge.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alarak|E1",
         "abilityLinks": [
           "Alarak|E1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakLightningSurgeLightningBarrage",
-          "AlarakLightningSurge"
+          "AlarakLightningSurge",
+          "AlarakLightningSurgeLightningBarrage"
         ]
       },
       {
@@ -395,17 +390,17 @@
         "talentTreeId": "AlarakMockingStrikes",
         "name": "Mocking Strikes",
         "description": "Basic Attacks against enemy Heroes reduce the cooldown of Alarak's Basic Abilities by 1.5 seconds. This bonus is doubled against enemy Heroes who are Stunned, Silenced, Slowed, or Rooted.",
-        "icon": "storm_ui_icon_talent_autoattack_cooldown.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Alarak|Passive",
         "abilityLinks": [
           "Alarak|D1"
         ],
         "abilityTalentLinkIds": [
-          "AlarakDeadlyChargeActivate2ndHeroic",
+          "AlarakSadism",
           "AlarakCounterStrikeTargeted2ndHeroic",
-          "AlarakSadism"
+          "AlarakDeadlyChargeActivate2ndHeroic"
         ]
       }
     ],
@@ -415,41 +410,60 @@
         "talentTreeId": "AlarakWrathOfTheHighlord",
         "name": "Wrath of the Highlord",
         "description": "If Deadly Charge was the selected Heroic, Heroes hit by Deadly Charge take bonus damage from Alarak's Abilities equal to 75% of Sadism's bonus damage for 4 seconds.  If Counter-Strike was the selected Heroic, its cooldown is reduced by 2.5 seconds for each enemy Hero hit by Alarak's Basic Abilities.",
-        "icon": "storm_ui_icon_alarak_sadism.png",
         "type": "Heroic",
-        "sort": 1
+        "sort": 1,
+        "isQuest": false,
+        "abilityId": "Alarak|R2",
+        "abilityLinks": [
+          "Alarak|R2"
+        ],
+        "abilityTalentLinkIds": [
+          "AlarakCounterStrikeTargeted"
+        ]
       },
       {
         "tooltipId": "AlarakMightOfTheHighlord",
         "talentTreeId": "AlarakMightOfTheHighlord",
         "name": "Might of the Highlord",
         "description": "Alarak gains access to both of his Heroic Abilities. This can be activated to change which Ability occupies the Heroic slot, with the other Ability using the Trait slot.",
-        "icon": "storm_ui_icon_alarak_sadism_a.png",
         "type": "Active",
         "sort": 2,
-        "abilityId": "Alarak|Active"
+        "isQuest": false,
+        "abilityId": "Alarak|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "AlarakMightOfTheHighlordSetDeadlyChargeAsHeroic"
+        ]
       },
       {
         "tooltipId": "AlarakLastLaugh",
         "talentTreeId": "AlarakLastLaugh",
         "name": "Last Laugh",
         "description": "Activate to teleport to the chosen location and remove all Roots, Slows, and damage over time effects. If Alarak fails to hit enemy Heroes 3 times with Basic Abilities within 4 seconds of using Last Laugh, his Health is reduced to 1.",
-        "icon": "storm_ui_icon_alarak_lasttrick.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 30,
-        "abilityId": "Alarak|Active"
+        "isQuest": false,
+        "abilityId": "Alarak|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "AlarakLastLaugh"
+        ]
       },
       {
         "tooltipId": "AlarakHastyBargain",
         "talentTreeId": "AlarakHastyBargain",
         "name": "Hasty Bargain",
         "description": "Activate to permanently reduce Alarak's Sadism by 4% and reset the cooldowns of his Basic Abilities.",
-        "icon": "storm_ui_icon_alarak_hastybargain.png",
         "type": "Active",
         "sort": 4,
         "cooldown": 20,
-        "abilityId": "Alarak|Active"
+        "isQuest": false,
+        "abilityId": "Alarak|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "AlarakHastyBargain"
+        ]
       }
     ]
   },

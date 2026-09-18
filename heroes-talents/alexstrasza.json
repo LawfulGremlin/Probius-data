@@ -23,7 +23,7 @@
   ],
   "stats": {
     "hp": 1698,
-    "hpRegen": 8.84375,
+    "hpRegen": 8.8438,
     "hpScale": 0.04,
     "hpRegenScale": 0.04,
     "resource": 500,
@@ -39,23 +39,20 @@
     "AlexstraszaDragon": {
       "stats": {
         "hp": 1698,
-        "hpRegen": 8.84375,
+        "hpRegen": 8.8438,
         "hpScale": 0.04,
         "hpRegenScale": 0.04,
         "resource": 500,
+        "resourceType": "Mana",
         "resourceRegen": 3,
         "attackDamage": 143,
         "attackDamageScale": 0.04,
         "attackRange": 9,
         "attackSpeed": 0.8,
         "radius": 1.25
-      },
-      "portrait": "storm_ui_ingame_partyframe_alexstrasza.png"
+      }
     }
   },
-  "unitIds": [
-    "AlexstraszaLifeblossomGiftOfLife"
-  ],
   "abilities": {
     "Alexstrasza": [
       {
@@ -66,7 +63,6 @@
         "abilityId": "Alexstrasza|Q1",
         "tooltipId": "AlexstraszaGiftOfLife",
         "cooldown": 7,
-        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
         "type": "basic"
       },
       {
@@ -78,7 +74,6 @@
         "tooltipId": "AlexstraszaAbundance",
         "cooldown": 14,
         "manaCost": 75,
-        "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "basic"
       },
       {
@@ -90,7 +85,6 @@
         "tooltipId": "AlexstraszaFlameBuffet",
         "cooldown": 2,
         "manaCost": 50,
-        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "type": "basic"
       },
       {
@@ -102,7 +96,6 @@
         "tooltipId": "AlexstraszaLifebinder",
         "cooldown": 50,
         "manaCost": 50,
-        "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "type": "heroic"
       },
       {
@@ -114,7 +107,6 @@
         "tooltipId": "AlexstraszaCleansingFlame",
         "cooldown": 100,
         "manaCost": 100,
-        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "type": "heroic"
       },
       {
@@ -126,11 +118,51 @@
         "abilityId": "Alexstrasza|D1",
         "tooltipId": "AlexstraszaDragonqueen",
         "cooldown": 130,
-        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
         "type": "trait"
       }
     ],
     "AlexstraszaDragon": [
+      {
+        "uid": "60a035",
+        "name": "Cleansing Flame",
+        "description": "Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+        "hotkey": "R",
+        "abilityId": "Alexstrasza|R3",
+        "tooltipId": "AlexstraszaCleansingFlameDragonqueen",
+        "cooldown": 100,
+        "manaCost": 100,
+        "type": "heroic"
+      },
+      {
+        "uid": "fed633",
+        "name": "Life Unbound",
+        "description": "Activate to heal an allied Hero for 15% of their maximum Health and deal 200 (+4% per level) damage to nearby enemies.  Healing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by 30 seconds.  Cannot be used on Alexstrasza.",
+        "hotkey": "1",
+        "abilityId": "Alexstrasza|11",
+        "tooltipId": "AlexstraszaLifeUnbound",
+        "cooldown": 90,
+        "type": "activable"
+      },
+      {
+        "uid": "5cbe62",
+        "name": "Pacify",
+        "description": "Activate to Slow and reduce an enemy Hero's damage by 50% for 3 seconds.  Healing a Stunned, Rooted, or Silenced ally reduces Pacify's cooldown by 30 seconds.",
+        "hotkey": "2",
+        "abilityId": "Alexstrasza|21",
+        "tooltipId": "AlexstraszaPacify",
+        "cooldown": 60,
+        "type": "activable"
+      },
+      {
+        "uid": "85e240",
+        "name": "Blessing of the Red",
+        "description": "Activate to grant an allied Hero 500 bonus maximum Health until they die.  Cannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red.",
+        "hotkey": "3",
+        "abilityId": "Alexstrasza|31",
+        "tooltipId": "AlexstraszaBlessingOfTheRed",
+        "cooldown": 40,
+        "type": "activable"
+      },
       {
         "uid": "8a1ec5",
         "name": "Breath of Life",
@@ -139,7 +171,6 @@
         "abilityId": "Alexstrasza|Q2",
         "tooltipId": "AlexstraszaBreathOfLife",
         "cooldown": 3,
-        "icon": "storm_ui_icon_alexstrasza_breath_of_life.png",
         "type": "basic"
       },
       {
@@ -150,7 +181,6 @@
         "abilityId": "Alexstrasza|W2",
         "tooltipId": "AlexstraszaPreservation",
         "cooldown": 16,
-        "icon": "storm_ui_icon_alexstrasza_preservation.png",
         "type": "basic"
       },
       {
@@ -161,7 +191,6 @@
         "abilityId": "Alexstrasza|E2",
         "tooltipId": "AlexstraszaWingBuffet",
         "cooldown": 4,
-        "icon": "storm_ui_icon_alexstrasza_wing_buffet.png",
         "type": "basic"
       },
       {
@@ -171,20 +200,16 @@
         "trait": true,
         "abilityId": "Alexstrasza|D2",
         "tooltipId": "AlexstraszaDragonqueenDragonFormPassive",
-        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
         "type": "trait"
       },
       {
-        "uid": "60a035",
-        "name": "Cleansing Flame",
-        "description": "Take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
-        "hotkey": "R",
-        "abilityId": "Alexstrasza|R4",
-        "tooltipId": "AlexstraszaCleansingFlameDragonqueen",
-        "cooldown": 100,
-        "manaCost": 100,
-        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
-        "type": "heroic"
+        "uid": "c2f8ab",
+        "name": "Dragon Scales",
+        "description": "Gain 50 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
+        "abilityId": "Alexstrasza|22",
+        "tooltipId": "AlexstraszaDragonScales",
+        "cooldown": 10,
+        "type": "activable"
       }
     ]
   },
@@ -195,17 +220,17 @@
         "talentTreeId": "AlexstraszaLiveAndLetLiveGiftOfLife",
         "name": "Live and Let Live",
         "description": "While above 75% Health, Gift of Life's cooldown recharges 125% faster.  Dragonqueen: While above 75% Health, Breath of Life's cooldown recharges 25% faster.",
-        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Alexstrasza|Q1",
+        "isQuest": false,
+        "abilityId": "Alexstrasza|Q2",
         "abilityLinks": [
           "Alexstrasza|Q1",
           "Alexstrasza|Q2"
         ],
         "abilityTalentLinkIds": [
-          "AlexstraszaGiftOfLife",
-          "AlexstraszaBreathOfLife"
+          "AlexstraszaBreathOfLife",
+          "AlexstraszaGiftOfLife"
         ]
       },
       {
@@ -213,7 +238,6 @@
         "talentTreeId": "AlexstraszaCircleOfLifeAbundance",
         "name": "Circle of Life",
         "description": "Quest: Collect Regeneration Globes.  Reward: After collecting 10 Regeneration Globes, Abundance heals for an additional 5% maximum Health.  Reward: After collecting 15 Regeneration Globes, Abundance's healing burst creates a Regeneration Globe.",
-        "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "W",
         "sort": 2,
         "isQuest": true,
@@ -231,8 +255,7 @@
         "tooltipId": "AlexstraszaFlamesOfFuryFlameBuffet",
         "talentTreeId": "AlexstraszaFlamesOfFuryFlameBuffet",
         "name": "Flames of Fury",
-        "description": "Reduce the Mana cost of Flame Buffet from 50 to 50.  Quest: Hit Burning enemy Heroes with Flame Buffet. 20 hits unlocks a Mythic Quest.  Reward: After hitting 20 Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by 6 seconds.  Mythic Quest: After hitting 40 more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
-        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
+        "description": "Reduce the Mana cost of Flame Buffet from 50 to 40.  Quest: Hit Burning enemy Heroes with Flame Buffet. 20 hits unlocks a Mythic Quest.  Reward: After hitting 20 Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by 6 seconds.  Mythic Quest: After hitting 30 more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
         "type": "E",
         "sort": 3,
         "isQuest": true,
@@ -251,9 +274,9 @@
         "talentTreeId": "AlexstraszaSurgeOfVitalityAbundance",
         "name": "Surge of Vitality",
         "description": "Abundance's healing burst grants allied Heroes 30% Movement Speed for 3 seconds.",
-        "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "W",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Alexstrasza|W1",
         "abilityLinks": [
           "Alexstrasza|W1",
@@ -269,9 +292,9 @@
         "talentTreeId": "AlexstraszaHeatExhaustionFlameBuffet",
         "name": "Heat Exhaustion",
         "description": "Increase Flame Buffet's Slow from 40% to 50% and cause it to no longer decay.",
-        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alexstrasza|E1",
         "abilityLinks": [
           "Alexstrasza|E1"
@@ -285,9 +308,9 @@
         "talentTreeId": "AlexstraszaExuberance",
         "name": "Exuberance",
         "description": "While above 75% Health, gain 15% Movement Speed.",
-        "icon": "storm_ui_icon_alexstrasza_exuberance.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Alexstrasza|Passive"
       }
     ],
@@ -297,17 +320,17 @@
         "talentTreeId": "AlexstraszaLifeblossomGiftOfLife",
         "name": "Lifeblossom",
         "description": "While above 75% Health, casting Gift of Life creates a Lifeblossom at the target's location, Breath of Life instead removes Slows and Roots from the target.  After collecting a Lifeblossom, the next Gift of Life costs no Health.  Passive: Reduces the cost of Gift of Life to 10% of Alexstrasza's current Health.",
-        "icon": "storm_ui_icon_alexstrasza_life_blossom.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Alexstrasza|Q1",
+        "isQuest": false,
+        "abilityId": "Alexstrasza|Q2",
         "abilityLinks": [
           "Alexstrasza|Q1",
           "Alexstrasza|Q2"
         ],
         "abilityTalentLinkIds": [
-          "AlexstraszaGiftOfLife",
-          "AlexstraszaBreathOfLife"
+          "AlexstraszaBreathOfLife",
+          "AlexstraszaGiftOfLife"
         ]
       },
       {
@@ -315,9 +338,9 @@
         "talentTreeId": "AlexstraszaVerdantFlourishAbundance",
         "name": "Verdant Flourish",
         "description": "Alexstrasza receives 40% more healing from Abundance and 100% more healing from Regeneration Globes.",
-        "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alexstrasza|W1",
         "abilityLinks": [
           "Alexstrasza|W1",
@@ -333,9 +356,9 @@
         "talentTreeId": "AlexstraszaFireWithinFlameBuffet",
         "name": "Fire Within",
         "description": "Hitting a Burning Hero with Flame Buffet heals Alexstrasza for 10% of her maximum Health.",
-        "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
         "type": "E",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Alexstrasza|E1",
         "abilityLinks": [
           "Alexstrasza|E1"
@@ -351,35 +374,26 @@
         "talentTreeId": "AlexstraszaLifebinder",
         "name": "Life-Binder",
         "description": "Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for 480 (+4% per level) Health over 2 seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.  Dragonqueen: Cast range increased by 45%.",
-        "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "type": "Heroic",
         "sort": 1,
         "cooldown": 50,
-        "abilityId": "Alexstrasza|R1",
-        "abilityLinks": [
-          "Alexstrasza|R1"
-        ],
-        "abilityTalentLinkIds": [
-          "AlexstraszaLifebinder"
-        ]
+        "isQuest": false
       },
       {
         "tooltipId": "AlexstraszaCleansingFlame",
         "talentTreeId": "AlexstraszaCleansingFlame",
         "name": "Cleansing Flame",
         "description": "After 1.25 seconds, take to the sky and drop 5 fireballs over 6 seconds at the position of the mouse cursor. Fireballs deal 135 (+4% per level) damage to enemies and heal allied Heroes for 300 (+4% per level) Health.  2 seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
-        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "type": "Heroic",
         "sort": 2,
         "cooldown": 100,
+        "isQuest": false,
         "abilityId": "Alexstrasza|R2",
         "abilityLinks": [
-          "Alexstrasza|R2",
-          "Alexstrasza|R4"
+          "Alexstrasza|R2"
         ],
         "abilityTalentLinkIds": [
-          "AlexstraszaCleansingFlame",
-          "AlexstraszaCleansingFlameDragonqueen"
+          "AlexstraszaCleansingFlame"
         ]
       }
     ],
@@ -389,9 +403,10 @@
         "talentTreeId": "AlexstraszaDragonScales",
         "name": "Dragon Scales",
         "description": "Gain 50 Armor while Stunned, Rooted, or Silenced, and for 2 seconds after. Can only trigger once every 10 seconds.",
-        "icon": "storm_ui_icon_alexstrasza_dragon_scales.png",
         "type": "Passive",
         "sort": 1,
+        "cooldown": 10,
+        "isQuest": false,
         "abilityId": "Alexstrasza|Passive"
       },
       {
@@ -399,22 +414,34 @@
         "talentTreeId": "AlexstraszaPacify",
         "name": "Pacify",
         "description": "Activate to Slow and reduce an enemy Hero's damage by 50% for 3 seconds.  Healing a Stunned, Rooted, or Silenced ally reduces Pacify's cooldown by 30 seconds.",
-        "icon": "storm_ui_icon_alexstrasza_pacify.png",
         "type": "Active",
         "sort": 2,
         "cooldown": 60,
-        "abilityId": "Alexstrasza|Active"
+        "isQuest": false,
+        "abilityId": "Alexstrasza|Active",
+        "abilityLinks": [
+          "Alexstrasza|21"
+        ],
+        "abilityTalentLinkIds": [
+          "AlexstraszaPacify"
+        ]
       },
       {
         "tooltipId": "AlexstraszaLifeUnbound",
         "talentTreeId": "AlexstraszaLifeUnbound",
         "name": "Life Unbound",
         "description": "Activate to heal an allied Hero for 15% of their maximum Health and deal 200 (+4% per level) damage to nearby enemies.  Healing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by 30 seconds.  Cannot be used on Alexstrasza.",
-        "icon": "storm_ui_icon_alexstrasza_life_unbound.png",
         "type": "Active",
         "sort": 3,
         "cooldown": 90,
-        "abilityId": "Alexstrasza|Active"
+        "isQuest": false,
+        "abilityId": "Alexstrasza|Active",
+        "abilityLinks": [
+          "Alexstrasza|11"
+        ],
+        "abilityTalentLinkIds": [
+          "AlexstraszaLifeUnbound"
+        ]
       }
     ],
     "16": [
@@ -423,17 +450,17 @@
         "talentTreeId": "AlexstraszaToughLoveGiftOfLife",
         "name": "Tough Love",
         "description": "Gift of Life grants its target 10 Armor for 2.5 seconds, increased to 30 while Alexstrasza is above 75% Health.",
-        "icon": "storm_ui_icon_alexstrasza_gift_of_life.png",
         "type": "Q",
         "sort": 1,
-        "abilityId": "Alexstrasza|Q1",
+        "isQuest": false,
+        "abilityId": "Alexstrasza|Q2",
         "abilityLinks": [
           "Alexstrasza|Q1",
           "Alexstrasza|Q2"
         ],
         "abilityTalentLinkIds": [
-          "AlexstraszaGiftOfLife",
-          "AlexstraszaBreathOfLife"
+          "AlexstraszaBreathOfLife",
+          "AlexstraszaGiftOfLife"
         ]
       },
       {
@@ -441,9 +468,9 @@
         "talentTreeId": "AlexstraszaOverprotectiveAbundance",
         "name": "Overprotective",
         "description": "Heroes healed by Abundance gain a Shield for 6 seconds equal to 70% of the amount healed.",
-        "icon": "storm_ui_icon_alexstrasza_abundance.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alexstrasza|W1",
         "abilityLinks": [
           "Alexstrasza|W1",
@@ -459,17 +486,17 @@
         "talentTreeId": "AlexstraszaDraconicDisciplineDragonqueen",
         "name": "Draconic Discipline",
         "description": "Increase Dragonqueen Basic Attack healing by  50%. For each allied Hero healed with Dragonqueen Basic Attacks, reduce Preservation's cooldown by 1.25 seconds.",
-        "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Alexstrasza|D1",
+        "isQuest": false,
+        "abilityId": "Alexstrasza|D2",
         "abilityLinks": [
           "Alexstrasza|D1",
           "Alexstrasza|D2"
         ],
         "abilityTalentLinkIds": [
-          "AlexstraszaDragonqueen",
-          "AlexstraszaDragonqueenDragonFormPassive"
+          "AlexstraszaDragonqueenDragonFormPassive",
+          "AlexstraszaDragonqueen"
         ]
       }
     ],
@@ -479,9 +506,9 @@
         "talentTreeId": "AlexstraszaRitualOfLife",
         "name": "Ritual of Life",
         "description": "Life-Binder activates 3 times over 6 seconds.",
-        "icon": "storm_ui_icon_alexstrasza_life_binder.png",
         "type": "Heroic",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Alexstrasza|R1",
         "abilityLinks": [
           "Alexstrasza|R1"
@@ -498,13 +525,13 @@
         "talentTreeId": "AlexstraszaOnRubyWingsCleansingFlame",
         "name": "On Ruby Wings",
         "description": "Healing or damaging 3 or more Heroes with a single Cleansing Flame fireball causes that fireball to not be consumed.",
-        "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
         "type": "Heroic",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Alexstrasza|R2",
         "abilityLinks": [
           "Alexstrasza|R2",
-          "Alexstrasza|R4"
+          "Alexstrasza|R3"
         ],
         "abilityTalentLinkIds": [
           "AlexstraszaCleansingFlame",
@@ -518,18 +545,18 @@
         "tooltipId": "AlexstraszaAncientFlameFlameBuffet",
         "talentTreeId": "AlexstraszaAncientFlameFlameBuffet",
         "name": "Ancient Flame",
-        "description": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant quest stacks.",
-        "icon": "storm_ui_icon_alexstrasza_dragon_queen_a.png",
+        "description": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant Quest stacks.  Passive: Dragonqueen grants 25% more maxium Health.",
         "type": "Trait",
         "sort": 3,
-        "abilityId": "Alexstrasza|D1",
+        "isQuest": false,
+        "abilityId": "Alexstrasza|D2",
         "abilityLinks": [
           "Alexstrasza|D1",
           "Alexstrasza|D2"
         ],
         "abilityTalentLinkIds": [
-          "AlexstraszaDragonqueen",
-          "AlexstraszaDragonqueenDragonFormPassive"
+          "AlexstraszaDragonqueenDragonFormPassive",
+          "AlexstraszaDragonqueen"
         ]
       },
       {
@@ -537,17 +564,23 @@
         "talentTreeId": "AlexstraszaBlessingOfTheRed",
         "name": "Blessing of the Red",
         "description": "Activate to grant an allied Hero 500 bonus maximum Health until they die.  Cannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red.",
-        "icon": "storm_ui_icon_alexstrasza_blessing_of_the_red.png",
         "type": "Active",
         "sort": 4,
         "cooldown": 40,
-        "abilityId": "Alexstrasza|Active"
+        "isQuest": false,
+        "abilityId": "Alexstrasza|Active",
+        "abilityLinks": [
+          "Alexstrasza|31"
+        ],
+        "abilityTalentLinkIds": [
+          "AlexstraszaBlessingOfTheRed"
+        ]
       }
     ]
   },
   "tooltipMarkup": {
     "AlexstraszaAbundance": "Plant a seed of healing that blooms after <c val=\"#TooltipNumbers\"><d ref=\"(Effect,AlexstraszaAbundanceCreatePersistent,PeriodCount) * Effect,AlexstraszaAbundanceCreatePersistent,PeriodicPeriodArray[0]\" precision=\"2\"/></c> seconds, healing nearby allied Heroes for <c val=\"#TooltipNumbers\"><d ref=\"100 * Effect,AlexstraszaAbundanceCreateHealer,RechargeVitalFraction\" player=\"0\"/>%</c> of their maximum Health.<n/><n/><c val=\"#ColorViolet\">Dragonqueen: Preservation</c><n/>Heal area and amount greatly increased.",
-    "AlexstraszaAncientFlameFlameBuffet": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant quest stacks.",
+    "AlexstraszaAncientFlameFlameBuffet": "While Dragonqueen is active, Alexstrasza's Basic Attacks apply Flame Buffet. This does not grant Quest stacks.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Dragonqueen grants <c val=\"#TooltipNumbers\"><d ref=\"Accumulator,AlexstraszaDragonqueenAncientFlameHealthAccumulator,Scale*100\"/>%</c> more maxium Health.",
     "AlexstraszaBlessingOfTheRed": "Activate to grant an allied Hero <c val=\"#TooltipNumbers\"><d ref=\"Behavior,AlexstraszaBlessingOfTheRed,Modification.VitalMaxArray[Life]\"/></c> bonus maximum Health until they die.<n/><n/>Cannot be used on Alexstrasza, or on a Hero who already has Blessing of the Red.",
     "AlexstraszaBreathOfLife": "Heal an allied Hero for <c val=\"#TooltipNumbers\"><d ref=\"100*Accumulator,AlexstraszaBreathOfLifeHealAccumulator,Ratio\"/>%</c> of Alexstrasza's current Health.<n/><n/>Breath of Life is also empowered by Gift of Life Talents.",
     "AlexstraszaCircleOfLifeAbundance": "<img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Collect Regeneration Globes.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After collecting <c val=\"#TooltipNumbers\"><d ref=\"Behavior,AlexstraszaCircleOfLifeAbundanceQuestToken,ConditionalEvents[0].CompareValue\"/></c> Regeneration Globes, Abundance heals for an additional <c val=\"#TooltipNumbers\"><d ref=\"100 * Effect,AlexstraszaCircleOfLifeModifyAbundanceHealing,CatalogModifications[0].Value\"/>%</c> maximum Health.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After collecting <c val=\"#TooltipNumbers\"><d ref=\"Behavior,AlexstraszaCircleOfLifeAbundanceQuestToken,Max\"/></c> Regeneration Globes, Abundance's healing burst creates a Regeneration Globe.",
@@ -560,7 +593,7 @@
     "AlexstraszaExuberance": "While above <c val=\"#TooltipNumbers\"><d ref=\"100 * Validator,AlexstraszaCasterHealthThreshold,Value\"/>%</c> Health, gain <c val=\"#TooltipNumbers\"><d ref=\"100 * Behavior,AlexstraszaExuberance,Modification.UnifiedMoveSpeedFactor\"/>%</c> Movement Speed.",
     "AlexstraszaFireWithinFlameBuffet": "Hitting a Burning Hero with Flame Buffet heals Alexstrasza for <c val=\"#TooltipNumbers\"><d ref=\"100 * Effect,AlexstraszaFireWithinFlameBuffetCreateHealer,RechargeVitalFraction\"/>%</c> of her maximum Health.",
     "AlexstraszaFlameBuffet": "Launch a fireball, Burning enemies hit for <c val=\"#TooltipNumbers\"><d ref=\"Effect,AlexstraszaFlameBuffetDoTDamage,Amount*(1+Behavior,AlexstraszaFlameBuffetDoT,PeriodCount)\"/></c> damage over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,AlexstraszaFlameBuffetDoT,Duration\" player=\"0\" precision=\"1\"/></c> seconds.<n/><n/>Hitting enemies that are already Burning deals <c val=\"#TooltipNumbers\"><d ref=\"Effect,AlexstraszaFlameBuffetImpactBonusDamage,Amount\"/></c> bonus damage upon impact, Slows them by <c val=\"#TooltipNumbers\"><d ref=\"-Behavior,AlexstraszaFlameBuffetSlow,Modification.UnifiedMoveSpeedFactor*100\" player=\"0\"/>%</c> decaying over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,AlexstraszaFlameBuffetSlow,Duration\" player=\"0\" precision=\"2\"/></c> seconds, and refunds the Mana cost.<n/><n/><c val=\"#ColorViolet\">Dragonqueen: Wing Buffet</c><n/>Damage and Knockback enemies in an arc.",
-    "AlexstraszaFlamesOfFuryFlameBuffet": "Reduce the Mana cost of Flame Buffet from <c val=\"#TooltipNumbers\"><d ref=\"Abil,AlexstraszaFlameBuffet,Cost.Vital[Energy]\" player=\"0\"/></c> to <c val=\"#TooltipNumbers\"><d ref=\"Abil,AlexstraszaFlameBuffet,Cost.Vital[Energy]+Talent,AlexstraszaFlamesOfFuryFlameBuffet,AbilityModificationArray[0].Modifications[1].Value\" player=\"0\"/></c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val=\"#TooltipNumbers\"><d ref=\"Validator,AlexstraszaFlamesOfFuryHasReachedFirstMilestone,Value\"/></c> hits unlocks a Mythic Quest.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\"><d ref=\"Validator,AlexstraszaFlamesOfFuryHasReachedFirstMilestone,Value\"/></c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val=\"#TooltipNumbers\"><d ref=\"-1 * Effect,AlexstraszaFlamesOfFuryFlameBuffetModifyDragonqueenCooldown,Cost[0].CooldownTimeUse\"/></c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythic Quest:</c> After hitting <c val=\"#TooltipNumbers\"><d ref=\"Effect,AlexstraszaFlamesOfFuryMythicHitsNeededCatalog,XP\"/></c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
+    "AlexstraszaFlamesOfFuryFlameBuffet": "Reduce the Mana cost of Flame Buffet from <c val=\"#TooltipNumbers\"><d ref=\"Abil,AlexstraszaFlameBuffet,Cost.Vital[Energy]\" player=\"0\"/></c> to <c val=\"#TooltipNumbers\"><d ref=\"Abil,AlexstraszaFlameBuffet,Cost.Vital[Energy]+Talent,AlexstraszaFlamesOfFuryFlameBuffet,AbilityModificationArray[0].Modifications[0].Value\" player=\"0\"/></c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val=\"#TooltipNumbers\"><d ref=\"Validator,AlexstraszaFlamesOfFuryHasReachedFirstMilestone,Value\"/></c> hits unlocks a Mythic Quest.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Reward:</c> After hitting <c val=\"#TooltipNumbers\"><d ref=\"Validator,AlexstraszaFlamesOfFuryHasReachedFirstMilestone,Value\"/></c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val=\"#TooltipNumbers\"><d ref=\"-1 * Effect,AlexstraszaFlamesOfFuryFlameBuffetModifyDragonqueenCooldown,Cost[0].CooldownTimeUse\"/></c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"#TooltipQuest\">Mythic Quest:</c> After hitting <c val=\"#TooltipNumbers\"><d ref=\"Effect,AlexstraszaFlamesOfFuryMythicHitsNeededCatalog,XP\"/></c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
     "AlexstraszaGiftOfLife": "Sacrifice <c val=\"#TooltipNumbers\"><d ref=\"-100*Accumulator,AlexstraszaGiftOfLifeCostAccumulator,Ratio\" player=\"0\"/>%</c> of Alexstrasza's current Health, healing an allied Hero for <c val=\"#TooltipNumbers\"><d ref=\"-100 * (Accumulator,AlexstraszaGiftOfLifeHealAccumulator,Ratio / Accumulator,AlexstraszaGiftOfLifeCostAccumulator,Ratio)\" player=\"0\"/>%</c> of that amount.<n/><n/><c val=\"#AbilityPassive\">Passive:</c> Increase Alexstrasza's Health regeneration by <c val=\"#TooltipNumbers\"><d ref=\"Effect,AlexstraszaLifeRegenMod,XP*100\"/>%</c>.<n/><n/><c val=\"#ColorViolet\">Dragonqueen: Breath of Life</c><n/>Cooldown greatly reduced and does not cost Health.",
     "AlexstraszaHeatExhaustionFlameBuffet": "Increase Flame Buffet's Slow from <c val=\"#TooltipNumbers\"><d ref=\"-Behavior,AlexstraszaFlameBuffetSlow,Modification.UnifiedMoveSpeedFactor*100\" player=\"0\"/>%</c> to <c val=\"#TooltipNumbers\"><d ref=\"-Behavior,AlexstraszaFlameBuffetHeatExhaustionSlow,Modification.UnifiedMoveSpeedFactor*100\"/>%</c> and cause it to no longer decay.",
     "AlexstraszaLifeUnbound": "Activate to heal an allied Hero for <c val=\"#TooltipNumbers\"><d ref=\"100 * Effect,AlexstraszaLifeUnboundCreateHealer,RechargeVitalFraction\"/>%</c> of their maximum Health and deal <c val=\"#TooltipNumbers\"><d ref=\"Effect,AlexstraszaLifeUnboundDamage,Amount\"/></c> damage to nearby enemies.<n/><n/>Healing a Stunned, Rooted, or Silenced ally reduces Life Unbound's cooldown by <c val=\"#TooltipNumbers\"><d ref=\"-1 * Effect,AlexstraszaLifeUnboundModifyCooldownHealed,Cost.Cooldown.TimeUse\"/></c> seconds.<n/><n/><c val=\"ffff8a\">Cannot be used on Alexstrasza.</c>",
