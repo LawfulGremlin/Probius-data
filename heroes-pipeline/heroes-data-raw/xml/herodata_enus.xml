@@ -989,7 +989,7 @@
         <AlexstraszaFlamesOfFuryFlameBuffet buttonId="AlexstraszaFlamesOfFuryFlameBuffet" name="Flames of Fury" abilityType="E" isQuest="true" sort="3">
           <Icon>storm_ui_icon_alexstrasza_flame_buffet.png</Icon>
           <ShortTooltip>&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Lower Dragonqueen cooldown, last forever</ShortTooltip>
-          <FullTooltip>Reduce the Mana cost of Flame Buffet from &lt;c val="bfd4fd"&gt;50&lt;/c&gt; to &lt;c val="bfd4fd"&gt;40&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit Burning enemy Heroes with Flame Buffet. &lt;c val="bfd4fd"&gt;20&lt;/c&gt; hits unlocks a Mythic Quest.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Quest:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;40&lt;/c&gt; more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.</FullTooltip>
+          <FullTooltip>Reduce the Mana cost of Flame Buffet from &lt;c val="bfd4fd"&gt;50&lt;/c&gt; to &lt;c val="bfd4fd"&gt;40&lt;/c&gt;.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Quest:&lt;/c&gt; Hit Burning enemy Heroes with Flame Buffet. &lt;c val="bfd4fd"&gt;20&lt;/c&gt; hits unlocks a Mythic Quest.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Reward:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;20&lt;/c&gt; Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by &lt;c val="bfd4fd"&gt;6&lt;/c&gt; seconds.&lt;n/&gt;&lt;n/&gt;&lt;img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/&gt;&lt;c val="e4b800"&gt;Mythic Quest:&lt;/c&gt; After hitting &lt;c val="bfd4fd"&gt;30&lt;/c&gt; more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.</FullTooltip>
           <AbilityTalentLinkIds>
             <AbilityTalentLinkId>AlexstraszaFlameBuffet</AbilityTalentLinkId>
           </AbilityTalentLinkIds>
@@ -32063,14 +32063,14 @@
           <Charges consume="1" initial="1" isHidden="true" recastCooldown="3">1</Charges>
           <CooldownTooltip>Cooldown: 7 seconds</CooldownTooltip>
         </XalatathShadowMark>
-        <XalatathVoidStep buttonId="XalatathVoidStep" name="Void Step (W)" abilityType="W">
-          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
-          <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
-        </XalatathVoidStep>
-        <XalatathDarkHeartRitual buttonId="XalatathDarkHeartRitual" name="Dark Heart Ritual (E)" abilityType="E">
+        <XalatathDarkHeartRitual buttonId="XalatathDarkHeartRitual" name="Dark Heart Ritual (E)" abilityType="W">
           <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
           <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
         </XalatathDarkHeartRitual>
+        <XalatathVoidStep buttonId="XalatathVoidStep" name="Void Step (W)" abilityType="E">
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 50&lt;/s&gt;</EnergyTooltip>
+          <CooldownTooltip>Cooldown: 15 seconds</CooldownTooltip>
+        </XalatathVoidStep>
       </Basic>
       <Heroic>
         <XalatathVoidEruption buttonId="XalatathVoidEruption" name="Void Eruption" abilityType="Heroic">
@@ -32084,7 +32084,7 @@
       </Heroic>
       <Trait>
         <XalatathVoidVolley buttonId="XalatathVoidVolley" name="Void Volley (Trait)" abilityType="Trait">
-          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 75&lt;/s&gt;</EnergyTooltip>
+          <EnergyTooltip>&lt;s val="bfd4fd" name="StandardTooltipDetails"&gt;Mana: 35&lt;/s&gt;</EnergyTooltip>
         </XalatathVoidVolley>
       </Trait>
       <Mount>
@@ -32125,13 +32125,13 @@
           </Dismount>
         </Mount>
       </Mount_x007C_SummonMount_x007C_Z>
-      <XalatathVoidStep_x007C_XalatathVoidStep_x007C_W>
+      <XalatathVoidStep_x007C_XalatathVoidStep_x007C_E>
         <Basic>
-          <XalatathVoidStepCancel buttonId="XalatathVoidStepCancel" abilityType="W">
+          <XalatathVoidStepCancel buttonId="XalatathVoidStepCancel" abilityType="E">
             <ToggleCooldown>0.5</ToggleCooldown>
           </XalatathVoidStepCancel>
         </Basic>
-      </XalatathVoidStep_x007C_XalatathVoidStep_x007C_W>
+      </XalatathVoidStep_x007C_XalatathVoidStep_x007C_E>
       <XalatathVoidEruption_x007C_XalatathVoidEruption_x007C_Heroic>
         <Heroic>
           <XalatathVoidEruptionCancel buttonId="XalatathVoidEruptionCancel" abilityType="Heroic">
@@ -32143,18 +32143,18 @@
     <Talents>
       <Level1>
         <XalatathToxicMark buttonId="XalatathToxicMark" abilityType="Q" sort="1" />
-        <XalatathCloakOfShadows buttonId="XalatathCloakOfShadows" abilityType="W" sort="2" />
-        <XalatathAnchoredCore buttonId="XalatathAnchoredCore" abilityType="E" sort="3" />
+        <XalatathAnchoredCore buttonId="XalatathAnchoredCore" abilityType="W" sort="2" />
+        <XalatathCloakOfShadows buttonId="XalatathCloakOfShadows" abilityType="E" sort="3" />
       </Level1>
       <Level4>
         <XalatathFrozenMark buttonId="XalatathFrozenMark" abilityType="Q" sort="1" />
-        <XalatathVoidAcolyte buttonId="XalatathVoidAcolyte" abilityType="W" sort="2" />
-        <XalatathDarkBarrier buttonId="XalatathDarkBarrier" abilityType="E" sort="3" />
+        <XalatathDarkBarrier buttonId="XalatathDarkBarrier" abilityType="W" sort="2" />
+        <XalatathVoidAcolyte buttonId="XalatathVoidAcolyte" abilityType="E" sort="3" />
       </Level4>
       <Level7>
         <XalatathVoidAdept buttonId="XalatathVoidAdept" abilityType="Q" isQuest="true" sort="1" />
-        <XalatathSilenceOfTheLamb buttonId="XalatathSilenceOfTheLamb" abilityType="W" sort="2" />
-        <XalatathVoidSummoner buttonId="XalatathVoidSummoner" abilityType="W" sort="3" />
+        <XalatathSilenceOfTheLamb buttonId="XalatathSilenceOfTheLamb" abilityType="E" sort="2" />
+        <XalatathVoidSummoner buttonId="XalatathVoidSummoner" abilityType="E" sort="3" />
       </Level7>
       <Level10>
         <XalatathHeroicAbilityVoidEruption buttonId="XalatathVoidEruption" abilityType="Heroic" sort="1">
@@ -32169,14 +32169,14 @@
         </XalatathHeroicAbilityVoidConvergence>
       </Level10>
       <Level13>
-        <XalatathPummelingStep buttonId="XalatathPummelingStep" abilityType="W" sort="1" />
-        <XalatathDarkHeartsProtection buttonId="XalatathDarkHeartsProtection" abilityType="E" sort="2" />
-        <XalatathCrushingCascade buttonId="XalatathCrushingCascade" abilityType="Trait" sort="3" />
+        <XalatathCrushingCascade buttonId="XalatathCrushingCascade" abilityType="Trait" sort="1" />
+        <XalatathPullOfTheDarkHeart buttonId="XalatathPullOfTheDarkHeart" abilityType="W" sort="2" />
+        <XalatathDarkHeartsProtection buttonId="XalatathDarkHeartsProtection" abilityType="W" sort="3" />
       </Level13>
       <Level16>
         <XalatathMarkedResilience buttonId="XalatathMarkedResilience" abilityType="Q" sort="1" />
-        <XalatathPullOfTheDarkHeart buttonId="XalatathPullOfTheDarkHeart" abilityType="E" sort="2" />
-        <XalatathFracturedReality buttonId="XalatathFracturedReality" abilityType="Trait" sort="3" />
+        <XalatathFracturedReality buttonId="XalatathFracturedReality" abilityType="Trait" sort="2" />
+        <XalatathPummelingStep buttonId="XalatathPummelingStep" abilityType="E" sort="3" />
       </Level16>
       <Level20>
         <XalatathOrbitalEruption buttonId="XalatathOrbitalEruption" abilityType="Heroic" sort="1">
@@ -32190,8 +32190,8 @@
           </PrerequisiteTalentIds>
         </XalatathRiftInvasion>
         <XalatathDuelingOrbs buttonId="XalatathDuelingOrbs" abilityType="Q" sort="3" />
-        <XalatathParadoxLoop buttonId="XalatathParadoxLoop" abilityType="W" sort="4" />
-        <XalatathUnstableCore buttonId="XalatathUnstableCore" abilityType="E" sort="5" />
+        <XalatathUnstableCore buttonId="XalatathUnstableCore" abilityType="W" sort="4" />
+        <XalatathParadoxLoop buttonId="XalatathParadoxLoop" abilityType="E" sort="5" />
       </Level20>
     </Talents>
   </Xalatath>
@@ -32541,7 +32541,7 @@
         <YrelVelensChosen buttonId="YrelVelensChosen" name="Velen's Chosen" abilityType="Passive" sort="3">
           <Icon>storm_ui_icon_yrel_velens_chosen.png</Icon>
           <ShortTooltip>Basic Abilities can grant Spell Power</ShortTooltip>
-          <FullTooltip>Hitting an enemy Hero with a Basic Ability at maximum charge grants &lt;c val="bfd4fd"&gt;8%&lt;/c&gt; Spell Power for &lt;c val="bfd4fd"&gt;10&lt;/c&gt; seconds, up to &lt;c val="bfd4fd"&gt;24%&lt;/c&gt;.</FullTooltip>
+          <FullTooltip>Hitting an enemy Hero with a Basic Ability at maximum charge grants &lt;c val="bfd4fd"&gt;7.5%&lt;/c&gt; Spell Power for &lt;c val="bfd4fd"&gt;10&lt;/c&gt; seconds, up to &lt;c val="bfd4fd"&gt;30%&lt;/c&gt;.</FullTooltip>
         </YrelVelensChosen>
       </Level13>
       <Level16>

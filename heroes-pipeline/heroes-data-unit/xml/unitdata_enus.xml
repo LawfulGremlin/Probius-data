@@ -17938,13 +17938,10 @@
       </WizardMinion>
     </Weapons>
   </WizardMinion>
-  <XalatathDarkHeartRitual name="Dark Heart Ritual (Unit)" hyperlinkId="XalatathDarkHeartRitual" innerRadius="0.125" radius="0.125" sight="7" speed="3.5" damageType="Summon">
+  <XalatathDarkHeartRitual name="Dark Heart Ritual (Unit)" hyperlinkId="XalatathDarkHeartRitual" innerRadius="0.125" radius="0.25" sight="7" speed="3.5" damageType="Summon">
     <Attributes>
       <Attribute>Summoned</Attribute>
     </Attributes>
-    <Portraits>
-      <TargetInfo>storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png</TargetInfo>
-    </Portraits>
     <Life>
       <Amount scale="0">1</Amount>
       <RegenRate scale="0">0</RegenRate>
@@ -18033,19 +18030,16 @@
       <RegenRate scale="0">0</RegenRate>
     </Life>
   </XalatathUnstableCoreFireUnit>
-  <XalatathVoidConvergencePortalUnit hyperlinkId="XalatathVoidConvergencePortalUnit" innerRadius="0.25" radius="4.5" sight="5">
+  <XalatathVoidConvergencePortalUnit hyperlinkId="XalatathVoidConvergencePortalUnit" innerRadius="0.25" radius="0.75" sight="5" speed="3.25" damageType="Summon">
     <Attributes>
-      <Attribute>ImmuneToFriendlyAbilities</Attribute>
-      <Attribute>ImmuneToSkillshots</Attribute>
-      <Attribute>NoMinionAggro</Attribute>
       <Attribute>Summoned</Attribute>
     </Attributes>
     <Portraits>
-      <TargetInfo>storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png</TargetInfo>
+      <TargetInfo>storm_ui_ingame_targetinfopanel_unit_xalatath_voidconvergenceportal.png</TargetInfo>
     </Portraits>
     <Life>
-      <Amount scale="0">1200</Amount>
-      <RegenRate scale="0">-60</RegenRate>
+      <Amount scale="0">1000</Amount>
+      <RegenRate scale="0">0</RegenRate>
     </Life>
     <Abilities>
       <Hidden>
@@ -18094,11 +18088,11 @@
       <Minimap>storm_ui_minimapicon_jaina_water_elemental.png</Minimap>
     </Portraits>
     <Life>
-      <Amount scale="0.04">250</Amount>
-      <RegenRate scale="0.04">-8.333333333333334</RegenRate>
+      <Amount scale="0.04">450</Amount>
+      <RegenRate scale="0.04">-45</RegenRate>
     </Life>
     <Weapons>
-      <XalatathVoidMinionWeapon range="1.5" period="0.75">
+      <XalatathVoidMinionWeapon range="1.5" period="1.75">
         <Damage scale="0.04">95</Damage>
       </XalatathVoidMinionWeapon>
     </Weapons>

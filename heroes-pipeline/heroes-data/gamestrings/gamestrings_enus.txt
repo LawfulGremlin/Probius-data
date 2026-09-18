@@ -842,12 +842,12 @@ abiltalent/cooldown/WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|Fals
 abiltalent/cooldown/WizardMagicMissiles|WizardMagicMissiles|Q|False=Cooldown: 3 seconds
 abiltalent/cooldown/WizardTeleport|WizardTeleport|E|False=Cooldown: 5 seconds
 abiltalent/cooldown/WizardWaveOfForce|WizardWaveOfForce|Heroic|False=Cooldown: 30 seconds
-abiltalent/cooldown/XalatathDarkHeartRitual|XalatathDarkHeartRitual|E|False=Cooldown: 15 seconds
+abiltalent/cooldown/XalatathDarkHeartRitual|XalatathDarkHeartRitual|W|False=Cooldown: 15 seconds
 abiltalent/cooldown/XalatathShadowMark|XalatathShadowMark|Q|False=Cooldown: 7 seconds
 abiltalent/cooldown/XalatathVoidConvergence|XalatathVoidConvergence|Heroic|False=Cooldown: 90 seconds
 abiltalent/cooldown/XalatathVoidEruptionCancel|XalatathVoidEruptionCancel|Heroic|False=Cooldown: 1.5 seconds
 abiltalent/cooldown/XalatathVoidEruption|XalatathVoidEruption|Heroic|False=Cooldown: 75 seconds
-abiltalent/cooldown/XalatathVoidStep|XalatathVoidStep|W|False=Cooldown: 15 seconds
+abiltalent/cooldown/XalatathVoidStep|XalatathVoidStep|E|False=Cooldown: 15 seconds
 abiltalent/cooldown/YrelArdentDefender|YrelArdentDefender|Heroic|False=Cooldown: 120 seconds
 abiltalent/cooldown/YrelAvengingWrathChannel|YrelAvengingWrath|E|False=Cooldown: 6 seconds
 abiltalent/cooldown/YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E|False=Cooldown: 6 seconds
@@ -1337,12 +1337,12 @@ abiltalent/energy/WizardHeroicAbilityWaveOfForce|WizardWaveOfForce|Heroic|False=
 abiltalent/energy/WizardMagicMissiles|WizardMagicMissiles|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 20</s>
 abiltalent/energy/WizardTeleport|WizardTeleport|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 30</s>
 abiltalent/energy/WizardWaveOfForce|WizardWaveOfForce|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 80</s>
-abiltalent/energy/XalatathDarkHeartRitual|XalatathDarkHeartRitual|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
+abiltalent/energy/XalatathDarkHeartRitual|XalatathDarkHeartRitual|W|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
 abiltalent/energy/XalatathShadowMark|XalatathShadowMark|Q|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 45</s>
 abiltalent/energy/XalatathVoidConvergence|XalatathVoidConvergence|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 75</s>
 abiltalent/energy/XalatathVoidEruption|XalatathVoidEruption|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 80</s>
-abiltalent/energy/XalatathVoidStep|XalatathVoidStep|W|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
-abiltalent/energy/XalatathVoidVolley|XalatathVoidVolley|Trait|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 75</s>
+abiltalent/energy/XalatathVoidStep|XalatathVoidStep|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
+abiltalent/energy/XalatathVoidVolley|XalatathVoidVolley|Trait|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 35</s>
 abiltalent/energy/YrelArdentDefender|YrelArdentDefender|Heroic|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 80</s>
 abiltalent/energy/YrelAvengingWrathChannel|YrelAvengingWrath|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
 abiltalent/energy/YrelAvengingWrathDivinePurpose|YrelAvengingWrath|E|False=<s val="bfd4fd" name="StandardTooltipDetails">Mana: 50</s>
@@ -1454,7 +1454,7 @@ abiltalent/full/AlexstraszaDragonScales|AlexstraszaDragonScales|Passive|False=Ga
 abiltalent/full/AlexstraszaExuberance|AlexstraszaExuberance|Passive|False=While above <c val="bfd4fd">75%</c> Health, gain <c val="bfd4fd">15%</c> Movement Speed.
 abiltalent/full/AlexstraszaFireWithinFlameBuffet|AlexstraszaFireWithinFlameBuffet|E|False=Hitting a Burning Hero with Flame Buffet heals Alexstrasza for <c val="bfd4fd">10%</c> of her maximum Health.
 abiltalent/full/AlexstraszaFlameBuffet|AlexstraszaFlameBuffet|E|False=Launch a fireball, Burning enemies hit for <c val="bfd4fd">75~~0.04~~</c> damage over <c val="bfd4fd">5.5</c> seconds.<n/><n/>Hitting enemies that are already Burning deals <c val="bfd4fd">125~~0.04~~</c> bonus damage upon impact, Slows them by <c val="bfd4fd">40%</c> decaying over <c val="bfd4fd">2</c> seconds, and refunds the Mana cost.<n/><n/><c val="D65CFF">Dragonqueen: Wing Buffet</c><n/>Damage and Knockback enemies in an arc.
-abiltalent/full/AlexstraszaFlamesOfFuryFlameBuffet|AlexstraszaFlamesOfFuryFlameBuffet|E|False=Reduce the Mana cost of Flame Buffet from <c val="bfd4fd">50</c> to <c val="bfd4fd">40</c>.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val="bfd4fd">20</c> hits unlocks a Mythic Quest.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> After hitting <c val="bfd4fd">20</c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val="bfd4fd">6</c> seconds.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Mythic Quest:</c> After hitting <c val="bfd4fd">40</c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.
+abiltalent/full/AlexstraszaFlamesOfFuryFlameBuffet|AlexstraszaFlamesOfFuryFlameBuffet|E|False=Reduce the Mana cost of Flame Buffet from <c val="bfd4fd">50</c> to <c val="bfd4fd">40</c>.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val="bfd4fd">20</c> hits unlocks a Mythic Quest.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Reward:</c> After hitting <c val="bfd4fd">20</c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val="bfd4fd">6</c> seconds.<n/><n/><img path="@UI/StormTalentInTextQuestIcon" alignment="uppermiddle" color="B48E4C" width="20" height="22"/><c val="e4b800">Mythic Quest:</c> After hitting <c val="bfd4fd">30</c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.
 abiltalent/full/AlexstraszaGiftOfLife|AlexstraszaGiftOfLife|Q|False=Sacrifice <c val="bfd4fd">15%</c> of Alexstrasza's current Health, healing an allied Hero for <c val="bfd4fd">150%</c> of that amount.<n/><n/><c val="00ff90">Passive:</c> Increase Alexstrasza's Health regeneration by <c val="bfd4fd">150%</c>.<n/><n/><c val="D65CFF">Dragonqueen: Breath of Life</c><n/>Cooldown greatly reduced and does not cost Health.
 abiltalent/full/AlexstraszaHeatExhaustionFlameBuffet|AlexstraszaHeatExhaustionFlameBuffet|E|False=Increase Flame Buffet's Slow from <c val="bfd4fd">40%</c> to <c val="bfd4fd">50%</c> and cause it to no longer decay.
 abiltalent/full/AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic|False=Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for <c val="bfd4fd">480~~0.04~~</c> Health over <c val="bfd4fd">2</c> seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.<n/><n/><c val="D65CFF">Dragonqueen:</c> Cast range increased by <c val="bfd4fd">45%</c>.
@@ -3893,7 +3893,7 @@ abiltalent/full/YrelRighteousHammer|YrelRighteousHammer|W|False=Swing Yrel's ham
 abiltalent/full/YrelSacredGroundHallowedGround|YrelSacredGroundHallowedGround|Heroic|False=Casting Avenging Wrath while inside Sacred Ground moves Sacred Ground to Yrel's location upon landing.
 abiltalent/full/YrelSacredGround|YrelSacredGround|Heroic|False=Yrel sanctifies the ground around her, gaining <c val="bfd4fd">50</c> Armor until she leaves the area.
 abiltalent/full/YrelSeraphim|YrelSeraphim|Active|False=Activate to become Unstoppable for <c val="bfd4fd">2</c> seconds.
-abiltalent/full/YrelVelensChosen|YrelVelensChosen|Passive|False=Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val="bfd4fd">8%</c> Spell Power for <c val="bfd4fd">10</c> seconds, up to <c val="bfd4fd">24%</c>.
+abiltalent/full/YrelVelensChosen|YrelVelensChosen|Passive|False=Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val="bfd4fd">7.5%</c> Spell Power for <c val="bfd4fd">10</c> seconds, up to <c val="bfd4fd">30%</c>.
 abiltalent/full/YrelVindicationAldorPeacekeeper|YrelVindicationAldorPeacekeeper|Q|False=Enemy Heroes hit by Vindication at maximum charge deal <c val="bfd4fd">50%</c> less damage for <c val="bfd4fd">4</c> seconds.
 abiltalent/full/YrelVindicationCast|YrelVindication|Q|False=Unleash holy energy around Yrel, dealing <c val="bfd4fd">48~~0.04~~</c> damage to nearby enemies and healing her for <c val="bfd4fd">111~~0.04~~</c>.<n/><n/>Charging up this Ability increases its damage up to <c val="bfd4fd">160~~0.04~~</c>, and healing up to <c val="bfd4fd">370~~0.04~~</c>.
 abiltalent/full/YrelVindicationLightOfKarabor|YrelVindicationLightOfKarabor|Q|False=Increase Vindication's radius by <c val="bfd4fd">15%</c>. Hitting an enemy Hero increases Vindication's healing by <c val="bfd4fd">40%</c>. If more than one Hero is hit, the bonus is increased to <c val="bfd4fd">80%</c>.
@@ -6508,11 +6508,11 @@ abiltalent/name/WizardTeleport|WizardTeleport|E|False=Teleport
 abiltalent/name/WizardTraitCriticalMass|WizardTraitCriticalMass|Trait|True=Critical Mass
 abiltalent/name/WizardWaveOfForceRepulsion|WizardWaveOfForceRepulsionTalent|Heroic|False=Repulsion
 abiltalent/name/WizardWaveOfForce|WizardWaveOfForce|Heroic|False=Wave of Force
-abiltalent/name/XalatathDarkHeartRitual|XalatathDarkHeartRitual|E|False=Dark Heart Ritual (E)
+abiltalent/name/XalatathDarkHeartRitual|XalatathDarkHeartRitual|W|False=Dark Heart Ritual (E)
 abiltalent/name/XalatathShadowMark|XalatathShadowMark|Q|False=Shadow Mark (Q)
 abiltalent/name/XalatathVoidConvergence|XalatathVoidConvergence|Heroic|False=Void Convergence
 abiltalent/name/XalatathVoidEruption|XalatathVoidEruption|Heroic|False=Void Eruption
-abiltalent/name/XalatathVoidStep|XalatathVoidStep|W|False=Void Step (W)
+abiltalent/name/XalatathVoidStep|XalatathVoidStep|E|False=Void Step (W)
 abiltalent/name/XalatathVoidVolley|XalatathVoidVolley|Trait|False=Void Volley (Trait)
 abiltalent/name/YrelArdentDefenderWordOfGlory|YrelArdentDefenderWordOfGlory|Heroic|False=Word of Glory
 abiltalent/name/YrelArdentDefender|YrelArdentDefender|Heroic|False=Ardent Defender

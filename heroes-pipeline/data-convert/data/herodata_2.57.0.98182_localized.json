@@ -38657,13 +38657,13 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "XalatathVoidStep",
-          "buttonId": "XalatathVoidStep",
+          "nameId": "XalatathDarkHeartRitual",
+          "buttonId": "XalatathDarkHeartRitual",
           "abilityType": "W"
         },
         {
-          "nameId": "XalatathDarkHeartRitual",
-          "buttonId": "XalatathDarkHeartRitual",
+          "nameId": "XalatathVoidStep",
+          "buttonId": "XalatathVoidStep",
           "abilityType": "E"
         }
       ],
@@ -38732,13 +38732,13 @@
             }
           ]
         },
-        "XalatathVoidStep|XalatathVoidStep|W": {
+        "XalatathVoidStep|XalatathVoidStep|E": {
           "basic": [
             {
               "nameId": "XalatathVoidStepCancel",
               "buttonId": "XalatathVoidStepCancel",
               "toggleCooldown": 0.5,
-              "abilityType": "W"
+              "abilityType": "E"
             }
           ]
         },
@@ -38762,14 +38762,14 @@
           "sort": 1
         },
         {
-          "nameId": "XalatathCloakOfShadows",
-          "buttonId": "XalatathCloakOfShadows",
+          "nameId": "XalatathAnchoredCore",
+          "buttonId": "XalatathAnchoredCore",
           "abilityType": "W",
           "sort": 2
         },
         {
-          "nameId": "XalatathAnchoredCore",
-          "buttonId": "XalatathAnchoredCore",
+          "nameId": "XalatathCloakOfShadows",
+          "buttonId": "XalatathCloakOfShadows",
           "abilityType": "E",
           "sort": 3
         }
@@ -38782,14 +38782,14 @@
           "sort": 1
         },
         {
-          "nameId": "XalatathVoidAcolyte",
-          "buttonId": "XalatathVoidAcolyte",
+          "nameId": "XalatathDarkBarrier",
+          "buttonId": "XalatathDarkBarrier",
           "abilityType": "W",
           "sort": 2
         },
         {
-          "nameId": "XalatathDarkBarrier",
-          "buttonId": "XalatathDarkBarrier",
+          "nameId": "XalatathVoidAcolyte",
+          "buttonId": "XalatathVoidAcolyte",
           "abilityType": "E",
           "sort": 3
         }
@@ -38805,13 +38805,13 @@
         {
           "nameId": "XalatathSilenceOfTheLamb",
           "buttonId": "XalatathSilenceOfTheLamb",
-          "abilityType": "W",
+          "abilityType": "E",
           "sort": 2
         },
         {
           "nameId": "XalatathVoidSummoner",
           "buttonId": "XalatathVoidSummoner",
-          "abilityType": "W",
+          "abilityType": "E",
           "sort": 3
         }
       ],
@@ -38837,21 +38837,21 @@
       ],
       "level13": [
         {
-          "nameId": "XalatathPummelingStep",
-          "buttonId": "XalatathPummelingStep",
-          "abilityType": "W",
+          "nameId": "XalatathCrushingCascade",
+          "buttonId": "XalatathCrushingCascade",
+          "abilityType": "Trait",
           "sort": 1
+        },
+        {
+          "nameId": "XalatathPullOfTheDarkHeart",
+          "buttonId": "XalatathPullOfTheDarkHeart",
+          "abilityType": "W",
+          "sort": 2
         },
         {
           "nameId": "XalatathDarkHeartsProtection",
           "buttonId": "XalatathDarkHeartsProtection",
-          "abilityType": "E",
-          "sort": 2
-        },
-        {
-          "nameId": "XalatathCrushingCascade",
-          "buttonId": "XalatathCrushingCascade",
-          "abilityType": "Trait",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -38863,15 +38863,15 @@
           "sort": 1
         },
         {
-          "nameId": "XalatathPullOfTheDarkHeart",
-          "buttonId": "XalatathPullOfTheDarkHeart",
-          "abilityType": "E",
-          "sort": 2
-        },
-        {
           "nameId": "XalatathFracturedReality",
           "buttonId": "XalatathFracturedReality",
           "abilityType": "Trait",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathPummelingStep",
+          "buttonId": "XalatathPummelingStep",
+          "abilityType": "E",
           "sort": 3
         }
       ],
@@ -38901,14 +38901,14 @@
           "sort": 3
         },
         {
-          "nameId": "XalatathParadoxLoop",
-          "buttonId": "XalatathParadoxLoop",
+          "nameId": "XalatathUnstableCore",
+          "buttonId": "XalatathUnstableCore",
           "abilityType": "W",
           "sort": 4
         },
         {
-          "nameId": "XalatathUnstableCore",
-          "buttonId": "XalatathUnstableCore",
+          "nameId": "XalatathParadoxLoop",
+          "buttonId": "XalatathParadoxLoop",
           "abilityType": "E",
           "sort": 5
         }

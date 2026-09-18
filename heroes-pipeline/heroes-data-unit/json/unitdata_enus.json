@@ -28596,16 +28596,13 @@
     "name": "Dark Heart Ritual (Unit)",
     "hyperlinkId": "XalatathDarkHeartRitual",
     "innerRadius": 0.125,
-    "radius": 0.125,
+    "radius": 0.25,
     "sight": 7.0,
     "speed": 3.5,
     "damageType": "Summon",
     "attributes": [
       "Summoned"
     ],
-    "portraits": {
-      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png"
-    },
     "life": {
       "amount": 1.0,
       "scale": 0.0,
@@ -28734,21 +28731,20 @@
   "XalatathVoidConvergencePortalUnit": {
     "hyperlinkId": "XalatathVoidConvergencePortalUnit",
     "innerRadius": 0.25,
-    "radius": 4.5,
+    "radius": 0.75,
     "sight": 5.0,
+    "speed": 3.25,
+    "damageType": "Summon",
     "attributes": [
-      "ImmuneToFriendlyAbilities",
-      "ImmuneToSkillshots",
-      "NoMinionAggro",
       "Summoned"
     ],
     "portraits": {
-      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_rehgar_earthbindtotem.png"
+      "targetInfo": "storm_ui_ingame_targetinfopanel_unit_xalatath_voidconvergenceportal.png"
     },
     "life": {
-      "amount": 1200.0,
+      "amount": 1000.0,
       "scale": 0.0,
-      "regenRate": -60.0,
+      "regenRate": 0.0,
       "regenScale": 0.0
     },
     "abilities": {
@@ -28824,16 +28820,16 @@
       "minimap": "storm_ui_minimapicon_jaina_water_elemental.png"
     },
     "life": {
-      "amount": 250.0,
+      "amount": 450.0,
       "scale": 0.04,
-      "regenRate": -8.333333333333334,
+      "regenRate": -45.0,
       "regenScale": 0.04
     },
     "weapons": [
       {
         "nameId": "XalatathVoidMinionWeapon",
         "range": 1.5,
-        "period": 0.75,
+        "period": 1.75,
         "damage": 95.0,
         "damageScale": 0.04
       }

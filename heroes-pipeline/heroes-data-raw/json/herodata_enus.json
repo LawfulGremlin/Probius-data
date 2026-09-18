@@ -1516,7 +1516,7 @@
           "name": "Flames of Fury",
           "icon": "storm_ui_icon_alexstrasza_flame_buffet.png",
           "shortTooltip": "<c val=\"e4b800\">Quest:</c> Lower Dragonqueen cooldown, last forever",
-          "fullTooltip": "Reduce the Mana cost of Flame Buffet from <c val=\"bfd4fd\">50</c> to <c val=\"bfd4fd\">40</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val=\"bfd4fd\">20</c> hits unlocks a Mythic Quest.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After hitting <c val=\"bfd4fd\">20</c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val=\"bfd4fd\">6</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Quest:</c> After hitting <c val=\"bfd4fd\">40</c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
+          "fullTooltip": "Reduce the Mana cost of Flame Buffet from <c val=\"bfd4fd\">50</c> to <c val=\"bfd4fd\">40</c>.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit Burning enemy Heroes with Flame Buffet. <c val=\"bfd4fd\">20</c> hits unlocks a Mythic Quest.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> After hitting <c val=\"bfd4fd\">20</c> Heroes, hitting a Burning enemy Hero with Flame Buffet reduces Dragonqueen's cooldown by <c val=\"bfd4fd\">6</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Quest:</c> After hitting <c val=\"bfd4fd\">30</c> more Heroes without dying, Dragonqueen damage against Heroes refreshes its duration.",
           "abilityType": "E",
           "isQuest": true,
           "sort": 3,
@@ -49957,17 +49957,17 @@
           "abilityType": "Q"
         },
         {
-          "nameId": "XalatathVoidStep",
-          "buttonId": "XalatathVoidStep",
-          "name": "Void Step (W)",
+          "nameId": "XalatathDarkHeartRitual",
+          "buttonId": "XalatathDarkHeartRitual",
+          "name": "Dark Heart Ritual (E)",
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 50</s>",
           "cooldownTooltip": "Cooldown: 15 seconds",
           "abilityType": "W"
         },
         {
-          "nameId": "XalatathDarkHeartRitual",
-          "buttonId": "XalatathDarkHeartRitual",
-          "name": "Dark Heart Ritual (E)",
+          "nameId": "XalatathVoidStep",
+          "buttonId": "XalatathVoidStep",
+          "name": "Void Step (W)",
           "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 50</s>",
           "cooldownTooltip": "Cooldown: 15 seconds",
           "abilityType": "E"
@@ -49996,7 +49996,7 @@
           "nameId": "XalatathVoidVolley",
           "buttonId": "XalatathVoidVolley",
           "name": "Void Volley (Trait)",
-          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 75</s>",
+          "energyTooltip": "<s val=\"bfd4fd\" name=\"StandardTooltipDetails\">Mana: 35</s>",
           "abilityType": "Trait"
         }
       ],
@@ -50059,13 +50059,13 @@
             }
           ]
         },
-        "XalatathVoidStep|XalatathVoidStep|W": {
+        "XalatathVoidStep|XalatathVoidStep|E": {
           "basic": [
             {
               "nameId": "XalatathVoidStepCancel",
               "buttonId": "XalatathVoidStepCancel",
               "toggleCooldown": 0.5,
-              "abilityType": "W"
+              "abilityType": "E"
             }
           ]
         },
@@ -50090,14 +50090,14 @@
           "sort": 1
         },
         {
-          "nameId": "XalatathCloakOfShadows",
-          "buttonId": "XalatathCloakOfShadows",
+          "nameId": "XalatathAnchoredCore",
+          "buttonId": "XalatathAnchoredCore",
           "abilityType": "W",
           "sort": 2
         },
         {
-          "nameId": "XalatathAnchoredCore",
-          "buttonId": "XalatathAnchoredCore",
+          "nameId": "XalatathCloakOfShadows",
+          "buttonId": "XalatathCloakOfShadows",
           "abilityType": "E",
           "sort": 3
         }
@@ -50110,14 +50110,14 @@
           "sort": 1
         },
         {
-          "nameId": "XalatathVoidAcolyte",
-          "buttonId": "XalatathVoidAcolyte",
+          "nameId": "XalatathDarkBarrier",
+          "buttonId": "XalatathDarkBarrier",
           "abilityType": "W",
           "sort": 2
         },
         {
-          "nameId": "XalatathDarkBarrier",
-          "buttonId": "XalatathDarkBarrier",
+          "nameId": "XalatathVoidAcolyte",
+          "buttonId": "XalatathVoidAcolyte",
           "abilityType": "E",
           "sort": 3
         }
@@ -50133,13 +50133,13 @@
         {
           "nameId": "XalatathSilenceOfTheLamb",
           "buttonId": "XalatathSilenceOfTheLamb",
-          "abilityType": "W",
+          "abilityType": "E",
           "sort": 2
         },
         {
           "nameId": "XalatathVoidSummoner",
           "buttonId": "XalatathVoidSummoner",
-          "abilityType": "W",
+          "abilityType": "E",
           "sort": 3
         }
       ],
@@ -50165,21 +50165,21 @@
       ],
       "level13": [
         {
-          "nameId": "XalatathPummelingStep",
-          "buttonId": "XalatathPummelingStep",
-          "abilityType": "W",
+          "nameId": "XalatathCrushingCascade",
+          "buttonId": "XalatathCrushingCascade",
+          "abilityType": "Trait",
           "sort": 1
+        },
+        {
+          "nameId": "XalatathPullOfTheDarkHeart",
+          "buttonId": "XalatathPullOfTheDarkHeart",
+          "abilityType": "W",
+          "sort": 2
         },
         {
           "nameId": "XalatathDarkHeartsProtection",
           "buttonId": "XalatathDarkHeartsProtection",
-          "abilityType": "E",
-          "sort": 2
-        },
-        {
-          "nameId": "XalatathCrushingCascade",
-          "buttonId": "XalatathCrushingCascade",
-          "abilityType": "Trait",
+          "abilityType": "W",
           "sort": 3
         }
       ],
@@ -50191,15 +50191,15 @@
           "sort": 1
         },
         {
-          "nameId": "XalatathPullOfTheDarkHeart",
-          "buttonId": "XalatathPullOfTheDarkHeart",
-          "abilityType": "E",
-          "sort": 2
-        },
-        {
           "nameId": "XalatathFracturedReality",
           "buttonId": "XalatathFracturedReality",
           "abilityType": "Trait",
+          "sort": 2
+        },
+        {
+          "nameId": "XalatathPummelingStep",
+          "buttonId": "XalatathPummelingStep",
+          "abilityType": "E",
           "sort": 3
         }
       ],
@@ -50229,14 +50229,14 @@
           "sort": 3
         },
         {
-          "nameId": "XalatathParadoxLoop",
-          "buttonId": "XalatathParadoxLoop",
+          "nameId": "XalatathUnstableCore",
+          "buttonId": "XalatathUnstableCore",
           "abilityType": "W",
           "sort": 4
         },
         {
-          "nameId": "XalatathUnstableCore",
-          "buttonId": "XalatathUnstableCore",
+          "nameId": "XalatathParadoxLoop",
+          "buttonId": "XalatathParadoxLoop",
           "abilityType": "E",
           "sort": 5
         }
@@ -50766,7 +50766,7 @@
           "name": "Velen's Chosen",
           "icon": "storm_ui_icon_yrel_velens_chosen.png",
           "shortTooltip": "Basic Abilities can grant Spell Power",
-          "fullTooltip": "Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val=\"bfd4fd\">8%</c> Spell Power for <c val=\"bfd4fd\">10</c> seconds, up to <c val=\"bfd4fd\">24%</c>.",
+          "fullTooltip": "Hitting an enemy Hero with a Basic Ability at maximum charge grants <c val=\"bfd4fd\">7.5%</c> Spell Power for <c val=\"bfd4fd\">10</c> seconds, up to <c val=\"bfd4fd\">30%</c>.",
           "abilityType": "Passive",
           "sort": 3
         }
