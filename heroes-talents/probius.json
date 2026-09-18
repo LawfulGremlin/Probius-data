@@ -50,6 +50,7 @@
         "tooltipId": "ProbiusDisruptionPulse",
         "cooldown": 3,
         "manaCost": 75,
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
         "type": "basic"
       },
       {
@@ -61,6 +62,7 @@
         "tooltipId": "ProbiusWarpRift",
         "cooldown": 6,
         "manaCost": 150,
+        "icon": "storm_ui_icon_probius_warprift.png",
         "type": "basic"
       },
       {
@@ -71,6 +73,7 @@
         "abilityId": "Probius|E1",
         "tooltipId": "ProbiusPhotonCannon",
         "cooldown": 15,
+        "icon": "storm_ui_icon_probius_photoncannon.png",
         "type": "basic"
       },
       {
@@ -82,6 +85,7 @@
         "tooltipId": "ProbiusPylonOvercharge",
         "cooldown": 80,
         "manaCost": 100,
+        "icon": "storm_ui_icon_probius_pylonovercharge.png",
         "type": "heroic"
       },
       {
@@ -93,6 +97,7 @@
         "tooltipId": "ProbiusNullGate",
         "cooldown": 25,
         "manaCost": 100,
+        "icon": "storm_ui_icon_probius_voidgate.png",
         "type": "heroic"
       },
       {
@@ -104,6 +109,7 @@
         "abilityId": "Probius|D1",
         "tooltipId": "ProbiusWarpInPylon",
         "cooldown": 14,
+        "icon": "storm_ui_icon_probius_warpinpylon.png",
         "type": "trait"
       },
       {
@@ -114,6 +120,7 @@
         "abilityId": "Probius|Z1",
         "tooltipId": "ProbiusWorkerRush",
         "cooldown": 30,
+        "icon": "storm_ui_icon_probius_mount.png",
         "type": "mount"
       }
     ]
@@ -125,6 +132,7 @@
         "talentTreeId": "ProbiusEchoPulseDisruptionPulse",
         "name": "Echo Pulse",
         "description": "Disruption Pulse now returns to Probius 1.25 seconds after reaching its target, dealing 100% damage on the return trip.",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
         "type": "Q",
         "sort": 1,
         "isQuest": false,
@@ -141,6 +149,7 @@
         "talentTreeId": "ProbiusWarpResonanceWarpRiftQuest",
         "name": "Warp Resonance",
         "description": "Quest: Hit Heroes with Warp Rift explosions.  Reward: After hitting 8 Heroes with Warp Rift explosions, increase the explosion damage by 120.  Reward: After hitting 16 Heroes with Warp Rift explosions, Warp Rift gains 1 additional charge.",
+        "icon": "storm_ui_icon_probius_warprift.png",
         "type": "W",
         "sort": 2,
         "isQuest": true,
@@ -157,6 +166,7 @@
         "talentTreeId": "ProbiusGatherMineralsPhotonCannonQuest",
         "name": "Gather Minerals",
         "description": "Quest: Gather Minerals to increase the Health of Photon Cannons by 8, up to 560.  Reward: After collecting 70 Minerals, Photon Cannons deal 35% more damage.",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
         "type": "E",
         "sort": 3,
         "isQuest": true,
@@ -175,6 +185,7 @@
         "talentTreeId": "ProbiusPhotonBarrierPhotonCannon",
         "name": "Photon Barrier",
         "description": "While a Photon Cannon is alive and powered, Probius gains 40 Spell Armor.",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
         "type": "E",
         "sort": 1,
         "isQuest": false,
@@ -191,6 +202,7 @@
         "talentTreeId": "ProbiusTurboChargedWorkerRush",
         "name": "Turbo Charged",
         "description": "Worker Rush grants an additional 10% passive Movement Speed while in a Power Field, and its cooldown is reduced by 14 seconds.",
+        "icon": "storm_ui_icon_probius_workerrush.png",
         "type": "Z",
         "sort": 2,
         "isQuest": false,
@@ -207,6 +219,7 @@
         "talentTreeId": "ProbiusShieldCapacitor",
         "name": "Shield Capacitor",
         "description": "Probius gains permanent Shields equal to 10% of his max Health. Shields regenerate quickly as long as he hasn't taken damage recently.",
+        "icon": "storm_ui_icon_probius_shieldcapacitor.png",
         "type": "Trait",
         "sort": 3,
         "isQuest": false,
@@ -225,6 +238,7 @@
         "talentTreeId": "ProbiusParticleAcceleratorDisruptionPulse",
         "name": "Particle Accelerator",
         "description": "After hitting 3 Heroes with Disruption Pulse, the next Warp Rift detonated by a Disruption Pulse fires 4 additional pulses that deal 78 (+5% per level) damage from the impact location in different directions.  Passive: Reduce the cooldown of Disruption Pulse by 0.5 seconds.",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
         "type": "Q",
         "sort": 1,
         "isQuest": false,
@@ -241,6 +255,7 @@
         "talentTreeId": "ProbiusRiftShockWarpRift",
         "name": "Rift Shock",
         "description": "Hitting a Warp Rift with Disruption Pulse within 1 second of it arming deals 105 (+5% per level) damage over 3 seconds.",
+        "icon": "storm_ui_icon_probius_warprift.png",
         "type": "W",
         "sort": 2,
         "isQuest": false,
@@ -257,6 +272,7 @@
         "talentTreeId": "ProbiusTowerDefensePhotonCannon",
         "name": "Tower Defense",
         "description": "Reduce Photon Cannon's cooldown by 3.5 seconds when Disruption Pulse or Warp Rift damages an enemy Hero.",
+        "icon": "storm_ui_icon_probius_photoncannon.png",
         "type": "E",
         "sort": 3,
         "isQuest": false,
@@ -275,6 +291,7 @@
         "talentTreeId": "ProbiusPylonOverchargeHeroic",
         "name": "Pylon Overcharge",
         "description": "For 8 seconds, increase the size of Pylon power fields and allow them to attack enemy Heroes within it for 96 (+4% per level) damage per second. Pylons are Invulnerable for the duration.",
+        "icon": "storm_ui_icon_probius_pylonovercharge.png",
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
@@ -292,6 +309,7 @@
         "talentTreeId": "ProbiusNullGateHeroic",
         "name": "Null Gate",
         "description": "Vector Targeting Project a barrier of negative energy in the target direction that lasts 4 seconds. Enemies who touch the barrier take 76 (+4% per level) damage per second and are Slowed by 80% for as long as they remain in contact with it.",
+        "icon": "storm_ui_icon_probius_voidgate.png",
         "type": "Heroic",
         "sort": 2,
         "cooldown": 25,
@@ -311,6 +329,7 @@
         "talentTreeId": "ProbiusAggressiveMatrixWarpInPylon",
         "name": "Aggressive Matrix",
         "description": "Pylon's Power Field grants allied Heroes 35% increased Attack Damage.",
+        "icon": "storm_ui_icon_probius_warpinpylon.png",
         "type": "Trait",
         "sort": 1,
         "isQuest": false,
@@ -327,6 +346,7 @@
         "talentTreeId": "ProbiusPowerOverflowingWarpInPylon",
         "name": "Power Overflowing",
         "description": "Pylon's Power Field grants allied Heroes 10% increased Spell Power and 2 Mana per second.",
+        "icon": "storm_ui_icon_probius_warpinpylon_a.png",
         "type": "Trait",
         "sort": 2,
         "isQuest": false,
@@ -343,6 +363,7 @@
         "talentTreeId": "ProbiusShieldBatteryWarpInPylon",
         "name": "Shield Battery",
         "description": "Pylon's Power Field grants allied Heroes 28 (+4% per level) Shields per second, up to 112 (+4% per level). Shields persist for 2 seconds after exiting a Pylon Power Field.",
+        "icon": "storm_ui_icon_probius_warpinpylon_b.png",
         "type": "Trait",
         "sort": 3,
         "isQuest": false,
@@ -361,6 +382,7 @@
         "talentTreeId": "ProbiusQuantumEntanglementWarpRift",
         "name": "Quantum Entanglement",
         "description": "Enemies continue to be Slowed for 3 seconds after their last contact with a Warp Rift.",
+        "icon": "storm_ui_icon_probius_warprift.png",
         "type": "W",
         "sort": 1,
         "isQuest": false,
@@ -377,6 +399,7 @@
         "talentTreeId": "ProbiusGravityWellWarpRift",
         "name": "Gravity Well",
         "description": "Enemies are Slowed more the closer they are to the center of the Warp Rift, up to a maximum slow of 60%.",
+        "icon": "storm_ui_icon_probius_warprift_a.png",
         "type": "W",
         "sort": 2,
         "isQuest": false,
@@ -393,6 +416,7 @@
         "talentTreeId": "ProbiusInterferenceWarpRift",
         "name": "Interference",
         "description": "Enemy Heroes hit by Warp Rift explosions have their Spell Power reduced by 35% for 5 seconds. Additionally, enemies hit by Warp Rift explosions are knocked away from the center.",
+        "icon": "storm_ui_icon_probius_warprift_c.png",
         "type": "W",
         "sort": 3,
         "isQuest": false,
@@ -411,6 +435,7 @@
         "talentTreeId": "ProbiusConstructAdditionalPylonsPylonOvercharge",
         "name": "Construct Additional Pylons",
         "description": "Probius can now have up to 3 active Pylons, and increase the damage of Pylon Overcharge by 25%.",
+        "icon": "storm_ui_icon_probius_pylonovercharge.png",
         "type": "Heroic",
         "sort": 1,
         "isQuest": false,
@@ -430,6 +455,7 @@
         "talentTreeId": "ProbiusGateKeeperNullGate",
         "name": "Gate Keeper",
         "description": "Null Gate lasts indefinitely if either end is within a Power Field.",
+        "icon": "storm_ui_icon_probius_voidgate.png",
         "type": "Heroic",
         "sort": 2,
         "isQuest": false,
@@ -449,6 +475,7 @@
         "talentTreeId": "ProbiusShootEmUptoRiftsDisruptionPulse",
         "name": "Shoot 'Em Up",
         "description": "Enemy Heroes hit by Disruption Pulse take a bonus 2.5% of their maximum Health as damage.  Passive: Reduce the cooldown of Disruption Pulse by 0.5 seconds.",
+        "icon": "storm_ui_icon_probius_disruptionpulse.png",
         "type": "Q",
         "sort": 3,
         "isQuest": false,
@@ -465,6 +492,7 @@
         "talentTreeId": "ProbiusProbiusLoopWarpRift",
         "name": "Probius Loop",
         "description": "Whenever a Rift explosion hits 1 or more enemy Heroes, create a new Warp Rift in the same location.",
+        "icon": "storm_ui_icon_probius_warprift.png",
         "type": "W",
         "sort": 4,
         "isQuest": false,
@@ -482,6 +510,7 @@
     {
       "unitId": "ProbiusPhotonCannon",
       "name": "ProbiusPhotonCannon",
+      "icon": "storm_ui_icon_probius_photoncannon.png",
       "stats": {
         "hp": 778,
         "hpRegen": 0,
@@ -501,6 +530,7 @@
     {
       "unitId": "ProbiusPylon",
       "name": "ProbiusPylon",
+      "icon": "storm_ui_icon_probius_warpinpylon.png",
       "stats": {
         "hp": 400,
         "hpRegen": 0,

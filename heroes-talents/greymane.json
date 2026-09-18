@@ -48,6 +48,7 @@
         "tooltipId": "GreymaneGilneanCocktail",
         "cooldown": 9,
         "manaCost": 55,
+        "icon": "storm_ui_icon_greymane_qattack.png",
         "type": "basic"
       },
       {
@@ -59,6 +60,7 @@
         "tooltipId": "GreymaneInnerBeast",
         "cooldown": 20,
         "manaCost": 70,
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "basic"
       },
       {
@@ -70,6 +72,7 @@
         "tooltipId": "GreymaneDarkflight",
         "cooldown": 5,
         "manaCost": 10,
+        "icon": "storm_ui_icon_greymane_darkflight.png",
         "type": "basic"
       },
       {
@@ -81,6 +84,7 @@
         "tooltipId": "GreymaneGoForTheThroat",
         "cooldown": 80,
         "manaCost": 90,
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "type": "heroic"
       },
       {
@@ -92,6 +96,7 @@
         "tooltipId": "GreymaneCursedBullet",
         "cooldown": 30,
         "manaCost": 50,
+        "icon": "storm_ui_icon_greymane_snapshot.png",
         "type": "heroic"
       },
       {
@@ -101,6 +106,7 @@
         "trait": true,
         "abilityId": "Greymane|D1",
         "tooltipId": "GreymaneWorgenForm",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "type": "trait"
       }
     ],
@@ -114,6 +120,7 @@
         "tooltipId": "GreymaneRazorSwipe",
         "cooldown": 4,
         "manaCost": 25,
+        "icon": "storm_ui_icon_greymane_swipe.png",
         "type": "basic"
       },
       {
@@ -123,6 +130,7 @@
         "hotkey": "W",
         "abilityId": "Greymane|W2",
         "tooltipId": "GreymaneInnerBeastActive",
+        "icon": "storm_ui_icon_greymane_worgen_beastfocus.png",
         "type": "basic"
       },
       {
@@ -133,6 +141,7 @@
         "abilityId": "Greymane|E2",
         "tooltipId": "GreymaneDisengage",
         "cooldown": 5,
+        "icon": "storm_ui_icon_greymane_disengage.png",
         "type": "basic"
       }
     ]
@@ -144,6 +153,7 @@
         "talentTreeId": "GreymaneInnerBeastWolfheart",
         "name": "Wolfheart",
         "description": "Increase the cooldown reduction from Basic Attacks during Inner Beast from 0.5 to 1.2 seconds, and Worgen Form's Armor bonus from 10 to 15.",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 1,
         "isQuest": false,
@@ -162,6 +172,7 @@
         "talentTreeId": "GreymaneGilneanCocktailPerfectAim",
         "name": "Perfect Aim",
         "description": "Increases Gilnean Cocktail's range by 30% and refunds 45 Mana if it hits an enemy Hero.",
+        "icon": "storm_ui_icon_greymane_qattack.png",
         "type": "Q",
         "sort": 2,
         "isQuest": false,
@@ -178,6 +189,7 @@
         "talentTreeId": "GreymaneInnerBeastViciousness",
         "name": "Viciousness",
         "description": "Increases Inner Beast's duration to 4 seconds, and causes Ability damage to also refresh its duration.",
+        "icon": "storm_ui_icon_greymane_beastfocus_var1.png",
         "type": "W",
         "sort": 3,
         "isQuest": false,
@@ -198,6 +210,7 @@
         "talentTreeId": "GreymaneDarkflightThickSkin",
         "name": "Thick Skin",
         "description": "Using Darkflight grants 50 Physical Armor against the next 2 Hero Basic Attacks while in Worgen Form, reducing the damage taken by 50%.",
+        "icon": "storm_ui_icon_greymane_darkflight.png",
         "type": "E",
         "sort": 1,
         "isQuest": false,
@@ -214,6 +227,7 @@
         "talentTreeId": "GreymaneDisengageEyesInTheDark",
         "name": "Eyes in the Dark",
         "description": "Disengage grants Stealth for 3 seconds.",
+        "icon": "storm_ui_icon_greymane_disengage.png",
         "type": "E",
         "sort": 2,
         "isQuest": false,
@@ -230,6 +244,7 @@
         "talentTreeId": "GreymaneInnerBeastInsatiable",
         "name": "Insatiable",
         "description": "Inner Beast causes Basic Attacks to restore 10 Mana, and reduce the cooldown of Healing Fountain by 0.5 seconds.",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 3,
         "isQuest": false,
@@ -250,6 +265,7 @@
         "talentTreeId": "GreymaneWorgenFormQuicksilverBullets",
         "name": "Quicksilver Bullets",
         "description": "Increases Greymane's Human Basic Attack range by 1.1.",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "type": "Trait",
         "sort": 1,
         "isQuest": false,
@@ -266,6 +282,7 @@
         "talentTreeId": "GreymaneGilneanCocktailIncendiaryElixir",
         "name": "Incendiary Elixir",
         "description": "Quest: Reduce the cooldown of Gilnean Cocktail by 2 seconds. Every time Greymane hits an enemy Hero with the explosion damage from Gilnean Cocktail, increase its explosion damage by 25, up to 375.  Reward: After hitting 15 Heroes, the cooldown is reduced by an additional 3 seconds.",
+        "icon": "storm_ui_icon_greymane_qattack.png",
         "type": "Q",
         "sort": 2,
         "isQuest": true,
@@ -282,6 +299,7 @@
         "talentTreeId": "GreymaneWizenedDuelist",
         "name": "Wizened Duelist",
         "description": "Quest: Every 6 Human Basic Attacks against Heroes increase Basic Attack damage by 1%, up to 30%. Worgen Basic Attacks grant credit for 3 Basic Attacks. Half of this bonus is lost upon death.",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "type": "Trait",
         "sort": 3,
         "isQuest": true,
@@ -300,6 +318,7 @@
         "talentTreeId": "GreymaneHeroicAbilityGoForTheThroat",
         "name": "Go for the Throat",
         "description": "Leap at an enemy Hero and shapeshift into a Worgen, slashing for 355 (+4% per level) damage. If this kills them, the Ability can be used a second time within 10 seconds for free.",
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
@@ -317,6 +336,7 @@
         "talentTreeId": "GreymaneHeroicAbilityCursedBullet",
         "name": "Cursed Bullet",
         "description": "Greymane shapeshifts into a Human and fires a bullet that hits the first enemy Hero in its path, dealing 35% of their current Health in damage.  Does not affect Vehicles.",
+        "icon": "storm_ui_icon_greymane_snapshot.png",
         "type": "Heroic",
         "sort": 2,
         "cooldown": 30,
@@ -336,6 +356,7 @@
         "talentTreeId": "GreymaneDarkflightDisengageRunningWild",
         "name": "Running Wild",
         "description": "Increases Darkflight and Disengage's range by 35%, and reduce their cooldowns by 1 second.",
+        "icon": "storm_ui_icon_greymane_darkflight.png",
         "type": "E",
         "sort": 1,
         "isQuest": false,
@@ -354,6 +375,7 @@
         "talentTreeId": "GreymaneRazorSwipeUnfetteredAssault",
         "name": "Unfettered Assault",
         "description": "Increases Razor Swipe's lunge distance by 60%, and Worgen Basic Attacks reduce Razor Swipe's cooldown by 1.5 seconds.",
+        "icon": "storm_ui_icon_greymane_swipe.png",
         "type": "Q",
         "sort": 2,
         "isQuest": false,
@@ -370,6 +392,7 @@
         "talentTreeId": "GreymaneInnerBeastOnTheProwl",
         "name": "On the Prowl",
         "description": "Inner Beast increases Movement Speed by 30% once it has been active for 3 seconds.",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 3,
         "isQuest": false,
@@ -390,6 +413,7 @@
         "talentTreeId": "GreymaneEagerWolf",
         "name": "Eager Wolf",
         "description": "Increases the Attack Speed bonus of Inner Beast by an additional 40% after it has been active for 4 seconds.",
+        "icon": "storm_ui_icon_greymane_beastfocus.png",
         "type": "W",
         "sort": 1,
         "isQuest": false,
@@ -408,6 +432,7 @@
         "talentTreeId": "GreymaneLordofHisPack",
         "name": "Lord of His Pack",
         "description": "Attacking a Hero that is Slowed, Rooted, or Stunned increases Greymane's Basic Attack damage by 25% for 3 seconds, increased to 50% while in Worgen Form.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 2,
         "isQuest": false,
@@ -418,6 +443,7 @@
         "talentTreeId": "GreymaneWorgenFormAlphaKiller",
         "name": "Alpha Killer",
         "description": "Worgen Basic Attacks against Heroes deal bonus damage equal to 3% of the Hero's maximum Health.",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "type": "Trait",
         "sort": 3,
         "isQuest": false,
@@ -436,6 +462,7 @@
         "talentTreeId": "GreymaneGoForTheThroatUnleashed",
         "name": "Unleashed",
         "description": "Passive: Go For The Throat's damage is increased by 25%.  If Go for the Throat kills its target, refund its Mana cost and reset the cooldowns of Greymane's Abilities.",
+        "icon": "storm_ui_icon_greymane_goforthethroat.png",
         "type": "Heroic",
         "sort": 1,
         "isQuest": false,
@@ -455,6 +482,7 @@
         "talentTreeId": "GreymaneCursedBulletGilneanRoulette",
         "name": "Gilnean Roulette",
         "description": "Cursed Bullet's damage is reduced to 30% of current health but its cooldown is reduced by 24 seconds.",
+        "icon": "storm_ui_icon_greymane_snapshot.png",
         "type": "Heroic",
         "sort": 2,
         "isQuest": false,
@@ -474,6 +502,7 @@
         "talentTreeId": "GreymaneHuntersBlunderbuss",
         "name": "Hunter's Blunderbuss",
         "description": "Human Basic Attacks splash for 100% damage behind the target.",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen.png",
         "type": "Trait",
         "sort": 3,
         "isQuest": false,
@@ -490,6 +519,7 @@
         "talentTreeId": "GreymaneToothAndClaw",
         "name": "Tooth and Claw",
         "description": "Worgen Basic Attacks cleave for 100% damage. Increase Razor Swipe's damage by 100%.",
+        "icon": "storm_ui_icon_greymane_curseoftheworgen_var1.png",
         "type": "Trait",
         "sort": 4,
         "isQuest": false,

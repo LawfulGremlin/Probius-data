@@ -55,6 +55,7 @@
         "tooltipId": "ZagaraBanelingBarrage",
         "cooldown": 4,
         "manaCost": 15,
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "type": "basic"
       },
       {
@@ -66,6 +67,7 @@
         "tooltipId": "ZagaraHunterKiller",
         "cooldown": 16,
         "manaCost": 75,
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "type": "basic"
       },
       {
@@ -77,6 +79,7 @@
         "tooltipId": "ZagaraInfestedDrop",
         "cooldown": 12,
         "manaCost": 50,
+        "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "type": "basic"
       },
       {
@@ -88,6 +91,7 @@
         "tooltipId": "ZagaraNydusNetwork",
         "cooldown": 120,
         "manaCost": 50,
+        "icon": "storm_ui_icon_zagara_nydusworm.png",
         "type": "heroic"
       },
       {
@@ -99,6 +103,7 @@
         "tooltipId": "ZagaraDevouringMaw",
         "cooldown": 80,
         "manaCost": 70,
+        "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "type": "heroic"
       },
       {
@@ -110,6 +115,7 @@
         "abilityId": "Zagara|D1",
         "tooltipId": "ZagaraCreepTumor",
         "cooldown": 18,
+        "icon": "storm_ui_icon_zagara_creep.png",
         "type": "trait"
       }
     ]
@@ -121,6 +127,7 @@
         "talentTreeId": "ZagaraMasteryVolatileAcid",
         "name": "Volatile Acid",
         "description": "Banelings can travel 50% further before exploding.",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "type": "Q",
         "sort": 1,
         "isQuest": false,
@@ -137,6 +144,7 @@
         "talentTreeId": "ZagaraMasteryCorpseFeeders",
         "name": "Corpse Feeders",
         "description": "Reduces the cooldown of Infested Drop by 3 seconds and Roachlings have 30% more Health.",
+        "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "type": "E",
         "sort": 2,
         "isQuest": false,
@@ -153,6 +161,7 @@
         "talentTreeId": "ZagaraMasteryInfest",
         "name": "Infest",
         "description": "Nearby Ranged Minions deal an additional 100% damage. Can be toggled on or off.  Repeatable Quest: Every 1000 Siege damage dealt increases this bonus by 1%.",
+        "icon": "storm_ui_icon_zagara_infest.png",
         "type": "Active",
         "sort": 3,
         "isQuest": true,
@@ -165,6 +174,7 @@
         "talentTreeId": "ZagaraMasteryEnvenomedSpines",
         "name": "Envenomed Spines",
         "description": "Activate to have Zagara's next Basic Attack apply 230 (+4% per level) damage over 5 seconds.",
+        "icon": "storm_ui_icon_talent_autoattack_range.png",
         "type": "Active",
         "sort": 1,
         "cooldown": 30,
@@ -180,6 +190,7 @@
         "talentTreeId": "ZagaraCombatStyleMedusaBlades",
         "name": "Medusa Blades",
         "description": "Basic Attacks deal 33% damage to three nearby targets.",
+        "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "type": "Passive",
         "sort": 2,
         "isQuest": false,
@@ -190,6 +201,7 @@
         "talentTreeId": "ZagaraMasterySerratedSpines",
         "name": "Serrated Spines",
         "description": "Quest: Each Basic Attack against a Hero increases Zagara's Attack Damage by 0.2%.",
+        "icon": "storm_ui_icon_talent_autoattack_damage.png",
         "type": "Passive",
         "sort": 3,
         "isQuest": true,
@@ -202,6 +214,7 @@
         "talentTreeId": "ZagaraMasteryBanelingMassacre",
         "name": "Baneling Massacre",
         "description": "Gain 2 additional charges of Banelings Barrage, but increase its cooldown by 2 seconds.",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "type": "Q",
         "sort": 1,
         "isQuest": false,
@@ -218,6 +231,7 @@
         "talentTreeId": "ZagaraViscousAcid",
         "name": "Viscous Acid",
         "description": "Banelings Slow enemies by 25% for 2.5 seconds.",
+        "icon": "storm_ui_icon_zagara_banelingbarrage_a.png",
         "type": "Q",
         "sort": 2,
         "isQuest": false,
@@ -234,6 +248,7 @@
         "talentTreeId": "ZagaraMasteryBileDrop",
         "name": "Bile Drop",
         "description": "Quest: Passively increases the radius of Infested Drop by 20%.  Reward: After hitting 12 Heroes with Infested Drop, it spawns an additional Roachling.",
+        "icon": "storm_ui_icon_zagara_infesteddrop.png",
         "type": "E",
         "sort": 3,
         "isQuest": true,
@@ -252,6 +267,7 @@
         "talentTreeId": "ZagaraHeroicAbilityDevouringMaw",
         "name": "Devouring Maw",
         "description": "Summon a Devouring Maw that devours enemies for 4 seconds. Devoured enemies cannot fight and take 94 (+4% per level) damage per second.  Usable on Unstoppable enemies.",
+        "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "type": "Heroic",
         "sort": 1,
         "cooldown": 80,
@@ -269,6 +285,7 @@
         "talentTreeId": "ZagaraHeroicAbilityNydusAssault",
         "name": "Nydus Network",
         "description": "Summon a Nydus Worm on Creep anywhere that Zagara has vision. Zagara can enter a Nydus Worm and travel to any other Nydus Worm by right-clicking near it. While inside a Nydus Worm, Zagara regenerates 10% Health and Mana per second.  Stores up to 2 charges. Maximum of 4 Nydus Worms at a time.  Passive: Creep spreads 15% farther.  Passive: While on Creep, each Basic Attack reduces all of Zagara's cooldowns by 0.4 seconds.",
+        "icon": "storm_ui_icon_zagara_nydusworm.png",
         "type": "Heroic",
         "sort": 2,
         "cooldown": 120,
@@ -288,6 +305,7 @@
         "talentTreeId": "ZagaraMasteryHydraliskTransfusion",
         "name": "Hydralisk Transfusion",
         "description": "Zagara is healed for 60% of the damage dealt by Hunter Killers' Basic Attacks to Heroes.",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "type": "W",
         "sort": 1,
         "isQuest": false,
@@ -304,6 +322,7 @@
         "talentTreeId": "ZagaraMasteryProtectiveCoating",
         "name": "Protective Coating",
         "description": "While on Creep, Zagara gains 20 Armor, taking 20% less damage.",
+        "icon": "storm_ui_icon_zagara_creep.png",
         "type": "Trait",
         "sort": 2,
         "isQuest": false,
@@ -320,6 +339,7 @@
         "talentTreeId": "GenericTalentSpellShield",
         "name": "Spell Shield",
         "description": "Every 30 seconds, gain 50 Spell Armor against the next enemy Ability and subsequent Abilities for 3 seconds, reducing the damage taken by 50%.  Can be toggled to allow or prevent this talent from triggering automatically.",
+        "icon": "storm_ui_icon_talent_spellshield.png",
         "type": "Active",
         "sort": 3,
         "isQuest": false,
@@ -332,6 +352,7 @@
         "talentTreeId": "ZagaraMasteryCorrosiveSaliva",
         "name": "Corrosive Saliva",
         "description": "When attacking Heroes, Hunter Killers and Roachlings deal additional damage equal to 1.5% of their maximum Health.",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "type": "W",
         "sort": 1,
         "isQuest": false,
@@ -348,6 +369,7 @@
         "talentTreeId": "ZagaraMasteryMutalisk",
         "name": "Mutalisk",
         "description": "Reduce the cooldown of Hunter Killer by 4 seconds. Hunter Killer now spawns a Mutalisk. Mutalisks have a bounce attack, lose Health over 42 seconds, and have 450 (+4.5% per level) Health.",
+        "icon": "storm_ui_icon_zagara_hunterkillermuta.png",
         "type": "W",
         "sort": 2,
         "isQuest": false,
@@ -364,6 +386,7 @@
         "talentTreeId": "ZagaraJaggedBarbsTalent",
         "name": "Jagged Barbs",
         "description": "While on Creep, Zagara gains 50% more Basic Attack damage and her attack range is increased by 1.1.",
+        "icon": "storm_ui_icon_zagara_creep.png",
         "type": "Trait",
         "sort": 3,
         "isQuest": false,
@@ -382,6 +405,7 @@
         "talentTreeId": "ZagaraMasteryTyrantMaw",
         "name": "Tyrant Maw",
         "description": "Devouring Maw deals 50% more damage. Takedowns reduce its cooldown by 25 seconds.",
+        "icon": "storm_ui_icon_zagara_devouringmaw.png",
         "type": "Heroic",
         "sort": 1,
         "isQuest": false,
@@ -401,6 +425,7 @@
         "talentTreeId": "ZagaraMasteryEndlessCreep",
         "name": "Endless Creep",
         "description": "Increase Creep Tumor's cast range from 2.5 to 50. Creep Tumors now last 600 seconds. While on Creep, Zagara gains an additional 10% Movement Speed.",
+        "icon": "storm_ui_icon_zagara_nydusworm.png",
         "type": "Heroic",
         "sort": 2,
         "isQuest": false,
@@ -420,6 +445,7 @@
         "talentTreeId": "ZagaraBroodmother",
         "name": "Broodmother",
         "description": "Every 3rd Basic Attack also launches a Baneling towards the target.  Passive: Gain 20% bonus Attack Speed.",
+        "icon": "storm_ui_icon_zagara_banelingbarrage.png",
         "type": "Q",
         "sort": 3,
         "isQuest": false,
@@ -436,6 +462,7 @@
         "talentTreeId": "ZagaraPackInstinct",
         "name": "Pack Instinct",
         "description": "Zagara and her summons deal 20% more damage to enemies attacked by a Hunter Killer in the last 2 seconds.",
+        "icon": "storm_ui_icon_zagara_hunterkiller.png",
         "type": "W",
         "sort": 4,
         "isQuest": false,
@@ -453,6 +480,7 @@
     {
       "unitId": "ZagaraCreepTumor",
       "name": "ZagaraCreepTumor",
+      "icon": "storm_ui_icon_zagara_creep.png",
       "stats": {
         "hp": 250,
         "hpRegen": -1,
@@ -468,6 +496,7 @@
     {
       "unitId": "ZagaraHydralisk",
       "name": "ZagaraHydralisk",
+      "icon": "storm_ui_icon_zagara_hunterkiller.png",
       "stats": {
         "hp": 500,
         "hpRegen": -50,
@@ -487,6 +516,7 @@
     {
       "unitId": "ZagaraMutalisk",
       "name": "ZagaraMutalisk",
+      "icon": "storm_ui_icon_zagara_hunterkillermuta.png",
       "stats": {
         "hp": 450,
         "hpRegen": -10.7143,
@@ -506,6 +536,7 @@
     {
       "unitId": "ZagaraNydusWorm",
       "name": "ZagaraNydusWorm",
+      "icon": "storm_ui_icon_zagara_nydusworm.png",
       "stats": {
         "hp": 550,
         "hpRegen": 0,
@@ -521,6 +552,7 @@
     {
       "unitId": "ZagaraRoach",
       "name": "ZagaraRoach",
+      "icon": "storm_ui_icon_zagara_infesteddrop.png",
       "stats": {
         "hp": 360,
         "hpRegen": -36,
