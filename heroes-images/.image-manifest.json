@@ -2,7 +2,7 @@
   "version": "2.57.0.98182",
   "track": "ptr",
   "product": "herot",
-  "generation": "83b44951b13f0f6c0fd53fcba32567998a7c0f89b168a8e59a23cd80659300d0",
+  "generation": "db1a2505a94ffdb45d32df1c6b85753434482d3fa22af22ab95927df510c560d",
   "files": [
     {
       "path": "heroes/abathur/storm_ui_icon_abathur_carapace.png",
@@ -6662,6 +6662,12 @@
       "path": "portraits/storm_ui_ingame_heroselect_btn_wizard.png",
       "basename": "storm_ui_ingame_heroselect_btn_wizard.png",
       "sha256": "bc6c25ae9c0636752fcb3dffb3d9a9a1ae3e213ccf2210250454d579814c4b70",
+      "sourceVersion": "2.57.0.98182"
+    },
+    {
+      "path": "portraits/storm_ui_ingame_heroselect_btn_xalatath.png",
+      "basename": "storm_ui_ingame_heroselect_btn_xalatath.png",
+      "sha256": "d5f4b131cb722bc12d0852e3c3606ae34d2d1c1d70d2ea5052cc20208f95efb4",
       "sourceVersion": "2.57.0.98182"
     },
     {
@@ -36197,6 +36203,12 @@
       "sourceVersion": "2.57.0.98182"
     },
     {
+      "path": "shared/storm_ui_icon_xalatath_q_shadowmark_b.png",
+      "basename": "storm_ui_icon_xalatath_q_shadowmark_b.png",
+      "sha256": "be395cba64995f0b5dad90b9a284ecb09430ee256dceec4d2ac9bb802cee5c99",
+      "sourceVersion": "2.57.0.98182"
+    },
+    {
       "path": "shared/storm_ui_icon_yrel_avenging_wrath_active.png",
       "basename": "storm_ui_icon_yrel_avenging_wrath_active.png",
       "sha256": "b89194209c3821b4c6ab5f6937b32f75ac2bd16acca1ae82ea828eefd6179822",
@@ -44960,6 +44972,12 @@
       "path": "ui/storm_ui_glues_draft_portrait_wizard.png",
       "basename": "storm_ui_glues_draft_portrait_wizard.png",
       "sha256": "5c066774014887f1bb7d9de3f3fbb48daf33c9f35c508fed4e31f8ff34c0f916",
+      "sourceVersion": "2.57.0.98182"
+    },
+    {
+      "path": "ui/storm_ui_glues_draft_portrait_xalatath.png",
+      "basename": "storm_ui_glues_draft_portrait_xalatath.png",
+      "sha256": "01f6655ce441675a66a2c69c1df21bdf3a3c04e87c1122cf7bd2736173eb2a32",
       "sourceVersion": "2.57.0.98182"
     },
     {
