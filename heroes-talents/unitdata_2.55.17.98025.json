@@ -40,7 +40,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -49,7 +51,11 @@
           "buttonId": "AbathurMonstrosityDeepTunnel",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z"
+          "_hdp5LinkId": "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z",
+          "icon": "storm_ui_icon_abathur_mount.png",
+          "name": "Deep Tunnel",
+          "fullText": "Order your Evolved Monstrosity to quickly tunnel to a visible location",
+          "cooldownText": "Cooldown: 80 seconds"
         }
       ]
     }
@@ -174,7 +180,11 @@
           "buttonId": "AbathurLocustStrain",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurSpawnLocusts|AbathurLocustStrain|Q"
+          "_hdp5LinkId": "AbathurSpawnLocusts|AbathurLocustStrain|Q",
+          "icon": "storm_ui_icon_abathur_spawnlocust.png",
+          "name": "Locust Strain",
+          "fullText": "Spawns a Locust to attack down the nearest lane every <c val=\"bfd4fd\">15</c> seconds.  Locusts heal for <c val=\"bfd4fd\">20%</c> of the damage they deal, and regain <c val=\"bfd4fd\">20%</c> of their Maximum health when a nearby minion dies.<n/><n/>Locusts lose health over <c val=\"bfd4fd\">17</c> seconds, have <c val=\"bfd4fd\">225</c><c val=\"a7a7a7\">~~0.04~~</c> health and deal <c val=\"bfd4fd\">36</c><c val=\"a7a7a7\">~~0.04~~</c> damage with each Basic Attack, dealing <c val=\"bfd4fd\">100%</c> bonus damage to enemy non-Heroes.",
+          "cooldownText": "Cooldown: 15 seconds"
         }
       ]
     }
@@ -209,7 +219,11 @@
           "buttonId": "AbathurLocustStrain",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurSpawnLocusts|AbathurLocustStrain|Q"
+          "_hdp5LinkId": "AbathurSpawnLocusts|AbathurLocustStrain|Q",
+          "icon": "storm_ui_icon_abathur_spawnlocust.png",
+          "name": "Locust Strain",
+          "fullText": "Spawns a Locust to attack down the nearest lane every <c val=\"bfd4fd\">15</c> seconds.  Locusts heal for <c val=\"bfd4fd\">20%</c> of the damage they deal, and regain <c val=\"bfd4fd\">20%</c> of their Maximum health when a nearby minion dies.<n/><n/>Locusts lose health over <c val=\"bfd4fd\">17</c> seconds, have <c val=\"bfd4fd\">225</c><c val=\"a7a7a7\">~~0.04~~</c> health and deal <c val=\"bfd4fd\">36</c><c val=\"a7a7a7\">~~0.04~~</c> damage with each Basic Attack, dealing <c val=\"bfd4fd\">100%</c> bonus damage to enemy non-Heroes.",
+          "cooldownText": "Cooldown: 15 seconds"
         }
       ]
     }
@@ -369,7 +383,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "AlexstraszaLifeblossomGiftOfLifePickupAttack|Attack|Z"
+          "_hdp5LinkId": "AlexstraszaLifeblossomGiftOfLifePickupAttack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -713,7 +730,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -833,7 +852,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -869,7 +890,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -978,7 +1001,10 @@
           "buttonId": "Attack",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|B"
+          "_hdp5LinkId": "attack|Attack|B",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -1014,7 +1040,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -1176,7 +1204,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -1212,7 +1242,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -1248,7 +1280,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -1301,21 +1335,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "trait": [
@@ -1324,7 +1364,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Trait"
+          "_hdp5LinkId": "move|MovePatrol|Trait",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -1640,7 +1682,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "ButcherFreshMeatAttack|Attack|Z"
+          "_hdp5LinkId": "ButcherFreshMeatAttack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -1690,7 +1735,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "ButcherFreshMeatAttack|Attack|Z"
+          "_hdp5LinkId": "ButcherFreshMeatAttack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -1785,7 +1833,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -1909,7 +1959,10 @@
           "abilityType": "Q",
           "isPassive": false,
           "_hdp5LinkId": "ChromiePastAndFutureMeSandBlast|ChromieSandBlast|Q",
-          "toggleCooldown": 0.5
+          "toggleCooldown": 0.5,
+          "icon": "storm_ui_icon_chromie_aethercannon.png",
+          "name": "Sand Blast",
+          "fullText": "After <c val=\"bfd4fd\">0.5</c> seconds, fire a missile that deals <c val=\"bfd4fd\">305</c><c val=\"a7a7a7\">~~0.04~~</c> damage to the first enemy hit. Deals <c val=\"bfd4fd\">50%</c> damage to Structures.<n/><n/>Casting Sand Blast leaves an Echo behind that mimics Chromie's Sand Blast and Basic Attack, dealing <c val=\"bfd4fd\">40%</c> damage. Maximum of <c val=\"bfd4fd\">1</c> Echo active at a time."
         }
       ]
     }
@@ -2005,7 +2058,9 @@
           "abilityType": "Q",
           "isPassive": false,
           "_hdp5LinkId": "LiLiCloudSerpentAttack|LiLiCloudSerpentAttack|Q",
-          "toggleCooldown": 0.75
+          "toggleCooldown": 0.75,
+          "icon": "storm_ui_icon_lili_cloudserpent.png",
+          "name": "Cloud Serpent Attack"
         }
       ],
       "hearth": [
@@ -2014,7 +2069,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -2130,7 +2187,11 @@
           "buttonId": "DeathwingDestroyer",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingDestroyerForm|DeathwingDestroyer|Q"
+          "_hdp5LinkId": "DeathwingDestroyerForm|DeathwingDestroyer|Q",
+          "icon": "storm_ui_icon_deathwing_destroyer.png",
+          "name": "Destroyer",
+          "fullText": "After <c val=\"bfd4fd\">1.75</c> seconds, Deathwing slams down to the ground, dealing <c val=\"bfd4fd\">50</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in the area and landing in <c val=\"ef6e28-ad231e\">Destroyer</c> form. Deathwing can begin to cast Abilities <c val=\"bfd4fd\">3</c> seconds after landing.",
+          "cooldownText": "Cooldown: 8 seconds"
         },
         {
           "nameId": "DeathwingMoltenFlameCancel",
@@ -2138,35 +2199,54 @@
           "abilityType": "Q",
           "isPassive": false,
           "_hdp5LinkId": "DeathwingMoltenFlameCancel|DeathwingMoltenFlameCancel|Q",
-          "toggleCooldown": 0.75
+          "toggleCooldown": 0.75,
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "name": "Cancel",
+          "fullText": "After <c val=\"bfd4fd\">1.5</c> seconds, Deathwing breathes a stream of flame, dealing <c val=\"bfd4fd\">20</c><c val=\"a7a7a7\">~~0.04~~</c> damage every <c val=\"bfd4fd\">0.125</c> seconds. Drains <c val=\"bfd4fd\">30</c> Energy per second. "
         },
         {
           "nameId": "DeathwingMoltenFlame",
           "buttonId": "DeathwingMoltenFlame",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingMoltenFlame|DeathwingMoltenFlame|Q"
+          "_hdp5LinkId": "DeathwingMoltenFlame|DeathwingMoltenFlame|Q",
+          "icon": "storm_ui_icon_deathwing_molten_flame.png",
+          "name": "Molten Flame",
+          "fullText": "After <c val=\"bfd4fd\">1.5</c> seconds, Deathwing breathes a stream of flame, dealing <c val=\"bfd4fd\">20</c><c val=\"a7a7a7\">~~0.04~~</c> damage every <c val=\"bfd4fd\">0.125</c> seconds. Drains <c val=\"bfd4fd\">30</c> Energy per second. ",
+          "cooldownText": "Cooldown: 3 seconds"
         },
         {
           "nameId": "DeathwingWorldbreakerForm",
           "buttonId": "DeathwingWorldbreaker",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W"
+          "_hdp5LinkId": "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "icon": "storm_ui_icon_deathwing_world_breaker.png",
+          "name": "World Breaker",
+          "fullText": "After <c val=\"bfd4fd\">1.75</c> seconds, Deathwing slams down to the ground, dealing <c val=\"bfd4fd\">50</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in the area and landing in <c val=\"d8ab80-87564b\">World Breaker</c> form. Deathwing can begin to cast Abilities <c val=\"bfd4fd\">3</c> seconds after landing.",
+          "cooldownText": "Cooldown: 8 seconds"
         },
         {
           "nameId": "DeathwingWorldbreakerForm",
           "buttonId": "DeathwingWorldbreaker",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W"
+          "_hdp5LinkId": "DeathwingWorldbreakerForm|DeathwingWorldbreaker|W",
+          "icon": "storm_ui_icon_deathwing_world_breaker.png",
+          "name": "World Breaker",
+          "fullText": "After <c val=\"bfd4fd\">1.75</c> seconds, Deathwing slams down to the ground, dealing <c val=\"bfd4fd\">50</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in the area and landing in <c val=\"d8ab80-87564b\">World Breaker</c> form. Deathwing can begin to cast Abilities <c val=\"bfd4fd\">3</c> seconds after landing.",
+          "cooldownText": "Cooldown: 8 seconds"
         },
         {
           "nameId": "DeathwingIncinerate",
           "buttonId": "DeathwingIncinerate",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingIncinerate|DeathwingIncinerate|W"
+          "_hdp5LinkId": "DeathwingIncinerate|DeathwingIncinerate|W",
+          "icon": "storm_ui_icon_deathwing_incinerate.png",
+          "name": "Incinerate",
+          "fullText": "After <c val=\"bfd4fd\">0.75</c> seconds, Deathwing flaps his wings, dealing <c val=\"bfd4fd\">100</c><c val=\"a7a7a7\">~~0.04~~</c> damage to nearby enemies.<n/><n/><c val=\"d8ab80-87564b\">World Breaker: Lava Burst</c><n/>Create a lava pool that damages and Slows",
+          "cooldownText": "Cooldown: 7 seconds"
         },
         {
           "nameId": "DeathwingSkyfall",
@@ -2180,28 +2260,44 @@
             "countUse": 1,
             "recastCooldown": 0.5,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_ui_icon_deathwing_skyfall.png",
+          "name": "Skyfall",
+          "fullText": "After <c val=\"bfd4fd\">0.8</c> seconds, a meteor falls from the sky, dealing <c val=\"bfd4fd\">58</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in the area.<n/><n/>If a Hero is hit, Deathwing heals for <c val=\"bfd4fd\">3%</c> of his maximum Health.",
+          "cooldownText": "Charge Cooldown: 10 seconds"
         },
         {
           "nameId": "DeathwingOnslaught",
           "buttonId": "DeathwingOnslaught",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingOnslaught|DeathwingOnslaught|E"
+          "_hdp5LinkId": "DeathwingOnslaught|DeathwingOnslaught|E",
+          "icon": "storm_ui_icon_deathwing_onslaught.png",
+          "name": "Onslaught",
+          "fullText": "After <c val=\"bfd4fd\">0.5</c> seconds, Deathwing lunges in a direction dealing <c val=\"bfd4fd\">60</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies and Slowing them by <c val=\"bfd4fd\">35%</c> for <c val=\"bfd4fd\">2</c> seconds. Deathwing bites enemies at the end of the lunge, dealing an additional <c val=\"bfd4fd\">120</c><c val=\"a7a7a7\">~~0.04~~</c> damage.<n/><n/><c val=\"d8ab80-87564b\">World Breaker: Earth Shatter</c><n/>Damage and Stun enemies in two lines",
+          "cooldownText": "Cooldown: 6 seconds"
         },
         {
           "nameId": "DeathwingEarthShatter",
           "buttonId": "DeathwingEarthShatter",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingEarthShatter|DeathwingEarthShatter|E"
+          "_hdp5LinkId": "DeathwingEarthShatter|DeathwingEarthShatter|E",
+          "icon": "storm_ui_icon_deathwing_earth_shatter.png",
+          "name": "Earth Shatter",
+          "fullText": "Create a fissure of earth that deals <c val=\"bfd4fd\">90</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies hit and Stuns them for <c val=\"bfd4fd\">0.75</c> seconds.<n/><n/><c val=\"ef6e28-ad231e\">Destroyer: Onslaught</c><n/>Lunge in a direction",
+          "cooldownText": "Cooldown: 12 seconds"
         },
         {
           "nameId": "DeathwingEarthShatter",
           "buttonId": "DeathwingEarthShatter",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingEarthShatter|DeathwingEarthShatter|E"
+          "_hdp5LinkId": "DeathwingEarthShatter|DeathwingEarthShatter|E",
+          "icon": "storm_ui_icon_deathwing_earth_shatter.png",
+          "name": "Earth Shatter",
+          "fullText": "Create a fissure of earth that deals <c val=\"bfd4fd\">90</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies hit and Stuns them for <c val=\"bfd4fd\">0.75</c> seconds.<n/><n/><c val=\"ef6e28-ad231e\">Destroyer: Onslaught</c><n/>Lunge in a direction",
+          "cooldownText": "Cooldown: 12 seconds"
         }
       ],
       "heroic": [
@@ -2210,7 +2306,11 @@
           "buttonId": "DeathwingCataclysm",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingCataclysm|DeathwingCataclysm|Heroic"
+          "_hdp5LinkId": "DeathwingCataclysm|DeathwingCataclysm|Heroic",
+          "icon": "storm_ui_icon_deathwing_cataclysm.png",
+          "name": "Cataclysm",
+          "fullText": "After <c val=\"bfd4fd\">2</c> seconds, Deathwing flies in the targeted direction, dealing <c val=\"bfd4fd\">90</c><c val=\"a7a7a7\">~~0.04~~</c> damage on impact and leaving scorched ground that deals <c val=\"bfd4fd\">36</c><c val=\"a7a7a7\">~~0.04~~</c> damage a second. Lasts <c val=\"bfd4fd\">6</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit Heroes with Molten Flame to grant <c val=\"bfd4fd\">1</c> stack.<n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Score Takedowns to grant <c val=\"bfd4fd\">50</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> After reaching <c val=\"bfd4fd\">2000</c> stacks, Deathwing brings on the Hour of Twilight. Cataclysm's periodic damage to Structures is increased by <c val=\"bfd4fd\">2500%</c>.",
+          "cooldownText": "Cooldown: 90 seconds"
         }
       ],
       "trait": [
@@ -2219,7 +2319,10 @@
           "buttonId": "DeathwingAspectOfDeath",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|DeathwingAspectOfDeath|Trait"
+          "_hdp5LinkId": ":PASSIVE:|DeathwingAspectOfDeath|Trait",
+          "icon": "storm_ui_icon_deathwing_aspect_of_death.png",
+          "name": "Aspect of Death",
+          "fullText": "Deathwing is fitted with <c val=\"bfd4fd\">4</c> Armor Plates which grant <c val=\"bfd4fd\">10</c> Armor each. Every <c val=\"bfd4fd\">25%</c> Health lost causes Deathwing to lose a plate. Plates are only restored when Dragonflight is used, based on the amount of Health Deathwing has when landing.<n/><n/>Deathwing is also a mighty Dragon Aspect who is permanently Unstoppable and deals <c val=\"bfd4fd\">100%</c> additional Spell Damage to Heroes, but views his allies with contempt and ignores any of their friendly effects."
         }
       ],
       "hearth": [
@@ -2228,7 +2331,10 @@
           "buttonId": "DeathwingHearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|DeathwingHearthstone|B"
+          "_hdp5LinkId": "Hearthstone|DeathwingHearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms."
         }
       ],
       "mount": [
@@ -2237,7 +2343,11 @@
           "buttonId": "DeathwingDragonflight",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "DeathwingDragonflight|DeathwingDragonflight|Z"
+          "_hdp5LinkId": "DeathwingDragonflight|DeathwingDragonflight|Z",
+          "icon": "storm_ui_icon_deathwing_mount.png",
+          "name": "Dragonflight",
+          "fullText": "After <c val=\"bfd4fd\">3</c> seconds, fly into the sky, becoming Immune to all effects and gaining <c val=\"bfd4fd\">2.5%</c> Health per second. Once cast, this ability cannot be interrupted. Cannot be cast for <c val=\"bfd4fd\">6</c> seconds after taking damage, Basic Attacking or casting an Ability.",
+          "cooldownText": "Cooldown: 20 seconds"
         }
       ],
       "spray": [
@@ -2246,7 +2356,11 @@
           "buttonId": "LootSpray",
           "abilityType": "Spray",
           "isPassive": false,
-          "_hdp5LinkId": "LootSpray|LootSpray|Spray"
+          "_hdp5LinkId": "LootSpray|LootSpray|Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "name": "Quick Spray Expression",
+          "fullText": "Express yourself to other players by marking the ground with your selected spray.",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ],
       "voice": [
@@ -2255,7 +2369,11 @@
           "buttonId": "LootYellVoiceLine",
           "abilityType": "Voice",
           "isPassive": false,
-          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice"
+          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "name": "Quick Voice Line Expression",
+          "fullText": "Express yourself to other players by playing your selected Voice Line.",
+          "cooldownText": "Cooldown: 7 seconds"
         }
       ]
     }
@@ -2462,7 +2580,9 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "DeckardLorenadoKnockback",
@@ -2830,7 +2950,9 @@
           "buttonId": "GardensObeliskActivate",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q"
+          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q",
+          "icon": "storm_temp_war3_btnelvenguardtower.png",
+          "name": "Gardens Obelisk Activate"
         }
       ],
       "mount": [
@@ -2839,7 +2961,9 @@
           "buttonId": "Stop",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|Z"
+          "_hdp5LinkId": "stop|Stop|Z",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         }
       ]
     }
@@ -2864,7 +2988,9 @@
           "buttonId": "GardensObeliskActivate",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q"
+          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q",
+          "icon": "storm_temp_war3_btnelvenguardtower.png",
+          "name": "Gardens Obelisk Activate"
         }
       ],
       "mount": [
@@ -2873,7 +2999,9 @@
           "buttonId": "Stop",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|Z"
+          "_hdp5LinkId": "stop|Stop|Z",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         }
       ]
     }
@@ -3016,7 +3144,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "spray": [
@@ -3025,7 +3156,11 @@
           "buttonId": "LootSpray",
           "abilityType": "Spray",
           "isPassive": false,
-          "_hdp5LinkId": "LootSpray|LootSpray|Spray"
+          "_hdp5LinkId": "LootSpray|LootSpray|Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "name": "Quick Spray Expression",
+          "fullText": "Express yourself to other players by marking the ground with your selected spray.",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ],
       "voice": [
@@ -3034,7 +3169,11 @@
           "buttonId": "LootYellVoiceLine",
           "abilityType": "Voice",
           "isPassive": false,
-          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice"
+          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "name": "Quick Voice Line Expression",
+          "fullText": "Express yourself to other players by playing your selected Voice Line.",
+          "cooldownText": "Cooldown: 7 seconds"
         }
       ]
     }
@@ -3143,7 +3282,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -3168,7 +3309,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -3193,7 +3336,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -3484,14 +3629,22 @@
           "buttonId": "FirebatBunkerDropFlamethrower",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q"
+          "_hdp5LinkId": "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q",
+          "icon": "storm_ui_icon_blaze_flame.png",
+          "name": "Flamethrower",
+          "fullText": "Deal <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in a line.",
+          "cooldownText": "Cooldown: 1 second"
         },
         {
           "nameId": "FirebatBunkerDropFortifiedBunkerOilSpill",
           "buttonId": "FirebatBunkerDropFortifiedBunkerOilSpill",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W"
+          "_hdp5LinkId": "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W",
+          "icon": "storm_ui_icon_blaze_oil.png",
+          "name": "Oil Spill",
+          "fullText": "<c val=\"bfd4fd\">Vector Targeting</c><n/>Dispense an Oil Spill that Slows enemies and can be set on fire by Blaze.",
+          "cooldownText": "Cooldown: 6 seconds"
         }
       ],
       "trait": [
@@ -3501,7 +3654,10 @@
           "abilityType": "Trait",
           "isPassive": false,
           "_hdp5LinkId": "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait",
-          "toggleCooldown": 0.25
+          "toggleCooldown": 0.25,
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "name": "Exit Bunker",
+          "fullText": "Exit Bunker."
         }
       ]
     }
@@ -3614,7 +3770,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -3751,7 +3909,9 @@
           "buttonId": "GardensObeliskActivate",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q"
+          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q",
+          "icon": "storm_temp_war3_btnelvenguardtower.png",
+          "name": "Gardens Obelisk Activate"
         }
       ]
     }
@@ -3776,7 +3936,9 @@
           "buttonId": "GardensObeliskActivate",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q"
+          "_hdp5LinkId": "GardensObeliskActivate|GardensObeliskActivate|Q",
+          "icon": "storm_temp_war3_btnelvenguardtower.png",
+          "name": "Gardens Obelisk Activate"
         }
       ]
     }
@@ -4675,7 +4837,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -4770,14 +4934,20 @@
           "buttonId": "GenericCalldownMULERepair",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "MULERepair|GenericCalldownMULERepair|Q"
+          "_hdp5LinkId": "MULERepair|GenericCalldownMULERepair|Q",
+          "icon": "storm_temp_btn-ability-terran-repair.png",
+          "name": "Calldown MULE Repair",
+          "fullText": "Restores Health and ammo to structures."
         },
         {
           "nameId": "MULERepairEnergy",
           "buttonId": "GenericCalldownMULERepair",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "MULERepairEnergy|GenericCalldownMULERepair|W"
+          "_hdp5LinkId": "MULERepairEnergy|GenericCalldownMULERepair|W",
+          "icon": "storm_temp_btn-ability-terran-repair.png",
+          "name": "Calldown MULE Repair",
+          "fullText": "Restores Health and ammo to structures."
         }
       ],
       "hearth": [
@@ -4786,7 +4956,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -4878,21 +5050,30 @@
           "buttonId": "JainaFrostbolt",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "JainaWaterElementalFrostbolt|JainaFrostbolt|Q"
+          "_hdp5LinkId": "JainaWaterElementalFrostbolt|JainaFrostbolt|Q",
+          "icon": "storm_ui_icon_jaina_frostbolt.png",
+          "name": "Frostbolt",
+          "fullText": "Deal <c val=\"bfd4fd\">184</c><c val=\"a7a7a7\">~~0.04~~</c> damage and Chill the target."
         },
         {
           "nameId": "JainaWaterElementalBlizzard",
           "buttonId": "JainaBlizzard",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "JainaWaterElementalBlizzard|JainaBlizzard|W"
+          "_hdp5LinkId": "JainaWaterElementalBlizzard|JainaBlizzard|W",
+          "icon": "storm_ui_icon_jaina_blizzard.png",
+          "name": "Blizzard",
+          "fullText": "Bombard an area with <c val=\"bfd4fd\">3</c> waves of ice, dealing <c val=\"bfd4fd\">142</c><c val=\"a7a7a7\">~~0.04~~</c> damage each. Damaged enemies are Chilled."
         },
         {
           "nameId": "JainaWaterElementalConeOfCold",
           "buttonId": "JainaConeOfCold",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "JainaWaterElementalConeOfCold|JainaConeOfCold|E"
+          "_hdp5LinkId": "JainaWaterElementalConeOfCold|JainaConeOfCold|E",
+          "icon": "storm_ui_icon_jaina_coneofcold.png",
+          "name": "Cone of Cold",
+          "fullText": "Deal <c val=\"bfd4fd\">220</c><c val=\"a7a7a7\">~~0.04~~</c> damage and Chill targets."
         }
       ],
       "heroic": [
@@ -4901,7 +5082,9 @@
           "buttonId": "SummonedUnitSpecialCaseInteraction",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Heroic"
+          "_hdp5LinkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Heroic",
+          "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+          "name": "Summoned Unit Special Case Interaction"
         }
       ],
       "hearth": [
@@ -4910,7 +5093,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -4954,7 +5139,9 @@
             "countMax": 100,
             "countStart": 10,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_temp_btn-ability-terran-bombardmentstrike-color.png",
+          "name": "Blackheart's Bombardment"
         },
         {
           "nameId": "GhostShipBombardChargedStarboard",
@@ -4966,7 +5153,9 @@
             "countMax": 100,
             "countStart": 10,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_temp_btn-ability-terran-bombardmentstrike-color.png",
+          "name": "Blackheart's Bombardment"
         }
       ],
       "hearth": [
@@ -4975,7 +5164,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -5042,14 +5233,22 @@
           "buttonId": "GraveGolemBindingRoots",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q"
+          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q",
+          "icon": "storm_ui_hud_snowbrawl_snowballa.png",
+          "name": "Binding Roots",
+          "fullText": "Roots roots roots",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "UnderworldBossStun",
           "buttonId": "GraveGolemMegaStun",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W"
+          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W",
+          "icon": "storm_ui_icon_slam.png",
+          "name": "Mega Smash",
+          "fullText": "Slam the ground, dealing <c val=\"bfd4fd\">0</c> damage to nearby enemies and stunning them.",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "hearth": [
@@ -5058,7 +5257,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -5068,7 +5269,9 @@
           "abilityType": "Z",
           "isPassive": false,
           "_hdp5LinkId": "WallCrush|GraveGolemWallCrush|Z",
-          "toggleCooldown": 0.5
+          "toggleCooldown": 0.5,
+          "icon": "storm_btn_d3_wizard_waveofforce.png",
+          "name": "Grave Golem Wall Crush"
         }
       ]
     }
@@ -5104,14 +5307,22 @@
           "buttonId": "GraveGolemBindingRoots",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q"
+          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q",
+          "icon": "storm_ui_hud_snowbrawl_snowballa.png",
+          "name": "Binding Roots",
+          "fullText": "Roots roots roots",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "UnderworldBossStun",
           "buttonId": "GraveGolemMegaStun",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W"
+          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W",
+          "icon": "storm_ui_icon_slam.png",
+          "name": "Mega Smash",
+          "fullText": "Slam the ground, dealing <c val=\"bfd4fd\">0</c> damage to nearby enemies and stunning them.",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "trait": [
@@ -5120,7 +5331,10 @@
           "buttonId": "GraveGolemMULEKill",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "GraveGolemMULEKill|GraveGolemMULEKill|Trait"
+          "_hdp5LinkId": "GraveGolemMULEKill|GraveGolemMULEKill|Trait",
+          "icon": "storm_temp_btn-unit-terran-mule.png",
+          "name": "Grave Golem MULE Kill",
+          "cooldownText": "Cooldown: 6 seconds"
         }
       ],
       "hearth": [
@@ -5129,7 +5343,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -5139,7 +5355,9 @@
           "abilityType": "Z",
           "isPassive": false,
           "_hdp5LinkId": "WallCrush|GraveGolemWallCrush|Z",
-          "toggleCooldown": 0.5
+          "toggleCooldown": 0.5,
+          "icon": "storm_btn_d3_wizard_waveofforce.png",
+          "name": "Grave Golem Wall Crush"
         }
       ]
     }
@@ -5220,7 +5438,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -5245,7 +5465,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -5270,7 +5492,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -5295,7 +5519,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -5551,7 +5777,9 @@
           "buttonId": "KelThuzadChainsPull",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "KelThuzadChainsPull|KelThuzadChainsPull|Q"
+          "_hdp5LinkId": "KelThuzadChainsPull|KelThuzadChainsPull|Q",
+          "icon": "storm_ui_icon_kel'thuzad_chains.png",
+          "name": "Chains Pull"
         }
       ]
     }
@@ -5664,7 +5892,10 @@
           "buttonId": "KelThuzadDeathAndDecay",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "KelThuzadDeathAndDecayShade|KelThuzadDeathAndDecay|Q"
+          "_hdp5LinkId": "KelThuzadDeathAndDecayShade|KelThuzadDeathAndDecay|Q",
+          "icon": "storm_ui_icon_kel'thuzad_deathanddecay.png",
+          "name": "Death and Decay",
+          "fullText": "After <c val=\"bfd4fd\">0.5</c> seconds, launch an orb that explodes upon hitting an enemy, dealing <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.025~~</c> damage to enemies in the area. The explosion leaves behind a pool of decay that lasts <c val=\"bfd4fd\">2</c> seconds, dealing <c val=\"bfd4fd\">82</c><c val=\"a7a7a7\">~~0.025~~</c> damage every <c val=\"bfd4fd\">0.5</c> seconds to enemies."
         }
       ]
     }
@@ -5742,14 +5973,20 @@
           "buttonId": "SummonedUnitSpecialCaseInteraction",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Q"
+          "_hdp5LinkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Q",
+          "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+          "name": "Summoned Unit Special Case Interaction"
         },
         {
           "nameId": "KerriganUltraliskCharge",
           "buttonId": "KerriganUltraliskCharge",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "KerriganUltraliskCharge|KerriganUltraliskCharge|W"
+          "_hdp5LinkId": "KerriganUltraliskCharge|KerriganUltraliskCharge|W",
+          "icon": "storm_ui_icon_anubarak_burrowcharge.png",
+          "name": "Ultralisk Charge",
+          "fullText": "Charge at an enemy.",
+          "cooldownText": "Cooldown: 1 second"
         }
       ],
       "hearth": [
@@ -5758,7 +5995,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -5816,7 +6055,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -6131,7 +6371,9 @@
           "buttonId": "TreasureGoblinPortal",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "TreasureGoblinEscape|TreasureGoblinPortal|Q"
+          "_hdp5LinkId": "TreasureGoblinEscape|TreasureGoblinPortal|Q",
+          "icon": "storm_temp_war3_btnsoulburn.png",
+          "cooldownText": "Cooldown: 14 seconds"
         }
       ],
       "hearth": [
@@ -6140,7 +6382,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -6191,7 +6435,11 @@
           "buttonId": "LostVikingsMortar",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q"
+          "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+          "icon": "storm_ui_icon_lostvikings_mortar.png",
+          "name": "Mortar",
+          "fullText": "Fires a mortar at the targeted location, dealing <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in a large area.",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ]
     }
@@ -6370,21 +6618,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -6393,7 +6647,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -6402,7 +6658,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -6497,21 +6756,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -6520,7 +6785,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -6529,7 +6796,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -6677,7 +6947,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7106,7 +7378,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7145,7 +7419,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7198,7 +7474,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7237,7 +7515,11 @@
           "buttonId": "KnightMagicVolley",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "KnightMagicVolley|KnightMagicVolley|W"
+          "_hdp5LinkId": "KnightMagicVolley|KnightMagicVolley|W",
+          "icon": "storm_btn_d3_barbarian_frenzy.png",
+          "name": "Magical Barrage",
+          "fullText": "Channels to repeatedly deal Ability damage.",
+          "cooldownText": "Cooldown: 12 seconds"
         }
       ],
       "hearth": [
@@ -7246,7 +7528,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7296,7 +7580,11 @@
           "buttonId": "MercenarySentinelHorizontalSlash",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "MercenarySentinelHorizontalSlash|MercenarySentinelHorizontalSlash|Q"
+          "_hdp5LinkId": "MercenarySentinelHorizontalSlash|MercenarySentinelHorizontalSlash|Q",
+          "icon": "storm_ui_icon_genji_swiftstrike_a.png",
+          "name": "Horizontal Slash",
+          "fullText": "Heavily damage enemies in a wide area",
+          "cooldownText": "Cooldown: 8 seconds"
         }
       ],
       "hearth": [
@@ -7305,7 +7593,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7350,7 +7640,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7403,7 +7695,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7445,7 +7739,8 @@
           "buttonId": "MercGoblinSapperSuicide",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "MercGoblinSapperSuicide|MercGoblinSapperSuicide|Q"
+          "_hdp5LinkId": "MercGoblinSapperSuicide|MercGoblinSapperSuicide|Q",
+          "icon": "storm_temp_war3_btnundeadunload.png"
         }
       ],
       "hearth": [
@@ -7454,7 +7749,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7532,7 +7829,10 @@
           "buttonId": "MercLanerOgreBruiserTaunt",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "MercLanerOgreBruiserTaunt|MercLanerOgreBruiserTaunt|Q"
+          "_hdp5LinkId": "MercLanerOgreBruiserTaunt|MercLanerOgreBruiserTaunt|Q",
+          "icon": "storm_temp_war3_btntaunt.png",
+          "name": "Merc Laner Ogre Bruiser Taunt",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ],
       "hearth": [
@@ -7541,7 +7841,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7591,7 +7893,11 @@
           "buttonId": "KnightMagicVolley",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "KnightMagicVolley|KnightMagicVolley|W"
+          "_hdp5LinkId": "KnightMagicVolley|KnightMagicVolley|W",
+          "icon": "storm_btn_d3_barbarian_frenzy.png",
+          "name": "Magical Barrage",
+          "fullText": "Channels to repeatedly deal Ability damage.",
+          "cooldownText": "Cooldown: 12 seconds"
         }
       ],
       "hearth": [
@@ -7600,7 +7906,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7640,7 +7948,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7691,7 +8001,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7761,7 +8073,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7814,7 +8128,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7869,14 +8185,18 @@
           "buttonId": "MercSummonerDefenderSummonMinions",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "MercSummonerDefenderSummonMinions|MercSummonerDefenderSummonMinions|W"
+          "_hdp5LinkId": "MercSummonerDefenderSummonMinions|MercSummonerDefenderSummonMinions|W",
+          "icon": "storm_ui_temp_icon_controlminion.png",
+          "cooldownText": "Cooldown: 20 seconds"
         },
         {
           "nameId": "MercSummonerDefenderSummonMinionA",
           "buttonId": "MercSummonerDefenderSummonMinionA",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "MercSummonerDefenderSummonMinionA|MercSummonerDefenderSummonMinionA|E"
+          "_hdp5LinkId": "MercSummonerDefenderSummonMinionA|MercSummonerDefenderSummonMinionA|E",
+          "icon": "storm_temp_war3_btnfelguard.png",
+          "cooldownText": "Cooldown: 20 seconds"
         }
       ],
       "heroic": [
@@ -7885,7 +8205,9 @@
           "buttonId": "MercSummonerDefenderSummonMinionB",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "MercSummonerDefenderSummonMinionB|MercSummonerDefenderSummonMinionB|Heroic"
+          "_hdp5LinkId": "MercSummonerDefenderSummonMinionB|MercSummonerDefenderSummonMinionB|Heroic",
+          "icon": "storm_temp_war3_btnfelguardblue.png",
+          "cooldownText": "Cooldown: 20 seconds"
         }
       ],
       "hearth": [
@@ -7894,7 +8216,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7935,14 +8259,18 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         },
         {
           "nameId": "move",
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -7967,7 +8295,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -8036,14 +8366,18 @@
           "buttonId": "MercSummonerLanerSummonMinions",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "MercSummonerLanerSummonMinions|MercSummonerLanerSummonMinions|W"
+          "_hdp5LinkId": "MercSummonerLanerSummonMinions|MercSummonerLanerSummonMinions|W",
+          "icon": "storm_ui_temp_icon_controlminion.png",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "MercSummonerLanerSummonMinionA",
           "buttonId": "MercSummonerLanerSummonMinionA",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "MercSummonerLanerSummonMinionA|MercSummonerLanerSummonMinionA|E"
+          "_hdp5LinkId": "MercSummonerLanerSummonMinionA|MercSummonerLanerSummonMinionA|E",
+          "icon": "storm_temp_war3_btnfelguard.png",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "heroic": [
@@ -8052,7 +8386,9 @@
           "buttonId": "MercSummonerLanerSummonMinionB",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "MercSummonerLanerSummonMinionB|MercSummonerLanerSummonMinionB|Heroic"
+          "_hdp5LinkId": "MercSummonerLanerSummonMinionB|MercSummonerLanerSummonMinionB|Heroic",
+          "icon": "storm_temp_war3_btnfelguardblue.png",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "hearth": [
@@ -8061,7 +8397,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -8102,7 +8440,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -8127,7 +8467,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -8446,7 +8788,9 @@
           "buttonId": "Move",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|B"
+          "_hdp5LinkId": "move|Move|B",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         }
       ]
     }
@@ -8482,7 +8826,9 @@
           "buttonId": "Move",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|B"
+          "_hdp5LinkId": "move|Move|B",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         }
       ]
     }
@@ -8527,7 +8873,10 @@
           "buttonId": "Attack",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|B"
+          "_hdp5LinkId": "attack|Attack|B",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -8889,7 +9238,9 @@
           "buttonId": "PaulUnitAbility",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "PaulUnitAbility|PaulUnitAbility|Q"
+          "_hdp5LinkId": "PaulUnitAbility|PaulUnitAbility|Q",
+          "icon": "storm_temp_war3_btnloaddwarf.png",
+          "name": "Paul Unit Ability"
         },
         {
           "nameId": "GhostShipBombardChargedPort",
@@ -8901,7 +9252,9 @@
             "countMax": 100,
             "countStart": 10,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_temp_btn-ability-terran-bombardmentstrike-color.png",
+          "name": "Blackheart's Bombardment"
         },
         {
           "nameId": "GhostShipBombardChargedStarboard",
@@ -8913,7 +9266,9 @@
             "countMax": 100,
             "countStart": 10,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_temp_btn-ability-terran-bombardmentstrike-color.png",
+          "name": "Blackheart's Bombardment"
         }
       ],
       "hearth": [
@@ -8922,7 +9277,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -9054,7 +9411,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "ProbiusPhotonCannonGatherMineralsMineralAttack|Attack|Z"
+          "_hdp5LinkId": "ProbiusPhotonCannonGatherMineralsMineralAttack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -9252,7 +9612,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -9423,7 +9785,9 @@
           "buttonId": "SummonedUnitSpecialCaseInteraction",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Q"
+          "_hdp5LinkId": "HeroGenericSummonedUnitSpecialCaseInteraction|SummonedUnitSpecialCaseInteraction|Q",
+          "icon": "storm_temp_btn-ability-protoss-prismaticbeam-color.png",
+          "name": "Summoned Unit Special Case Interaction"
         }
       ],
       "hearth": [
@@ -9432,7 +9796,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -9622,7 +9988,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -9735,7 +10103,11 @@
           "buttonId": "SgtHammerBluntForceGun",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "SgtHammerBluntForceGun|SgtHammerBluntForceGun|Q"
+          "_hdp5LinkId": "SgtHammerBluntForceGun|SgtHammerBluntForceGun|Q",
+          "icon": "storm_ui_icon_sgthammer_bluntforcegun.png",
+          "name": "Blunt Force Gun",
+          "fullText": "Fire a missile across the battlefield, dealing <c val=\"bfd4fd\">500</c><c val=\"a7a7a7\">~~0.03~~</c><c val=\"bfd4fd\"> </c>damage to enemies in its path.  Deals <c val=\"bfd4fd\">50%</c> damage to Structures.",
+          "cooldownText": "Cooldown: 70 seconds"
         }
       ]
     }
@@ -9937,7 +10309,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -9976,7 +10350,9 @@
           "buttonId": "StarCraftEventTeleport",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "StarCraftEventSCVTeleportOut|StarCraftEventTeleport|E"
+          "_hdp5LinkId": "StarCraftEventSCVTeleportOut|StarCraftEventTeleport|E",
+          "icon": "storm_btn_d3_wizard_teleport.png",
+          "name": "Teleport"
         }
       ],
       "hearth": [
@@ -9985,7 +10361,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -10123,21 +10501,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -10146,7 +10530,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -10155,7 +10541,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -10194,21 +10583,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -10217,7 +10612,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -10226,7 +10623,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -10377,21 +10777,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -10400,7 +10806,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -10409,7 +10817,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -10434,7 +10845,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -10459,21 +10872,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -10482,7 +10901,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -10491,7 +10912,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -10516,21 +10940,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -10539,7 +10969,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -10548,7 +10980,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -11105,21 +11540,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -11128,7 +11569,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -11137,7 +11580,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -11162,21 +11608,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -11185,7 +11637,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -11194,7 +11648,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -11219,21 +11676,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -11242,7 +11705,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -11251,7 +11716,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -11276,21 +11744,27 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         },
         {
           "nameId": "stop",
           "buttonId": "Stop",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "stop|Stop|W"
+          "_hdp5LinkId": "stop|Stop|W",
+          "icon": "btn-command-stop.png",
+          "name": "Stop"
         },
         {
           "nameId": "move",
           "buttonId": "MoveHoldPosition",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "move|MoveHoldPosition|E"
+          "_hdp5LinkId": "move|MoveHoldPosition|E",
+          "icon": "btn-command-holdposition.png",
+          "name": "Move Hold Position"
         }
       ],
       "heroic": [
@@ -11299,7 +11773,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|Heroic"
+          "_hdp5LinkId": "move|MovePatrol|Heroic",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ],
       "mount": [
@@ -11308,7 +11784,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "attack|Attack|Z"
+          "_hdp5LinkId": "attack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -11345,7 +11824,11 @@
           "buttonId": "MuradinStormbolt",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "MuradinStormBolt|MuradinStormbolt|Q"
+          "_hdp5LinkId": "MuradinStormBolt|MuradinStormbolt|Q",
+          "icon": "storm_ui_icon_muradin_stormbolt.png",
+          "name": "Storm Bolt",
+          "fullText": "Throw a hammer, dealing <c val=\"bfd4fd\">110</c><c val=\"a7a7a7\">~~0.04~~</c> damage to the first enemy hit and Stunning them for <c val=\"bfd4fd\">1.25</c> seconds<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Basic Attack Heroes affected by Stuns, Slows, or Roots. Slowed or Rooted enemies grant <c val=\"bfd4fd\">1</c> stack. Stunned enemies provide <c val=\"bfd4fd\">2</c> stacks.  If the Hero dies within <c val=\"bfd4fd\">3</c> seconds, gain <c val=\"bfd4fd\">5</c> stacks.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Upon hitting <c val=\"bfd4fd\">45</c> targets, Storm Bolt pierces to hit an additional target, and Muradin's Basic Attacks reduce the cooldown of Storm Bolt by <c val=\"bfd4fd\">0.5</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Upon hitting <c val=\"bfd4fd\">160</c> targets, Storm Bolt's range is increased by <c val=\"bfd4fd\">50%</c>, width increased by <c val=\"bfd4fd\">100%</c>, and now pierces all targets.",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "NovaPinningShot",
@@ -11359,14 +11842,22 @@
             "countUse": 1,
             "recastCooldown": 1,
             "isCountHidden": true
-          }
+          },
+          "icon": "storm_ui_icon_nova_pinningshot.png",
+          "name": "Pinning Shot",
+          "fullText": "Deal <c val=\"bfd4fd\">100</c><c val=\"a7a7a7\">~~0.04~~</c> damage to an enemy and Slow them by <c val=\"bfd4fd\">40%</c> for <c val=\"bfd4fd\">2.25</c> seconds.",
+          "cooldownText": "Cooldown: 12 seconds"
         },
         {
           "nameId": "MalfurionEntanglingRoots",
           "buttonId": "MalfurionEntanglingRoots",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E"
+          "_hdp5LinkId": "MalfurionEntanglingRoots|MalfurionEntanglingRoots|E",
+          "icon": "storm_ui_icon_malfurion_entanglingroots.png",
+          "name": "Entangling Roots",
+          "fullText": "Root enemy Heroes in an area for <c val=\"bfd4fd\">1.25</c> seconds, and deal <c val=\"bfd4fd\">117</c><c val=\"a7a7a7\">~~0.04~~</c> damage over the duration. Affected area grows over <c val=\"bfd4fd\">3</c> seconds.",
+          "cooldownText": "Cooldown: 12 seconds"
         }
       ],
       "heroic": [
@@ -11375,7 +11866,11 @@
           "buttonId": "MalfurionTwilightDream",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "MalfurionTwilightDream|MalfurionTwilightDream|Heroic"
+          "_hdp5LinkId": "MalfurionTwilightDream|MalfurionTwilightDream|Heroic",
+          "icon": "storm_ui_icon_malfurion_twilightdream.png",
+          "name": "Twilight Dream",
+          "fullText": "After <c val=\"bfd4fd\">0.5</c> seconds, deal <c val=\"bfd4fd\">310</c><c val=\"a7a7a7\">~~0.04~~</c> damage in a large area around Malfurion, Silencing enemies making them unable to use Abilities for <c val=\"bfd4fd\">3 </c>seconds.",
+          "cooldownText": "Cooldown: 90 seconds"
         }
       ],
       "trait": [
@@ -11384,7 +11879,11 @@
           "buttonId": "LiLiBlindingWind",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "LiLiBlindingWind|LiLiBlindingWind|Trait"
+          "_hdp5LinkId": "LiLiBlindingWind|LiLiBlindingWind|Trait",
+          "icon": "storm_ui_icon_lili_blindingwind.png",
+          "name": "Blinding Wind",
+          "fullText": "Throw a cloud of wind at the <c val=\"bfd4fd\">2</c> nearest enemies (prioritizing Heroes), dealing <c val=\"bfd4fd\">133</c><c val=\"a7a7a7\">~~0.04~~</c> damage. Heroes hit are Blinded and Slowed by <c val=\"bfd4fd\">15%</c> for <c val=\"bfd4fd\">1.5</c> seconds.",
+          "cooldownText": "Cooldown: 12 seconds"
         }
       ],
       "hearth": [
@@ -11393,7 +11892,11 @@
           "buttonId": "StitchesHook",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "StitchesHook|StitchesHook|B"
+          "_hdp5LinkId": "StitchesHook|StitchesHook|B",
+          "icon": "storm_ui_icon_stitches_hook.png",
+          "name": "Hook",
+          "fullText": "Pull the first enemy hit towards Stitches and deal <c val=\"bfd4fd\">91</c><c val=\"a7a7a7\">~~0.04~~</c> damage.<n/><n/>After reaching level <c val=\"bfd4fd\">13</c>, Hook's range is increased by <c val=\"bfd4fd\">40%</c>.",
+          "cooldownText": "Cooldown: 16 seconds"
         }
       ],
       "mount": [
@@ -11402,7 +11905,11 @@
           "buttonId": "BrightwingPolymorph",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "FaerieDragonPolymorph|BrightwingPolymorph|Z"
+          "_hdp5LinkId": "FaerieDragonPolymorph|BrightwingPolymorph|Z",
+          "icon": "storm_ui_icon_brightwing_polymorph.png",
+          "name": "Polymorph",
+          "fullText": "Polymorph a target for <c val=\"bfd4fd\">1.5</c> seconds, Slowing their Movement Speed by <c val=\"bfd4fd\">30%</c> and Silencing them. Targets are not able to attack while Polymorphed.",
+          "cooldownText": "Cooldown: 12 seconds"
         }
       ]
     }
@@ -11443,21 +11950,33 @@
           "buttonId": "ZeratulVoidPrison",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "ZeratulVoidPrison|ZeratulVoidPrison|Q"
+          "_hdp5LinkId": "ZeratulVoidPrison|ZeratulVoidPrison|Q",
+          "icon": "storm_ui_icon_zeratul_voidprison.png",
+          "name": "Void Prison",
+          "fullText": "Slows time in an area to a near standstill, placing allies and enemies in Time Stop for <c val=\"bfd4fd\">5</c> seconds. Zeratul is not affected.",
+          "cooldownText": "Cooldown: 100 seconds"
         },
         {
           "nameId": "ZagaraDevouringMaw",
           "buttonId": "ZagaraDevouringMaw",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "ZagaraDevouringMaw|ZagaraDevouringMaw|W"
+          "_hdp5LinkId": "ZagaraDevouringMaw|ZagaraDevouringMaw|W",
+          "icon": "storm_ui_icon_zagara_devouringmaw.png",
+          "name": "Devouring Maw",
+          "fullText": "Summon a Devouring Maw that devours enemies for <c val=\"bfd4fd\">4</c> seconds. Devoured enemies cannot fight and take <c val=\"bfd4fd\">94</c><c val=\"a7a7a7\">~~0.04~~</c> damage per second.<n/><n/><c val=\"ffff8a\">Usable on Unstoppable enemies.</c>",
+          "cooldownText": "Cooldown: 80 seconds"
         },
         {
           "nameId": "AnubarakCocoon",
           "buttonId": "AnubarakCocoon",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "AnubarakCocoon|AnubarakCocoon|E"
+          "_hdp5LinkId": "AnubarakCocoon|AnubarakCocoon|E",
+          "icon": "storm_ui_icon_anubarak_webblast.png",
+          "name": "Cocoon",
+          "fullText": "Wraps target enemy Hero in a cocoon, rendering them unable to act or be targeted for <c val=\"bfd4fd\">7</c> seconds. Allies of the Hero can attack the cocoon to break it and free them early.",
+          "cooldownText": "Cooldown: 70 seconds"
         }
       ],
       "heroic": [
@@ -11466,7 +11985,11 @@
           "buttonId": "StitchesGorge",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "StitchesGorge|StitchesGorge|Heroic"
+          "_hdp5LinkId": "StitchesGorge|StitchesGorge|Heroic",
+          "icon": "storm_ui_icon_stitches_cannibalize.png",
+          "name": "Gorge",
+          "fullText": "Consume an enemy Hero, trapping them for <c val=\"bfd4fd\">4</c> seconds. When Gorge ends, the enemy Hero takes <c val=\"bfd4fd\">274</c><c val=\"a7a7a7\">~~0.04~~</c> damage. The trapped Hero cannot move or act and doesn't take damage from other sources.",
+          "cooldownText": "Cooldown: 65 seconds"
         }
       ],
       "trait": [
@@ -11475,7 +11998,11 @@
           "buttonId": "ButcherLambToTheSlaughter",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "ButcherLambToTheSlaughter|ButcherLambToTheSlaughter|Trait"
+          "_hdp5LinkId": "ButcherLambToTheSlaughter|ButcherLambToTheSlaughter|Trait",
+          "icon": "storm_ui_icon_butcher_lambtotheslaughter.png",
+          "name": "Lamb to the Slaughter",
+          "fullText": "Throw a hitching post that attaches to the nearest enemy Hero after a <c val=\"bfd4fd\">1</c> second delay. This deals <c val=\"bfd4fd\">171</c><c val=\"a7a7a7\">~~0.04~~</c> damage and causes the enemy to be chained to the post and Silenced for <c val=\"bfd4fd\">3</c> seconds.",
+          "cooldownText": "Cooldown: 90 seconds"
         }
       ],
       "hearth": [
@@ -11484,7 +12011,11 @@
           "buttonId": "VarianTaunt",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "VarianTaunt|VarianTaunt|B"
+          "_hdp5LinkId": "VarianTaunt|VarianTaunt|B",
+          "icon": "storm_ui_icon_varian_taunt.png",
+          "name": "Taunt",
+          "fullText": "Silence a target Hero and force them to attack Varian for <c val=\"bfd4fd\">1.25</c> seconds.<n/><n/><c val=\"00ff90\">Passive:</c> Maximum Health and Health Regeneration increased by <c val=\"bfd4fd\">40%</c>.",
+          "cooldownText": "Cooldown: 16 seconds"
         }
       ],
       "mount": [
@@ -11493,7 +12024,11 @@
           "buttonId": "GuldanHorrify",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "GuldanHorrify|GuldanHorrify|Z"
+          "_hdp5LinkId": "GuldanHorrify|GuldanHorrify|Z",
+          "icon": "storm_ui_icon_guldan_horrify.png",
+          "name": "Horrify",
+          "fullText": "After <c val=\"bfd4fd\">0.5</c> seconds, deal <c val=\"bfd4fd\">120</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemy Heroes in an area and Fear them for <c val=\"bfd4fd\">2</c> seconds. While Feared, Heroes are Silenced and are forced to run away from Horrify's center.",
+          "cooldownText": "Cooldown: 80 seconds"
         }
       ]
     },
@@ -11506,7 +12041,11 @@
               "buttonId": "ZeratulVoidPrisonCancel",
               "abilityType": "Q",
               "isPassive": false,
-              "_hdp5LinkId": "VoidPrisonCancel|ZeratulVoidPrisonCancel|Q"
+              "_hdp5LinkId": "VoidPrisonCancel|ZeratulVoidPrisonCancel|Q",
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "name": "Void Prison Cancel",
+              "fullText": "<n/>Cancels the Void Prison ability.",
+              "cooldownText": "Cooldown: 1.5 seconds"
             }
           ]
         }
@@ -11712,7 +12251,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -11748,7 +12289,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -11790,21 +12333,24 @@
           "buttonId": "Attack",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q"
+          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityC",
           "buttonId": "Attack",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityC|Attack|W"
+          "_hdp5LinkId": "TestDummyAbilityC|Attack|W",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityB",
           "buttonId": "Attack",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityB|Attack|E"
+          "_hdp5LinkId": "TestDummyAbilityB|Attack|E",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "heroic": [
@@ -11813,7 +12359,8 @@
           "buttonId": "Attack",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic"
+          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "hearth": [
@@ -11822,7 +12369,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -11831,7 +12381,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         },
         {
           "nameId": "Dismount",
@@ -11839,7 +12393,10 @@
           "abilityType": "Z",
           "isPassive": false,
           "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-          "toggleCooldown": 0.1
+          "toggleCooldown": 0.1,
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "name": "Unsummon Mount",
+          "fullText": "Dismounts you."
         }
       ]
     }
@@ -11881,21 +12438,24 @@
           "buttonId": "Attack",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q"
+          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityC",
           "buttonId": "Attack",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityC|Attack|W"
+          "_hdp5LinkId": "TestDummyAbilityC|Attack|W",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityB",
           "buttonId": "Attack",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityB|Attack|E"
+          "_hdp5LinkId": "TestDummyAbilityB|Attack|E",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "heroic": [
@@ -11904,7 +12464,8 @@
           "buttonId": "Attack",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic"
+          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "hearth": [
@@ -11913,7 +12474,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -11922,7 +12486,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         },
         {
           "nameId": "Dismount",
@@ -11930,7 +12498,10 @@
           "abilityType": "Z",
           "isPassive": false,
           "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-          "toggleCooldown": 0.1
+          "toggleCooldown": 0.1,
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "name": "Unsummon Mount",
+          "fullText": "Dismounts you."
         }
       ]
     }
@@ -11972,21 +12543,24 @@
           "buttonId": "Attack",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q"
+          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityC",
           "buttonId": "Attack",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityC|Attack|W"
+          "_hdp5LinkId": "TestDummyAbilityC|Attack|W",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityB",
           "buttonId": "Attack",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityB|Attack|E"
+          "_hdp5LinkId": "TestDummyAbilityB|Attack|E",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "heroic": [
@@ -11995,7 +12569,8 @@
           "buttonId": "Attack",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic"
+          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "hearth": [
@@ -12004,7 +12579,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -12013,7 +12591,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         },
         {
           "nameId": "Dismount",
@@ -12021,7 +12603,10 @@
           "abilityType": "Z",
           "isPassive": false,
           "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-          "toggleCooldown": 0.1
+          "toggleCooldown": 0.1,
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "name": "Unsummon Mount",
+          "fullText": "Dismounts you."
         }
       ]
     }
@@ -12063,21 +12648,24 @@
           "buttonId": "Attack",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q"
+          "_hdp5LinkId": "TestDummyAbilityA|Attack|Q",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityC",
           "buttonId": "Attack",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityC|Attack|W"
+          "_hdp5LinkId": "TestDummyAbilityC|Attack|W",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         },
         {
           "nameId": "TestDummyAbilityB",
           "buttonId": "Attack",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityB|Attack|E"
+          "_hdp5LinkId": "TestDummyAbilityB|Attack|E",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "heroic": [
@@ -12086,7 +12674,8 @@
           "buttonId": "Attack",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic"
+          "_hdp5LinkId": "TestDummyAbilityD|Attack|Heroic",
+          "icon": "storm_ui_icon_talent_autoattack_base.png"
         }
       ],
       "hearth": [
@@ -12095,7 +12684,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -12104,7 +12696,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         },
         {
           "nameId": "Dismount",
@@ -12112,7 +12708,10 @@
           "abilityType": "Z",
           "isPassive": false,
           "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-          "toggleCooldown": 0.1
+          "toggleCooldown": 0.1,
+          "icon": "storm_ui_icon_generic_cancel_mount.png",
+          "name": "Unsummon Mount",
+          "fullText": "Dismounts you."
         }
       ]
     }
@@ -12354,7 +12953,10 @@
           "buttonId": "Attack",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "TinkerSalvageAttack|Attack|Z"
+          "_hdp5LinkId": "TinkerSalvageAttack|Attack|Z",
+          "icon": "storm_ui_icon_talent_autoattack_base.png",
+          "name": "Basic Attack",
+          "fullText": "Attacks using the Hero's weapon"
         }
       ]
     }
@@ -12469,7 +13071,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -12508,7 +13111,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -12547,7 +13151,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -12586,7 +13191,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -13497,7 +14103,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -13537,7 +14144,8 @@
           "buttonId": "TowerMarkAttackTarget",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E"
+          "_hdp5LinkId": "TowerMarkAttackTarget|TowerMarkAttackTarget|E",
+          "icon": "storm_temp_war3_btnrallypoint.png"
         }
       ]
     }
@@ -14738,7 +15346,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -14875,7 +15485,9 @@
           "buttonId": "TreasureGoblinPortal",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "TreasureGoblinEscape|TreasureGoblinPortal|Q"
+          "_hdp5LinkId": "TreasureGoblinEscape|TreasureGoblinPortal|Q",
+          "icon": "storm_temp_war3_btnsoulburn.png",
+          "cooldownText": "Cooldown: 14 seconds"
         }
       ],
       "hearth": [
@@ -14884,7 +15496,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -14962,7 +15576,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -14998,7 +15614,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -15270,14 +15888,22 @@
           "buttonId": "GraveGolemBindingRoots",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q"
+          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q",
+          "icon": "storm_ui_hud_snowbrawl_snowballa.png",
+          "name": "Binding Roots",
+          "fullText": "Roots roots roots",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "UnderworldBossStun",
           "buttonId": "GraveGolemMegaStun",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W"
+          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W",
+          "icon": "storm_ui_icon_slam.png",
+          "name": "Mega Smash",
+          "fullText": "Slam the ground, dealing <c val=\"bfd4fd\">0</c> damage to nearby enemies and stunning them.",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "hearth": [
@@ -15286,7 +15912,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -15342,7 +15970,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -15384,7 +16014,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -15434,14 +16066,22 @@
           "buttonId": "GraveGolemBindingRoots",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q"
+          "_hdp5LinkId": "UnderworldBossRoots|GraveGolemBindingRoots|Q",
+          "icon": "storm_ui_hud_snowbrawl_snowballa.png",
+          "name": "Binding Roots",
+          "fullText": "Roots roots roots",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "UnderworldBossStun",
           "buttonId": "GraveGolemMegaStun",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W"
+          "_hdp5LinkId": "UnderworldBossStun|GraveGolemMegaStun|W",
+          "icon": "storm_ui_icon_slam.png",
+          "name": "Mega Smash",
+          "fullText": "Slam the ground, dealing <c val=\"bfd4fd\">0</c> damage to nearby enemies and stunning them.",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "trait": [
@@ -15450,7 +16090,10 @@
           "buttonId": "GraveGolemMULEKill",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "GraveGolemMULEKill|GraveGolemMULEKill|Trait"
+          "_hdp5LinkId": "GraveGolemMULEKill|GraveGolemMULEKill|Trait",
+          "icon": "storm_temp_btn-unit-terran-mule.png",
+          "name": "Grave Golem MULE Kill",
+          "cooldownText": "Cooldown: 6 seconds"
         }
       ],
       "hearth": [
@@ -15459,7 +16102,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -15642,14 +16287,22 @@
           "buttonId": "DragonKnightFireBreath",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "VehicleDragonFireBreath|DragonKnightFireBreath|Q"
+          "_hdp5LinkId": "VehicleDragonFireBreath|DragonKnightFireBreath|Q",
+          "icon": "storm_ui_icon_dragonknight_flamebreath.png",
+          "name": "Flame Breath",
+          "fullText": "Breath a cone of flame, dealing <c val=\"bfd4fd\">85</c> damage and burn the area of effect for an additional <c val=\"bfd4fd\">160</c> damage over <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 6 seconds"
         },
         {
           "nameId": "VehicleDragonPunt",
           "buttonId": "DragonKnightBullRush",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "VehicleDragonPunt|DragonKnightBullRush|W"
+          "_hdp5LinkId": "VehicleDragonPunt|DragonKnightBullRush|W",
+          "icon": "storm_ui_icon_dragonknight_savagecharge.png",
+          "name": "Savage Charge",
+          "fullText": "After a short delay, charge an enemy Hero to knock them back and deal <c val=\"bfd4fd\">450</c> damage.",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "heroic": [
@@ -15658,7 +16311,10 @@
           "buttonId": "DragonKnightRubbleMaker",
           "abilityType": "Heroic",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|DragonKnightRubbleMaker|Heroic"
+          "_hdp5LinkId": ":PASSIVE:|DragonKnightRubbleMaker|Heroic",
+          "icon": "storm_ui_icon_dragonknight_rubblemaker.png",
+          "name": "Rubble Maker",
+          "fullText": "Increases damage to Structures and Minions by <c val=\"bfd4fd\">100%</c>.<n/>Reduces damage from Structures by <c val=\"bfd4fd\">60%</c>.<n/>Permanently Unstoppable.<n/>The Dragon Knight explodes on death, knocking back nearby enemies."
         }
       ],
       "trait": [
@@ -15667,7 +16323,11 @@
           "buttonId": "DragonKnightLeaveDragon",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "LeaveVehicle|DragonKnightLeaveDragon|Trait"
+          "_hdp5LinkId": "LeaveVehicle|DragonKnightLeaveDragon|Trait",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "name": "Leave Dragon",
+          "fullText": "Leave the Dragon Knight.",
+          "cooldownText": "Cooldown: 5 seconds"
         }
       ],
       "spray": [
@@ -15676,7 +16336,11 @@
           "buttonId": "LootSpray",
           "abilityType": "Spray",
           "isPassive": false,
-          "_hdp5LinkId": "LootSpray|LootSpray|Spray"
+          "_hdp5LinkId": "LootSpray|LootSpray|Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "name": "Quick Spray Expression",
+          "fullText": "Express yourself to other players by marking the ground with your selected spray.",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ],
       "voice": [
@@ -15685,7 +16349,11 @@
           "buttonId": "LootYellVoiceLine",
           "abilityType": "Voice",
           "isPassive": false,
-          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice"
+          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "name": "Quick Voice Line Expression",
+          "fullText": "Express yourself to other players by playing your selected Voice Line.",
+          "cooldownText": "Cooldown: 7 seconds"
         }
       ]
     }
@@ -15714,21 +16382,33 @@
           "buttonId": "VehiclePlantHorrorPolymorph",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "PlantHorrorLignify|VehiclePlantHorrorPolymorph|Q"
+          "_hdp5LinkId": "PlantHorrorLignify|VehiclePlantHorrorPolymorph|Q",
+          "icon": "storm_ui_icon_gardenterror_queenscurse.png",
+          "name": "Queen's Curse",
+          "fullText": "After a short delay, turn enemy Heroes in an area into plant zombies for <s val=\"bfd4fd\">3</s> seconds, making them unable to attack, use Abilities, and slowing them by <s val=\"bfd4fd\">30%</s>.",
+          "cooldownText": "Cooldown: 6 seconds"
         },
         {
           "nameId": "PlantHorrorOvergrowthPlant",
           "buttonId": "PlantHorrorOvergrowth",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "PlantHorrorOvergrowthPlant|PlantHorrorOvergrowth|W"
+          "_hdp5LinkId": "PlantHorrorOvergrowthPlant|PlantHorrorOvergrowth|W",
+          "icon": "storm_ui_icon_gardenterror_overgrowth.png",
+          "name": "Overgrowth",
+          "fullText": "Spawn an Overgrowth that disables nearby Structures.  You deal <c val=\"bfd4fd\">100%</c> bonus damage to Structures affected by Overgrowth.  Slowly loses Health over <c val=\"bfd4fd\">25</c> seconds.",
+          "cooldownText": "Cooldown: 25 seconds"
         },
         {
           "nameId": "PlantHorrorSprint",
           "buttonId": "PlantHorrorSprint",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "PlantHorrorSprint|PlantHorrorSprint|E"
+          "_hdp5LinkId": "PlantHorrorSprint|PlantHorrorSprint|E",
+          "icon": "storm_ui_icon_gardenterror_sprint.png",
+          "name": "Sprint",
+          "fullText": "Increase Movement Speed by <s val=\"bfd4fd\">30%</s> for <s val=\"bfd4fd\">3</s> seconds.",
+          "cooldownText": "Cooldown: 14 seconds"
         }
       ],
       "trait": [
@@ -15737,7 +16417,11 @@
           "buttonId": "LeavePlantHorror",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "LeaveVehicle|LeavePlantHorror|Trait"
+          "_hdp5LinkId": "LeaveVehicle|LeavePlantHorror|Trait",
+          "icon": "storm_ui_icon_gardenterror_leavegardenterror.png",
+          "name": "Leave Garden Terror",
+          "fullText": "Leave the Garden Terror.",
+          "cooldownText": "Cooldown: 5 seconds"
         }
       ],
       "spray": [
@@ -15746,7 +16430,11 @@
           "buttonId": "LootSpray",
           "abilityType": "Spray",
           "isPassive": false,
-          "_hdp5LinkId": "LootSpray|LootSpray|Spray"
+          "_hdp5LinkId": "LootSpray|LootSpray|Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "name": "Quick Spray Expression",
+          "fullText": "Express yourself to other players by marking the ground with your selected spray.",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ],
       "voice": [
@@ -15755,7 +16443,11 @@
           "buttonId": "LootYellVoiceLine",
           "abilityType": "Voice",
           "isPassive": false,
-          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice"
+          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "name": "Quick Voice Line Expression",
+          "fullText": "Express yourself to other players by playing your selected Voice Line.",
+          "cooldownText": "Cooldown: 7 seconds"
         }
       ]
     }
@@ -15780,7 +16472,9 @@
           "buttonId": "Move",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "move|Move|Q"
+          "_hdp5LinkId": "move|Move|Q",
+          "icon": "btn-command-move.png",
+          "name": "Move"
         }
       ]
     }
@@ -15809,21 +16503,33 @@
           "buttonId": "VolskayaVehicleCharge",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "VolskayaVehicleCharge|VolskayaVehicleCharge|Q"
+          "_hdp5LinkId": "VolskayaVehicleCharge|VolskayaVehicleCharge|Q",
+          "icon": "storm_ui_icon_volskayarobot_charge.png",
+          "name": "Charge",
+          "fullText": "Charge a target and deal <c val=\"bfd4fd\">225</c> damage in an area. <n/><n/>Non-Heroes take <c val=\"bfd4fd\">200%</c> increased damage.",
+          "cooldownText": "Cooldown: 8 seconds"
         },
         {
           "nameId": "VolskayaVehicleRocketFist",
           "buttonId": "VolskayaVehicleRocketFist",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "VolskayaVehicleRocketFist|VolskayaVehicleRocketFist|W"
+          "_hdp5LinkId": "VolskayaVehicleRocketFist|VolskayaVehicleRocketFist|W",
+          "icon": "storm_ui_icon_volskayarobot_rocketfist.png",
+          "name": "Rocket Fist",
+          "fullText": "Launch a Rocket Fist that deals <c val=\"bfd4fd\">200</c> damage to the first Hero or Structure in its path. The rocket pushes away and Stuns Heroes for <c val=\"bfd4fd\">1.5</c> seconds and disables Structures for <c val=\"bfd4fd\">4</c> seconds.<n/><n/>Instantly kills Minions in its path.",
+          "cooldownText": "Cooldown: 14 seconds"
         },
         {
           "nameId": "VolskayaVehicleTShield",
           "buttonId": "VolskayaVehicleTShield",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "VolskayaVehicleTShield|VolskayaVehicleTShield|E"
+          "_hdp5LinkId": "VolskayaVehicleTShield|VolskayaVehicleTShield|E",
+          "icon": "storm_ui_icon_volskayarobot_tshield.png",
+          "name": "Shield Emitter",
+          "fullText": "Gain <c val=\"bfd4fd\">25</c> Armor and Shield nearby allied Heroes for <c val=\"bfd4fd\">450</c>. Lasts <c val=\"bfd4fd\">3</c> seconds.",
+          "cooldownText": "Cooldown: 16 seconds"
         }
       ],
       "trait": [
@@ -15832,7 +16538,11 @@
           "buttonId": "VolskayaVehicleLeaveVehicle",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "LeaveVehicle|VolskayaVehicleLeaveVehicle|Trait"
+          "_hdp5LinkId": "LeaveVehicle|VolskayaVehicleLeaveVehicle|Trait",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "name": "Leave Vehicle",
+          "fullText": "Exit the Vehicle.",
+          "cooldownText": "Cooldown: 5 seconds"
         }
       ],
       "mount": [
@@ -15850,7 +16560,11 @@
           "buttonId": "LootSpray",
           "abilityType": "Spray",
           "isPassive": false,
-          "_hdp5LinkId": "LootSpray|LootSpray|Spray"
+          "_hdp5LinkId": "LootSpray|LootSpray|Spray",
+          "icon": "storm_temp_war3_btnhealingspray.png",
+          "name": "Quick Spray Expression",
+          "fullText": "Express yourself to other players by marking the ground with your selected spray.",
+          "cooldownText": "Cooldown: 3 seconds"
         }
       ],
       "voice": [
@@ -15859,7 +16573,11 @@
           "buttonId": "LootYellVoiceLine",
           "abilityType": "Voice",
           "isPassive": false,
-          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice"
+          "_hdp5LinkId": "LootYellVoiceLine|LootYellVoiceLine|Voice",
+          "icon": "storm_btn_d3_barbarian_threateningshout.png",
+          "name": "Quick Voice Line Expression",
+          "fullText": "Express yourself to other players by playing your selected Voice Line.",
+          "cooldownText": "Cooldown: 7 seconds"
         }
       ]
     }
@@ -15889,21 +16607,31 @@
           "abilityType": "Q",
           "isPassive": false,
           "_hdp5LinkId": "VolskayaVehicleActivateParticleCannon|VolskayaVehicleActivateParticleCannon|Q",
-          "toggleCooldown": 0.0625
+          "toggleCooldown": 0.0625,
+          "icon": "storm_ui_icon_volskayarobot_initiateparticlecannon.png",
+          "name": "Particle Cannon",
+          "fullText": "Fire the Particle Cannon, dealing <c val=\"bfd4fd\">225</c> damage in an area."
         },
         {
           "nameId": "VolskayaVehicleInitiateParticleCannon",
           "buttonId": "VolskayaVehicleInitiateParticleCannon",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "VolskayaVehicleInitiateParticleCannon|VolskayaVehicleInitiateParticleCannon|Q"
+          "_hdp5LinkId": "VolskayaVehicleInitiateParticleCannon|VolskayaVehicleInitiateParticleCannon|Q",
+          "icon": "storm_ui_icon_volskayarobot_initiateparticlecannon.png",
+          "name": "Particle Cannon",
+          "fullText": "Start extending the range of the Particle Cannon. Reactivate to fire, dealing <c val=\"bfd4fd\">225</c> damage in the target area.",
+          "cooldownText": "Cooldown: 4 seconds"
         },
         {
           "nameId": "VolskayaVehicleTacticalStrikesDeactivate",
           "buttonId": "VolskayaVehicleGatlingCannonCancel",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "VolskayaVehicleTacticalStrikesDeactivate|VolskayaVehicleGatlingCannonCancel|W"
+          "_hdp5LinkId": "VolskayaVehicleTacticalStrikesDeactivate|VolskayaVehicleGatlingCannonCancel|W",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "name": "Deactivate Gatling Cannon",
+          "fullText": "Stop firing."
         },
         {
           "nameId": "VolskayaVehicleTacticalStrikes",
@@ -15911,14 +16639,21 @@
           "abilityType": "W",
           "isPassive": false,
           "_hdp5LinkId": "VolskayaVehicleTacticalStrikes|VolskayaVehicleTacticalStrikes|W",
-          "toggleCooldown": 0.5
+          "toggleCooldown": 0.5,
+          "icon": "storm_ui_icon_volskayarobot_tacticalstrikes.png",
+          "name": "Gatling Cannon",
+          "fullText": "Toggle to fire missiles at the cursor's location. Each missile deals <c val=\"bfd4fd\">45</c> damage but drains <c val=\"bfd4fd\">1</c> Energy. Reactivate to stop firing.<n/><n/>Deals <c val=\"bfd4fd\">50%</c> less damage to Structures."
         },
         {
           "nameId": "VolskayaVehicleSkyLaser",
           "buttonId": "VolskayaVehicleSkyLaser",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "VolskayaVehicleSkyLaser|VolskayaVehicleSkyLaser|E"
+          "_hdp5LinkId": "VolskayaVehicleSkyLaser|VolskayaVehicleSkyLaser|E",
+          "icon": "storm_ui_icon_volskayarobot_skylaser.png",
+          "name": "Scorching Laser",
+          "fullText": "<c val=\"bfd4fd\">Vector Targeting</c><n/>Draw a line on the ground, dealing <c val=\"bfd4fd\">75</c> damage. After <c val=\"bfd4fd\">1</c> second, it explodes for <c val=\"bfd4fd\">500</c> damage.",
+          "cooldownText": "Cooldown: 10 seconds"
         }
       ],
       "trait": [
@@ -15927,7 +16662,11 @@
           "buttonId": "VolskayaVehicleLeaveVehicle",
           "abilityType": "Trait",
           "isPassive": false,
-          "_hdp5LinkId": "LeaveVehicle|VolskayaVehicleLeaveVehicle|Trait"
+          "_hdp5LinkId": "LeaveVehicle|VolskayaVehicleLeaveVehicle|Trait",
+          "icon": "storm_ui_icon_volskayarobot_leavevehicle.png",
+          "name": "Leave Vehicle",
+          "fullText": "Exit the Vehicle.",
+          "cooldownText": "Cooldown: 5 seconds"
         }
       ],
       "mount": [
@@ -16054,7 +16793,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16159,7 +16900,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16195,7 +16938,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16350,7 +17095,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16517,7 +17264,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16562,7 +17311,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16654,7 +17405,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -16770,7 +17523,9 @@
           "buttonId": "MovePatrol",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "move|MovePatrol|B"
+          "_hdp5LinkId": "move|MovePatrol|B",
+          "icon": "btn-command-patrol.png",
+          "name": "Move Patrol"
         }
       ]
     }
@@ -17068,21 +17823,33 @@
             "countUse": 1,
             "recastCooldown": 1,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_ui_icon_abathur_stab.png",
+          "name": "Stab",
+          "fullText": "Shoots a spike towards target area that deals <c val=\"bfd4fd\">119</c><c val=\"a7a7a7\">~~0.04~~</c> damage to the first enemy it contacts.",
+          "cooldownText": "Charge Cooldown: 3 seconds"
         },
         {
           "nameId": "AbathurSymbioteSpikeBurst",
           "buttonId": "AbathurSymbioteSpikeBurst",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W"
+          "_hdp5LinkId": "AbathurSymbioteSpikeBurst|AbathurSymbioteSpikeBurst|W",
+          "icon": "storm_ui_icon_abathur_spikeburst.png",
+          "name": "Spike Burst",
+          "fullText": "Deals <c val=\"bfd4fd\">120</c><c val=\"a7a7a7\">~~0.04~~</c> damage to nearby enemies.",
+          "cooldownText": "Cooldown: 6 seconds"
         },
         {
           "nameId": "AbathurSymbioteCarapace",
           "buttonId": "AbathurSymbioteCarapace",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E"
+          "_hdp5LinkId": "AbathurSymbioteCarapace|AbathurSymbioteCarapace|E",
+          "icon": "storm_ui_icon_abathur_carapace.png",
+          "name": "Carapace",
+          "fullText": "Shields the assisted ally for <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.04~~</c>. Allied Heroes are healed for <c val=\"bfd4fd\">22</c><c val=\"a7a7a7\">~~0.04~~</c> Health per second while the Shield is active. Lasts for <c val=\"bfd4fd\">6</c> seconds.",
+          "cooldownText": "Cooldown: 6 seconds"
         }
       ],
       "heroic": [
@@ -17091,7 +17858,11 @@
           "buttonId": "AbathurSymbioteCancel",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic"
+          "_hdp5LinkId": "AbathurAssumingDirectControlCancel|AbathurSymbioteCancel|Heroic",
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "name": "Cancel Symbiote",
+          "fullText": "Cancels the Symbiote ability.",
+          "cooldownText": "Cooldown: 1.5 seconds"
         }
       ],
       "mount": [
@@ -17100,7 +17871,11 @@
           "buttonId": "AbathurMonstrosityDeepTunnel",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z"
+          "_hdp5LinkId": "AbathurMonstrosityDeepTunnel|AbathurMonstrosityDeepTunnel|Z",
+          "icon": "storm_ui_icon_abathur_mount.png",
+          "name": "Deep Tunnel",
+          "fullText": "Order your Evolved Monstrosity to quickly tunnel to a visible location",
+          "cooldownText": "Cooldown: 80 seconds"
         }
       ]
     }
@@ -17142,21 +17917,33 @@
           "buttonId": "AlexstraszaBreathOfLife",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q"
+          "_hdp5LinkId": "AlexstraszaBreathOfLife|AlexstraszaBreathOfLife|Q",
+          "icon": "storm_ui_icon_alexstrasza_breath_of_life.png",
+          "name": "Breath of Life",
+          "fullText": "Heal an allied Hero for <c val=\"bfd4fd\">15%</c> of Alexstrasza's current Health.<n/><n/>Breath of Life is also empowered by Gift of Life Talents.",
+          "cooldownText": "Cooldown: 3 seconds"
         },
         {
           "nameId": "AlexstraszaPreservation",
           "buttonId": "AlexstraszaPreservation",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "AlexstraszaPreservation|AlexstraszaPreservation|W"
+          "_hdp5LinkId": "AlexstraszaPreservation|AlexstraszaPreservation|W",
+          "icon": "storm_ui_icon_alexstrasza_preservation.png",
+          "name": "Preservation",
+          "fullText": "Plant a seed of healing that blooms after <c val=\"bfd4fd\">3</c> seconds, healing nearby allied Heroes for <c val=\"bfd4fd\">25%</c> of their maximum Health.<n/><n/>Preservation is also empowered by Abundance Talents.",
+          "cooldownText": "Cooldown: 16 seconds"
         },
         {
           "nameId": "AlexstraszaWingBuffet",
           "buttonId": "AlexstraszaWingBuffet",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "AlexstraszaWingBuffet|AlexstraszaWingBuffet|E"
+          "_hdp5LinkId": "AlexstraszaWingBuffet|AlexstraszaWingBuffet|E",
+          "icon": "storm_ui_icon_alexstrasza_wing_buffet.png",
+          "name": "Wing Buffet",
+          "fullText": "Deal <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in an area, knocking them back and Slowing them by <c val=\"bfd4fd\">50%</c> for <c val=\"bfd4fd\">3</c> seconds.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ],
       "heroic": [
@@ -17165,14 +17952,22 @@
           "buttonId": "AlexstraszaLifebinder",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic"
+          "_hdp5LinkId": "AlexstraszaLifebinder|AlexstraszaLifebinder|Heroic",
+          "icon": "storm_ui_icon_alexstrasza_life_binder.png",
+          "name": "Life-Binder",
+          "fullText": "Bind Alexstrasza's life force with an allied Hero. Both her and her target are healed for <c val=\"bfd4fd\">480</c><c val=\"a7a7a7\">~~0.04~~</c> Health over <c val=\"bfd4fd\">2</c> seconds. Afterwards, the Hero with a lower percentage of Health is healed to the same Health percentage as the other Hero.<n/><n/><c val=\"D65CFF\">Dragonqueen:</c> Cast range increased by <c val=\"bfd4fd\">45%</c>.",
+          "cooldownText": "Cooldown: 50 seconds"
         },
         {
           "nameId": "AlexstraszaCleansingFlameDragonqueen",
           "buttonId": "AlexstraszaCleansingFlameDragonqueen",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "AlexstraszaCleansingFlameDragonqueen|AlexstraszaCleansingFlameDragonqueen|Heroic"
+          "_hdp5LinkId": "AlexstraszaCleansingFlameDragonqueen|AlexstraszaCleansingFlameDragonqueen|Heroic",
+          "icon": "storm_ui_icon_alexstrasza_cleansing_flame.png",
+          "name": "Cleansing Flame",
+          "fullText": "Take to the sky and drop <c val=\"bfd4fd\">5</c> fireballs over <c val=\"bfd4fd\">6</c> seconds at the position of the mouse cursor. Fireballs deal <c val=\"bfd4fd\">135</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies and heal allied Heroes for <c val=\"bfd4fd\">300</c><c val=\"a7a7a7\">~~0.04~~</c> Health.<n/><n/><c val=\"bfd4fd\">2</c> seconds after dropping all fireballs, Alexstrasza lands at the position of the mouse cursor.",
+          "cooldownText": "Cooldown: 100 seconds"
         }
       ],
       "trait": [
@@ -17181,7 +17976,10 @@
           "buttonId": "AlexstraszaDragonqueenDragonFormPassive",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|AlexstraszaDragonqueenDragonFormPassive|Trait"
+          "_hdp5LinkId": ":PASSIVE:|AlexstraszaDragonqueenDragonFormPassive|Trait",
+          "icon": "storm_ui_icon_alexstrasza_dragon_queen.png",
+          "name": "Dragonqueen",
+          "fullText": "Alexstrasza has transformed into a powerful dragon aspect, gaining <c val=\"bfd4fd\">500</c><c val=\"a7a7a7\">~~0.04~~</c> Health, resistance to disabling effects, and empowered Basic Attacks and Abilities."
         }
       ],
       "hearth": [
@@ -17190,7 +17988,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -17199,7 +18000,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ]
     },
@@ -17213,7 +18018,10 @@
               "abilityType": "Z",
               "isPassive": false,
               "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-              "toggleCooldown": 0.1
+              "toggleCooldown": 0.1,
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "name": "Unsummon Mount",
+              "fullText": "Dismounts you."
             }
           ]
         }
@@ -17266,7 +18074,10 @@
           "buttonId": "HearthstoneNoMana",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B"
+          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health."
         }
       ],
       "mount": [
@@ -17275,7 +18086,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ]
     },
@@ -17289,7 +18104,10 @@
               "abilityType": "Z",
               "isPassive": false,
               "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-              "toggleCooldown": 0.1
+              "toggleCooldown": 0.1,
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "name": "Unsummon Mount",
+              "fullText": "Dismounts you."
             }
           ]
         }
@@ -17342,7 +18160,10 @@
           "buttonId": "HearthstoneNoMana",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B"
+          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health."
         }
       ],
       "mount": [
@@ -17351,7 +18172,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ]
     },
@@ -17365,7 +18190,10 @@
               "abilityType": "Z",
               "isPassive": false,
               "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-              "toggleCooldown": 0.1
+              "toggleCooldown": 0.1,
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "name": "Unsummon Mount",
+              "fullText": "Dismounts you."
             }
           ]
         }
@@ -17418,7 +18246,10 @@
           "buttonId": "HearthstoneNoMana",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B"
+          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health."
         }
       ],
       "mount": [
@@ -17427,7 +18258,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ]
     },
@@ -17441,7 +18276,10 @@
               "abilityType": "Z",
               "isPassive": false,
               "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-              "toggleCooldown": 0.1
+              "toggleCooldown": 0.1,
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "name": "Unsummon Mount",
+              "fullText": "Dismounts you."
             }
           ]
         }
@@ -17485,21 +18323,33 @@
           "buttonId": "DVaPilotTorpedoDashAbility",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q"
+          "_hdp5LinkId": "DVaPilotTorpedoDash|DVaPilotTorpedoDashAbility|Q",
+          "icon": "storm_ui_icon_dva_jetpackattack.png",
+          "name": "Torpedo Dash",
+          "fullText": "Dash towards the target location, passing through enemies along the way.",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "DVaPilotConcussivePulse",
           "buttonId": "DVaPilotConcussivePulseAbility",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W"
+          "_hdp5LinkId": "DVaPilotConcussivePulse|DVaPilotConcussivePulseAbility|W",
+          "icon": "storm_ui_icon_dva_concussivecharge.png",
+          "name": "Concussive Pulse",
+          "fullText": "Deal <c val=\"bfd4fd\">120</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in a cone and knock them back.",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "DVaPilotCallMech",
           "buttonId": "DVaPilotCallMech",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "DVaPilotCallMech|DVaPilotCallMech|E"
+          "_hdp5LinkId": "DVaPilotCallMech|DVaPilotCallMech|E",
+          "icon": "storm_ui_icon_dva_callmech.png",
+          "name": "Call Mech",
+          "fullText": "Call a new Mech and enter Mech Mode.<n/><n/>Basic Attacks lower this cooldown by <c val=\"bfd4fd\">0.5</c> seconds each.",
+          "cooldownText": "Cooldown: 45 seconds"
         }
       ],
       "heroic": [
@@ -17508,7 +18358,11 @@
           "buttonId": "DVaPilotBigShot",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "DVaPilotBigShot|DVaPilotBigShot|Heroic"
+          "_hdp5LinkId": "DVaPilotBigShot|DVaPilotBigShot|Heroic",
+          "icon": "storm_ui_icon_dva_bigshot.png",
+          "name": "Big Shot",
+          "fullText": "Deal <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.04~~</c> damage to all enemies in a line. Heroes hit have their Movement Speed Slowed by <c val=\"bfd4fd\">25%</c> for <c val=\"bfd4fd\">1.5</c> seconds. The cooldown of Call Mech is reduced by <c val=\"bfd4fd\">5</c> seconds for each enemy Hero hit.<n/><n/>Requires Pilot Mode.",
+          "cooldownText": "Cooldown: 6 seconds"
         }
       ],
       "trait": [
@@ -17517,7 +18371,10 @@
           "buttonId": "DVaPilotPilotMode",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|DVaPilotPilotMode|Trait"
+          "_hdp5LinkId": ":PASSIVE:|DVaPilotPilotMode|Trait",
+          "icon": "storm_ui_icon_dva_pilotmode.png",
+          "name": "Pilot Mode",
+          "fullText": "Basic Attacks reduce the cooldown of Call Mech by <c val=\"bfd4fd\">0.5</c> seconds. As a Pilot, D.Va only awards <c val=\"bfd4fd\">50%</c> of a normal Hero's experience upon dying."
         }
       ],
       "hearth": [
@@ -17526,7 +18383,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -17535,7 +18395,11 @@
           "buttonId": "SummonMount",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "Mount|SummonMount|Z"
+          "_hdp5LinkId": "Mount|SummonMount|Z",
+          "icon": "storm_ui_icon_generic_mount.png",
+          "name": "Summon Mount",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">1</c> second, gain <s val=\"bfd4fd\">30%</s> Movement Speed.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ],
       "activable": [
@@ -17549,7 +18413,10 @@
             "countMax": 100,
             "countUse": 100,
             "isCountHidden": true
-          }
+          },
+          "icon": "storm_ui_icon_dva_selfdestruct.png",
+          "name": "Self-Destruct",
+          "fullText": "Eject from the Mech, setting it to self-destruct after <c val=\"bfd4fd\">4</c> seconds. Deals <c val=\"bfd4fd\">400</c><c val=\"a7a7a7\">~~0.04~~</c> to <c val=\"bfd4fd\">1100</c><c val=\"a7a7a7\">~~0.04~~</c> damage in a large area, depending on distance from center. Deals <c val=\"bfd4fd\">50%</c> damage against Structures.<n/><n/><c val=\"FF8000\">Gain </c><c val=\"bfd4fd\">1%</c><c val=\"FF8000\"> Charge for every </c><c val=\"bfd4fd\">2</c><c val=\"FF8000\"> seconds spent Basic Attacking, and </c><c val=\"bfd4fd\">25%</c><c val=\"FF8000\"> Charge per </c><c val=\"bfd4fd\">100%</c><c val=\"FF8000\"> of Mech Health lost.</c>"
         }
       ]
     },
@@ -17563,7 +18430,10 @@
               "abilityType": "Z",
               "isPassive": false,
               "_hdp5LinkId": "Dismount|UnsummonMount|Z",
-              "toggleCooldown": 0.1
+              "toggleCooldown": 0.1,
+              "icon": "storm_ui_icon_generic_cancel_mount.png",
+              "name": "Unsummon Mount",
+              "fullText": "Dismounts you."
             }
           ]
         }
@@ -17590,14 +18460,22 @@
           "buttonId": "FirebatBunkerDropFlamethrower",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q"
+          "_hdp5LinkId": "FirebatBunkerDropFlamethrower|FirebatBunkerDropFlamethrower|Q",
+          "icon": "storm_ui_icon_blaze_flame.png",
+          "name": "Flamethrower",
+          "fullText": "Deal <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in a line.",
+          "cooldownText": "Cooldown: 1 second"
         },
         {
           "nameId": "FirebatBunkerDropFortifiedBunkerOilSpill",
           "buttonId": "FirebatBunkerDropFortifiedBunkerOilSpill",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W"
+          "_hdp5LinkId": "FirebatBunkerDropFortifiedBunkerOilSpill|FirebatBunkerDropFortifiedBunkerOilSpill|W",
+          "icon": "storm_ui_icon_blaze_oil.png",
+          "name": "Oil Spill",
+          "fullText": "<c val=\"bfd4fd\">Vector Targeting</c><n/>Dispense an Oil Spill that Slows enemies and can be set on fire by Blaze.",
+          "cooldownText": "Cooldown: 6 seconds"
         }
       ],
       "trait": [
@@ -17607,7 +18485,10 @@
           "abilityType": "Trait",
           "isPassive": false,
           "_hdp5LinkId": "FirebatBunkerDropExitBunker|FirebatBunkerDropExitBunker|Trait",
-          "toggleCooldown": 0.25
+          "toggleCooldown": 0.25,
+          "icon": "hud_btn_bg_ability_cancel.png",
+          "name": "Exit Bunker",
+          "fullText": "Exit Bunker."
         }
       ]
     }
@@ -17653,28 +18534,44 @@
           "buttonId": "LostVikingsSpinToWin",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q"
+          "_hdp5LinkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+          "icon": "storm_ui_icon_lostvikings_spintowin.png",
+          "name": "Spin To Win!",
+          "fullText": "Activate to have each Viking deal <c val=\"bfd4fd\">85</c><c val=\"a7a7a7\">~~0.04~~</c> damage to nearby enemies.  Deals <c val=\"bfd4fd\">100%</c> bonus damage to enemy Heroes.",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "LostVikingsNorseForce",
           "buttonId": "LostVikingsNorseForce",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q"
+          "_hdp5LinkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+          "icon": "storm_ui_icon_lostvikings_norseforce.png",
+          "name": "Norse Force!",
+          "fullText": "All Vikings gain a <c val=\"bfd4fd\">140</c><c val=\"a7a7a7\">~~0.04~~</c> to <c val=\"bfd4fd\">308</c><c val=\"a7a7a7\">~~0.04~~</c> point Shield, increasing in strength for each Viking alive. Lasts <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "LostVikingsPressA",
           "buttonId": "LostVikingsJump",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsPressA|LostVikingsJump|W"
+          "_hdp5LinkId": "LostVikingsPressA|LostVikingsJump|W",
+          "icon": "storm_ui_icon_lostvikings_jump.png",
+          "name": "Jump!",
+          "fullText": "Makes all Vikings Invulnerable and able to pass over enemies for <c val=\"bfd4fd\">1.5</c> seconds.",
+          "cooldownText": "Cooldown: 30 seconds"
         },
         {
           "nameId": "LostVikingsNordicAttackSquad",
           "buttonId": "LostVikingsNordicAttackSquad",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W"
+          "_hdp5LinkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W",
+          "icon": "storm_ui_icon_talent_autoattack_searing.png",
+          "name": "Nordic Attack Squad",
+          "fullText": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to <c val=\"bfd4fd\">1.25%</c> maximum Health to enemy Heroes.",
+          "cooldownText": "Cooldown: 20 seconds"
         },
         {
           "nameId": "LostVikingsVikingBribery",
@@ -17686,7 +18583,10 @@
             "countMax": 5,
             "countUse": 1,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "name": "Viking Bribery",
+          "fullText": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use <c val=\"bfd4fd\">40</c> stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: <c val=\"bfd4fd\">200</c>."
         }
       ],
       "heroic": [
@@ -17695,14 +18595,22 @@
           "buttonId": "LostVikingsPlayAgain",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic"
+          "_hdp5LinkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+          "icon": "storm_ui_icon_lostvikings_playagain.png",
+          "name": "Play Again!",
+          "fullText": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for <c val=\"bfd4fd\">2</c> seconds. <n/><n/><c val=\"ffff8a\">Only one Viking may attempt to summon at a time.</c>",
+          "cooldownText": "Cooldown: 100 seconds"
         },
         {
           "nameId": "LostVikingsLongboatRaidNewer",
           "buttonId": "LostVikingsLongboatRaid",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+          "_hdp5LinkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+          "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+          "name": "Longboat Raid!",
+          "fullText": "Hop into an Unstoppable Longboat that fires at nearby enemies for <c val=\"bfd4fd\">128</c><c val=\"a7a7a7\">~~0.04~~</c> damage per second and can fire a mortar that deals <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for <c val=\"bfd4fd\">1</c> second. Lasts <c val=\"bfd4fd\">15</c> seconds.<n/><n/><c val=\"ffff8a\">Requires all surviving Vikings to be nearby.</c>",
+          "cooldownText": "Cooldown: 90 seconds"
         }
       ],
       "trait": [
@@ -17711,7 +18619,10 @@
           "buttonId": "LostVikingsVikingHoardTalent",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+          "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+          "name": "Viking Hoard",
+          "fullText": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by <c val=\"bfd4fd\">0.5</c> per second.<n/><n/>Current Bonus: <c val=\"bfd4fd\">0</c> Regen per second"
         }
       ],
       "hearth": [
@@ -17720,7 +18631,10 @@
           "buttonId": "HearthstoneNoMana",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B"
+          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health."
         }
       ],
       "mount": [
@@ -17729,7 +18643,11 @@
           "buttonId": "LostVikingsGoGoGo",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z"
+          "_hdp5LinkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+          "icon": "storm_ui_icon_lostvikings_mount.png",
+          "name": "Go Go Go!",
+          "fullText": "The Vikings gain <c val=\"bfd4fd\">30%</c> increased Movement Speed for <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 30 seconds"
         }
       ],
       "activable": [
@@ -17738,14 +18656,20 @@
           "buttonId": "LostVikingSelectBaleog",
           "abilityType": "Active",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectBaleog|Active"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectBaleog|Active",
+          "icon": "storm_ui_icon_lostvikings_selectbaleog.png",
+          "name": "Select Baleog",
+          "fullText": "Baleog's Basic Attacks deal <c val=\"bfd4fd\">50%</c> damage to enemies behind his attack target."
         },
         {
           "nameId": "LostVikingSelectAll",
           "buttonId": "LostVikingSelectAll",
           "abilityType": "Active",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectAll|Active"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectAll|Active",
+          "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+          "name": "Select All Vikings",
+          "fullText": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths."
         }
       ]
     },
@@ -17758,7 +18682,11 @@
               "buttonId": "LostVikingsMortar",
               "abilityType": "Q",
               "isPassive": false,
-              "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q"
+              "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+              "icon": "storm_ui_icon_lostvikings_mortar.png",
+              "name": "Mortar",
+              "fullText": "Fires a mortar at the targeted location, dealing <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in a large area.",
+              "cooldownText": "Cooldown: 3 seconds"
             }
           ]
         }
@@ -17797,28 +18725,44 @@
           "buttonId": "LostVikingsSpinToWin",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q"
+          "_hdp5LinkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+          "icon": "storm_ui_icon_lostvikings_spintowin.png",
+          "name": "Spin To Win!",
+          "fullText": "Activate to have each Viking deal <c val=\"bfd4fd\">85</c><c val=\"a7a7a7\">~~0.04~~</c> damage to nearby enemies.  Deals <c val=\"bfd4fd\">100%</c> bonus damage to enemy Heroes.",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "LostVikingsNorseForce",
           "buttonId": "LostVikingsNorseForce",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q"
+          "_hdp5LinkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+          "icon": "storm_ui_icon_lostvikings_norseforce.png",
+          "name": "Norse Force!",
+          "fullText": "All Vikings gain a <c val=\"bfd4fd\">140</c><c val=\"a7a7a7\">~~0.04~~</c> to <c val=\"bfd4fd\">308</c><c val=\"a7a7a7\">~~0.04~~</c> point Shield, increasing in strength for each Viking alive. Lasts <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "LostVikingsPressA",
           "buttonId": "LostVikingsJump",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsPressA|LostVikingsJump|W"
+          "_hdp5LinkId": "LostVikingsPressA|LostVikingsJump|W",
+          "icon": "storm_ui_icon_lostvikings_jump.png",
+          "name": "Jump!",
+          "fullText": "Makes all Vikings Invulnerable and able to pass over enemies for <c val=\"bfd4fd\">1.5</c> seconds.",
+          "cooldownText": "Cooldown: 30 seconds"
         },
         {
           "nameId": "LostVikingsNordicAttackSquad",
           "buttonId": "LostVikingsNordicAttackSquad",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W"
+          "_hdp5LinkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W",
+          "icon": "storm_ui_icon_talent_autoattack_searing.png",
+          "name": "Nordic Attack Squad",
+          "fullText": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to <c val=\"bfd4fd\">1.25%</c> maximum Health to enemy Heroes.",
+          "cooldownText": "Cooldown: 20 seconds"
         },
         {
           "nameId": "LostVikingsVikingBribery",
@@ -17830,7 +18774,10 @@
             "countMax": 5,
             "countUse": 1,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "name": "Viking Bribery",
+          "fullText": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use <c val=\"bfd4fd\">40</c> stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: <c val=\"bfd4fd\">200</c>."
         }
       ],
       "heroic": [
@@ -17839,14 +18786,22 @@
           "buttonId": "LostVikingsPlayAgain",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic"
+          "_hdp5LinkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+          "icon": "storm_ui_icon_lostvikings_playagain.png",
+          "name": "Play Again!",
+          "fullText": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for <c val=\"bfd4fd\">2</c> seconds. <n/><n/><c val=\"ffff8a\">Only one Viking may attempt to summon at a time.</c>",
+          "cooldownText": "Cooldown: 100 seconds"
         },
         {
           "nameId": "LostVikingsLongboatRaidNewer",
           "buttonId": "LostVikingsLongboatRaid",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+          "_hdp5LinkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+          "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+          "name": "Longboat Raid!",
+          "fullText": "Hop into an Unstoppable Longboat that fires at nearby enemies for <c val=\"bfd4fd\">128</c><c val=\"a7a7a7\">~~0.04~~</c> damage per second and can fire a mortar that deals <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for <c val=\"bfd4fd\">1</c> second. Lasts <c val=\"bfd4fd\">15</c> seconds.<n/><n/><c val=\"ffff8a\">Requires all surviving Vikings to be nearby.</c>",
+          "cooldownText": "Cooldown: 90 seconds"
         }
       ],
       "trait": [
@@ -17855,7 +18810,10 @@
           "buttonId": "LostVikingsVikingHoardTalent",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+          "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+          "name": "Viking Hoard",
+          "fullText": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by <c val=\"bfd4fd\">0.5</c> per second.<n/><n/>Current Bonus: <c val=\"bfd4fd\">0</c> Regen per second"
         }
       ],
       "hearth": [
@@ -17864,7 +18822,10 @@
           "buttonId": "HearthstoneNoMana",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B"
+          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health."
         }
       ],
       "mount": [
@@ -17873,7 +18834,11 @@
           "buttonId": "LostVikingsGoGoGo",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z"
+          "_hdp5LinkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+          "icon": "storm_ui_icon_lostvikings_mount.png",
+          "name": "Go Go Go!",
+          "fullText": "The Vikings gain <c val=\"bfd4fd\">30%</c> increased Movement Speed for <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 30 seconds"
         }
       ],
       "activable": [
@@ -17882,14 +18847,20 @@
           "buttonId": "LostVikingSelectErik",
           "abilityType": "Active",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectErik|Active"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectErik|Active",
+          "icon": "storm_ui_icon_lostvikings_selecterik.png",
+          "name": "Select Erik",
+          "fullText": "Erik moves faster than the other Vikings and has increased Basic Attack range."
         },
         {
           "nameId": "LostVikingSelectAll",
           "buttonId": "LostVikingSelectAll",
           "abilityType": "Active",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectAll|Active"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectAll|Active",
+          "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+          "name": "Select All Vikings",
+          "fullText": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths."
         }
       ]
     },
@@ -17902,7 +18873,11 @@
               "buttonId": "LostVikingsMortar",
               "abilityType": "Q",
               "isPassive": false,
-              "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q"
+              "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+              "icon": "storm_ui_icon_lostvikings_mortar.png",
+              "name": "Mortar",
+              "fullText": "Fires a mortar at the targeted location, dealing <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in a large area.",
+              "cooldownText": "Cooldown: 3 seconds"
             }
           ]
         }
@@ -17941,28 +18916,44 @@
           "buttonId": "LostVikingsSpinToWin",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q"
+          "_hdp5LinkId": "LostVikingsSpinToWin|LostVikingsSpinToWin|Q",
+          "icon": "storm_ui_icon_lostvikings_spintowin.png",
+          "name": "Spin To Win!",
+          "fullText": "Activate to have each Viking deal <c val=\"bfd4fd\">85</c><c val=\"a7a7a7\">~~0.04~~</c> damage to nearby enemies.  Deals <c val=\"bfd4fd\">100%</c> bonus damage to enemy Heroes.",
+          "cooldownText": "Cooldown: 10 seconds"
         },
         {
           "nameId": "LostVikingsNorseForce",
           "buttonId": "LostVikingsNorseForce",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q"
+          "_hdp5LinkId": "LostVikingsNorseForce|LostVikingsNorseForce|Q",
+          "icon": "storm_ui_icon_lostvikings_norseforce.png",
+          "name": "Norse Force!",
+          "fullText": "All Vikings gain a <c val=\"bfd4fd\">140</c><c val=\"a7a7a7\">~~0.04~~</c> to <c val=\"bfd4fd\">308</c><c val=\"a7a7a7\">~~0.04~~</c> point Shield, increasing in strength for each Viking alive. Lasts <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 15 seconds"
         },
         {
           "nameId": "LostVikingsPressA",
           "buttonId": "LostVikingsJump",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsPressA|LostVikingsJump|W"
+          "_hdp5LinkId": "LostVikingsPressA|LostVikingsJump|W",
+          "icon": "storm_ui_icon_lostvikings_jump.png",
+          "name": "Jump!",
+          "fullText": "Makes all Vikings Invulnerable and able to pass over enemies for <c val=\"bfd4fd\">1.5</c> seconds.",
+          "cooldownText": "Cooldown: 30 seconds"
         },
         {
           "nameId": "LostVikingsNordicAttackSquad",
           "buttonId": "LostVikingsNordicAttackSquad",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W"
+          "_hdp5LinkId": "LostVikingsNordicAttackSquad|LostVikingsNordicAttackSquad|W",
+          "icon": "storm_ui_icon_talent_autoattack_searing.png",
+          "name": "Nordic Attack Squad",
+          "fullText": "While Olaf, Baleog, and Erik are near each of the other two Vikings, their Basic Attacks deal bonus damage equal to <c val=\"bfd4fd\">1.25%</c> maximum Health to enemy Heroes.",
+          "cooldownText": "Cooldown: 20 seconds"
         },
         {
           "nameId": "LostVikingsVikingBribery",
@@ -17974,7 +18965,10 @@
             "countMax": 5,
             "countUse": 1,
             "isCountHidden": false
-          }
+          },
+          "icon": "storm_ui_icon_talent_bribe.png",
+          "name": "Viking Bribery",
+          "fullText": "Enemy Minions or captured Mercenaries killed near The Lost Vikings grant stacks of Bribe. Use <c val=\"bfd4fd\">40</c> stacks to bribe target Mercenary, instantly defeating them. Does not work on Elite Mercenaries. Maximum stacks available: <c val=\"bfd4fd\">200</c>."
         }
       ],
       "heroic": [
@@ -17983,14 +18977,22 @@
           "buttonId": "LostVikingsPlayAgain",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic"
+          "_hdp5LinkId": "LostVikingsPlayAgain|LostVikingsPlayAgain|Heroic",
+          "icon": "storm_ui_icon_lostvikings_playagain.png",
+          "name": "Play Again!",
+          "fullText": "Summon, fully heal, and revive all Lost Vikings at target location after a Viking channels for <c val=\"bfd4fd\">2</c> seconds. <n/><n/><c val=\"ffff8a\">Only one Viking may attempt to summon at a time.</c>",
+          "cooldownText": "Cooldown: 100 seconds"
         },
         {
           "nameId": "LostVikingsLongboatRaidNewer",
           "buttonId": "LostVikingsLongboatRaid",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic"
+          "_hdp5LinkId": "LostVikingsLongboatRaidNewer|LostVikingsLongboatRaid|Heroic",
+          "icon": "storm_ui_icon_lostvikings_longboatraid.png",
+          "name": "Longboat Raid!",
+          "fullText": "Hop into an Unstoppable Longboat that fires at nearby enemies for <c val=\"bfd4fd\">128</c><c val=\"a7a7a7\">~~0.04~~</c> damage per second and can fire a mortar that deals <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in an area.  The boat has increased Health for each Viking inside. If the boat is destroyed by enemies, all Vikings are Stunned for <c val=\"bfd4fd\">1</c> second. Lasts <c val=\"bfd4fd\">15</c> seconds.<n/><n/><c val=\"ffff8a\">Requires all surviving Vikings to be nearby.</c>",
+          "cooldownText": "Cooldown: 90 seconds"
         }
       ],
       "trait": [
@@ -17999,7 +19001,10 @@
           "buttonId": "LostVikingsVikingHoardTalent",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingsVikingHoardTalent|Trait",
+          "icon": "storm_ui_icon_lostvikings_vikinghoard.png",
+          "name": "Viking Hoard",
+          "fullText": "Gathering a Regeneration Globe with a Viking permanently increases all their Health Regeneration by <c val=\"bfd4fd\">0.5</c> per second.<n/><n/>Current Bonus: <c val=\"bfd4fd\">0</c> Regen per second"
         }
       ],
       "hearth": [
@@ -18008,7 +19013,10 @@
           "buttonId": "HearthstoneNoMana",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B"
+          "_hdp5LinkId": "Hearthstone|HearthstoneNoMana|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health."
         }
       ],
       "mount": [
@@ -18017,7 +19025,11 @@
           "buttonId": "LostVikingsGoGoGo",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z"
+          "_hdp5LinkId": "LostVikingsGoGoGo|LostVikingsGoGoGo|Z",
+          "icon": "storm_ui_icon_lostvikings_mount.png",
+          "name": "Go Go Go!",
+          "fullText": "The Vikings gain <c val=\"bfd4fd\">30%</c> increased Movement Speed for <c val=\"bfd4fd\">4</c> seconds.",
+          "cooldownText": "Cooldown: 30 seconds"
         }
       ],
       "activable": [
@@ -18026,14 +19038,20 @@
           "buttonId": "LostVikingSelectOlaf",
           "abilityType": "Active",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectOlaf|Active"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectOlaf|Active",
+          "icon": "storm_ui_icon_lostvikings_selectolaf.png",
+          "name": "Select Olaf",
+          "fullText": "Olaf can charge enemies and slow their Movement Speed by <c val=\"bfd4fd\">30%</c> for <c val=\"bfd4fd\">3</c> seconds by right-clicking on them. <c val=\"bfd4fd\">8</c> second cooldown. <n/><n/>Olaf gains increased Health Regeneration when out of combat for <c val=\"bfd4fd\">4</c> seconds."
         },
         {
           "nameId": "LostVikingSelectAll",
           "buttonId": "LostVikingSelectAll",
           "abilityType": "Active",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectAll|Active"
+          "_hdp5LinkId": ":PASSIVE:|LostVikingSelectAll|Active",
+          "icon": "storm_ui_ingame_heroselect_btn_lostvikings.png",
+          "name": "Select All Vikings",
+          "fullText": "The Lost Vikings can be controlled individually or as a group. Each Viking has particular strengths."
         }
       ]
     },
@@ -18046,7 +19064,11 @@
               "buttonId": "LostVikingsMortar",
               "abilityType": "Q",
               "isPassive": false,
-              "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q"
+              "_hdp5LinkId": "LostVikingsLongboatRaidMortar|LostVikingsMortar|Q",
+              "icon": "storm_ui_icon_lostvikings_mortar.png",
+              "name": "Mortar",
+              "fullText": "Fires a mortar at the targeted location, dealing <c val=\"bfd4fd\">228</c><c val=\"a7a7a7\">~~0.04~~</c> damage in a large area.",
+              "cooldownText": "Cooldown: 3 seconds"
             }
           ]
         }
@@ -18074,7 +19096,10 @@
           "abilityType": "E",
           "isPassive": false,
           "_hdp5LinkId": "MedicMedivacDropshipDepart|MedicMedivacDropshipDepart|E",
-          "toggleCooldown": 0.5
+          "toggleCooldown": 0.5,
+          "icon": "storm_ui_medic_departbutton.png",
+          "name": "Depart",
+          "fullText": "Departs for the targeted location immediately."
         }
       ]
     }
@@ -18111,21 +19136,33 @@
           "buttonId": "MedivhArcaneRift",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "MedivhArcaneRift|MedivhArcaneRift|Q"
+          "_hdp5LinkId": "MedivhArcaneRift|MedivhArcaneRift|Q",
+          "icon": "storm_ui_icon_medivh_arcanemissile.png",
+          "name": "Arcane Rift",
+          "fullText": "Launch a rift that deals <c val=\"bfd4fd\">170</c><c val=\"a7a7a7\">~~0.04~~</c> damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by <c val=\"bfd4fd\">5</c> seconds and refund <c val=\"bfd4fd\">50</c> Mana.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit <c val=\"bfd4fd\">40</c> enemy Heroes with Arcane Rift without dying.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Reward:</c> Permanently increase the damage dealt by <c val=\"bfd4fd\">75</c> and cooldown reduction for hitting a Hero by <c val=\"bfd4fd\">1</c> second.",
+          "cooldownText": "Cooldown: 7 seconds"
         },
         {
           "nameId": "MedivhForceOfWill",
           "buttonId": "MedivhForceOfWill",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "MedivhForceOfWill|MedivhForceOfWill|W"
+          "_hdp5LinkId": "MedivhForceOfWill|MedivhForceOfWill|W",
+          "icon": "storm_ui_icon_medivh_forceofwill.png",
+          "name": "Force of Will",
+          "fullText": "Protect an allied Hero from all damage for <c val=\"bfd4fd\">1.5</c> seconds. Upon expiration, Force of Will heals the target for <c val=\"bfd4fd\">20%</c> of the damage it absorbed.",
+          "cooldownText": "Cooldown: 9 seconds"
         },
         {
           "nameId": "MedivhPortalInstant",
           "buttonId": "MedivhPortal",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "MedivhPortalInstant|MedivhPortal|E"
+          "_hdp5LinkId": "MedivhPortalInstant|MedivhPortal|E",
+          "icon": "storm_ui_icon_medivh_portal.png",
+          "name": "Portal",
+          "fullText": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last <c val=\"bfd4fd\">6</c> seconds.",
+          "cooldownText": "Cooldown: 16 seconds"
         }
       ],
       "heroic": [
@@ -18134,14 +19171,22 @@
           "buttonId": "MedivhPolyBomb",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "MedivhPolyBomb|MedivhPolyBomb|Heroic"
+          "_hdp5LinkId": "MedivhPolyBomb|MedivhPolyBomb|Heroic",
+          "icon": "storm_ui_icon_medivh_polybomb.png",
+          "name": "Poly Bomb",
+          "fullText": "Polymorph an enemy Hero for <c val=\"bfd4fd\">2</c> seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+          "cooldownText": "Cooldown: 40 seconds"
         },
         {
           "nameId": "MedivhLeyLineSeal",
           "buttonId": "MedivhLeyLineSeal",
           "abilityType": "Heroic",
           "isPassive": false,
-          "_hdp5LinkId": "MedivhLeyLineSeal|MedivhLeyLineSeal|Heroic"
+          "_hdp5LinkId": "MedivhLeyLineSeal|MedivhLeyLineSeal|Heroic",
+          "icon": "storm_ui_icon_medivh_leylineblast.png",
+          "name": "Ley Line Seal",
+          "fullText": "After <c val=\"bfd4fd\">0.5</c> seconds, unleash a wave of energy that places enemy Heroes in Time Stop for <c val=\"bfd4fd\">3</c> seconds.",
+          "cooldownText": "Cooldown: 80 seconds"
         }
       ],
       "trait": [
@@ -18150,7 +19195,10 @@
           "buttonId": "MedivhRavenForm",
           "abilityType": "Trait",
           "isPassive": true,
-          "_hdp5LinkId": ":PASSIVE:|MedivhRavenForm|Trait"
+          "_hdp5LinkId": ":PASSIVE:|MedivhRavenForm|Trait",
+          "icon": "storm_ui_icon_medivh_ravenform.png",
+          "name": "Raven Form",
+          "fullText": "Instead of mounting, Medivh can transform into a raven, increasing Movement Speed by <c val=\"bfd4fd\">20%</c>. While transformed, Medivh can see and fly over all terrain and is immune to all effects."
         }
       ],
       "hearth": [
@@ -18159,7 +19207,10 @@
           "buttonId": "Hearthstone",
           "abilityType": "B",
           "isPassive": false,
-          "_hdp5LinkId": "Hearthstone|Hearthstone|B"
+          "_hdp5LinkId": "Hearthstone|Hearthstone|B",
+          "icon": "storm_ui_icon_miscrune_1.png",
+          "name": "Hearthstone",
+          "fullText": "After Channeling for <c val=\"bfd4fd\">6</c> seconds, teleport back to the Hall of Storms, instantly restoring <c val=\"bfd4fd\">1125</c> Health and <c val=\"bfd4fd\">150</c> Mana."
         }
       ],
       "mount": [
@@ -18168,7 +19219,11 @@
           "buttonId": "MedivhTransformRaven",
           "abilityType": "Z",
           "isPassive": false,
-          "_hdp5LinkId": "MedivhTransformRaven|MedivhTransformRaven|Z"
+          "_hdp5LinkId": "MedivhTransformRaven|MedivhTransformRaven|Z",
+          "icon": "storm_ui_icon_medivh_mount.png",
+          "name": "Raven Form",
+          "fullText": "Transform into a raven, increasing Movement Speed by <c val=\"bfd4fd\">20%</c>. While transformed, Medivh can see and fly over terrain and is immune to all effects.",
+          "cooldownText": "Cooldown: 4 seconds"
         }
       ]
     },
@@ -18181,7 +19236,11 @@
               "buttonId": "MedivhPolyBomb",
               "abilityType": "Heroic",
               "isPassive": false,
-              "_hdp5LinkId": "MedivhPolyBombGlyphOfPolyBomb|MedivhPolyBomb|Heroic"
+              "_hdp5LinkId": "MedivhPolyBombGlyphOfPolyBomb|MedivhPolyBomb|Heroic",
+              "icon": "storm_ui_icon_medivh_polybomb.png",
+              "name": "Poly Bomb",
+              "fullText": "Polymorph an enemy Hero for <c val=\"bfd4fd\">2</c> seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+              "cooldownText": "Cooldown: 40 seconds"
             }
           ]
         },
@@ -18193,7 +19252,10 @@
               "abilityType": "Z",
               "isPassive": false,
               "_hdp5LinkId": "MedivhTransformRavenLand|MedivhTransformRavenLand|Z",
-              "toggleCooldown": 0.0625
+              "toggleCooldown": 0.0625,
+              "icon": "storm_ui_icon_medivh_cancel_mount.png",
+              "name": "Cancel Raven Form",
+              "fullText": "Cancel Raven Form."
             }
           ]
         }
@@ -18220,21 +19282,33 @@
           "buttonId": "RagnarosBigRagMoltenSwing",
           "abilityType": "Q",
           "isPassive": false,
-          "_hdp5LinkId": "RagnarosBigRagMoltenSwing|RagnarosBigRagMoltenSwing|Q"
+          "_hdp5LinkId": "RagnarosBigRagMoltenSwing|RagnarosBigRagMoltenSwing|Q",
+          "icon": "storm_ui_icon_ragnaros_moltenswing.png",
+          "name": "Molten Swing",
+          "fullText": "Swing Sulfuras in a wide arc, dealing <c val=\"bfd4fd\">250</c><c val=\"a7a7a7\">~~0.04~~</c> damage and Stunning enemies for <c val=\"bfd4fd\">1</c> second.",
+          "cooldownText": "Cooldown: 9 seconds"
         },
         {
           "nameId": "RagnarosBigRagMeteorShower",
           "buttonId": "RagnarosBigRagMeteorShower",
           "abilityType": "W",
           "isPassive": false,
-          "_hdp5LinkId": "RagnarosBigRagMeteorShower|RagnarosBigRagMeteorShower|W"
+          "_hdp5LinkId": "RagnarosBigRagMeteorShower|RagnarosBigRagMeteorShower|W",
+          "icon": "storm_ui_icon_ragnaros_meteorshower.png",
+          "name": "Meteor Shower",
+          "fullText": "<c val=\"bfd4fd\">Vector Targeting</c><n/>Summon <c val=\"bfd4fd\">3</c> meteors at the target point that fall in the target direction. Each meteor deals <c val=\"bfd4fd\">200</c><c val=\"a7a7a7\">~~0.04~~</c> damage and Slows enemies by <c val=\"bfd4fd\">35%</c> for <c val=\"bfd4fd\">2</c> seconds.",
+          "cooldownText": "Cooldown: 6 seconds"
         },
         {
           "nameId": "RagnarosBigRagExplosiveRune",
           "buttonId": "RagnarosBigRagExplosiveRune",
           "abilityType": "E",
           "isPassive": false,
-          "_hdp5LinkId": "RagnarosBigRagExplosiveRune|RagnarosBigRagExplosiveRune|E"
+          "_hdp5LinkId": "RagnarosBigRagExplosiveRune|RagnarosBigRagExplosiveRune|E",
+          "icon": "storm_ui_icon_ragnaros_explosiverune.png",
+          "name": "Explosive Rune",
+          "fullText": "Create a rune that erupts after <c val=\"bfd4fd\">1.5</c> and sets enemies on fire, dealing <c val=\"bfd4fd\">22</c><c val=\"a7a7a7\">~~0.04~~</c> damage per second for <c val=\"bfd4fd\">5</c> seconds.",
+          "cooldownText": "Cooldown: 2.5 seconds"
         }
       ],
       "heroic": [
@@ -18250,7 +19324,11 @@
             "countUse": 1,
             "recastCooldown": 1,
             "isCountHidden": true
-          }
+          },
+          "icon": "storm_ui_icon_ragnaros_sulfurassmash.png",
+          "name": "Sulfuras Smash",
+          "fullText": "Hurl Sulfuras at the target area, landing after <c val=\"bfd4fd\">0.75</c> seconds, dealing <c val=\"bfd4fd\">250</c><c val=\"a7a7a7\">~~0.04~~</c> damage. Enemies in the center take <c val=\"bfd4fd\">594</c><c val=\"a7a7a7\">~~0.04~~</c> damage instead and are Stunned for <c val=\"bfd4fd\">0.5</c> seconds.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Quest:</c> Hit <c val=\"bfd4fd\">8</c> enemy Heroes in the center.<n/><n/><img path=\"@UI/StormTalentInTextQuestIcon\" alignment=\"uppermiddle\" color=\"B48E4C\" width=\"20\" height=\"22\"/><c val=\"e4b800\">Mythic Reward:</c> Sulfuras Smash gains an additional charge.",
+          "cooldownText": "Cooldown: 60 seconds"
         },
         {
           "nameId": "RagnarosLavaWaveTargetPoint",
@@ -18264,7 +19342,11 @@
             "countUse": 1,
             "recastCooldown": 5,
             "isCountHidden": true
-          }
+          },
+          "icon": "storm_ui_icon_ragnaros_lavawave.png",
+          "name": "Lava Wave",
+          "fullText": "Release a wave of lava from Ragnaros's Core that travels down the targeted lane, dealing <c val=\"bfd4fd\">240</c><c val=\"a7a7a7\">~~0.04~~</c> damage per second to non-Structure enemies in its path and instantly killing enemy Minions. Damage increased by <c val=\"bfd4fd\">100%</c> versus Heroes.",
+          "cooldownText": "Cooldown: 120 seconds"
         }
       ],
       "trait": [
@@ -18274,7 +19356,10 @@
           "abilityType": "Trait",
           "isPassive": false,
           "_hdp5LinkId": "RagnarosBigRagReturnMoltenCore|RagnarosBigRagReturnMoltenCore|Trait",
-          "toggleCooldown": 0.3
+          "toggleCooldown": 0.3,
+          "icon": "storm_ui_icon_ragnaros_return.png",
+          "name": "Return",
+          "fullText": "Return to original form."
         }
       ]
     },
@@ -18288,7 +19373,10 @@
               "abilityType": "Trait",
               "isPassive": false,
               "_hdp5LinkId": "RagnarosBigRagReturnMoltenCore|RagnarosBigRagCancelReturnMoltenCore|Trait",
-              "toggleCooldown": 0.3
+              "toggleCooldown": 0.3,
+              "icon": "hud_btn_bg_ability_cancel.png",
+              "name": "Cancel Return",
+              "fullText": "Cancel returning to original form."
             }
           ]
         }
@@ -18328,7 +19416,10 @@
           "abilityType": "W",
           "isPassive": false,
           "_hdp5LinkId": "RexxarMishaCharge|RexxarMishaChargeRedirect|W",
-          "toggleCooldown": 0.5
+          "toggleCooldown": 0.5,
+          "icon": "storm_ui_icon_rexxar_mishacharge.png",
+          "name": "Misha, Charge!",
+          "fullText": "Misha charges in a line, dealing <c val=\"bfd4fd\">150</c><c val=\"a7a7a7\">~~0.04~~</c> damage and stunning enemies for <c val=\"bfd4fd\">1.25</c> seconds."
         }
       ]
     }

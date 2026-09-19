@@ -512,7 +512,11 @@
       },
       "abilities": [
         {
+          "name": "Ultralisk Charge",
           "hotkey": "W",
+          "icon": "storm_ui_icon_anubarak_burrowcharge.png",
+          "description": "Charge at an enemy.",
+          "cooldown": 1,
           "tooltipId": "KerriganUltraliskCharge"
         }
       ],
