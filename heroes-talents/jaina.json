@@ -553,8 +553,12 @@
       },
       "abilities": [
         {
+          "name": "Frostbolt",
           "hotkey": "Q",
+          "icon": "storm_ui_icon_jaina_frostbolt.png",
+          "description": "Deal 184 damage and Chill the target.",
           "tooltipId": "JainaFrostbolt",
+          "cooldown": 4,
           "gatedBy": {
             "tier": 20,
             "talentName": "Wintermute",
@@ -562,8 +566,12 @@
           }
         },
         {
+          "name": "Blizzard",
           "hotkey": "W",
+          "icon": "storm_ui_icon_jaina_blizzard.png",
+          "description": "Bombard an area with 3 waves of ice, dealing 142 damage each. Damaged enemies are Chilled.",
           "tooltipId": "JainaBlizzard",
+          "cooldown": 15,
           "gatedBy": {
             "tier": 20,
             "talentName": "Wintermute",
@@ -571,8 +579,12 @@
           }
         },
         {
+          "name": "Cone of Cold",
           "hotkey": "E",
+          "icon": "storm_ui_icon_jaina_coneofcold.png",
+          "description": "Deal 220 damage and Chill targets.",
           "tooltipId": "JainaConeOfCold",
+          "cooldown": 10,
           "gatedBy": {
             "tier": 20,
             "talentName": "Wintermute",

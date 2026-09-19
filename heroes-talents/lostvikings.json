@@ -608,7 +608,11 @@
       },
       "abilities": [
         {
+          "name": "Mortar",
           "hotkey": "Q",
+          "icon": "storm_ui_icon_lostvikings_mortar.png",
+          "description": "Fires a mortar at the targeted location, dealing 228 damage in a large area.",
+          "cooldown": 3,
           "tooltipId": "LostVikingsMortar"
         }
       ],

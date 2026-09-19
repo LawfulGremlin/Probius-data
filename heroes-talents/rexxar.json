@@ -492,7 +492,10 @@
       },
       "abilities": [
         {
+          "name": "Misha, Charge!",
           "hotkey": "W",
+          "icon": "storm_ui_icon_rexxar_mishacharge.png",
+          "description": "Misha charges in a line, dealing 150 damage and stunning enemies for 1.25 seconds.",
           "tooltipId": "RexxarMishaChargeRedirect"
         }
       ]

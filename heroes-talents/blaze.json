@@ -506,11 +506,19 @@
       },
       "abilities": [
         {
+          "name": "Flamethrower",
           "hotkey": "Q",
+          "icon": "storm_ui_icon_blaze_flame.png",
+          "description": "Deal 150 damage to enemies in a line.",
+          "cooldown": 1,
           "tooltipId": "FirebatBunkerDropFlamethrower"
         },
         {
+          "name": "Oil Spill",
           "hotkey": "W",
+          "icon": "storm_ui_icon_blaze_oil.png",
+          "description": "Vector Targeting\nDispense an Oil Spill that Slows enemies and can be set on fire by Blaze.",
+          "cooldown": 6,
           "tooltipId": "FirebatBunkerDropFortifiedBunkerOilSpill",
           "gatedBy": {
             "tier": 20,

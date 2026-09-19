@@ -530,23 +530,43 @@
       },
       "abilities": [
         {
+          "name": "Arcane Rift",
           "hotkey": "Q",
+          "icon": "storm_ui_icon_medivh_arcanemissile.png",
+          "description": "Launch a rift that deals 170 damage to enemies in its path. If an enemy Hero is hit, reduce its cooldown by 5 seconds and refund 50 Mana.\n\nQuest: Hit 40 enemy Heroes with Arcane Rift without dying.\n\nReward: Permanently increase the damage dealt by 75 and cooldown reduction for hitting a Hero by 1 second.",
+          "cooldown": 7,
           "tooltipId": "MedivhArcaneRift"
         },
         {
+          "name": "Force of Will",
           "hotkey": "W",
+          "icon": "storm_ui_icon_medivh_forceofwill.png",
+          "description": "Protect an allied Hero from all damage for 1.5 seconds. Upon expiration, Force of Will heals the target for 20% of the damage it absorbed.",
+          "cooldown": 9,
           "tooltipId": "MedivhForceOfWill"
         },
         {
+          "name": "Portal",
           "hotkey": "E",
+          "icon": "storm_ui_icon_medivh_portal.png",
+          "description": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last 6 seconds.",
+          "cooldown": 16,
           "tooltipId": "MedivhPortal"
         },
         {
+          "name": "Poly Bomb",
           "hotkey": "Heroic",
+          "icon": "storm_ui_icon_medivh_polybomb.png",
+          "description": "Polymorph an enemy Hero for 2 seconds, Silencing them and making them unable to attack. On expiration, Poly Bomb spreads to other nearby enemy Heroes.",
+          "cooldown": 40,
           "tooltipId": "MedivhPolyBomb"
         },
         {
+          "name": "Ley Line Seal",
           "hotkey": "Heroic",
+          "icon": "storm_ui_icon_medivh_leylineblast.png",
+          "description": "After 0.5 seconds, unleash a wave of energy that places enemy Heroes in Time Stop for 3 seconds.",
+          "cooldown": 80,
           "tooltipId": "MedivhLeyLineSeal"
         }
       ],

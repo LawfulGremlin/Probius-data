@@ -505,7 +505,10 @@
       },
       "abilities": [
         {
+          "name": "Depart",
           "hotkey": "E",
+          "icon": "storm_ui_medic_departbutton.png",
+          "description": "Departs for the targeted location immediately.",
           "tooltipId": "MedicMedivacDropshipDepart"
         }
       ],
