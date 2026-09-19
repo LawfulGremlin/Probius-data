@@ -543,6 +543,24 @@
       }
     ]
   },
+  "summonUnits": [
+    {
+      "unitId": "LeoricWraithWalkUnit",
+      "name": "LeoricWraithWalkUnit",
+      "icon": "storm_ui_icon_leoric_wraithwalk.png",
+      "stats": {
+        "hp": 200,
+        "hpRegen": 80,
+        "hpScale": 0,
+        "hpRegenScale": 0,
+        "radius": 0.875,
+        "speed": 4.8398,
+        "sight": 12
+      },
+      "abilities": [],
+      "sourceAbilityTooltipId": "LeoricWraithWalk"
+    }
+  ],
   "tooltipMarkup": {
     "LeoricBuriedAliveTalent": "The duration of Entomb is lowered by <c val=\"#TooltipNumbers\"><d ref=\"-Talent,LeoricMasteryBuriedAliveEntomb,AbilityModificationArray[0].Modifications[1].Value\"/></c> second, but enemies trapped inside are Silenced and take <c val=\"#TooltipNumbers\"><d ref=\"Effect,LeoricEntombBuriedAliveDamage,Amount*2\"/></c> damage every <c val=\"#TooltipNumbers\">1</c> second.",
     "LeoricBurningDespair": "Deal <c val=\"#TooltipNumbers\"><d ref=\"Effect,LeoricBurningDespairDamage,Amount\"/></c> damage per second to nearby enemies. <n/><n/>While Drain Hope is active, gain <c val=\"#TooltipNumbers\"><d ref=\"Behavior,LeoricDrainHopeBurningDespairArmorBuff,ArmorModification.AllArmorBonus\"/></c> Armor and the damage and area is increased by <c val=\"#TooltipNumbers\"><d ref=\"100*Effect,LeoricBurningDespairDamage,MultiplicativeModifierArray[Empowered].Modifier\"/>%</c>.",
