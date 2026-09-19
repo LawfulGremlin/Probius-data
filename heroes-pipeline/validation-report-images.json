@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "component": "heroes-images",
-  "track": "live",
-  "version": "2.55.17.98025",
+  "track": "ptr",
+  "version": "2.57.0.98182",
   "sourceSha": "0e99860b06bf5b16b53125f42a160331e8f2cc96",
   "status": "partial",
-  "generation": "040d3eae1b6527a18213eb8d60293d7ed4ade139f3291eaeb8f8889ef6dd1719",
+  "generation": "cd54d2e80dba654bb43c408c882e8237dd21fae1f7cb96f7622c34edee7d9a31",
   "missing": [
     "btn-ability-protoss-prismaticbeam-color.dds",
     "btn-ability-protoss-psistorm-color.dds",
@@ -230,7 +230,11 @@
     "storm_ui_icon_souleateraura_2.dds",
     "storm_ui_icon_souleaterauralevel2_2.dds",
     "storm_ui_icon_souleaterauralevel3_2.dds",
+    "storm_ui_icon_xalatath_e_shadowmark.dds",
+    "storm_ui_icon_xalatath_voidminion.dds",
     "storm_ui_ingame_hero_icon_erik.dds",
+    "storm_ui_ingame_targetinfopanel_unit_xalatath_voidconvergenceportal.dds",
+    "storm_ui_ingame_targetinfopanel_unit_xalatath_voidminion.dds",
     "storm_ui_minimapicon_gardenseed_bw.dds",
     "storm_ui_minimapicon_healthgenerator.dds",
     "storm_ui_minimapicon_leoricundying.dds",
@@ -386,12 +390,13 @@
   ],
   "retained": [
     "heroes/rexxar/storm_ui_ingame_targetinfopanel_unit_hero_misha.png",
+    "portraits/storm_ui_ingame_heroselect_btn_misha.png",
     "shared/storm_ui_icon_lucio_crossfadespeed.png"
   ],
   "retention": {
     "preserved": 4603,
-    "retained": 2,
-    "rewrittenIdentical": 4601,
+    "retained": 3,
+    "rewrittenIdentical": 4600,
     "replaced": 0,
     "missing": []
   },
@@ -5280,6 +5285,7 @@
     "shared/storm_ui_icon_wizard_arcaneorb_b.png",
     "shared/storm_ui_icon_wizard_disintegrate_b.png",
     "shared/storm_ui_icon_wrathofthelichking.png",
+    "shared/storm_ui_icon_xalatath_q_shadowmark_b.png",
     "shared/storm_ui_icon_yrel_avenging_wrath_active.png",
     "shared/storm_ui_icon_yrel_divine_purpose_active.png",
     "shared/storm_ui_icon_yrel_righteous_hammer_active.png",
@@ -5425,6 +5431,7 @@
     "shared/storm_ui_ingame_partyframe_whitemane.png",
     "shared/storm_ui_ingame_partyframe_witchdoctor.png",
     "shared/storm_ui_ingame_partyframe_wizard.png",
+    "shared/storm_ui_ingame_partyframe_xalatath.png",
     "shared/storm_ui_ingame_partyframe_yrel.png",
     "shared/storm_ui_ingame_partyframe_zagara.png",
     "shared/storm_ui_ingame_partyframe_zarya.png",
@@ -5902,6 +5909,7 @@
     "shared/storm_ui_minimapicon_whitemane.png",
     "shared/storm_ui_minimapicon_witchdoctor.png",
     "shared/storm_ui_minimapicon_wizard.png",
+    "shared/storm_ui_minimapicon_xalatath.png",
     "shared/storm_ui_minimapicon_yrel.png",
     "shared/storm_ui_minimapicon_zagara.png",
     "shared/storm_ui_minimapicon_zarya.png",
@@ -5973,6 +5981,7 @@
     "shared/storm_ui_voice_nazeebo.png",
     "shared/storm_ui_voice_sonya.png",
     "shared/storm_ui_voice_valla.png",
+    "shared/storm_ui_voice_xalatath.png",
     "shared/storm_ui_voice_xul.png",
     "shared/storm_ui-editoricon_braxis_1.png",
     "shared/storm_ui-editoricon_braxis_2.png",
@@ -6398,6 +6407,7 @@
     "shared/ui_targetportrait_hero_whitemane.png",
     "shared/ui_targetportrait_hero_witchdoctor.png",
     "shared/ui_targetportrait_hero_wizard.png",
+    "shared/ui_targetportrait_hero_xalatath.png",
     "shared/ui_targetportrait_hero_yrel.png",
     "shared/ui_targetportrait_hero_zagara.png",
     "shared/ui_targetportrait_hero_zarya.png",
@@ -6735,6 +6745,7 @@
     "ui/storm_ui_glues_draft_portrait_whiteout.png",
     "ui/storm_ui_glues_draft_portrait_witchdoctor.png",
     "ui/storm_ui_glues_draft_portrait_wizard.png",
+    "ui/storm_ui_glues_draft_portrait_xalatath.png",
     "ui/storm_ui_glues_draft_portrait_yrel.png",
     "ui/storm_ui_glues_draft_portrait_zagara.png",
     "ui/storm_ui_glues_draft_portrait_zarya.png",
@@ -6991,7 +7002,7 @@
   "stages": {
     "icons": {
       "status": "partial",
-      "converted": 7647,
+      "converted": 7664,
       "failed": 6
     },
     "sheets": {
@@ -7005,22 +7016,19 @@
       "status": "skipped",
       "reason": "sheets not available: no Battle.net .wafl cache"
     },
-    "overrides": {
-      "status": "ok",
-      "count": 1
-    }
+    "overrides": null
   },
   "publication": {
     "status": "published",
-    "commit": "647e2a753f47a2f0b738dd0ef5734d0748927aeb",
-    "branch": "live",
-    "generation": "040d3eae1b6527a18213eb8d60293d7ed4ade139f3291eaeb8f8889ef6dd1719",
-    "componentTree": "97cc1a81c0fdc8138ebe0ce3e7663153b17ede0a"
+    "commit": "c8bf483248883cf23542279d8ed7eca3f2b1b6b4",
+    "branch": "test",
+    "generation": "cd54d2e80dba654bb43c408c882e8237dd21fae1f7cb96f7622c34edee7d9a31",
+    "componentTree": "7a59881e379f49b1a06fef458c7daa31f48786ca"
   },
   "baseline": {
-    "branch": "live",
-    "commit": "fdfe11a8ac0a7acf6cf8bb4dc30e91834ca9f175",
-    "componentTree": "ab33a51a288bf4d866cbc3479d2e71c6807b22ab",
+    "branch": "test",
+    "commit": "7363e3ed6cc28de12e1561b69ff3acc1390b28ee",
+    "componentTree": "6e8dff0746d626572dbf567d0349e436fc2f7ea9",
     "version": "",
     "generation": ""
   },

@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "component": "heroes-talents",
-  "track": "live",
-  "product": "hero",
-  "version": "2.55.17.98025",
-  "buildId": "B98025",
+  "track": "ptr",
+  "product": "herot",
+  "version": "2.57.0.98182",
+  "buildId": "B98182",
   "sourceSha": "0e99860b06bf5b16b53125f42a160331e8f2cc96",
-  "generation": "ad183d8e622f18214cd0606ef4e947b82c6f77912dbfc3e48caf550fbaea8a6f",
+  "generation": "78e6189fdccbe2fb01202ae91e6d2270fb5b1d23ee830d93c37b37eebb57c5c4",
   "producer": {
     "hdpVersion": "5.0.4",
     "adapterSchemaVersion": 1,
@@ -14,10 +14,19 @@
     "configurationSha256": "6a2c6674cff17b6ad8faf079c4adb829eeef6114365ad1521cafd2b722c99d99"
   },
   "status": "published",
-  "expected": 90,
-  "native": 90,
-  "converted": 90,
+  "expected": 91,
+  "native": 91,
+  "converted": 91,
   "warnings": [
+    {
+      "code": "NEW_HERO_METADATA_MISSING",
+      "cHeroId": "Xalatath",
+      "fields": [
+        "id",
+        "releasePatch",
+        "releaseDate"
+      ]
+    },
     "Alexstrasza: differs from the previous publication: unitIds disappeared",
     "LostVikings: differs from the previous publication: unitIds disappeared",
     "Nova: differs from the previous publication: unitIds disappeared"
@@ -33,13 +42,13 @@
     }
   ],
   "enrichment": {
-    "tooltipCount": 3416,
+    "tooltipCount": 3448,
     "colorCount": 251,
     "enrichedCompanions": 1,
-    "enrichedSummons": 27,
-    "enrichedTooltips": 90,
-    "enrichedSimple": 90,
-    "enrichedColors": 90,
+    "enrichedSummons": 28,
+    "enrichedTooltips": 91,
+    "enrichedSimple": 91,
+    "enrichedColors": 91,
     "multiShotEnriched": 3
   },
   "exclusions": {
@@ -1087,6 +1096,15 @@
         "WhitemaneIntercession",
         "WhitemanePurgeTheWicked"
       ],
+      "Xalatath": [
+        "Dismount",
+        "Hearthstone",
+        "Mount",
+        "SummonMount",
+        "UnsummonMount",
+        "XalatathVoidEruptionCancel",
+        "XalatathVoidStepCancel"
+      ],
       "Necromancer": [
         "Dismount",
         "Hearthstone",
@@ -1202,18 +1220,18 @@
     "buckets": []
   },
   "baseline": {
-    "version": "2.55.17.98025",
+    "version": "2.55.17.97449",
     "generation": "",
     "legacyDerived": true,
     "heroes": 90
   },
   "publication": {
     "status": "published",
-    "commit": "36b924b604208c66d008665e5fc0ad1fcf928c2f",
-    "branch": "live",
-    "generation": "ad183d8e622f18214cd0606ef4e947b82c6f77912dbfc3e48caf550fbaea8a6f",
-    "componentTree": "2bbd02794fb846fa1ab5d3f152dde17379a27ab9"
+    "commit": "03496c06d19a8db66899eb9b6d1d80e50833df22",
+    "branch": "test",
+    "generation": "78e6189fdccbe2fb01202ae91e6d2270fb5b1d23ee830d93c37b37eebb57c5c4",
+    "componentTree": "bdfc553f405064953e542c8c015fd6558d34f812"
   },
   "imageStatus": "partial",
-  "imageReport": "live-2.55.17.98025-images.json"
+  "imageReport": "ptr-2.57.0.98182-images.json"
 }
