@@ -55,7 +55,7 @@
       {
         "uid": "da6cb3",
         "name": "Blood Rage",
-        "description": "Qhira deals 32 (+4% per level) damage and heals for 90 (+4% per level) Health per enemy Hero affected. Damage and healing is increased by 50% per each additional stack on that Hero.  Passive: Basic Attack and Ability damage cause enemies to bleed for 32 (+4% per level) damage over 4 seconds. Stacks 5 times.  Quest: Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by 0.24%.  Reward: After damaging Heroes with Blood Rage's bleed damage 150 times, Blood Rage's duration is increased by 2 seconds.",
+        "description": "Qhira deals 32 (+4% per level) damage and heals for 90 (+4% per level) Health per enemy Hero affected. Damage and healing is increased by 50% per each additional stack on that Hero.  Passive: Basic Attack and Ability damage cause enemies to bleed for 28 (+4% per level) damage over 4 seconds. Stacks 5 times.  Quest: Damage enemy Heroes with Blood Rage's bleed damage to permanently increase its damage by 0.2%.  Reward: After damaging Heroes with Blood Rage's bleed damage 150 times, Blood Rage's duration is increased by 2 seconds.",
         "hotkey": "W",
         "abilityId": "Qhira|W1",
         "tooltipId": "NexusHunterBloodRage",
@@ -124,6 +124,7 @@
         "icon": "storm_ui_icon_nexushunter_q.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Qhira|Q1",
         "abilityLinks": [
           "Qhira|Q1"
@@ -136,10 +137,11 @@
         "tooltipId": "NexusHunterFatalWounds",
         "talentTreeId": "NexusHunterFatalWounds",
         "name": "Fatal Wounds",
-        "description": "While at maximum stacks, Blood Rage's bleed deals 50% additional damage to enemy Heroes under 50% Health.",
+        "description": "While at maximum stacks, Blood Rage's bleed deals 70% additional damage to enemy Heroes under 50% Health.",
         "icon": "storm_ui_icon_nexushunter_w.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Qhira|W1",
         "abilityLinks": [
           "Qhira|W1"
@@ -156,6 +158,7 @@
         "icon": "storm_ui_icon_nexushunter_passive.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Qhira|Passive",
         "abilityLinks": [
           "Qhira|D1"
@@ -174,6 +177,7 @@
         "icon": "storm_ui_icon_nexushunter_w.png",
         "type": "W",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Qhira|W1",
         "abilityLinks": [
           "Qhira|W1"
@@ -190,13 +194,14 @@
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Qhira|E1",
         "abilityLinks": [
           "Qhira|E1"
         ],
         "abilityTalentLinkIds": [
-          "NexusHunterRevolvingSweepSecondary",
-          "NexusHunterRevolvingSweep"
+          "NexusHunterRevolvingSweep",
+          "NexusHunterRevolvingSweepSecondary"
         ]
       },
       {
@@ -207,6 +212,7 @@
         "icon": "storm_ui_icon_nexushunter_passive.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Qhira|Passive",
         "abilityLinks": [
           "Qhira|D1"
@@ -225,6 +231,7 @@
         "icon": "storm_ui_icon_nexushunter_q.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Qhira|Q1",
         "abilityLinks": [
           "Qhira|Q1"
@@ -241,6 +248,7 @@
         "icon": "storm_ui_icon_nexushunter_w.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Qhira|W1",
         "abilityLinks": [
           "Qhira|W1"
@@ -257,13 +265,14 @@
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Qhira|E1",
         "abilityLinks": [
           "Qhira|E1"
         ],
         "abilityTalentLinkIds": [
-          "NexusHunterRevolvingSweepSecondary",
-          "NexusHunterRevolvingSweep"
+          "NexusHunterRevolvingSweep",
+          "NexusHunterRevolvingSweepSecondary"
         ]
       }
     ],
@@ -277,6 +286,7 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 60,
+        "isQuest": false,
         "abilityId": "Qhira|R1",
         "abilityLinks": [
           "Qhira|R1"
@@ -294,6 +304,7 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 40,
+        "isQuest": false,
         "abilityId": "Qhira|R2",
         "abilityLinks": [
           "Qhira|R2"
@@ -312,6 +323,7 @@
         "icon": "storm_ui_icon_nexushunter_q.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Qhira|Q1",
         "abilityLinks": [
           "Qhira|Q1"
@@ -324,17 +336,18 @@
         "tooltipId": "NexusHunterPulsingPain",
         "talentTreeId": "NexusHunterPulsingPain",
         "name": "Pulsing Pain",
-        "description": "Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional 135 (+4% per level) damage.",
+        "description": "Each additional enemy Hero hit by Revolving Sweep causes the primary target to take an additional 150 (+4% per level) damage.",
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Qhira|E1",
         "abilityLinks": [
           "Qhira|E1"
         ],
         "abilityTalentLinkIds": [
-          "NexusHunterRevolvingSweepSecondary",
-          "NexusHunterRevolvingSweep"
+          "NexusHunterRevolvingSweep",
+          "NexusHunterRevolvingSweepSecondary"
         ]
       },
       {
@@ -345,6 +358,7 @@
         "icon": "storm_ui_icon_nexushunter_passive.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Qhira|Passive",
         "abilityLinks": [
           "Qhira|D1"
@@ -363,30 +377,32 @@
         "icon": "storm_ui_icon_nexushunter_e.png",
         "type": "E",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Qhira|E1",
         "abilityLinks": [
           "Qhira|E1"
         ],
         "abilityTalentLinkIds": [
-          "NexusHunterRevolvingSweepSecondary",
-          "NexusHunterRevolvingSweep"
+          "NexusHunterRevolvingSweep",
+          "NexusHunterRevolvingSweepSecondary"
         ]
       },
       {
         "tooltipId": "NexusHunterRevolvingSweepLingeringAilment",
         "talentTreeId": "NexusHunterRevolvingSweepLingeringAilment",
         "name": "Lingering Ailment",
-        "description": "Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by 35 for 4 seconds.",
+        "description": "Enemy Heroes hit by Revolving Sweep or by Grappling Hook have their Armor reduced by 25 for 4 seconds.",
         "icon": "storm_ui_icon_nexushunter_e_alt_1.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Qhira|E1",
         "abilityLinks": [
           "Qhira|E1"
         ],
         "abilityTalentLinkIds": [
-          "NexusHunterRevolvingSweepSecondary",
-          "NexusHunterRevolvingSweep"
+          "NexusHunterRevolvingSweep",
+          "NexusHunterRevolvingSweepSecondary"
         ]
       },
       {
@@ -397,13 +413,14 @@
         "icon": "storm_ui_icon_nexushunter_e_alt_2.png",
         "type": "E",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Qhira|E1",
         "abilityLinks": [
           "Qhira|E1"
         ],
         "abilityTalentLinkIds": [
-          "NexusHunterRevolvingSweepSecondary",
-          "NexusHunterRevolvingSweep"
+          "NexusHunterRevolvingSweep",
+          "NexusHunterRevolvingSweepSecondary"
         ]
       }
     ],
@@ -416,6 +433,7 @@
         "icon": "storm_ui_icon_nexushunter_r1.png",
         "type": "Heroic",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Qhira|R1",
         "abilityLinks": [
           "Qhira|R1"
@@ -435,6 +453,7 @@
         "icon": "storm_ui_icon_nexushunter_r2.png",
         "type": "Heroic",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Qhira|R2",
         "abilityLinks": [
           "Qhira|R2"
@@ -454,6 +473,7 @@
         "icon": "storm_ui_icon_nexushunter_d.png",
         "type": "Trait",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Qhira|D1",
         "abilityLinks": [
           "Qhira|D1"
@@ -470,6 +490,7 @@
         "icon": "storm_ui_icon_nexushunter_passive_alt_1.png",
         "type": "Passive",
         "sort": 4,
+        "isQuest": false,
         "abilityId": "Qhira|Passive",
         "abilityLinks": [
           "Qhira|D1"

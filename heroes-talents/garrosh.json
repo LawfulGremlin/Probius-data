@@ -144,10 +144,11 @@
         "tooltipId": "GarroshWreckingBallUnrivaledStrength",
         "talentTreeId": "GarroshWreckingBallUnrivaledStrength",
         "name": "Unrivaled Strength",
-        "description": "Increase Wrecking Ball's throw range by 15% and its damage by 125%.",
+        "description": "Increase Wrecking Ball's throw range by 15% and its damage by 75%.",
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Garrosh|E1",
         "abilityLinks": [
           "Garrosh|E1"
@@ -165,7 +166,12 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 15,
-        "abilityId": "Garrosh|Active"
+        "isQuest": false,
+        "abilityId": "Garrosh|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "GarroshArmorUpBodyCheck"
+        ]
       }
     ],
     "4": [
@@ -173,10 +179,11 @@
         "tooltipId": "GarroshBloodthirstInFortheKill",
         "talentTreeId": "GarroshBloodthirstInFortheKill",
         "name": "In For the Kill",
-        "description": "Increase Bloodthirst's damage against non-Heroes by 70%. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.",
+        "description": "Increase Bloodthirst's damage against non-Heroes by 100%. Killing enemies with Bloodthirst resets its cooldown and refunds its Mana cost.",
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "type": "W",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Garrosh|W1",
         "abilityLinks": [
           "Garrosh|W1"
@@ -193,6 +200,7 @@
         "icon": "storm_ui_icon_garrosh_bloodthirst_var1.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Garrosh|W1",
         "abilityLinks": [
           "Garrosh|W1"
@@ -210,7 +218,12 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 40,
-        "abilityId": "Garrosh|Active"
+        "isQuest": false,
+        "abilityId": "Garrosh|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "GarroshIndomitable"
+        ]
       }
     ],
     "7": [
@@ -222,6 +235,7 @@
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Garrosh|Q1",
         "abilityLinks": [
           "Garrosh|Q1"
@@ -234,10 +248,11 @@
         "tooltipId": "GarroshOppressor",
         "talentTreeId": "GarroshOppressor",
         "name": "Oppressor",
-        "description": "Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by 30% for 2.5 seconds.",
+        "description": "Basic Attacks and Bloodthirst against Heroes reduce the target's Spell Power by 25% for 2.5 seconds.",
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Garrosh|W1",
         "abilityLinks": [
           "Garrosh|W1"
@@ -254,6 +269,7 @@
         "icon": "storm_ui_icon_garrosh_intothefray.png",
         "type": "Active",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Garrosh|Active",
         "abilityLinks": [
           "Garrosh|11"
@@ -273,6 +289,7 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 50,
+        "isQuest": false,
         "abilityId": "Garrosh|R1",
         "abilityLinks": [
           "Garrosh|R1"
@@ -290,6 +307,7 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 8,
+        "isQuest": false,
         "abilityId": "Garrosh|R2",
         "abilityLinks": [
           "Garrosh|R2"
@@ -308,6 +326,7 @@
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Garrosh|Q1",
         "abilityLinks": [
           "Garrosh|Q1"
@@ -320,10 +339,11 @@
         "tooltipId": "GarroshBloodthirstBloodcraze",
         "talentTreeId": "GarroshBloodthirstBloodcraze",
         "name": "Bloodcraze",
-        "description": "When hitting a Hero, Bloodthirst heals for an additional 15% of Garrosh's maximum Health over 3 seconds.",
+        "description": "When hitting a Hero, Bloodthirst heals for an additional 15% of Garrosh's maximum Health over 4 seconds.",
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "type": "W",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Garrosh|W1",
         "abilityLinks": [
           "Garrosh|W1"
@@ -336,11 +356,12 @@
         "tooltipId": "GarroshArmorUpDoubleUp",
         "talentTreeId": "GarroshArmorUpDoubleUp",
         "name": "Double Up",
-        "description": "Armor Up can be activated to increase its Armor bonus by 100% for 3 seconds.",
+        "description": "Armor Up can be activated to increase its Armor bonus by 100% for 5 seconds.",
         "icon": "storm_ui_icon_garrosh_armor_up.png",
         "type": "Trait",
         "sort": 3,
         "cooldown": 30,
+        "isQuest": false,
         "abilityId": "Garrosh|D1",
         "abilityLinks": [
           "Garrosh|D1"
@@ -359,6 +380,7 @@
         "icon": "storm_ui_icon_garrosh_groundbreaker.png",
         "type": "E",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Garrosh|E1",
         "abilityLinks": [
           "Garrosh|E1"
@@ -375,6 +397,7 @@
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Garrosh|E1",
         "abilityLinks": [
           "Garrosh|E1"
@@ -391,13 +414,14 @@
         "icon": "storm_ui_icon_garrosh_bloodthirst.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Garrosh|Passive",
         "abilityLinks": [
           "Garrosh|D1"
         ],
         "abilityTalentLinkIds": [
-          "GarroshArmorUpDoubleUp",
-          "GarroshArmorUp"
+          "GarroshArmorUp",
+          "GarroshArmorUpDoubleUp"
         ]
       }
     ],
@@ -410,6 +434,7 @@
         "icon": "storm_ui_icon_garrosh_warlords_challenge.png",
         "type": "Heroic",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Garrosh|R1",
         "abilityLinks": [
           "Garrosh|R1"
@@ -429,6 +454,7 @@
         "icon": "storm_ui_icon_garrosh_decimate.png",
         "type": "Heroic",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Garrosh|R2",
         "abilityLinks": [
           "Garrosh|R2"
@@ -448,6 +474,7 @@
         "icon": "storm_ui_icon_garrosh_wrecking_ball.png",
         "type": "E",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Garrosh|E1",
         "abilityLinks": [
           "Garrosh|E1"
@@ -464,6 +491,7 @@
         "icon": "storm_ui_icon_garrosh_slam.png",
         "type": "Active",
         "sort": 4,
+        "isQuest": false,
         "abilityId": "Garrosh|Active",
         "abilityLinks": [
           "Garrosh|11"
