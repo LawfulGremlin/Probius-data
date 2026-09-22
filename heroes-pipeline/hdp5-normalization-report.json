@@ -15780,8 +15780,8 @@
           "talent": false
         },
         {
-          "nativeLinkId": "XalatathToxicMark|XalatathToxicMark|Q|Level1",
-          "tuple": "XalatathToxicMark|XalatathToxicMark|Q|False",
+          "nativeLinkId": "XalatathVoidAdept|XalatathVoidAdept|Q|Level1",
+          "tuple": "XalatathVoidAdept|XalatathVoidAdept|Q|False",
           "talent": true
         },
         {
@@ -15810,8 +15810,8 @@
           "talent": true
         },
         {
-          "nativeLinkId": "XalatathVoidAdept|XalatathVoidAdept|Q|Level7",
-          "tuple": "XalatathVoidAdept|XalatathVoidAdept|Q|False",
+          "nativeLinkId": "XalatathToxicMark|XalatathToxicMark|Q|Level7",
+          "tuple": "XalatathToxicMark|XalatathToxicMark|Q|False",
           "talent": true
         },
         {
@@ -15835,11 +15835,6 @@
           "talent": true
         },
         {
-          "nativeLinkId": "XalatathCrushingCascade|XalatathCrushingCascade|Trait|Level13",
-          "tuple": "XalatathCrushingCascade|XalatathCrushingCascade|Trait|False",
-          "talent": true
-        },
-        {
           "nativeLinkId": "XalatathPullOfTheDarkHeart|XalatathPullOfTheDarkHeart|W|Level13",
           "tuple": "XalatathPullOfTheDarkHeart|XalatathPullOfTheDarkHeart|W|False",
           "talent": true
@@ -15850,18 +15845,23 @@
           "talent": true
         },
         {
+          "nativeLinkId": "XalatathCrushingCascade|XalatathCrushingCascade|Trait|Level13",
+          "tuple": "XalatathCrushingCascade|XalatathCrushingCascade|Trait|False",
+          "talent": true
+        },
+        {
           "nativeLinkId": "XalatathMarkedResilience|XalatathMarkedResilience|Q|Level16",
           "tuple": "XalatathMarkedResilience|XalatathMarkedResilience|Q|False",
           "talent": true
         },
         {
-          "nativeLinkId": "XalatathFracturedReality|XalatathFracturedReality|Trait|Level16",
-          "tuple": "XalatathFracturedReality|XalatathFracturedReality|Trait|False",
+          "nativeLinkId": "XalatathPummelingStep|XalatathPummelingStep|E|Level16",
+          "tuple": "XalatathPummelingStep|XalatathPummelingStep|E|False",
           "talent": true
         },
         {
-          "nativeLinkId": "XalatathPummelingStep|XalatathPummelingStep|E|Level16",
-          "tuple": "XalatathPummelingStep|XalatathPummelingStep|E|False",
+          "nativeLinkId": "XalatathFracturedReality|XalatathFracturedReality|Trait|Level16",
+          "tuple": "XalatathFracturedReality|XalatathFracturedReality|Trait|False",
           "talent": true
         },
         {
@@ -15892,11 +15892,6 @@
         {
           "nativeLinkId": "XalatathVoidStepCancel|XalatathVoidStepCancel|E",
           "tuple": "XalatathVoidStepCancel|XalatathVoidStepCancel|E|False",
-          "talent": false
-        },
-        {
-          "nativeLinkId": "XalatathVoidEruptionCancel|XalatathVoidEruptionCancel|Heroic",
-          "tuple": "XalatathVoidEruptionCancel|XalatathVoidEruptionCancel|Heroic|False",
           "talent": false
         },
         {
@@ -16874,6 +16869,6 @@
     }
   ],
   "provenance": {
-    "nativeHero": "native/hero/data/herodata_98182_enus.json"
+    "nativeHero": "native/hero/data/herodata_98217_enus.json"
   }
 }

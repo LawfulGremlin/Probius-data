@@ -9743,7 +9743,7 @@
             "releasePatch": null,
             "talents": [
                 {
-                    "nameId": "XalatathToxicMark",
+                    "nameId": "XalatathVoidAdept",
                     "level": "1",
                     "sort": 1
                 },
@@ -9773,7 +9773,7 @@
                     "sort": 3
                 },
                 {
-                    "nameId": "XalatathVoidAdept",
+                    "nameId": "XalatathToxicMark",
                     "level": "7",
                     "sort": 1
                 },
@@ -9798,17 +9798,17 @@
                     "sort": 2
                 },
                 {
-                    "nameId": "XalatathCrushingCascade",
+                    "nameId": "XalatathPullOfTheDarkHeart",
                     "level": "13",
                     "sort": 1
                 },
                 {
-                    "nameId": "XalatathPullOfTheDarkHeart",
+                    "nameId": "XalatathDarkHeartsProtection",
                     "level": "13",
                     "sort": 2
                 },
                 {
-                    "nameId": "XalatathDarkHeartsProtection",
+                    "nameId": "XalatathCrushingCascade",
                     "level": "13",
                     "sort": 3
                 },
@@ -9818,12 +9818,12 @@
                     "sort": 1
                 },
                 {
-                    "nameId": "XalatathFracturedReality",
+                    "nameId": "XalatathPummelingStep",
                     "level": "16",
                     "sort": 2
                 },
                 {
-                    "nameId": "XalatathPummelingStep",
+                    "nameId": "XalatathFracturedReality",
                     "level": "16",
                     "sort": 3
                 },

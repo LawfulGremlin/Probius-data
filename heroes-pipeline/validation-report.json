@@ -3,10 +3,10 @@
   "component": "heroes-talents",
   "track": "ptr",
   "product": "herot",
-  "version": "2.57.0.98182",
-  "buildId": "B98182",
+  "version": "2.57.0.98217",
+  "buildId": "B98217",
   "sourceSha": "0e99860b06bf5b16b53125f42a160331e8f2cc96",
-  "generation": "78e6189fdccbe2fb01202ae91e6d2270fb5b1d23ee830d93c37b37eebb57c5c4",
+  "generation": "b5484bbefc3a13ee7ff74e3f6d820ec9b3d6558d1582c10ffbdbce3beffca964",
   "producer": {
     "hdpVersion": "5.0.4",
     "adapterSchemaVersion": 1,
@@ -26,10 +26,7 @@
         "releasePatch",
         "releaseDate"
       ]
-    },
-    "Alexstrasza: differs from the previous publication: unitIds disappeared",
-    "LostVikings: differs from the previous publication: unitIds disappeared",
-    "Nova: differs from the previous publication: unitIds disappeared"
+    }
   ],
   "missingCatalogs": [
     {
@@ -1102,7 +1099,6 @@
         "Mount",
         "SummonMount",
         "UnsummonMount",
-        "XalatathVoidEruptionCancel",
         "XalatathVoidStepCancel"
       ],
       "Necromancer": [
@@ -1206,32 +1202,22 @@
       ]
     },
     "unidentifiedAbilities": {},
-    "previousDeviations": {
-      "Alexstrasza": [
-        "unitIds disappeared"
-      ],
-      "LostVikings": [
-        "unitIds disappeared"
-      ],
-      "Nova": [
-        "unitIds disappeared"
-      ]
-    },
+    "previousDeviations": {},
     "buckets": []
   },
   "baseline": {
-    "version": "2.55.17.97449",
-    "generation": "",
-    "legacyDerived": true,
-    "heroes": 90
+    "version": "2.57.0.98182",
+    "generation": "78e6189fdccbe2fb01202ae91e6d2270fb5b1d23ee830d93c37b37eebb57c5c4",
+    "legacyDerived": false,
+    "heroes": 91
   },
   "publication": {
     "status": "published",
-    "commit": "03496c06d19a8db66899eb9b6d1d80e50833df22",
+    "commit": "e64046f316877d7110d568ca5b77f7fceafc312a",
     "branch": "test",
-    "generation": "78e6189fdccbe2fb01202ae91e6d2270fb5b1d23ee830d93c37b37eebb57c5c4",
-    "componentTree": "bdfc553f405064953e542c8c015fd6558d34f812"
+    "generation": "b5484bbefc3a13ee7ff74e3f6d820ec9b3d6558d1582c10ffbdbce3beffca964",
+    "componentTree": "1726cf7fbc0203223777e50c5e829b4aa31c52a2"
   },
   "imageStatus": "partial",
-  "imageReport": "ptr-2.57.0.98182-images.json"
+  "imageReport": "ptr-2.57.0.98217-images.json"
 }

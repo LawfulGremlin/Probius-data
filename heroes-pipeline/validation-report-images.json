@@ -2,10 +2,10 @@
   "schemaVersion": 1,
   "component": "heroes-images",
   "track": "ptr",
-  "version": "2.57.0.98182",
+  "version": "2.57.0.98217",
   "sourceSha": "0e99860b06bf5b16b53125f42a160331e8f2cc96",
   "status": "partial",
-  "generation": "cd54d2e80dba654bb43c408c882e8237dd21fae1f7cb96f7622c34edee7d9a31",
+  "generation": "e7658d18d6393ba977856c8da8adc8c5063dbe5a7e6f0caffba6040433de7fcb",
   "missing": [
     "btn-ability-protoss-prismaticbeam-color.dds",
     "btn-ability-protoss-psistorm-color.dds",
@@ -196,6 +196,7 @@
     "storm_ui_bundles_h44_speeddemonlucioskinpack.dds",
     "storm_ui_bundles_h44_streetcyborgkharazimskinpack.dds",
     "storm_ui_bundles_h44_technovandalchromieskinpack.dds",
+    "storm_ui_bundles_h57_xalatathlaunch.dds",
     "storm_ui_bundles_lootchest_spring2019lootchest1pack.dds",
     "storm_ui_glues_collection_category_icon_staticwarcraft.dds",
     "storm_ui_glues_draft_banner_dehaka.dds",
@@ -394,10 +395,10 @@
     "shared/storm_ui_icon_lucio_crossfadespeed.png"
   ],
   "retention": {
-    "preserved": 4603,
+    "preserved": 7747,
     "retained": 3,
-    "rewrittenIdentical": 4600,
-    "replaced": 0,
+    "rewrittenIdentical": 7742,
+    "replaced": 2,
     "missing": []
   },
   "unreferenced": [
@@ -7020,17 +7021,17 @@
   },
   "publication": {
     "status": "published",
-    "commit": "c8bf483248883cf23542279d8ed7eca3f2b1b6b4",
+    "commit": "850de474b4e1ee49e0ccbc1136728e1e85f5b4a3",
     "branch": "test",
-    "generation": "cd54d2e80dba654bb43c408c882e8237dd21fae1f7cb96f7622c34edee7d9a31",
-    "componentTree": "7a59881e379f49b1a06fef458c7daa31f48786ca"
+    "generation": "e7658d18d6393ba977856c8da8adc8c5063dbe5a7e6f0caffba6040433de7fcb",
+    "componentTree": "042399282e803f7cac84fa5420d30eb3a60a5820"
   },
   "baseline": {
     "branch": "test",
-    "commit": "7363e3ed6cc28de12e1561b69ff3acc1390b28ee",
-    "componentTree": "6e8dff0746d626572dbf567d0349e436fc2f7ea9",
-    "version": "",
-    "generation": ""
+    "commit": "c8bf483248883cf23542279d8ed7eca3f2b1b6b4",
+    "componentTree": "7a59881e379f49b1a06fef458c7daa31f48786ca",
+    "version": "2.57.0.98182",
+    "generation": "cd54d2e80dba654bb43c408c882e8237dd21fae1f7cb96f7622c34edee7d9a31"
   },
   "error": null
 }

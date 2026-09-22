@@ -68,7 +68,7 @@
         "type": "basic"
       },
       {
-        "uid": "ba08af",
+        "uid": "772872",
         "name": "Avenging Wrath",
         "description": "Leap to a location, dealing 260 (+4% per level) damage to enemies in an area and Slowing them by 60% for 1 second.  Charging up this Ability increases its range.",
         "hotkey": "E",
@@ -105,7 +105,7 @@
       {
         "uid": "95b463",
         "name": "Divine Purpose",
-        "description": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by 8 seconds if Stunned or Silenced while charging her skills.  Passive: Yrel's Basic Abilities charge up over 1.5 seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by 25%.",
+        "description": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by 3 seconds if Stunned or Silenced while charging her skills.  Passive: Yrel's Basic Abilities charge up over 1.5 seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by 25%.",
         "hotkey": "D",
         "trait": true,
         "abilityId": "Yrel|D1",
@@ -122,17 +122,18 @@
         "tooltipId": "YrelVindicationLightOfKarabor",
         "talentTreeId": "YrelVindicationLightOfKarabor",
         "name": "Light of Karabor",
-        "description": "Increase Vindication's radius by 15%. Hitting an enemy Hero increases Vindication's healing by 45%. If more than one Hero is hit, the bonus is increased to 90%.",
+        "description": "Increase Vindication's radius by 15%. Hitting an enemy Hero increases Vindication's healing by 40%. If more than one Hero is hit, the bonus is increased to 80%.",
         "icon": "storm_ui_icon_yrel_vindication.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Yrel|Q1",
         "abilityLinks": [
           "Yrel|Q1"
         ],
         "abilityTalentLinkIds": [
-          "YrelVindicationCast",
-          "YrelVindication"
+          "YrelVindication",
+          "YrelVindicationCast"
         ]
       },
       {
@@ -143,6 +144,7 @@
         "icon": "storm_ui_icon_talent_abilitytalent_armor.png",
         "type": "Passive",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Yrel|Passive"
       },
       {
@@ -153,6 +155,7 @@
         "icon": "storm_ui_icon_talent_autoattack_heal.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Yrel|Passive"
       }
     ],
@@ -165,14 +168,15 @@
         "icon": "storm_ui_icon_yrel_avenging_wrath.png",
         "type": "E",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Yrel|E1",
         "abilityLinks": [
           "Yrel|E1"
         ],
         "abilityTalentLinkIds": [
-          "YrelAvengingWrathDivinePurpose",
           "YrelAvengingWrath",
-          "YrelAvengingWrathChannel"
+          "YrelAvengingWrathChannel",
+          "YrelAvengingWrathDivinePurpose"
         ]
       },
       {
@@ -183,11 +187,13 @@
         "icon": "storm_ui_icon_yrel_divine_purpose.png",
         "type": "Trait",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Yrel|D1",
         "abilityLinks": [
           "Yrel|D1"
         ],
         "abilityTalentLinkIds": [
+          "YrelDivinePurposeActive",
           "YrelDivinePurpose"
         ]
       },
@@ -200,7 +206,12 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 40,
-        "abilityId": "Yrel|Active"
+        "isQuest": false,
+        "abilityId": "Yrel|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "YrelHandOfFreedom"
+        ]
       }
     ],
     "7": [
@@ -212,14 +223,15 @@
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "type": "W",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Yrel|W1",
         "abilityLinks": [
           "Yrel|W1"
         ],
         "abilityTalentLinkIds": [
-          "YrelRighteousHammerDivinePurpose",
           "YrelRighteousHammer",
-          "YrelRighteousHammerChannel"
+          "YrelRighteousHammerChannel",
+          "YrelRighteousHammerDivinePurpose"
         ]
       },
       {
@@ -230,14 +242,15 @@
         "icon": "storm_ui_icon_yrel_avenging_wrath.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Yrel|E1",
         "abilityLinks": [
           "Yrel|E1"
         ],
         "abilityTalentLinkIds": [
-          "YrelAvengingWrathDivinePurpose",
           "YrelAvengingWrath",
-          "YrelAvengingWrathChannel"
+          "YrelAvengingWrathChannel",
+          "YrelAvengingWrathDivinePurpose"
         ]
       },
       {
@@ -248,6 +261,7 @@
         "icon": "storm_ui_icon_yrel_divine_steed.png",
         "type": "Z",
         "sort": 3,
+        "isQuest": false,
         "abilityLinks": [
           "Yrel|Z"
         ],
@@ -266,6 +280,7 @@
         "type": "Heroic",
         "sort": 1,
         "cooldown": 120,
+        "isQuest": false,
         "abilityId": "Yrel|R1",
         "abilityLinks": [
           "Yrel|R1"
@@ -283,6 +298,7 @@
         "type": "Heroic",
         "sort": 2,
         "cooldown": 25,
+        "isQuest": false,
         "abilityId": "Yrel|R2",
         "abilityLinks": [
           "Yrel|R2"
@@ -297,17 +313,18 @@
         "tooltipId": "YrelVindicationAldorPeacekeeper",
         "talentTreeId": "YrelVindicationAldorPeacekeeper",
         "name": "Aldor Peacekeeper",
-        "description": "Enemy Heroes hit by Vindication at maximum charge deal 40% less damage for 3 seconds.",
+        "description": "Enemy Heroes hit by Vindication at maximum charge deal 50% less damage for 4 seconds.",
         "icon": "storm_ui_icon_yrel_vindication.png",
         "type": "Q",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Yrel|Q1",
         "abilityLinks": [
           "Yrel|Q1"
         ],
         "abilityTalentLinkIds": [
-          "YrelVindicationCast",
-          "YrelVindication"
+          "YrelVindication",
+          "YrelVindicationCast"
         ]
       },
       {
@@ -318,24 +335,26 @@
         "icon": "storm_ui_icon_yrel_avenging_wrath.png",
         "type": "E",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Yrel|E1",
         "abilityLinks": [
           "Yrel|E1"
         ],
         "abilityTalentLinkIds": [
-          "YrelAvengingWrathDivinePurpose",
           "YrelAvengingWrath",
-          "YrelAvengingWrathChannel"
+          "YrelAvengingWrathChannel",
+          "YrelAvengingWrathDivinePurpose"
         ]
       },
       {
         "tooltipId": "YrelVelensChosen",
         "talentTreeId": "YrelVelensChosen",
         "name": "Velen's Chosen",
-        "description": "Hitting an enemy Hero with a Basic Ability at maximum charge grants 10% Spell Power for 10 seconds, up to 30%.",
+        "description": "Hitting an enemy Hero with a Basic Ability at maximum charge grants 7.5% Spell Power for 10 seconds, up to 30%.",
         "icon": "storm_ui_icon_yrel_velens_chosen.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Yrel|Passive"
       }
     ],
@@ -348,14 +367,15 @@
         "icon": "storm_ui_icon_yrel_righteous_hammer.png",
         "type": "W",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Yrel|W1",
         "abilityLinks": [
           "Yrel|W1"
         ],
         "abilityTalentLinkIds": [
-          "YrelRighteousHammerDivinePurpose",
           "YrelRighteousHammer",
-          "YrelRighteousHammerChannel"
+          "YrelRighteousHammerChannel",
+          "YrelRighteousHammerDivinePurpose"
         ]
       },
       {
@@ -366,11 +386,13 @@
         "icon": "storm_ui_icon_yrel_divine_purpose.png",
         "type": "Trait",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Yrel|D1",
         "abilityLinks": [
           "Yrel|D1"
         ],
         "abilityTalentLinkIds": [
+          "YrelDivinePurposeActive",
           "YrelDivinePurpose"
         ]
       },
@@ -382,6 +404,7 @@
         "icon": "storm_ui_icon_talent_autoattack_aoe.png",
         "type": "Passive",
         "sort": 3,
+        "isQuest": false,
         "abilityId": "Yrel|Passive"
       }
     ],
@@ -394,6 +417,7 @@
         "icon": "storm_ui_icon_yrel_ardent_defender.png",
         "type": "Heroic",
         "sort": 1,
+        "isQuest": false,
         "abilityId": "Yrel|R1",
         "abilityLinks": [
           "Yrel|R1"
@@ -413,6 +437,7 @@
         "icon": "storm_ui_icon_yrel_sacred_ground.png",
         "type": "Heroic",
         "sort": 2,
+        "isQuest": false,
         "abilityId": "Yrel|R2",
         "abilityLinks": [
           "Yrel|R2"
@@ -433,7 +458,12 @@
         "type": "Active",
         "sort": 3,
         "cooldown": 80,
-        "abilityId": "Yrel|Active"
+        "isQuest": false,
+        "abilityId": "Yrel|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "YrelBubbleHearth"
+        ]
       },
       {
         "tooltipId": "YrelSeraphim",
@@ -443,8 +473,13 @@
         "icon": "storm_ui_icon_yrel_seraphim.png",
         "type": "Active",
         "sort": 4,
-        "cooldown": 20,
-        "abilityId": "Yrel|Active"
+        "cooldown": 30,
+        "isQuest": false,
+        "abilityId": "Yrel|Active",
+        "abilityLinks": [],
+        "abilityTalentLinkIds": [
+          "YrelSeraphim"
+        ]
       }
     ]
   },
@@ -457,7 +492,7 @@
     "YrelAvengingWrathRepentance": "Increase Avenging Wrath's Slow by <c val=\"#TooltipNumbers\"><d ref=\"Talent,YrelAvengingWrathRepentance,AbilityModificationArray[0].Modifications[0].Value*(-100)\" precision=\"2\" player=\"0\"/>%</c> and duration by <c val=\"#TooltipNumbers\"><d ref=\"Talent,YrelAvengingWrathRepentance,AbilityModificationArray[0].Modifications[1].Value\" precision=\"2\" player=\"0\"/></c> seconds.",
     "YrelBubbleHearth": "After <c val=\"#TooltipNumbers\"><d const=\"$YrelBubbleHearthCastIntroTime\" precision=\"2\"/></c> second, Yrel becomes Invulnerable and casts Hearthstone. Cannot be canceled.",
     "YrelDauntless": "Casting a Basic Ability grants Yrel <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelDauntlessArmorBuff,ArmorModification.ArmorSet[Hero].ArmorMitigationTable[Basic]\" precision=\"2\" player=\"0\"/></c> Physical Armor for <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelDauntlessArmorBuff,Duration\" precision=\"2\" player=\"0\"/></c> seconds.",
-    "YrelDivinePurpose": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by <c val=\"#TooltipNumbers\">8</c> seconds if Stunned or Silenced while charging her skills.</n></n><c val=\"#AbilityPassive\">Passive:</c> Yrel's Basic Abilities charge up over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelAvengingWrathChannelToken,Max/16\" precision=\"2\" player=\"0\"/></c> seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelAvengingWrathChannelBuff,Modification.UnifiedMoveSpeedFactor*(-100)\" precision=\"2\" player=\"0\"/>%</c>.",
+    "YrelDivinePurpose": "Activate to instantly charge Yrel's next Basic Ability at no mana cost. Divine Purpose's cooldown is reduced by <c val=\"#TooltipNumbers\">3</c> seconds if Stunned or Silenced while charging her skills.</n></n><c val=\"#AbilityPassive\">Passive:</c> Yrel's Basic Abilities charge up over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelAvengingWrathChannelToken,Max/16\" precision=\"2\" player=\"0\"/></c> seconds, increasing in effectiveness, but reducing Yrel's Movement Speed by <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelAvengingWrathChannelBuff,Modification.UnifiedMoveSpeedFactor*(-100)\" precision=\"2\" player=\"0\"/>%</c>.",
     "YrelDivinePurposeDivineFavor": "Casting a Basic Ability reduces the cooldown of Divine Purpose by <c val=\"#TooltipNumbers\"><d ref=\"Effect,YrelDivinePurposeDivineFavorCooldownModifyUnit,Cost[0].CooldownTimeUse*(-1)\" precision=\"2\" player=\"0\"/></c> seconds.",
     "YrelDivinePurposeGiftOfTheNaaru": "Divine Purpose heals the lowest Health nearby allied Hero other than Yrel for <c val=\"#TooltipNumbers\"><d ref=\"Effect,YrelDivinePurposeGiftOfTheNaaruCreateHealer,RechargeVitalRate\"/></c>.",
     "YrelDivineSteed": "Mounting is instant and grants <c val=\"#TooltipNumbers\"><d ref=\"Behavior,YrelDivineSteedMountSpeedBuff,Modification.UnifiedMoveSpeedFactor*100\"/>%</c> Movement Speed that decays over <c val=\"#TooltipNumbers\"><d const=\"$YrelDivineSteedMountSpeedBuffDuration\" precision=\"2\"/></c> seconds.",
