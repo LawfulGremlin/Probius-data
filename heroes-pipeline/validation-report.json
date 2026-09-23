@@ -13,7 +13,7 @@
     "artifactSha256": "8ee8afaa4df6add6c3710e0527435558bcc94a6a14d60f783a0deb3948404850",
     "configurationSha256": "6a2c6674cff17b6ad8faf079c4adb829eeef6114365ad1521cafd2b722c99d99"
   },
-  "status": "published",
+  "status": "unchanged",
   "expected": 90,
   "native": 90,
   "converted": 90,
@@ -1194,7 +1194,7 @@
     "heroes": 90
   },
   "publication": {
-    "status": "published",
+    "status": "unchanged",
     "commit": "e68ef3bd3cc1c1447a0e13f858ca5d836542e375",
     "branch": "live",
     "generation": "ad183d8e622f18214cd0606ef4e947b82c6f77912dbfc3e48caf550fbaea8a6f",
