@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "component": "heroes-images",
-  "track": "ptr",
-  "version": "2.57.0.98217",
-  "sourceSha": "0349010e9e0d21915ae13e834d31d26f827c86f0",
+  "track": "live",
+  "version": "2.55.17.98025",
+  "sourceSha": "add5a7d773309d6c10b870f4e00c12bab3c5e756",
   "status": "partial",
-  "generation": "e7658d18d6393ba977856c8da8adc8c5063dbe5a7e6f0caffba6040433de7fcb",
+  "generation": "040d3eae1b6527a18213eb8d60293d7ed4ade139f3291eaeb8f8889ef6dd1719",
   "missing": [
     "btn-ability-protoss-prismaticbeam-color.dds",
     "btn-ability-protoss-psistorm-color.dds",
@@ -196,7 +196,6 @@
     "storm_ui_bundles_h44_speeddemonlucioskinpack.dds",
     "storm_ui_bundles_h44_streetcyborgkharazimskinpack.dds",
     "storm_ui_bundles_h44_technovandalchromieskinpack.dds",
-    "storm_ui_bundles_h57_xalatathlaunch.dds",
     "storm_ui_bundles_lootchest_spring2019lootchest1pack.dds",
     "storm_ui_glues_collection_category_icon_staticwarcraft.dds",
     "storm_ui_glues_draft_banner_dehaka.dds",
@@ -231,11 +230,7 @@
     "storm_ui_icon_souleateraura_2.dds",
     "storm_ui_icon_souleaterauralevel2_2.dds",
     "storm_ui_icon_souleaterauralevel3_2.dds",
-    "storm_ui_icon_xalatath_e_shadowmark.dds",
-    "storm_ui_icon_xalatath_voidminion.dds",
     "storm_ui_ingame_hero_icon_erik.dds",
-    "storm_ui_ingame_targetinfopanel_unit_xalatath_voidconvergenceportal.dds",
-    "storm_ui_ingame_targetinfopanel_unit_xalatath_voidminion.dds",
     "storm_ui_minimapicon_gardenseed_bw.dds",
     "storm_ui_minimapicon_healthgenerator.dds",
     "storm_ui_minimapicon_leoricundying.dds",
@@ -391,13 +386,12 @@
   ],
   "retained": [
     "heroes/rexxar/storm_ui_ingame_targetinfopanel_unit_hero_misha.png",
-    "portraits/storm_ui_ingame_heroselect_btn_misha.png",
     "shared/storm_ui_icon_lucio_crossfadespeed.png"
   ],
   "retention": {
-    "preserved": 7747,
-    "retained": 3,
-    "rewrittenIdentical": 7744,
+    "preserved": 7730,
+    "retained": 2,
+    "rewrittenIdentical": 7728,
     "replaced": 0,
     "missing": []
   },
@@ -5286,7 +5280,6 @@
     "shared/storm_ui_icon_wizard_arcaneorb_b.png",
     "shared/storm_ui_icon_wizard_disintegrate_b.png",
     "shared/storm_ui_icon_wrathofthelichking.png",
-    "shared/storm_ui_icon_xalatath_q_shadowmark_b.png",
     "shared/storm_ui_icon_yrel_avenging_wrath_active.png",
     "shared/storm_ui_icon_yrel_divine_purpose_active.png",
     "shared/storm_ui_icon_yrel_righteous_hammer_active.png",
@@ -5432,7 +5425,6 @@
     "shared/storm_ui_ingame_partyframe_whitemane.png",
     "shared/storm_ui_ingame_partyframe_witchdoctor.png",
     "shared/storm_ui_ingame_partyframe_wizard.png",
-    "shared/storm_ui_ingame_partyframe_xalatath.png",
     "shared/storm_ui_ingame_partyframe_yrel.png",
     "shared/storm_ui_ingame_partyframe_zagara.png",
     "shared/storm_ui_ingame_partyframe_zarya.png",
@@ -5910,7 +5902,6 @@
     "shared/storm_ui_minimapicon_whitemane.png",
     "shared/storm_ui_minimapicon_witchdoctor.png",
     "shared/storm_ui_minimapicon_wizard.png",
-    "shared/storm_ui_minimapicon_xalatath.png",
     "shared/storm_ui_minimapicon_yrel.png",
     "shared/storm_ui_minimapicon_zagara.png",
     "shared/storm_ui_minimapicon_zarya.png",
@@ -5982,7 +5973,6 @@
     "shared/storm_ui_voice_nazeebo.png",
     "shared/storm_ui_voice_sonya.png",
     "shared/storm_ui_voice_valla.png",
-    "shared/storm_ui_voice_xalatath.png",
     "shared/storm_ui_voice_xul.png",
     "shared/storm_ui-editoricon_braxis_1.png",
     "shared/storm_ui-editoricon_braxis_2.png",
@@ -6408,7 +6398,6 @@
     "shared/ui_targetportrait_hero_whitemane.png",
     "shared/ui_targetportrait_hero_witchdoctor.png",
     "shared/ui_targetportrait_hero_wizard.png",
-    "shared/ui_targetportrait_hero_xalatath.png",
     "shared/ui_targetportrait_hero_yrel.png",
     "shared/ui_targetportrait_hero_zagara.png",
     "shared/ui_targetportrait_hero_zarya.png",
@@ -6746,7 +6735,6 @@
     "ui/storm_ui_glues_draft_portrait_whiteout.png",
     "ui/storm_ui_glues_draft_portrait_witchdoctor.png",
     "ui/storm_ui_glues_draft_portrait_wizard.png",
-    "ui/storm_ui_glues_draft_portrait_xalatath.png",
     "ui/storm_ui_glues_draft_portrait_yrel.png",
     "ui/storm_ui_glues_draft_portrait_zagara.png",
     "ui/storm_ui_glues_draft_portrait_zarya.png",
@@ -7003,7 +6991,7 @@
   "stages": {
     "icons": {
       "status": "partial",
-      "converted": 7664,
+      "converted": 7647,
       "failed": 6
     },
     "sheets": {
@@ -7017,21 +7005,24 @@
       "status": "skipped",
       "reason": "sheets not available: no Battle.net .wafl cache"
     },
-    "overrides": null
+    "overrides": {
+      "status": "ok",
+      "count": 1
+    }
   },
   "publication": {
-    "status": "unchanged",
-    "commit": "8658d99ecb65bdedc0b6a7bfc07b228e913f5639",
-    "branch": "test",
-    "generation": "e7658d18d6393ba977856c8da8adc8c5063dbe5a7e6f0caffba6040433de7fcb",
-    "componentTree": "042399282e803f7cac84fa5420d30eb3a60a5820"
+    "status": "published",
+    "commit": "e68ef3bd3cc1c1447a0e13f858ca5d836542e375",
+    "branch": "live",
+    "generation": "040d3eae1b6527a18213eb8d60293d7ed4ade139f3291eaeb8f8889ef6dd1719",
+    "componentTree": "97cc1a81c0fdc8138ebe0ce3e7663153b17ede0a"
   },
   "baseline": {
-    "branch": "test",
-    "commit": "850de474b4e1ee49e0ccbc1136728e1e85f5b4a3",
-    "componentTree": "042399282e803f7cac84fa5420d30eb3a60a5820",
-    "version": "2.57.0.98217",
-    "generation": "e7658d18d6393ba977856c8da8adc8c5063dbe5a7e6f0caffba6040433de7fcb"
+    "branch": "live",
+    "commit": "67b6392bb323e91864f3f9a47de086a31b3be455",
+    "componentTree": "97cc1a81c0fdc8138ebe0ce3e7663153b17ede0a",
+    "version": "2.55.17.98025",
+    "generation": "040d3eae1b6527a18213eb8d60293d7ed4ade139f3291eaeb8f8889ef6dd1719"
   },
   "error": null
 }
