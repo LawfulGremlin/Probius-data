@@ -1189,9 +1189,5 @@
     "zeratul.json": "f37d764c627787c07010367838c3f0ba32d4d619bdd405105c6ad7a50ad0cf6b",
     "zuljin.json": "003b532fc1839886600efb483696555fefd2e24d65d6c17f9da13856a8ad0f89"
   },
-  "warnings": [
-    "Alexstrasza: differs from the previous publication: unitIds disappeared",
-    "LostVikings: differs from the previous publication: unitIds disappeared",
-    "Nova: differs from the previous publication: unitIds disappeared"
-  ]
+  "warnings": []
 }
