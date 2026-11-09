@@ -17,3 +17,4 @@ Chronological log of every extracted build (live + PTR), oldest first.
 * `2.57.0.98297` — Live — `34777d19fe6a` — 2026-09-29
 * `2.57.0.98304` — Live — `28c5e9a255e8` — 2026-09-29
 * `2.57.0.98348` — Live — `434e65cf2da2` — 2026-10-05
+* `2.57.1.98644` — PTR — `ee9441e279b7` — 2026-11-09
