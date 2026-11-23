@@ -1,4 +1,4 @@
-version 2.57.1.98674
-build-config 49725ebf2ce1dbfda65efa1d41bcea50
-cdn-config 5146a61f539c29687d886efcc8de1e2d
+version 2.57.1.98746
+build-config 672e6bffb31a8efc554ce6685716231b
+cdn-config efa3e535dabb67f56584171be43bd82a
 cdn-path tpr/Hero-Live-a

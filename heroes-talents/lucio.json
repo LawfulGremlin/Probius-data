@@ -80,7 +80,7 @@
       {
         "uid": "4d5292",
         "name": "Sound Barrier",
-        "description": "After 1 second, Lúcio and nearby allied Heroes gain a 1488 (+4% per level) point Shield that rapidly decays over 6 seconds.",
+        "description": "After 1 second, Lúcio and nearby allied Heroes gain a 0~~NaN~~ point Shield that rapidly decays over 6 seconds.",
         "hotkey": "R",
         "abilityId": "Lucio|R1",
         "tooltipId": "LucioSoundBarrier",
@@ -329,7 +329,7 @@
         "tooltipId": "LucioSoundBarrier",
         "talentTreeId": "LucioSoundBarrier",
         "name": "Sound Barrier",
-        "description": "After 1 second, Lúcio and nearby allied Heroes gain a 1488 (+4% per level) point Shield that rapidly decays over 6 seconds.",
+        "description": "After 1 second, Lúcio and nearby allied Heroes gain a 0~~NaN~~ point Shield that rapidly decays over 6 seconds.",
         "icon": "storm_ui_icon_lucio_soundbarrier.png",
         "type": "Heroic",
         "sort": 1,

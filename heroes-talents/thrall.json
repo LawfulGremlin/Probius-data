@@ -116,7 +116,7 @@
         "tooltipId": "ThrallEchooftheElements",
         "talentTreeId": "ThrallEchooftheElements",
         "name": "Echo of the Elements",
-        "description": "Quest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning. Upon dying, lose 8 stacks. Gained rewards cannot be lost.  Reward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.  Reward: After killing 50 enemies, Chain Lightning gains an extra charge.  Mythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce.",
+        "description": "Quest: Kill Minions or Heroes within 2 seconds of hitting them with Chain Lightning. Upon dying, lose 5 stacks. Gained rewards cannot be lost.  Reward: After killing 20 enemies, reduce the Mana cost of Chain Lightning from 40 to 20.  Reward: After killing 50 enemies, Chain Lightning gains an extra charge.  Mythic Reward: After killing 125 enemies, Chain Lightning can now strike the same target multiple times, and also strikes 1 additional target per bounce.",
         "icon": "storm_ui_icon_thrall_chainlightning.png",
         "type": "Q",
         "sort": 1,

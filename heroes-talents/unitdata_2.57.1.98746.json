@@ -19604,7 +19604,7 @@
           "icon": "storm_ui_icon_medivh_portal.png",
           "name": "Portal",
           "fullText": "Create a set of portals between Medivh and the target location, allowing allies to teleport between both. The portals last <c val=\"bfd4fd\">6</c> seconds.",
-          "cooldownText": "Cooldown: 16 seconds"
+          "cooldownText": "Cooldown: 20 seconds"
         }
       ],
       "heroic": [

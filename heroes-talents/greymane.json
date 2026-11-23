@@ -566,7 +566,7 @@
   "tooltipSimple": {
     "GreymaneAlphaKillerTalent": "Increases Worgen Basic Attacks against Heroes",
     "GreymaneCursedBullet": "Remove a portion of enemy's current Health",
-    "GreymaneCursedBulletGilneanRouletteTalent": "Cursed Bullet deals less damage, lower cooldown",
+    "GreymaneCursedBulletGilneanRouletteTalent": "Reduces Cursed Bullet cooldown",
     "GreymaneDarkflight": "Leap at an enemy and shapeshift into a Worgen",
     "GreymaneDarkflightRunningWildTalent": "Improve Darkflight and Disengage range, cooldown",
     "GreymaneDarkflightThickSkinTalent": "Darkflight grants Physical Armor",
