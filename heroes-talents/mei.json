@@ -53,7 +53,7 @@
       {
         "uid": "c6aade",
         "name": "Blizzard",
-        "description": "Command Snowball to create a Blizzard at the target location for 2 seconds. Enemies within the blizzard take 13 (+4% per level) damage every 0.25 seconds and are Slowed by 7%, stacking up to 35%. When the Blizzard ends, enemies within its area take an additional 75 (+4% per level) damage and are Stunned for 1.25 seconds.",
+        "description": "Command Snowball to create a Blizzard at the target location for 1.88 seconds. Enemies within the blizzard take 13 (+4% per level) damage every 0.25 seconds and are Slowed by 7%, stacking up to 35%. When the Blizzard ends, enemies within its area take an additional 80 (+4% per level) damage and are Stunned for 1.25 seconds.",
         "hotkey": "W",
         "abilityId": "Mei|W1",
         "tooltipId": "MeiOWBlizzard",
@@ -81,7 +81,7 @@
         "hotkey": "R",
         "abilityId": "Mei|R1",
         "tooltipId": "MeiOWAvalanche",
-        "cooldown": 90,
+        "cooldown": 80,
         "manaCost": 80,
         "icon": "storm_ui_icon_mei_r1_avalanche.png",
         "type": "heroic"
@@ -89,7 +89,7 @@
       {
         "uid": "570285",
         "name": "Ice Wall",
-        "description": "Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
+        "description": "Vector Targeting After a 0.6875 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
         "hotkey": "R",
         "abilityId": "Mei|R2",
         "tooltipId": "MeiOWIceWall",
@@ -274,7 +274,7 @@
         "icon": "storm_ui_icon_mei_r1_avalanche.png",
         "type": "Heroic",
         "sort": 1,
-        "cooldown": 90,
+        "cooldown": 80,
         "isQuest": false,
         "abilityId": "Mei|R1",
         "abilityLinks": [
@@ -288,7 +288,7 @@
         "tooltipId": "MeiOWIceWall",
         "talentTreeId": "MeiOWIceWall",
         "name": "Ice Wall",
-        "description": "Vector Targeting After a 0.75 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
+        "description": "Vector Targeting After a 0.6875 second delay, create an impassable wall that traps enemy Heroes hit for 2.5 seconds. When the wall expires, trapped Heroes are Slowed by 75%, decaying over 3 seconds.",
         "icon": "storm_ui_icon_mei_r2_icewall.png",
         "type": "Heroic",
         "sort": 2,
@@ -491,7 +491,7 @@
     "MeiOWFreshPowder": "Snow Blind gains an additional charge and its range is increased by <c val=\"#TooltipNumbers\"><d ref=\"100*Talent,MeiOWFreshPowder,AbilityModificationArray[0].Modifications[2].Value/Abil,MeiOWSnowBlind,Range\"player=\"0\"/>%</c>.",
     "MeiOWHeatTransfer": "Basic Attacks against Stunned, Rooted, or Slowed Heroes deal <c val=\"#TooltipNumbers\"><d ref=\"100*Effect,MeiOWHeroWeaponDamage,MultiplicativeModifierArray[HeatTransfer].Modifier\"/>%</c> more damage. Each time Mei Stuns or Slows an enemy Hero she heals for <c val=\"#TooltipNumbers\"><d ref=\"Effect,MeiOWHeatTransferProcHeal,RechargeVitalRate\"/></c> Health.",
     "MeiOWHeavyPack": "Increases the duration of Snow Blind's Slow by <c val=\"#TooltipNumbers\"><d ref=\"Talent,MeiOWHeavyPack,AbilityModificationArray[0].Modifications[0].Value\" precision=\"2\"/></c> seconds. Each time Blizzard damages an enemy Hero, reduce the cooldown of Snow Blind by <c val=\"#TooltipNumbers\"><d ref=\"-Effect,MeiOWBlizzardHeavyPackTalentModifyUnit,Cost[0].ChargeTimeUse\"precision=\"3\"/></c> seconds and gain <c val=\"#TooltipNumbers\"><d ref=\"Effect,MeiSnowBlindHeavyPackManaRestoration,RechargeVitalRate\"/></c> Mana.",
-    "MeiOWIceWall": "<c val=\"#TooltipNumbers\">Vector Targeting</c><n/>After a <c val=\"#TooltipNumbers\"><d ref=\"Effect,MeiOWIceWallInitialCreatePersistent,ExpireDelay\" precision=\"2\" player=\"0\"/></c> second delay, create an impassable wall that traps enemy Heroes hit for <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIceWallTimeStopDebuff,Duration\" precision=\"2\" player=\"0\"/></c> seconds. When the wall expires, trapped Heroes are Slowed by <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIceWallSlowDebuff,Modification.UnifiedMoveSpeedFactor*(-100)\" precision=\"2\" player=\"0\"/>%</c>, decaying over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIceWallSlowDebuff,Duration\" precision=\"2\" player=\"0\"/></c> seconds.",
+    "MeiOWIceWall": "<c val=\"#TooltipNumbers\">Vector Targeting</c><n/>After a <c val=\"#TooltipNumbers\"><d ref=\"Effect,MeiOWIceWallInitialCreatePersistent,ExpireDelay\" precision=\"4\" player=\"0\"/></c> second delay, create an impassable wall that traps enemy Heroes hit for <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIceWallTimeStopDebuff,Duration\" precision=\"2\" player=\"0\"/></c> seconds. When the wall expires, trapped Heroes are Slowed by <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIceWallSlowDebuff,Modification.UnifiedMoveSpeedFactor*(-100)\" precision=\"2\" player=\"0\"/>%</c>, decaying over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIceWallSlowDebuff,Duration\" precision=\"2\" player=\"0\"/></c> seconds.",
     "MeiOWIcing": "Slide quickly in the targeted direction. When this effect ends, enemies near Mei are knocked back, take <c val=\"#TooltipNumbers\"><d ref=\"Effect,MeiOWIcingDamage,Amount\"/></c> damage, and are Slowed by <c val=\"#TooltipNumbers\"><d ref=\"-Behavior,MeiOWIcingSlowDebuff,Modification.UnifiedMoveSpeedFactor*100\" player=\"0\"/>%</c>, rapidly decaying over <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWIcingSlowDebuff,Duration\" precision=\"2\" player=\"0\"/></c> seconds.</n></n>Can be canceled during sliding.",
     "MeiOWInduceHibernation": "Blizzard reduces the damage dealt by enemy Heroes inside of its area by <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWBlizzardInduceHibernationTalentDamageReductionDebuff,Modification.DamageDealtFraction[Ability]*100*(-1)\"/>%</c>. <n/><n/>When Blizzard ends, enemy Heroes still within its area gain this effect for an additional <C val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWBlizzardInduceHibernationTalentDamageReductionBonusDebuff,Duration\"/></c> seconds.",
     "MeiOWPolarVortex": "Using an ability causes Mei to deal <c val=\"#TooltipNumbers\"><d ref=\"Effect,MeiOWPolarVortexDamage,Amount/(Behavior,MeiOWPolarVortexBuff,Period)\"/></c> damage a second to nearby enemies for <c val=\"#TooltipNumbers\"><d ref=\"Behavior,MeiOWPolarVortexBuff,Duration\" precision=\"1\"/></c> seconds. Enemy Heroes damaged by this effect also have their Movement Speed and Attack Speed Slowed by <c val=\"#TooltipNumbers\"><d ref=\"-100*Behavior,MeiOWPolarVortexSlow,Modification.UnifiedMoveSpeedFactor\"/>%</c>.",
